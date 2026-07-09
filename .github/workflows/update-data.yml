@@ -1,0 +1,73 @@
+name: Update data
+
+on:
+  schedule:
+    - cron: "17 3 * * *" # daily, ~06:17 Israel time
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency: data-pipeline
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Run pipeline tests
+        run: pytest tests/ -q
+        working-directory: .
+
+      - name: Refresh RATAG closures (when source URL configured)
+        run: python pipeline/fetch_ratag.py
+        env:
+          RATAG_KMZ_URL: ${{ vars.RATAG_KMZ_URL }}
+
+      - name: Watch CAA/AIP sources for changes
+        run: python pipeline/watch_aip.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+
+      - name: Validate data files
+        run: python pipeline/validate.py
+
+      - name: Build manifest and gzipped payloads
+        run: python pipeline/build_manifest.py
+
+      - name: Keep scheduled workflow alive (monthly touch)
+        if: github.event_name == 'schedule'
+        run: |
+          if [ "$(date -u +%d)" = "01" ]; then
+            date -u +%Y-%m > .github/.keepalive
+          fi
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "data-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data docs .github/.keepalive 2>/dev/null || git add data docs
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+          else
+            git commit -m "data: automated update $(date -u +%F)"
+            git push
+          fi
+
+      - name: Open issue on failure
+        if: failure()
+        run: |
+          gh issue create \
+            --title "Data pipeline failed $(date -u +%F)" \
+            --body "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+        env:
+          GH_TOKEN: ${{ github.token }}

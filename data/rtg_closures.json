@@ -1,0 +1,3642 @@
+[
+ {
+  "code": "LLP2329",
+  "name": "אבוקה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1098",
+  "name": "אבל בית מעכה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1046",
+  "name": "סובב שמורת החולה ואגמון החולה",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2328",
+  "name": "אודים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2327",
+  "name": "אום א-תות",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2326",
+  "name": "אום זוקא",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1086",
+  "name": "אום זוקא",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה ושמורה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2325",
+  "name": "אופק",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2324",
+  "name": "אורטל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1099",
+  "name": "אושה העתיקה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1027",
+  "name": "אזור נחל מערות אזור קינון שחפיות - אפריל עד אוגוסט 500 LLP2323 אחו גונן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2322",
+  "name": "אחו חיספיה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2321",
+  "name": "אחילוףהחורן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1202",
+  "name": "איי חוף דור ומעגן מיכאל מתוקף תקנה קיימת 600 LLP1201 איי חוף דור ומעגן מיכאל מתוקף תקנה קיימת 600 LLP1203 איי חוף ראש הנקרה מתוקף תקנה קיימת 600 LLP1204 איי חוף ראש הנקרה מתוקף תקנה קיימת 600 LLP2319 אירוס ביצות נב",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2318",
+  "name": "אירוס הגולן- חושניה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2317",
+  "name": "אירוס הגולן- תנוריה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2316",
+  "name": "אירוס ירוחם",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2315",
+  "name": "אירוס נצרתי",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2314",
+  "name": "איריס ארגמן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2313",
+  "name": "איריס הדור אילת",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1100",
+  "name": "אכזיב",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2312",
+  "name": "אלונה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2311",
+  "name": "אלוני אבא",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2310",
+  "name": "אלוני בלעין",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2309",
+  "name": "אלוני יצחק",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2308",
+  "name": "אלוני סיריס",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2307",
+  "name": "אלוני עטרה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2306",
+  "name": "אלוני ציפורי",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2305",
+  "name": "אלוני שמואל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2304",
+  "name": "אלוני תפוח",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2303",
+  "name": "אלונים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2302",
+  "name": "אלות סירין",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1073",
+  "name": "נחל רחף תחתון",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1101",
+  "name": "אמת המים- ג'סר אזרקא",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1102",
+  "name": "אנדרטת חטיבת הנגב",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1103",
+  "name": "אפולוניה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1104",
+  "name": "אפק הרחבה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2301",
+  "name": "אקוה בלה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1105",
+  "name": "אקוה בלה ועין חמד",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1106",
+  "name": "ארבל",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה, שמורה וגן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1107",
+  "name": "אשכול והבשור",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1108",
+  "name": "אשקלון",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1038",
+  "name": "אתר בריכת המשושים",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1092",
+  "name": "באר עדה",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2300",
+  "name": "בוריקה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2298",
+  "name": "ביצת ואדי מלחה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2297",
+  "name": "ביצת זיתא",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1026",
+  "name": "ביצת נחל דליה אזור קינון שחפיות - אפריל עד אוגוסט 500 LLP2296 ביריניקי",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1109",
+  "name": "ביריניקי",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1110",
+  "name": "בית גוברין",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1111",
+  "name": "בית ירח",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1112",
+  "name": "בית מירסם",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1113",
+  "name": "בית עיטאב",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1114",
+  "name": "בית שאן",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1115",
+  "name": "בית שערים",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2295",
+  "name": "ביתן אהרון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2294",
+  "name": "בלפוריה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2293",
+  "name": "בני-ציון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2292",
+  "name": "בקעת בית נטופה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2291",
+  "name": "בקעת תמנע",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2290",
+  "name": "בריכת געש",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2289",
+  "name": "ברכות צוריאל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2288",
+  "name": "ברכות שומרה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2287",
+  "name": "ברכת אלקוש",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2286",
+  "name": "ברכת בראון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2285",
+  "name": "ברכת ברקת",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2284",
+  "name": "ברכת דוב\"ב",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2283",
+  "name": "ברכת דיר חנא",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2282",
+  "name": "ברכתהר מנור",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2281",
+  "name": "ברכת זמורות",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2280",
+  "name": "ברכת יער",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2279",
+  "name": "ברכת משכנה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2278",
+  "name": "ברכת סינדינה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2277",
+  "name": "ברכת סמר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2276",
+  "name": "ברכת פסוטה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2330",
+  "name": "ברכת פרג",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2275",
+  "name": "ברכת צרטה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2274",
+  "name": "ברכת קש",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2273",
+  "name": "ברכת רוברטס",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2272",
+  "name": "ברכת רחובות",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2271",
+  "name": "ברכת תמסח",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1116",
+  "name": "ברעם",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2270",
+  "name": "בתות תנינים רז",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2269",
+  "name": "בתרונות רוחמהכורכר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2268",
+  "name": "גאון הירדן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2267",
+  "name": "גאון הירדן-כפר רופין",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2266",
+  "name": "גבעות אלונים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1117",
+  "name": "גבעות אלונים",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2265",
+  "name": "גבעות גד",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2264",
+  "name": "גבעות גומר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1118",
+  "name": "גבעות מרר",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2263",
+  "name": "גבעות צפית",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2262",
+  "name": "גבעת המורה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2261",
+  "name": "גבעת כלניות",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2260",
+  "name": "גבעת עצה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2164",
+  "name": "גברעם וכורכר גברעם",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2259",
+  "name": "גוש אלונים- בסמת טבעון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2258",
+  "name": "גלבוע מזרחי",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1119",
+  "name": "גן השלושה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2257",
+  "name": "געש",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2256",
+  "name": "גשר אדם",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2255",
+  "name": "דלבים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1043",
+  "name": "דרגה עילי",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2254",
+  "name": "הבטיחה ומגרסה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2253",
+  "name": "הבשור",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2252",
+  "name": "הגלבוע",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2251",
+  "name": "הדום שומרון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2250",
+  "name": "הדסים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2249",
+  "name": "החוף השקט",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1120",
+  "name": "היפודרום קיסריה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1121",
+  "name": "הירקון",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1030",
+  "name": "המכתש הגדול",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2248",
+  "name": "המכתש הקטן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1056",
+  "name": "המכתש הקטן",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2247",
+  "name": "המסרק",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2246",
+  "name": "הסלוודורה הפרס",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1122",
+  "name": "הקסטל",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2245",
+  "name": "הר אביטל והר בנטל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1051",
+  "name": "הר אביתר",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2244",
+  "name": "הר אמיר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1123",
+  "name": "הר בנטל",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2243",
+  "name": "הר ג'דיר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2242",
+  "name": "הר גודרים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2241",
+  "name": "הר גיורא",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2240",
+  "name": "הר גמל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2239",
+  "name": "הר דוב\"ב",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2238",
+  "name": "הרההר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2237",
+  "name": "הר הטייסים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2236",
+  "name": "הר הכרמל - נחל חרובים ומהר\"ל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1124",
+  "name": "הר הכרמל ושוקף ונחל חרובים, נדר וקטע",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה, שמורה וגן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2235",
+  "name": "הר הכרמלנחל כלח גל ונחל מערות",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2234",
+  "name": "הר הנגב",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2226",
+  "name": "הר וברכת סאסא",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2233",
+  "name": "הר חורשן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1125",
+  "name": "הר חרת",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2232",
+  "name": "הר טורען",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2231",
+  "name": "הר טמון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2230",
+  "name": "הר יבנאל ומצפה אלות",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2229",
+  "name": "הר כביר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1017",
+  "name": "הר כביר",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP2228",
+  "name": "הר כמון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1003",
+  "name": "הר לבן",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP2227",
+  "name": "הר מירון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2225",
+  "name": "הר סנה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2224",
+  "name": "הרעמיעד-אם החיטה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2223",
+  "name": "הר קוץ",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1206",
+  "name": "הר שגיא",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP2222",
+  "name": "הר שיפון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2221",
+  "name": "הר שכניה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2220",
+  "name": "הר תבור",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1126",
+  "name": "הר תבור",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1127",
+  "name": "הרודיון",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1128",
+  "name": "הרי יהודה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2219",
+  "name": "התנור",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1048",
+  "name": "ואדי אום סיירה",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2218",
+  "name": "ואדי אל אחמר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1065",
+  "name": "ואדי אל אחמר",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1084",
+  "name": "ואדי אל בקר",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2217",
+  "name": "ואדי קרן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2216",
+  "name": "זומרה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2215",
+  "name": "זכרון יעקב",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2214",
+  "name": "ח'רבת סעדים ועין סעדים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2213",
+  "name": "ח'רבת צ'רקס",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2212",
+  "name": "חאן ומצודת דרכים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2211",
+  "name": "חבצלת השרון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2210",
+  "name": "חוטם הכרמל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1129",
+  "name": "חולדה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2209",
+  "name": "חולות המפרץ",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2208",
+  "name": "חולות זיקים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2207",
+  "name": "חולות משאבים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2206",
+  "name": "חולות נחל סכר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2205",
+  "name": "חולות ניצנים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2204",
+  "name": "חולות סמר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2203",
+  "name": "חולות עגור",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2202",
+  "name": "חולות פלמחים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2201",
+  "name": "חולות שונרה, נחל לבן וכלח סיני",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1009",
+  "name": "חולות שונרה, נחל לבן וכלך סיני",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP1130",
+  "name": "חוף-השרון ונחל פולג",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2200",
+  "name": "חוף גדור",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1131",
+  "name": "חוף גדור ופארק השרון",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2199",
+  "name": "חוף גלים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1132",
+  "name": "חוף האקוודוקט ועתיקות קיסריה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1133",
+  "name": "חוף וים ג'סר א-זרקא",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2197",
+  "name": "חוף כורסי",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1134",
+  "name": "חוף כורסי",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2196",
+  "name": "חוף נחל תנינים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1135",
+  "name": "חוף פלמחים",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2195",
+  "name": "חוף ראש הנקרה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2194",
+  "name": "חורבת קרתא",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2193",
+  "name": "חורש עדולם",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2191",
+  "name": "חורשת זקום, מעוז חיים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2192",
+  "name": "חורשת זקום וחווארי כפר רופין",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1136",
+  "name": "חורשת טל",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1033",
+  "name": "חי בר יטבתה",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2190",
+  "name": "חלמוניות ירוחם",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2189",
+  "name": "חלמונית רכס בוקר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2188",
+  "name": "חמת גדר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1137",
+  "name": "חמת גדר",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1138",
+  "name": "חמת טבריה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2187",
+  "name": "חניתה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1139",
+  "name": "חצור",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2186",
+  "name": "חרבת גממה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2185",
+  "name": "חרבת דרכמון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2184",
+  "name": "חרבת כוכים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1140",
+  "name": "חרבת מניה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2183",
+  "name": "חרובה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2182",
+  "name": "טוף-מי עמי",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2181",
+  "name": "טוף כרם מהר\"ל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1141",
+  "name": "טיילת ירדנית",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2180",
+  "name": "טרשי צפת",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2179",
+  "name": "יהודיה- אתר ברכת המשושים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2178",
+  "name": "יטבתה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2177",
+  "name": "ים גדור",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2336",
+  "name": "ים דור הבונים מרחק 150 מטר מקו החוף 300 LLP2198 ים וחוף האלמוגים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1205",
+  "name": "ים ראש הנקרה-אכזיב מתוקף תקנה קיימת 600 LLP2176 ים שקמה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2175",
+  "name": "ימית אבטח דרום",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2299",
+  "name": "ימית אבטח צפון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2174",
+  "name": "יער אום-ריחן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2173",
+  "name": "יער אום צפא",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2172",
+  "name": "יער אל קרן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2171",
+  "name": "יער ברעם",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2170",
+  "name": "יער דיר ניזם",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2169",
+  "name": "יער הסוללים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2168",
+  "name": "יער מסעדה והג'ובה הגדולה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2167",
+  "name": "יפו- גבעת עלייה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2166",
+  "name": "יקום",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1142",
+  "name": "ירוחם",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1143",
+  "name": "כוכב הירדן",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2165",
+  "name": "כור",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1144",
+  "name": "כורזין",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2163",
+  "name": "כורכר ניר-עם",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1145",
+  "name": "כורסי",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2162",
+  "name": "כפירה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1019",
+  "name": "כפר ברוך אתרי האכלת שקנאים - ספטמבר עד נובמבר 500 LLP1146 כפר נחום",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2161",
+  "name": "כרי נעמן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2160",
+  "name": "כרם בן-זמרה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2159",
+  "name": "כרמיה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2158",
+  "name": "להב-צפון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2157",
+  "name": "להב דרום",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2156",
+  "name": "להב צפון הרחבה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2155",
+  "name": "לימן- גבעת הצבעונים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1023",
+  "name": "מאגר בורגתא אתרי האכלת שקנאים - ספטמבר עד נובמבר 500 LLP1024 מאגר בחן אתרי האכלת שקנאים - ספטמבר עד נובמבר 500 LLP1025 מאגר ברק אתרי האכלת שקנאים - ספטמבר עד נובמבר 500 LLP1022 מאגר חץ אתרי האכלת שקנאים - ספטמבר עד נובמבר 500 LLP1020 מאגר מעיין צבי אתרי האכלת שקנאים - ספטמבר עד נובמבר 500 LLP1021 מאגר משמר השרון אתרי האכלת שקנאים - ספטמבר עד נובמבר 500 LLP1018 מאגר רמון אתרי האכלת שקנאים - ספטמבר עד נובמבר 500 LLP1147 מבצר יחיעם",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1148",
+  "name": "מבצר נמרוד",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2154",
+  "name": "מדבר יהודה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1034",
+  "name": "מונפור",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה, שמורה וגן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2153",
+  "name": "מורדות רכס הרי נפתלי ועין אווזים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1149",
+  "name": "מזולאום מזור",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2152",
+  "name": "מזרח לכיש",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1089",
+  "name": "מישורי אוביל גובה מינימום 500 קינון עופות 500 LLP1088 מכלאת צבאים שטח אישוש צבי ארץ ישראלי 500 LLP2151 מכתש בארי",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1002",
+  "name": "מכתשגדול, מצלעות המכתש",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP2150",
+  "name": "מכתשים-עין יהב",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1031",
+  "name": "מכתשים-עין יהב",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1150",
+  "name": "ממשית",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2149",
+  "name": "מסדרון כזיב-ברז",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2331",
+  "name": "מסיב אילת",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2148",
+  "name": "מסיל עסניה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1151",
+  "name": "מעין חרוד",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1152",
+  "name": "מערות חזן",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1153",
+  "name": "מערות סמך",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2147",
+  "name": "מערת הנטיפים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2146",
+  "name": "מערת נשר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2145",
+  "name": "מערת פער",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2144",
+  "name": "מערת שכניה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2143",
+  "name": "מפל סער",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2142",
+  "name": "מפל עיט",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1036",
+  "name": "מפלים בנחל עורבים",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2141",
+  "name": "מצד אבירים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1154",
+  "name": "מצדה",
+  "kind": "גן לאומי",
+  "maxAltFt": 100,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2140",
+  "name": "מצוק ההעתקים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1071",
+  "name": "מצוק העתקים",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2139",
+  "name": "מצוק הצינים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1032",
+  "name": "מצוק הצינים",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1090",
+  "name": "מצוק הצינים גובה מינימום 500 קינון עופות 500 LLP1058 מצוקי מכתש רמון",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1062",
+  "name": "מצוקים מערביים מכתש רמון",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2138",
+  "name": "מצלעות המכתש הגדול",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1081",
+  "name": "מצפה אלות דרומי",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1067",
+  "name": "מר-סבא",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2137",
+  "name": "מרגליות",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2136",
+  "name": "מתלול צורים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2135",
+  "name": "נאות הככר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1155",
+  "name": "נאות הככר",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2134",
+  "name": "נבי אסמעיל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2133",
+  "name": "נבי ינון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1156",
+  "name": "נבי סמואל",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2132",
+  "name": "נבי ע'ית",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2131",
+  "name": "נבי רבח",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2130",
+  "name": "נחל אבוב",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2129",
+  "name": "נחל אדמון-ריחן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1014",
+  "name": "נחל אוג",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP1045",
+  "name": "נחל אוג",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2128",
+  "name": "נחל אוכם",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2127",
+  "name": "נחל אופקים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1040",
+  "name": "נחל אל-על",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה ושמורה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1157",
+  "name": "נחל אלכסנדר",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2126",
+  "name": "נחל אפעה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1057",
+  "name": "נחל אשבורן",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1028",
+  "name": "נחל בוקק",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1053",
+  "name": "נחלבזק",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2125",
+  "name": "נחל בזק ועילי",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2124",
+  "name": "נחל בית העמק",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2123",
+  "name": "נחל בצת",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2122",
+  "name": "נחל גמל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2121",
+  "name": "נחל גרר עליון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1001",
+  "name": "נחל גשרון",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP2120",
+  "name": "נחל דולב ומערת התאומים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2119",
+  "name": "נחל דישון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1012",
+  "name": "נחל דישון",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP1083",
+  "name": "נחל דישון מזרחי",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1050",
+  "name": "נחל דישוןמערבי",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2118",
+  "name": "נחל דליה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2117",
+  "name": "נחל דלתון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2116",
+  "name": "נחל הבשור, קטע פארק האפיק",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2115",
+  "name": "נחל הקיבוצים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2114",
+  "name": "נחל השופט",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2113",
+  "name": "נחל זדים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1037",
+  "name": "נחל זוויתן",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1072",
+  "name": "נחל חבר ונחל משמר",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2112",
+  "name": "נחל חגל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2111",
+  "name": "נחל חילזון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2110",
+  "name": "נחל חימר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1076",
+  "name": "נחל חימר",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2109",
+  "name": "נחל חצב",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2108",
+  "name": "נחל חצור",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2107",
+  "name": "נחל חרמון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2106",
+  "name": "נחל יבנאל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1039",
+  "name": "נחל יהודיה",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2105",
+  "name": "נחל יחיעם",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1010",
+  "name": "נחל ייטב",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP1064",
+  "name": "נחל ייטב",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2104",
+  "name": "נחל יפתחאל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2103",
+  "name": "נחל יצהר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2102",
+  "name": "נחל ירמוך",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2101",
+  "name": "נחל יששכר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2100",
+  "name": "נחל כזיב",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1075",
+  "name": "נחל להט",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2099",
+  "name": "נחל מאיר-נחל נחשון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2098",
+  "name": "נחל מהר\"ל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2097",
+  "name": "נחל מיצר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1042",
+  "name": "נחל מיצר",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2096",
+  "name": "נחל מכוך",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1063",
+  "name": "נחל מכוך",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1082",
+  "name": "נחל מערות",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2095",
+  "name": "נחל משגב",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2094",
+  "name": "נחל עורבים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2093",
+  "name": "נחל עזוז",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2092",
+  "name": "נחל עמוד",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1013",
+  "name": "נחל עמוד",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP1097",
+  "name": "נחל עמוד",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה ושמורה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1007",
+  "name": "נחל ערוגות",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP1016",
+  "name": "נחל ערוגות",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP1061",
+  "name": "נחל עתק ורחם",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2091",
+  "name": "נחל פולג",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1085",
+  "name": "נחל פרסה",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2090",
+  "name": "נחל פרת",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1011",
+  "name": "נחל פרת",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP1080",
+  "name": "נחל פרת",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה ושמורה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1004",
+  "name": "נחל צאלים",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP1054",
+  "name": "נחל צאלים",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1006",
+  "name": "נחל צאלים מזרח",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP1055",
+  "name": "נחל ציחור",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1158",
+  "name": "נחל צלמון",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1008",
+  "name": "נחל קדים",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP2089",
+  "name": "נחל קדש",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1049",
+  "name": "נחל קדש ומצודת כח",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה, שמורה וגן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1074",
+  "name": "נחל קידוד",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1005",
+  "name": "נחל קינה",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP2088",
+  "name": "נחל קיני",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2087",
+  "name": "נחל קנה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2086",
+  "name": "נחל ראש פינה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1159",
+  "name": "נחל רובין גן לאומי (הוחרג כדי לאפשר נתיב טיסה) 300 LLP1041 נחל רוקד ונוב",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1029",
+  "name": "נחל רחף",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2085",
+  "name": "נחל שורק",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1160",
+  "name": "נחל שורק",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1015",
+  "name": "נחל שיאון",
+  "kind": "אתרי קינון עיטים בסכנת הכחדה - דצמבר עד יוני",
+  "maxAltFt": 500,
+  "seasonal": true
+ },
+ {
+  "code": "LLP2084",
+  "name": "נחל שיזף",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2083",
+  "name": "נחל שילה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1087",
+  "name": "נחל שילה",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2082",
+  "name": "נחל שילה עילי",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2081",
+  "name": "נחל שניר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2080",
+  "name": "נחל שעל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2079",
+  "name": "נחל תבור ועין ונוה אור",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2078",
+  "name": "נחל תות",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2077",
+  "name": "נחל תנינים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1161",
+  "name": "נחל תנינים",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2076",
+  "name": "נחל תקוע",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1044",
+  "name": "נחל תקוע ונוקדים",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1069",
+  "name": "נחלי קצב וחיון",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1070",
+  "name": "נחלי קצב, גירזי וצניפים",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2075",
+  "name": "נחלים גדולים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1093",
+  "name": "נחלים גדולים גובה מינימום 500 קינון עופות 500 LLP1162 ניצנה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2074",
+  "name": "נמרוד",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2073",
+  "name": "נס הרים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2072",
+  "name": "נשר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2071",
+  "name": "סוסיתא",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1163",
+  "name": "סוסיתא",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2070",
+  "name": "סחלבים ואירוס הדור מנרה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1164",
+  "name": "סידני עלי",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2069",
+  "name": "סלמן אל פארסי",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2068",
+  "name": "סלע הנמלה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1096",
+  "name": "סלעעכברה",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה ושמורה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2067",
+  "name": "סלעי אוליגוקן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2066",
+  "name": "סנסן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2065",
+  "name": "סרטבה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1066",
+  "name": "סרטבה",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1078",
+  "name": "עבדת",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה וגן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1059",
+  "name": "עברונה",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1165",
+  "name": "עובדיה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2064",
+  "name": "עיינות עורבים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2063",
+  "name": "עין-גדי",
+  "kind": "שמורת טבע",
+  "maxAltFt": 200,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2062",
+  "name": "עין-יהודה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1091",
+  "name": "עין אום סלאח גובה מינימום 500 קינון עופות 500 LLP2061 עין אלתינה ואל פגר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2060",
+  "name": "עין אלה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2059",
+  "name": "עין אפק",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2058",
+  "name": "עין ארובות",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2057",
+  "name": "עין בדולח",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2056",
+  "name": "עין ג'ינדה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2055",
+  "name": "עין גונן- ואדי אל חמדי",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2054",
+  "name": "עין דרא",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1060",
+  "name": "עין חווה",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2053",
+  "name": "עין טיון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1166",
+  "name": "עין יהודה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2052",
+  "name": "עין כפתור",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2051",
+  "name": "עין מלקוח",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2050",
+  "name": "עין נמפית",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2049",
+  "name": "עין עופרים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1207",
+  "name": "עין עקב, עין זיק ועין שביב",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2048",
+  "name": "עין צנובר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1167",
+  "name": "עין צנובר",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1047",
+  "name": "עין שרב",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2047",
+  "name": "עין תאו",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2046",
+  "name": "עינון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2045",
+  "name": "עינות ומעיינות גיבתון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2044",
+  "name": "עינות זרקא",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1035",
+  "name": "עינות כרכרה בנחל בצת",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2043",
+  "name": "עינות פחם",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2042",
+  "name": "עינות צוקים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1168",
+  "name": "עמק האלה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2041",
+  "name": "ערבת עברונה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2040",
+  "name": "עשוש",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1169",
+  "name": "עתיקות בית אלפא",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1170",
+  "name": "עתיקות סוסיא",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1171",
+  "name": "עתיקות עין גדי",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2039",
+  "name": "עתלית",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2038",
+  "name": "עתלית שכונת הרכס",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2037",
+  "name": "פארק הירדן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2036",
+  "name": "פארק הלס",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2035",
+  "name": "פארק ממשית",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2034",
+  "name": "פורה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2033",
+  "name": "פצאל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2032",
+  "name": "פרוד",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1172",
+  "name": "צבעי מכתש רמון",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1173",
+  "name": "צובא",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2031",
+  "name": "צומת נחל הבשור",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1094",
+  "name": "צוקי אוביל גובה מינימום 500 קינון עופות 500 LLP2030 צוקי שיירות",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1174",
+  "name": "צור נתן",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1175",
+  "name": "ציפורי",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1176",
+  "name": "קבר יתרו",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2029",
+  "name": "קדימה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1177",
+  "name": "קומראן",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2028",
+  "name": "קמין חסיף",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2027",
+  "name": "קנה וסמר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2026",
+  "name": "קציר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2025",
+  "name": "קרית שמונה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1178",
+  "name": "קרן נפתלי",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1179",
+  "name": "קרני חיטין",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1079",
+  "name": "ראס אל-מוטיירידה",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1068",
+  "name": "ראס אל-מנקושייה",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1180",
+  "name": "ראש הנקרה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2024",
+  "name": "ראש נחל מהר\"ל",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2023",
+  "name": "רכס אדמי",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2022",
+  "name": "רכס בשנית",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2020",
+  "name": "רכס וראש הנקרה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2021",
+  "name": "רכס לבנים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2018",
+  "name": "רמת הכובש",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1095",
+  "name": "רמת הנדיב פארק טבע גני רמת הנדיב 500 LLP2019 רמת וברכות דלתון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2017",
+  "name": "רצועת נחל הנעמן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1077",
+  "name": "רשם ספרת א-סניע",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1181",
+  "name": "שבטה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2016",
+  "name": "שדה עמודים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1182",
+  "name": "שדה עמודים",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2015",
+  "name": "שיח' זיד",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2014",
+  "name": "שיטה מלבינה-אשדוד",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2013",
+  "name": "שיטה מלבינה- עמק האלה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2012",
+  "name": "שימרון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1183",
+  "name": "שימרון",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2333",
+  "name": "שמורת טבע חי בר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 150,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2334",
+  "name": "שמורת טבע עין גדי",
+  "kind": "שמורת טבע",
+  "maxAltFt": 200,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2011",
+  "name": "שמיר- נחל רחום ונחל ספר",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2010",
+  "name": "שער העמקים",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2009",
+  "name": "שפך הנעמן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2337",
+  "name": "שפך וביצל נחל דליה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2008",
+  "name": "שפך נחל עמוד",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2332",
+  "name": "שקמונה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1184",
+  "name": "שקמונה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1052",
+  "name": "ת.האכלה עין השופט",
+  "kind": "אתרי קינון של מינים בסכנת הכחדה",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1185",
+  "name": "תל-גזר",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2007",
+  "name": "תל-יצחק",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1186",
+  "name": "תל-שבע",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2006",
+  "name": "תל אנפה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1187",
+  "name": "תל אשדוד",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1188",
+  "name": "תל דור",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2335",
+  "name": "תל דור",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2005",
+  "name": "תל דן",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1189",
+  "name": "תל הודים",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1190",
+  "name": "תל חי",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1191",
+  "name": "תל יודפת",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1192",
+  "name": "תל ירמות",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1193",
+  "name": "תל לכישותל מרשה",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1194",
+  "name": "תל מגידו",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2004",
+  "name": "תל מקנה נחל תמנה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2003",
+  "name": "תל מרווה",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2002",
+  "name": "תל סהרון",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1195",
+  "name": "תל ערד",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2001",
+  "name": "תל פארס",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1196",
+  "name": "תל צפית",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1197",
+  "name": "תל צפצפות",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1198",
+  "name": "תל קאקון",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1199",
+  "name": "תל קדש",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ },
+ {
+  "code": "LLP2000",
+  "name": "תל קריות",
+  "kind": "שמורת טבע",
+  "maxAltFt": 300,
+  "seasonal": false
+ },
+ {
+  "code": "LLP1200",
+  "name": "תל רחוב",
+  "kind": "גן לאומי",
+  "maxAltFt": 500,
+  "seasonal": false
+ }
+]

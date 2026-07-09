@@ -1,0 +1,17 @@
+[
+  {
+    "name": "gov.il — דף מדריך הפמ\"ת (כל הפרקים ומספרי העדכון)",
+    "url": "https://www.gov.il/he/departments/guides/aip",
+    "type": "page"
+  },
+  {
+    "name": "פמ\"ת א-17 — אזורים אסורים, מוגבלים ומסוכנים (PDF)",
+    "url": "https://www.gov.il/BlobFolder/guide/aip/he/aip_%D7%90'-17.pdf",
+    "type": "pdf"
+  },
+  {
+    "name": "פמ\"ת ב-09 — כטב\"מ וטיסנים (PDF)",
+    "url": "https://www.gov.il/BlobFolder/guide/aip/he/aip_%D7%91'-09.pdf",
+    "type": "pdf"
+  }
+]
