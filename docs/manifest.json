@@ -4,8 +4,8 @@
   "files": {
     "zones_data.json": {
       "version": 1,
-      "url": "https://morielmalinski.github.io/notam-map-data/v1/zones_data.json.gz",
-      "fallbackUrl": "https://raw.githubusercontent.com/morielmalinski/notam-map-data/main/docs/v1/zones_data.json.gz",
+      "url": "https://moriel-malinski.github.io/notam-map-data/v1/zones_data.json.gz",
+      "fallbackUrl": "https://raw.githubusercontent.com/Moriel-Malinski/notam-map-data/main/docs/v1/zones_data.json.gz",
       "sha256": "a4444a38e4355b5239f5abf71e4f55e79f225a84e95d015b09220d998cc4cb3e",
       "gzSha256": "410d34f8c810f844d64de8e5568c6f589adbd954ce51f058ce85ec8f00b3304e",
       "sizeBytes": 89724,
@@ -16,8 +16,8 @@
     },
     "a17_additions.json": {
       "version": 2,
-      "url": "https://morielmalinski.github.io/notam-map-data/v1/a17_additions.json.gz",
-      "fallbackUrl": "https://raw.githubusercontent.com/morielmalinski/notam-map-data/main/docs/v1/a17_additions.json.gz",
+      "url": "https://moriel-malinski.github.io/notam-map-data/v1/a17_additions.json.gz",
+      "fallbackUrl": "https://raw.githubusercontent.com/Moriel-Malinski/notam-map-data/main/docs/v1/a17_additions.json.gz",
       "sha256": "55f2a17473d4f118408e69941b99aa2f8e7ef8f5937de3b9f4220fb52179db47",
       "gzSha256": "4bd1d2bcc21604f60448e8da9d216815eacbb1446658b3f43dd1263c5338b89d",
       "sizeBytes": 26987,
@@ -28,8 +28,8 @@
     },
     "ratag_output.json": {
       "version": 1,
-      "url": "https://morielmalinski.github.io/notam-map-data/v1/ratag_output.json.gz",
-      "fallbackUrl": "https://raw.githubusercontent.com/morielmalinski/notam-map-data/main/docs/v1/ratag_output.json.gz",
+      "url": "https://moriel-malinski.github.io/notam-map-data/v1/ratag_output.json.gz",
+      "fallbackUrl": "https://raw.githubusercontent.com/Moriel-Malinski/notam-map-data/main/docs/v1/ratag_output.json.gz",
       "sha256": "48e2167394a7a471f39469a68783eb6755b5b7d08b2f9eb5f8fd330d8940224e",
       "gzSha256": "add62decc87a9cd9873b79edef2d462bd7fb165dd601c6bdb84c27e6eaf8eccf",
       "sizeBytes": 12628093,
@@ -40,8 +40,8 @@
     },
     "rtg_closures.json": {
       "version": 1,
-      "url": "https://morielmalinski.github.io/notam-map-data/v1/rtg_closures.json.gz",
-      "fallbackUrl": "https://raw.githubusercontent.com/morielmalinski/notam-map-data/main/docs/v1/rtg_closures.json.gz",
+      "url": "https://moriel-malinski.github.io/notam-map-data/v1/rtg_closures.json.gz",
+      "fallbackUrl": "https://raw.githubusercontent.com/Moriel-Malinski/notam-map-data/main/docs/v1/rtg_closures.json.gz",
       "sha256": "6c6f42ba2b31dcdad749c7f6c5a8a57b6e590608bee8875b7768a4dfb42106f7",
       "gzSha256": "df197aa6f27b47f9e6bc9711b4b8ec3902586e3fa52302c657d390e03ed4709a",
       "sizeBytes": 61669,

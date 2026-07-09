@@ -23,11 +23,11 @@ LON_MIN, LON_MAX = 33.5, 36.5
 
 # Hosting. Override via env when the GitHub user/repo differs.
 PAGES_BASE_URL = os.environ.get(
-    "PAGES_BASE_URL", "https://morielmalinski.github.io/notam-map-data"
+    "PAGES_BASE_URL", "https://moriel-malinski.github.io/notam-map-data"
 )
 RAW_BASE_URL = os.environ.get(
     "RAW_BASE_URL",
-    "https://raw.githubusercontent.com/morielmalinski/notam-map-data/main/docs",
+    "https://raw.githubusercontent.com/Moriel-Malinski/notam-map-data/main/docs",
 )
 
 
