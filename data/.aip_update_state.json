@@ -1,4 +1,19 @@
 {
+  "1-26": {
+    "effectiveDate": "2026-08-06",
+    "firstSeen": "2026-07-10",
+    "issue": "1/26",
+    "keywords": [
+      "א-17",
+      "ב-09",
+      "כטמ\"מ",
+      "רבלהב",
+      "BVLOS"
+    ],
+    "sha256": "aaedcf8e430b3c3bd5eedae1c26675f0c25504ffd0bbff657e6de98f2a2ee7f5",
+    "uavRelevant": true,
+    "url": "https://www.gov.il/BlobFolder/generalpage/idcunim-2026/he/%D7%A7%D7%95%D7%91%D7%A5%20%D7%A2%D7%93%D7%9B%D7%95%D7%9F%20-%201-26.pdf"
+  },
   "2-25": {
     "effectiveDate": "2025-10-02",
     "firstSeen": "2026-07-10",
