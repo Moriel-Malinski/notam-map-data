@@ -15,7 +15,14 @@ jobs:
   update:
     runs-on: ubuntu-latest
     steps:
+      # Check out the tip of main, not the SHA that triggered the run. Without
+      # this, re-running an old failed run replays it against a stale commit
+      # and the push below can never fast-forward. fetch-depth 0 gives the
+      # rebase in "Commit and push" the history it needs.
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
@@ -60,7 +67,18 @@ jobs:
             echo "No changes to publish."
           else
             git commit -m "data: automated update $(date -u +%F)"
-            git push
+            # A concurrent run (or a human) may have pushed while this job was
+            # working. Replay our commit on top rather than failing outright.
+            # A real file conflict still fails loudly, which is what we want.
+            for attempt in 1 2 3; do
+              if git pull --rebase origin main && git push; then
+                exit 0
+              fi
+              echo "push attempt $attempt failed; retrying"
+              sleep 5
+            done
+            echo "could not push after 3 attempts" >&2
+            exit 1
           fi
 
       - name: Open issue on failure
