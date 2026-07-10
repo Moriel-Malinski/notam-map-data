@@ -14,6 +14,7 @@ from check_update_file import (  # noqa: E402
     squash,
     uav_hits,
 )
+from fetch_a17 import change_is_suspicious  # noqa: E402
 
 # Verbatim excerpts of what PyMuPDF extracts from the real קובץ עדכון 1-26 —
 # RTL runs split mid-word, geresh displaced, month glued to the year.
@@ -80,6 +81,22 @@ def test_uav_hits_ignores_airport_only_amendment():
 
 def test_squash_removes_all_whitespace():
     assert squash("ב-\n09\n –") == 'ב-09–'
+
+
+def test_guard_allows_normal_amendment():
+    # A real amendment: a handful of zones added/changed, nothing missing.
+    assert change_is_suspicious(120, ["LLD34"], ["LLP23", "LLR45"], []) is None
+
+
+def test_guard_trips_on_mass_disappearance():
+    # 12 zones missing beyond the known hand-curated baseline.
+    new_missing = [f"LLD{i}" for i in range(12)]
+    assert change_is_suspicious(120, [], [], new_missing) is not None
+
+
+def test_guard_trips_on_mass_rewrite():
+    changed = [f"LLP{i}" for i in range(70)]
+    assert change_is_suspicious(120, [], changed, []) is not None
 
 
 def test_candidate_urls_cover_known_real_patterns():

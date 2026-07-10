@@ -19,14 +19,13 @@ import argparse
 import json
 import os
 import re
-import subprocess
 import urllib.parse
 from datetime import date
 
 import fitz  # PyMuPDF
 import requests
 
-from common import REPO_ROOT, sha256_hex
+from common import REPO_ROOT, open_github_issue, sha256_hex
 
 STATE_PATH = os.path.join(REPO_ROOT, "data", ".aip_update_state.json")
 
@@ -174,17 +173,6 @@ def analyze_pdf(pdf_bytes: bytes):
     }
 
 
-def open_issue(title: str, body: str):
-    try:
-        subprocess.run(
-            ["gh", "issue", "create", "--title", title, "--body", body],
-            check=True,
-        )
-        print(f"Opened GitHub issue: {title}")
-    except Exception as e:  # noqa: BLE001
-        print(f"Could not open GitHub issue ({e}); report:\n{title}\n{body}")
-
-
 def build_issue(key, url, info):
     title = f'פורסם קובץ עדכון פמ"ת {info["issue"] or key} — נדרש עדכון נתוני רחפנים'
     lines = [
@@ -201,8 +189,10 @@ def build_issue(key, url, info):
     lines += [f"- {s}" for s in keyword_snippets(info["coverText"], info["keywords"])]
     lines += [
         "",
-        "יש לעבור על הקובץ, לעדכן את data/*.json בהתאם, ואז להריץ "
-        "validate + build_manifest — האפליקציות יתעדכנו אוטומטית.",
+        "גיאומטריית אזורי א-17 מתעדכנת **אוטומטית** מקובץ הפרק הרשמי בהרצה "
+        "היומית (בסמוך לתאריך התוקף, כשרת\"א מחליפה את הקובץ). מה שנשאר "
+        "לבדוק ידנית: שהעדכון האוטומטי אכן עבר, ותוכן שאינו גיאומטריה "
+        "(כללי ב-09, טפסים, הפרדות) שאולי דורש שינוי באפליקציה.",
     ]
     return title, "\n".join(lines)
 
@@ -293,14 +283,14 @@ def main():
         if args.no_issue:
             continue
         if not info["parseOk"]:
-            open_issue(
+            open_github_issue(
                 f'קובץ עדכון פמ"ת {key} — נכשל ניתוח אוטומטי, נדרשת בדיקה ידנית',
                 f"לא הצלחתי לחלץ את עמודי הוראות העדכון מהקובץ:\n{url}\n\n"
                 "יש לבדוק ידנית אם העדכון נוגע לפרקים א-17 / ב-09 (רחפנים).",
             )
         elif info["uavRelevant"]:
             title, body = build_issue(key, url, info)
-            open_issue(title, body)
+            open_github_issue(title, body)
         else:
             print(f"  no UAV-relevant content in {key}; not opening an issue.")
 

@@ -64,3 +64,18 @@ def save_json(path, obj, indent=2):
 
 def in_israel_bbox(lat: float, lon: float) -> bool:
     return LAT_MIN <= lat <= LAT_MAX and LON_MIN <= lon <= LON_MAX
+
+
+def open_github_issue(title: str, body: str):
+    """Opens an issue via the gh CLI (available inside Actions); outside
+    Actions it degrades to printing the report."""
+    import subprocess
+
+    try:
+        subprocess.run(
+            ["gh", "issue", "create", "--title", title, "--body", body],
+            check=True,
+        )
+        print(f"Opened GitHub issue: {title}")
+    except Exception as e:  # noqa: BLE001
+        print(f"Could not open GitHub issue ({e}); report:\n{title}\n{body}")

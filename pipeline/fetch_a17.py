@@ -1,9 +1,11 @@
 """Parses the official פמ"ת א-17 PDF (restricted/prohibited/dangerous areas)
-and produces a reviewed-by-PR update for data/a17_additions.json.
+and updates data/a17_additions.json.
 
-Best-effort by design: the PDF is a Hebrew RTL table, so parsing is heuristic
-and every change goes through a pull request a human merges (the a17-refresh
-workflow). This script never publishes directly.
+Best-effort by design: the PDF is a Hebrew RTL table, so parsing is heuristic.
+The daily pipeline runs it with --apply --guard: normal-sized changes are
+applied automatically (validate.py still gates the publish), while a
+suspicious change volume — the signature of a parser breakage, not of a real
+amendment — keeps the candidate file and opens a review issue instead.
 
 Flow:
   1. Download the PDF (to an ASCII filename — Hebrew names break tooling).
@@ -13,8 +15,9 @@ Flow:
   4. Write the merged result + a Markdown change report.
 
 Usage:
-    python pipeline/fetch_a17.py            # writes candidate + report only
-    python pipeline/fetch_a17.py --apply    # also overwrites a17_additions.json
+    python pipeline/fetch_a17.py                  # candidate + report only
+    python pipeline/fetch_a17.py --apply          # overwrite a17_additions.json
+    python pipeline/fetch_a17.py --apply --guard  # apply unless suspicious
 """
 import argparse
 import json
@@ -25,7 +28,16 @@ import sys
 import fitz  # PyMuPDF
 import requests
 
-from common import DATA_DIR, REPO_ROOT, in_israel_bbox, load_json, save_json
+from common import (
+    DATA_DIR,
+    REPO_ROOT,
+    canonical_bytes,
+    in_israel_bbox,
+    load_json,
+    open_github_issue,
+    save_json,
+    sha256_hex,
+)
 
 A17_URL = os.environ.get(
     "A17_PDF_URL",
@@ -173,6 +185,20 @@ def extract_zones(pdf_path):
     return zones
 
 
+def change_is_suspicious(parsed_count, added, changed, new_missing):
+    """A real amendment adds/changes a bounded set of zones; a broken parse
+    loses many existing zones or rewrites half the file. `new_missing` must
+    already exclude the stable baseline of hand-curated codes that never
+    parse out of the PDF. Returns a reason string on likely breakage."""
+    if len(new_missing) > 10:
+        return (f"{len(new_missing)} אזורים נעלמו מהפענוח לעומת ההרצה "
+                f"התקינה הקודמת ({', '.join(sorted(new_missing)[:15])}…)")
+    if len(added) + len(changed) > max(10, parsed_count // 2):
+        return (f"{len(added) + len(changed)} אזורים נוספו/השתנו בבת אחת "
+                f"(מתוך {parsed_count} שפוענחו)")
+    return None
+
+
 def close_enough(a, b, tol=2e-5):
     return abs(a - b) <= tol
 
@@ -205,6 +231,10 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--apply", action="store_true",
                         help="overwrite data/a17_additions.json with the merge")
+    parser.add_argument("--guard", action="store_true",
+                        help="with --apply: skip applying (and open a review "
+                             "issue) when the change volume looks like a "
+                             "parser breakage rather than a real amendment")
     parser.add_argument("--pdf", help="use a local PDF instead of downloading")
     args = parser.parse_args()
 
@@ -310,13 +340,53 @@ def main():
               encoding="utf-8") as f:
         f.write(report_text + "\n")
 
-    if args.apply and (added or changed):
+    guard_path = os.path.join(DATA_DIR, ".a17_guard_state.json")
+    guard_state = load_json(guard_path) if os.path.exists(guard_path) else {}
+    # Hand-curated zones (annex extras, manual splits like LLU22B, LLU_*)
+    # never parse out of the PDF, so a stable "missing" set is normal.
+    # Only codes newly missing since the last healthy run signal breakage.
+    baseline = set(guard_state.get("baselineMissing", []))
+    new_missing = sorted(set(missing) - baseline) if baseline else []
+
+    def mark_healthy():
+        guard_state["baselineMissing"] = sorted(missing)
+        guard_state.pop("reported", None)
+        save_json(guard_path, guard_state)
+
+    if not (added or changed):
+        os.remove(candidate_path)
+        mark_healthy()
+        print("No changes vs current data.")
+        return
+
+    if args.apply and args.guard:
+        reason = change_is_suspicious(len(parsed), added, changed, new_missing)
+        if reason:
+            print(f"GUARD TRIPPED — not applying: {reason}")
+            # One issue per distinct candidate — a broken layout would
+            # otherwise reopen the same issue every daily run.
+            digest = sha256_hex(canonical_bytes(out))
+            if guard_state.get("reported") == digest:
+                print("Same candidate already reported; not opening another issue.")
+                return
+            open_github_issue(
+                "עדכון א-17 נעצר על ידי בלם הביטחון — נדרשת בדיקה ידנית",
+                f"הפענוח האוטומטי של א-17 זיהה שינוי חשוד: {reason}\n\n"
+                f"{report_text}\n\n"
+                "המועמד נשמר ב-`data/a17_additions.candidate.json`. אם השינוי "
+                "אמיתי (תיקון גדול בפמ\"ת), יש לאמת מול המסמך, להעתיק את "
+                "המועמד על `data/a17_additions.json` ולדחוף, או להריץ את "
+                "workflow הבדיקה הידני (a17-refresh) שפותח PR.",
+            )
+            guard_state["reported"] = digest
+            save_json(guard_path, guard_state)
+            return
+
+    if args.apply:
         save_json(os.path.join(DATA_DIR, "a17_additions.json"), out)
         os.remove(candidate_path)
+        mark_healthy()
         print("Applied merge to data/a17_additions.json")
-    elif not (added or changed):
-        os.remove(candidate_path)
-        print("No changes vs current data.")
 
 
 if __name__ == "__main__":

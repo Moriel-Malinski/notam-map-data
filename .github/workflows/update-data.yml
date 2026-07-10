@@ -50,6 +50,14 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
 
+      # Auto-apply: normal-sized changes are published without review
+      # (validate.py below still gates the commit); a suspicious change
+      # volume skips the apply and opens a review issue instead.
+      - name: Refresh A-17 zones from the official PDF (auto-apply)
+        run: python pipeline/fetch_a17.py --apply --guard
+        env:
+          GH_TOKEN: ${{ github.token }}
+
       - name: Validate data files
         run: python pipeline/validate.py
 

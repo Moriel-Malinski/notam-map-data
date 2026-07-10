@@ -1,8 +1,11 @@
-name: A-17 refresh (PR gate)
+name: A-17 refresh (manual PR gate)
+
+# The daily update-data workflow now applies A-17 changes automatically
+# (fetch_a17.py --apply --guard). This workflow remains for MANUAL use only:
+# run it from the Actions tab when a guard-tripped change needs the full
+# review-by-PR treatment instead of a straight apply.
 
 on:
-  schedule:
-    - cron: "37 4 * * 5" # weekly, Friday morning
   workflow_dispatch: {}
 
 permissions:
