@@ -251,12 +251,30 @@ def main():
 
     today = date.today()
     found = discover(session, today)
+    state = load_state()
+    meta = state.setdefault("_meta", {})
+
     if not found:
+        # Last year's blob stays online at its old URL, so finding NOTHING
+        # means the URL patterns changed or gov.il started blocking the
+        # blobs too — alert once instead of failing silently every day.
         print("No קובץ עדכון blobs found for this year or last — "
               "URL patterns may have changed; check the AIP page manually.")
+        if not args.no_issue and not meta.get("discoveryEmptyReported"):
+            open_github_issue(
+                'סריקת קובץ העדכון של הפמ"ת חוזרת ריקה — ייתכן שינוי באתר רת"א',
+                "אף קובץ עדכון לא נמצא בכתובות המוכרות — גם לא של השנה "
+                "שעברה, שאמור להישאר זמין. כנראה שתבנית הכתובות השתנתה או "
+                "ש-gov.il חוסם עכשיו גם את קובצי ה-PDF.\n\n"
+                "יש לבדוק ידנית את https://www.gov.il/he/pages/aip?chapterIndex=2 "
+                "ולעדכן את URL_PATTERNS ב-`pipeline/check_update_file.py`.",
+            )
+            meta["discoveryEmptyReported"] = today.isoformat()
+            save_state(state)
         return
 
-    state = load_state()
+    if meta.pop("discoveryEmptyReported", None):
+        save_state(state)  # discovery recovered; re-arm the alert
     for key, url in sorted(found.items()):
         res = session.get(url, timeout=120)
         res.raise_for_status()
