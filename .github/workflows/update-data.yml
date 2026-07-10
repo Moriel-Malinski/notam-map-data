@@ -45,6 +45,11 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
 
+      - name: Check consolidated AIP update file (קובץ עדכון)
+        run: python pipeline/check_update_file.py
+        env:
+          GH_TOKEN: ${{ github.token }}
+
       - name: Validate data files
         run: python pipeline/validate.py
 
