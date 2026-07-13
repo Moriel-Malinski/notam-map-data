@@ -1,0 +1,59 @@
+name: Update NOTAMs
+
+# Frequent, tiny sibling of update-data.yml: scrapes the IAA NOTAM page once
+# and publishes docs/notams.json for all installed apps, so they stop
+# scraping IAA individually. Off-the-hour minutes because GitHub delays
+# top-of-the-hour crons the most.
+on:
+  schedule:
+    - cron: "7,27,47 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency: notam-feed
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      # Tip of main, not the triggering SHA — same reasoning as update-data.yml.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      # Just the two network/parsing deps — pymupdf and pytest from
+      # requirements.txt are dead weight at this cadence.
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Fetch and publish NOTAMs
+        run: python pipeline/fetch_notams.py
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "data-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/notams.json
+          if git diff --cached --quiet; then
+            echo "No changes to publish."
+          else
+            git commit -m "notams: automated update $(date -u +%FT%H:%M)"
+            # The daily data pipeline (or a human) may push while this job
+            # runs. Replay our commit on top rather than failing outright.
+            for attempt in 1 2 3; do
+              if git pull --rebase origin main && git push; then
+                exit 0
+              fi
+              echo "push attempt $attempt failed; retrying"
+              sleep 5
+            done
+            echo "could not push after 3 attempts" >&2
+            exit 1
+          fi

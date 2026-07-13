@@ -64,6 +64,14 @@ jobs:
       - name: Build manifest and gzipped payloads
         run: python pipeline/build_manifest.py
 
+      # Heartbeat: publish WHEN the pipeline last ran, as a static file on
+      # GitHub Pages. The app reads this instead of the GitHub Actions API,
+      # whose unauthenticated per-IP rate limit is shared by everyone behind
+      # the same carrier NAT. Changes every run, so the commit below always
+      # has something to push (a "pulse" even when the data itself didn't move).
+      - name: Write heartbeat (when sources were last checked)
+        run: printf '{"lastRun": "%s"}\n' "$(date -u +%FT%TZ)" > docs/heartbeat.json
+
       - name: Keep scheduled workflow alive (monthly touch)
         if: github.event_name == 'schedule'
         run: |

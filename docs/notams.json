@@ -1,0 +1,667 @@
+{
+  "schemaVersion": 1,
+  "fetchedAt": "2026-07-13T07:26:42Z",
+  "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
+  "notams": [
+    {
+      "id": "A0554/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE J14 CLSD BTN NAT-ZACCI."
+    },
+    {
+      "id": "C1500/26",
+      "location": "LLLL",
+      "eLine": "AN AREA WI HASHARON-SOUTH BUBBLE CLSD TO ALL FLT INCLUDING AGRICULTURE FLT FM GND UP TO 1,500FT AMSL BTN FLW PSN 321945N0345710E 322136N0345736E"
+    },
+    {
+      "id": "C1499/26",
+      "location": "LLLL",
+      "eLine": "LLHZ TRG AREA NR 13 CLSD TO ALL FLT."
+    },
+    {
+      "id": "A0553/26",
+      "location": "LLLL",
+      "eLine": "VOR/DME NAT FREQ 112.400MHZ WITHDRAWN FOR MAINT."
+    },
+    {
+      "id": "A0551/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE J14 CLSD BTN NAT-ZACCI."
+    },
+    {
+      "id": "C1497/26",
+      "location": "LLLL",
+      "eLine": "AN AREA WI HASHARON-SOUTH BUBBLE CLSD FM GND UP TO 1,500FT AMSL BTN FLW PSN 321945N0345710E 322136N0345736E 322107N0345856E 322019N0350115E"
+    },
+    {
+      "id": "C1495/26",
+      "location": "LLLL",
+      "eLine": "LLHZ TRG AREA NR 13 CLSD TO ALL FLT."
+    },
+    {
+      "id": "C1493/26",
+      "location": "LLIB",
+      "eLine": "AD CLSD TO ALL FLT, DUE WIP. OPS OF HEL AVBL BY PPR FM ATC. IN CASE OF EMERG OR MEDEVAC HEL AVBL WI 15MIN."
+    },
+    {
+      "id": "C1491/26",
+      "location": "LLLL",
+      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT TAYIBE. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 321457N0345933E CLSD FM GND UP TO 1,500FT AMSL, TO ALL FLT INCLUDING"
+    },
+    {
+      "id": "C1490/26",
+      "location": "LLLL",
+      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT SHFARAAM. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 324850N0351002E CLSD FM GND UP TO 1,900FT AMSL, TO ALL FLT INCLUDING"
+    },
+    {
+      "id": "C1487/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT TALMEI-BILU. AN AREA FM GND UP TO 150M, 1,000FT AMSL CLSD BTN FLW PSN 312543N0343847E 312544N0343910E 312334N0343920E"
+    },
+    {
+      "id": "C1486/26",
+      "location": "LLLL",
+      "eLine": "PJE AIRSPACE METZADA ACT FM 8,000FT AMSL. OPR BY PPR FM ATC ONLY. F) GND G) 8000FT AMSL"
+    },
+    {
+      "id": "A0550/26",
+      "location": "LLER",
+      "eLine": "VOR/DME RAM FREQ 113.850MHZ WITHDRAWN FOR MAINT."
+    },
+    {
+      "id": "A0549/26",
+      "location": "LLER",
+      "eLine": "DME OF ILS RWY 19 C/S RB FREQ 110.500MHZ WITHDRAWN FOR MAINT."
+    },
+    {
+      "id": "C1484/26",
+      "location": "LLLL",
+      "eLine": "LLMG TRG AREA AND ULTRALIGHT BUBBLE NR A-WEST (BMGWA) CLSD."
+    },
+    {
+      "id": "C1483/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT KFAR-TAVOR WI 1.1NM RADIUS CENTERED ON PSN 324241N0352429E CLSD FM GND UP TO 1,500FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN"
+    },
+    {
+      "id": "A0545/26",
+      "location": "LLER",
+      "eLine": "AD CLSD FOR TKOF/LDG FLT INCLUDING MIL FLT, DUE WIP. IN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN."
+    },
+    {
+      "id": "A0544/26",
+      "location": "LLER",
+      "eLine": "AD CLSD FOR TKOF FLT INCLUDING MIL FLT, DUE WIP. IN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN."
+    },
+    {
+      "id": "C1478/26",
+      "location": "LLLL",
+      "eLine": "PJE WILL TAKE PLACE AT REVIVIM. AN AREA FM GND UP 2,400FT AMSL CLSD BTN FLW PSN 310712N0344550E 310511N0343920E 310455N0343655E"
+    },
+    {
+      "id": "C1477/26",
+      "location": "LLLL",
+      "eLine": "CVFR AND HEL RTE CLSD AT 1,200FT, AVBL BIDIRECTIONAL AT 800FT AMSL ONLY TYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD."
+    },
+    {
+      "id": "C1476/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E CLSD FM GND UP TO 3,700FT AMSL."
+    },
+    {
+      "id": "C1472/26",
+      "location": "LLLL",
+      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT TAMRAH. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 325058N0351056E CLSD FM GND UP TO 1,900FT AMSL, TO ALL FLT INCLUDING"
+    },
+    {
+      "id": "A0538/26",
+      "location": "LLLL",
+      "eLine": "CHECKLIST YEAR=2025 0886 YEAR=2026 0001 0056 0116 0117 0127 0156 0281 0340 0350 0353 0354 0356"
+    },
+    {
+      "id": "C1468/26",
+      "location": "LLLL",
+      "eLine": "CHECKLIST YEAR=2026 0003 0004 0005 0006 0009 0010 0013 0014 0017 0032 0035 0037 0090 0162 0232 0431 0458 0813 0953 1116 1171 1244 1281 1284"
+    },
+    {
+      "id": "A0537/26",
+      "location": "LLHA",
+      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 01/26 WEF 06 AUG 2026 SPOKEN LANGUAGE, GEN INFO, AD OPS HR, FUEL SER OPS HR, FIRE AND RESCUE SER, CHARTS UPDATED ADC, APDC, APDCG,"
+    },
+    {
+      "id": "A0536/26",
+      "location": "LLER",
+      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 01/26 WEF 06 AUG 2026 HADLING AND CARGO FACILTIES, ASDA DATA, AD SERVICES, TWY AND APN INFO UPDATED, CHARTS UPDATED ADCV, ADCU,"
+    },
+    {
+      "id": "A0535/26",
+      "location": "LLBG",
+      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 01/26 WEF 06 AUG 2026 PCR FOR RWY 03/21, LGT INFO AND ADMIN DATA UPDATED, CHARTS UPDATED ADC, APDCT3, RNP21Y, ILS30, ILS08."
+    },
+    {
+      "id": "A0534/26",
+      "location": "LLLL",
+      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 01/26 WEF 06 AUG 2026 REGULATION YEAR UPDATED, DIFFERENCES, DAYLIGHT SAVING TIME, PUBLIC HOL AND MEMORIAL DAYS, AIS SERVICES INFO, AIS UNIT,"
+    },
+    {
+      "id": "C1467/26",
+      "location": "LLHD",
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 MIL PHONE NR WITHDRAWN, REF TO BERESHIT AREA, HELIPAD CONTACT NR ADDED."
+    },
+    {
+      "id": "C1466/26",
+      "location": "LLKS",
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 AIRSTRIP FIRE AND RESCUE OPR HR UPDATED, CHG OF AIRSTRIP OPR."
+    },
+    {
+      "id": "C1465/26",
+      "location": "LLMZ",
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 AIRSTRIP OPR HR UPDATED, INSTRUCTIONS AND RESTRICTIONS FOR NEW TWY."
+    },
+    {
+      "id": "C1464/26",
+      "location": "LLFK",
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 CHG OF AIRSTRIP OPR."
+    },
+    {
+      "id": "C1463/26",
+      "location": "LLEY",
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 START OPS/ACT WI AIRSTRIP UPDATED."
+    },
+    {
+      "id": "C1462/26",
+      "location": "LLBO",
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 ARP PSN, RWY DIMENSIOS, AIRSTRIP FLIGHT RULES UPDATED."
+    },
+    {
+      "id": "C1461/26",
+      "location": "LLIB",
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 PCR ON APN UPDATED, VDI ADDED, ACFT STAND UPDATED, JOINING TO ATS RTE, NISPACHIM 1 2 12 UPDATED."
+    },
+    {
+      "id": "C1460/26",
+      "location": "LLHA",
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 OPS CENTER OPR HR, FUEL, APN A L N, RESTRICTIONS ON APN A, EXIT/ENTRY TO/FM APN N, SPOKEN LANGUAGE, MAINT COMPANIES,"
+    },
+    {
+      "id": "C1459/26",
+      "location": "LLHZ",
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 AEROBATICS FLT WI TRG AREA 12, EMAIL FOR COOR UAS ACT, HOTSPOT CHART UPDATED."
+    },
+    {
+      "id": "C1458/26",
+      "location": "LLLL",
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 PHONE NR AND FREQ UPDATED, SPOKEN LANGUAGE, LOCAL FLT DEFINITION, DOM FPL TO/FM LLER, CLOSURE OF LLER AIS UNIT,"
+    },
+    {
+      "id": "A0533/26",
+      "location": "LLLL",
+      "eLine": "VOR/DME BSA FREQ 114.300MHZ WITHDRAWN FOR MAINT."
+    },
+    {
+      "id": "A0531/26",
+      "location": "LLBG",
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE."
+    },
+    {
+      "id": "A0529/26",
+      "location": "LLBG",
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE."
+    },
+    {
+      "id": "A0530/26",
+      "location": "LLBG",
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE."
+    },
+    {
+      "id": "A0526/26",
+      "location": "LLBG",
+      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E"
+    },
+    {
+      "id": "A0527/26",
+      "location": "LLBG",
+      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E"
+    },
+    {
+      "id": "A0525/26",
+      "location": "LLBG",
+      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E"
+    },
+    {
+      "id": "C1434/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT KFAR-HAMACABIYA WI LLBG CTR, FM GND UP TO 100M AGL, BTN FLW PSN 320311N0344907E 320325N0344914E 320339N0344932E 320337N0344953E"
+    },
+    {
+      "id": "C1412/26",
+      "location": "LLLL",
+      "eLine": "FRNG WILL TAKE PLACE AT RAMAT-BEKA WI LLP14. AN AREA BTN THE FLW PSN 310542N0345314E 310541N0345352E 310509N0345351E 310453N0345313E"
+    },
+    {
+      "id": "C1405/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT KESARYA UP TO 100M AGL, AN AREA WI 0.8NM RADIUS CENTERED ON PSN 322941N0345439E CLSD FM GND UP TO 500FT AMSL."
+    },
+    {
+      "id": "A0511/26",
+      "location": "LLBG",
+      "eLine": "RESTRICTIONS OF LDG 4 ENGINE ACFT WI LLBG TEMPO WITHDRAWN."
+    },
+    {
+      "id": "A0508/26",
+      "location": "LLLL",
+      "eLine": "POSS INTRP TO AIRBORNE GNSS EQPT WI TEL-AVIV FIR."
+    },
+    {
+      "id": "A0509/26",
+      "location": "LLBG",
+      "eLine": "CLOSURE FOR LDG BTN 0100-0200LMT (2300-2359UTC) TEMPO WITHDRAWN."
+    },
+    {
+      "id": "A0510/26",
+      "location": "LLBG",
+      "eLine": "NIGHT RESTRICTIONS BTN 0140-0500LMT (2240-0200UTC) TEMPO WITHDRAWN."
+    },
+    {
+      "id": "A0506/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE L53 BTN TALMI-TAPUZ AND N134 BTN VOLFO-SALAM AVBL H24 BTN 11,000-16,000FT FOR TFC WITH ARR/DEP AT AD WITHIN AMMAN FIR, LLER, LLNV, LLOV AND LLRM ONLY,"
+    },
+    {
+      "id": "A0507/26",
+      "location": "LLLL",
+      "eLine": "MAX ALT ALONG ATS RTE J10 BTN NURIT-SIVAK 18,000FT AMSL."
+    },
+    {
+      "id": "C1399/26",
+      "location": "LLIB",
+      "eLine": "DEP/ARR AVBL VIA SOUTH ENTRY/EXIT ONLY. OPS OF ACFT AVBL WITH MAX 10 PAX ON BOARD. PJE PROHIBITED."
+    },
+    {
+      "id": "C1398/26",
+      "location": "LLLL",
+      "eLine": "LLIB TRG AREA NR A AND B CLSD."
+    },
+    {
+      "id": "A0505/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE Q30 CLSD BTN BEXOM-NURIT."
+    },
+    {
+      "id": "C1397/26",
+      "location": "LLRS",
+      "eLine": "FLT DEPARTING AIRSTRIP NB VIA TYONA PILOT SHALL CONTACT PLUTO CTL FOR IDENT OVER TYONA."
+    },
+    {
+      "id": "C1396/26",
+      "location": "LLMG",
+      "eLine": "GLD ACT AVBL S OF ROAD NR 85 AND ROAD NR 91, MAX 10 GLIDERS AIRBORNE APPROVED. PILOT SHALL MAKE TWO WAY RADIO COMM WITH ATC AND"
+    },
+    {
+      "id": "C1394/26",
+      "location": "LLLL",
+      "eLine": "ULTRALIGHT BUBBLE RAMAT HAGOLAN (BRGOL) CLSD N OF ROAD NR 91."
+    },
+    {
+      "id": "C1395/26",
+      "location": "LLGV",
+      "eLine": "CTR AVBL FOR UAS/UAV OR AGRICULTURE FLT ONLY."
+    },
+    {
+      "id": "C1391/26",
+      "location": "LLLL",
+      "eLine": "ULTRALIGHT BUBBLE CLSD CHARIF (BHARF), TZNIFIM (BZNIF)."
+    },
+    {
+      "id": "C1392/26",
+      "location": "LLLL",
+      "eLine": "ULTRALIGHT BUBBLE SHDEROT NORTH (BDRTN) AVBL UP TO 1,000FT AMSL, SHDEROT SOUTH (BDRTS) AVBL E OF ROAD NR 34 AND NE OF ROAD NR 25 UP TO 1,000FT AMSL AND CLSD W OF ROAD NR 34 AND"
+    },
+    {
+      "id": "C1393/26",
+      "location": "LLLL",
+      "eLine": "ULTRALIGHT BUBBLE CLSD HAHULA (BHULA), KARMIEL (BKRML)."
+    },
+    {
+      "id": "C1388/26",
+      "location": "LLLL",
+      "eLine": "OPS OF FLT FM JORDAN BOUNDRAY TO 6KM WB REQUIRES TRANSPONDER OPERATING DRG ALL THE FLT AND MAINTANING TWO WAY RADIO COM WITH ATC."
+    },
+    {
+      "id": "C1389/26",
+      "location": "LLLL",
+      "eLine": "OPS OF FLT FM EGYPT BOUNDRAY TO 6KM WB REQUIRES TRANSPONDER OPERATING DRG ALL THE FLT AND MAINTANING TWO WAY RADIO COM WITH ATC."
+    },
+    {
+      "id": "C1390/26",
+      "location": "LLLL",
+      "eLine": "PILOT SHALL FLY AT MNM 500FT AGL WI ULTRALIGHT BUBBLE, TKOF/LDG AVBL HARROD (BHROD), NAAMA (BNAMM), ALMOG (BLMOG)."
+    },
+    {
+      "id": "C1384/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT GAZA-STRIP BTN FLW PSN CLSD TO ALL FLT, EXC PPR FLT FM IAF OR AGRICULTURE FLT, EMERG, MEDEVAC HEL 310714N0341759E 310818N0343709E 310550N0344003E"
+    },
+    {
+      "id": "C1385/26",
+      "location": "LLLL",
+      "eLine": "AN AREA N OF ROAD NR 85 AND ROAD NR 91 CLSD TO ALL DOM FLT, EXC ULTRALIGHT BUBBLE BZVUE, EMERG, OIL RIG FLT, MEDEVAC HEL OR PPR FLT FM IAF."
+    },
+    {
+      "id": "C1386/26",
+      "location": "LLLL",
+      "eLine": "AN AREA FM LEBANON BOUNDRAY TO 8KM SB CLSD TO ALL DOM FLT, EXC POLICE, FIREFIGHTING, MEDEVAC FLT OR UAS/UAV FLT FOR EMERG, SECURITY, MEDEVAC PURPOSES ONLY."
+    },
+    {
+      "id": "C1387/26",
+      "location": "LLLL",
+      "eLine": "AN AREA FM SYRIA BOUNDRAY TO 6KM WB CLSD TO ALL DOM FLT, EXC POLICE, FIREFIGHTING, MEDEVAC FLT OR UAS/UAV FLT FOR EMERG, SECURITY, MEDEVAC PURPOSES ONLY."
+    },
+    {
+      "id": "C1361/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT ASHDOD, FM GND UP TO 100M AGL. AN AREA BTN FLW PSN CLSD FM GND UP TO 950FT AMSL 315119N0344122E 315127N0344037E 315123N0344007E"
+    },
+    {
+      "id": "C1359/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT PARK-REEM. AN AREA WI 0.5NM RADIUS CENTERED ON PSN 314633N0344520E CLSD FM GND UP TO 25M AGL 300FT AMSL."
+    },
+    {
+      "id": "C1358/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT DALIA/TZAFIT, WI ULTRALIGHT BUBBLE GOVRIN SOUTH (BGOVS) UP TO 100M AGL. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,400FT AMSL"
+    },
+    {
+      "id": "A0500/26",
+      "location": "LLBG",
+      "eLine": "OCA(H) FOR ILS RWY 26 CHG TO 500(376) FOR ALL CAT."
+    },
+    {
+      "id": "A0501/26",
+      "location": "LLBG",
+      "eLine": "OCA(H) FOR ILS RWY 30 CHG TO 500(370) FOR ALL CAT."
+    },
+    {
+      "id": "A0497/26",
+      "location": "LLBG",
+      "eLine": "OCA(H) FOR ILS RWY 08 CHG TO 500(403) FOR ALL CAT."
+    },
+    {
+      "id": "A0498/26",
+      "location": "LLBG",
+      "eLine": "OCA(H) FOR ILS RWY 12 CHG TO 500(397) FOR ALL CAT."
+    },
+    {
+      "id": "A0499/26",
+      "location": "LLBG",
+      "eLine": "OCA(H) FOR ILS RWY 21 CHG TO 500(366) FOR ALL CAT."
+    },
+    {
+      "id": "C1348/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT MAGEN-SHAUL, UP TO 100M AGL. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,500FT AMSL 323145N0351642E 323024N0351638E 323039N0352004E"
+    },
+    {
+      "id": "C1345/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT SEGULA JUNCTION, WI 0.65NM RADIUS CENTERED ON PSN 320612N0345420E FM GND UP TO 300FT AMSL."
+    },
+    {
+      "id": "C1328/26",
+      "location": "LLIB",
+      "eLine": "REFUELING ALL TYP OF AIRCRAFT/HEL NOT AVBL."
+    },
+    {
+      "id": "C1313/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT EITANIM-HOSPITAL. AN AREA WI 500M RADIUS CENTERED ON PSN 314643N0350539E FM GND UP TO 100M AGL, 2,800FT AMSL CLSD TO ALL FLT"
+    },
+    {
+      "id": "C1284/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT NESHER WI LLHA CTR FM GND UP TO 460M AGL 1,510FT AMSL, BTN FLW PSN 324637N0350134E 324629N0350037E 324552N0350043E"
+    },
+    {
+      "id": "C1281/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT GOLANI-INTERCHANGE WI 0.6NM RADIUS CENTRED ON PSN 324600N0352530E CLSD TO ALL FLT INCLUDING AGRICULTURE FLT, FM GND UP TO 1,500FT AMSL."
+    },
+    {
+      "id": "A0475/26",
+      "location": "LLHA",
+      "eLine": "CRANE ERECTED WI LLHA CTR, FM GND UP TO 26M 89FT AGL, 29M 95FT AMSL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 324910.1N0350231.28E CLSD FM GND UP TO 100FT AMSL."
+    },
+    {
+      "id": "A0471/26",
+      "location": "LLHA",
+      "eLine": "OPS OF ACFT TYPE C130/C13J PROHIBITED, EXC BY PPR FM AD ADMINISTRATION OR IN CASE OF EMERG."
+    },
+    {
+      "id": "A0467/26",
+      "location": "LLER",
+      "eLine": "PAPI RWY 19 EAST U/S."
+    },
+    {
+      "id": "C1244/26",
+      "location": "LLLL",
+      "eLine": "LLER TRG AREA HAR BERECH CLSD TO ALL FLT."
+    },
+    {
+      "id": "A0457/26",
+      "location": "LLBG",
+      "eLine": "MNM CMB GRADIENT CHG AS FLW CHART AD 2 LLBG SID 26-1 ALL SID MNM CMB GRADIENT REQUIRED 7.0 PERCENT UP TO"
+    },
+    {
+      "id": "C1171/26",
+      "location": "LLLL",
+      "eLine": "TRIGGER NOTAM - NIL AIRAC DOM AIP AMDT WEF 09 JUL 2026."
+    },
+    {
+      "id": "A0444/26",
+      "location": "LLLL",
+      "eLine": "TRIGGER NOTAM - NIL AIRAC AIP AMDT WEF 09 JUL 2026."
+    },
+    {
+      "id": "A0434/26",
+      "location": "LLNV",
+      "eLine": "TWY Z LOCATED S OF RWY 07/25, MARKED AND LIT AS RWY, AVBL FOR TWY, LDG/TKOFF ON TWY Z AVBL BY ATC ONLY. DIRECTIONS 06/24."
+    },
+    {
+      "id": "A0433/26",
+      "location": "LLNV",
+      "eLine": "RADAR SER NOT AVBL."
+    },
+    {
+      "id": "C1116/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT BELINSON-HOSPITAL, BTN FLW PSN FM GND UP TO 300FT AMSL 320545N0345149E 320536N0345134E 320507N0345130E"
+    },
+    {
+      "id": "A0409/26",
+      "location": "LLHA",
+      "eLine": "ACFT STAND A1 CLSD, DUE WIP."
+    },
+    {
+      "id": "A0395/26",
+      "location": "LLHA",
+      "eLine": "ACFT STAND J9 CLSD, DUE WIP."
+    },
+    {
+      "id": "A0388/26",
+      "location": "LLBG",
+      "eLine": "LLBG AIS/ARO/FMP UNIT RE-ESTABLISHED AND SEPARATED FM AD OPS CENTER, WEF 01 MAY 2026, THE FLW INFO CHG PART GEN 3.1-1, PARA 1.3"
+    },
+    {
+      "id": "C0953/26",
+      "location": "LLBG",
+      "eLine": "LLBG AIS/ARO/FMP UNIT RE-ESTABLISHED AND SEPARATED FM AD OPS CENTER, WEF 01 MAY 2026, THE FLW INFO CHG PART A-12, PAGE 1"
+    },
+    {
+      "id": "A0359/26",
+      "location": "LLBG",
+      "eLine": "PREFERENTIAL DEP PROC AVBL H24, FLT NB VIA SID DAFNA, WB AVBL VIA SID SUVAS. SB AVBL VIA TOMAL, EB AVBL VIA SALAM,"
+    },
+    {
+      "id": "A0358/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE W13 AVBL H24 BTN TAPUZ-JILET-DAFNA BTN 12,000FT-FL325. AND BTN TAPUZ-JILET-DAFNA CDR1 BTN FL330-FL600, AS FLW SUN 2100(2000) - MON 0500(0400"
+    },
+    {
+      "id": "A0356/26",
+      "location": "LLBG",
+      "eLine": "AD CLSD DUE WIP."
+    },
+    {
+      "id": "A0353/26",
+      "location": "LLBG",
+      "eLine": "AD CLSD DUE WIP."
+    },
+    {
+      "id": "A0354/26",
+      "location": "LLBG",
+      "eLine": "AD CLSD DUE WIP."
+    },
+    {
+      "id": "A0350/26",
+      "location": "LLBG",
+      "eLine": "CRANES ERECTED AT TEL-AVIV VITANYA PROJECT, LIT AND DAY MARKED. AN AREA WI 0.3NM RADIUS CLSD AS FLW PSN 320329.96N0344705.72E FM GND UP TO 172.7M AGL, 630FT AMSL."
+    },
+    {
+      "id": "C0813/26",
+      "location": "LLHZ",
+      "eLine": "TWR FREQ TEMPO CHG TO 125.600MHZ."
+    },
+    {
+      "id": "A0340/26",
+      "location": "LLHA",
+      "eLine": "ACFT STAND N33 CLSD, DUE WIP."
+    },
+    {
+      "id": "A0281/26",
+      "location": "LLHA",
+      "eLine": "ACFT STAND J10 CLSD."
+    },
+    {
+      "id": "C0458/26",
+      "location": "LLIB",
+      "eLine": "OBST ERECTED WI LLIB AD PSN 325906.20N0353406.67E HGT 10M AGL, 50.5M FM CL, 167M SW OF THR RWY 15. LIT AND DAY MARKED."
+    },
+    {
+      "id": "C0431/26",
+      "location": "LLLL",
+      "eLine": "OPS OF UAS/UAV OR MODEL ACFT WI 500M RADIUS CENTERED ON PSN 320418N0344709.6E FM GND UP TO 300FT AMSL PROHIBITED. DOM AIP, PART A-17, PAGE 5, PARA 1A.C. AND NISPACH C. REF."
+    },
+    {
+      "id": "A0156/26",
+      "location": "LLLL",
+      "eLine": "LLR01 ACTIVATED H24, XNG MERVA NOT AVBL EXC BY ATC. TFC TO/FM LLHA AVBL VIA MERVA BIDIRECTIONAL AT 5,000FT AMSL. ISRAEL AIP, PART ENR 5.1, PAGE ENR 5.1-3, PARA 2,"
+    },
+    {
+      "id": "A0127/26",
+      "location": "LLER",
+      "eLine": "LLER AIS/ARO UNIT PERM CLSD, WEF 01 FEB 2026. ALL AIS SER WILL BE PROVIDED BY LLBG AIS. THE FLW INFO INTO AIP COMPLETELY WITHDRAWN."
+    },
+    {
+      "id": "A0117/26",
+      "location": "LLBG",
+      "eLine": "TWY W4 PCR 1,520/F/C/X/T. ISRAEL AIP, PART AD, CHART AD 2 LLBG ADC-1 REF."
+    },
+    {
+      "id": "A0116/26",
+      "location": "LLBG",
+      "eLine": "RWY 08/26 PCR 880/F/C/X/T. ISRAEL AIP, PART AD, PAGE AD-2-LLBG-6, TABLE 2.12 REF."
+    },
+    {
+      "id": "A0056/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE P42 BTN TAPUZ-MERVA AVBL BY ATC ONLY. ISRAEL AIP, PART ENR 3.1, PAGE ENR 3.1-17, CHART ENR 6-1 REF."
+    },
+    {
+      "id": "C0232/26",
+      "location": "LLPL",
+      "eLine": "CTL TWR PHONE NR CHG AS FLW PRI 076-863-8322. SRI 076-863-8323."
+    },
+    {
+      "id": "C0162/26",
+      "location": "LLLL",
+      "eLine": "MIL ATC PHONE NR TEMPO CHG AS FLW HAGAV LOW-LEVEL 08-6502307. HAGAV FOR UAS/UAV 08-6502308 (ROKAK)."
+    },
+    {
+      "id": "C0090/26",
+      "location": "LLLL",
+      "eLine": "OPS OF UAS WI TRG AREA/UAS BUBBLE OR WI CLOSURE DESIGNATED AS LOCAL FLIGHT AND EXEMPTED OF SUBMISSION FPL. OPR OF UAS SHALL GET APPROVAL FM ATC BFR TKOF."
+    },
+    {
+      "id": "C0037/26",
+      "location": "LLLL",
+      "eLine": "OPS OF HOT-AIR BALLOON AT MOLEDET-CENTER WI 4.5KM RADIUS SEMI-CIRCLE TO EAST CENTERED ON PSN 323732.9N0352302.1E PROHIBITED."
+    },
+    {
+      "id": "C0035/26",
+      "location": "LLLL",
+      "eLine": "AEROBATICS FLT WI LLHZ TRG AREA NR 12 PROHIBITED. DOM AIP, PART AD, PAGE LLHZ 14, PARA 24.D. REF."
+    },
+    {
+      "id": "C0032/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT NAURA WI LLMG TRG AREA B-WEST WI 2.2KM RADIUS CENTERED ON PSN 323732.9N0352302.1E CLSD TO ALL FLT INCLUDING AGRICULTURE FLT, FM GND UP TO 10,000FT AMSL."
+    },
+    {
+      "id": "C0017/26",
+      "location": "LLEK",
+      "eLine": "MIL TRG AREA ATC FREQ CHG TO 129.050MHZ. DOM AIP, PART A-07, PAGE 4, PARA 12. REF."
+    },
+    {
+      "id": "C0014/26",
+      "location": "LLFK",
+      "eLine": "AIRSTRIP OPR CHG TO HAREL ZEIRA 050-9254449. DOM AIP, PART AIRSTRIP, PAGE LLFK-1, PARA 4.B. REF."
+    },
+    {
+      "id": "A0001/26",
+      "location": "LLBG",
+      "eLine": "RWY 03/21 PCR 850/F/C/X/T. ISRAEL AIP, PART AD, PAGE AD-2-LLBG-6, TABLE 2.12 REF."
+    },
+    {
+      "id": "C0013/26",
+      "location": "LLMZ",
+      "eLine": "OPS HR ON FRI/HOL EVE AND SAT/HOL CHG TO 0800-1700LMT. DOM AIP, PART AIRSTRIP, PAGE LLMZ-1, PARA 6 REF."
+    },
+    {
+      "id": "C0010/26",
+      "location": "LLLL",
+      "eLine": "UAS ACT WILL TAKE PLACE AT LATRUN. AN AREA BTN THE FLW PSNS N314945E0345822 N314949E0345806 N314936E0345743 N314910E0345813 CLSD FM GND UP TO"
+    },
+    {
+      "id": "C0009/26",
+      "location": "LLLL",
+      "eLine": "LLD42 DEAD SEA-DRONE POLIGON CHG AS FLW 310611N0352313E 310358N0352329E 310244N0352146E 310200N0352109E 310121N0352109E 310007N0352040E"
+    },
+    {
+      "id": "C0005/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT OR-AKIVA INDUSTRY AREA. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 500FT AMSL N323122E0345511 N323119E0345512 N323119E0345515"
+    },
+    {
+      "id": "C0006/26",
+      "location": "LLLL",
+      "eLine": "ULTRALIGHT BUBBLE ZVULUN NORTH (BZVUE) AVBL FOR ULTRALIGHT ACFT AND POWERED PARACHUTE ACCORDING CONDITIONS OF AIC 05/25. ON SUN-THU BTN SR-0900LMT FM GND UP TO 500FT AMSL."
+    },
+    {
+      "id": "C0004/26",
+      "location": "LLLL",
+      "eLine": "LLD44 REESTABLISHED BTN FLW PSN FM GND UP TO 2,000FT AMSL OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. 323910N0351040E 323936N0350910E 323923N0350757E"
+    },
+    {
+      "id": "C0003/26",
+      "location": "LLLL",
+      "eLine": "LLD41 ESTABLISHED BTN 2,000-8,000FT AMSL WI FLW PSN OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. 323714N0350517E 323649N0350505E 323608N0350410E"
+    },
+    {
+      "id": "A0886/25",
+      "location": "LLLL",
+      "eLine": "CHANGES TO THE SUBMITTED FLIGHT PLAN ALL CHANGES TO A FLIGHT PLAN SUBMITTED FOR AN IFR FLIGHT OR A CONTROLLED VFR FLIGHT SHALL BE"
+    }
+  ]
+}
