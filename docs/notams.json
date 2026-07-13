@@ -1,537 +1,961 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-13T13:07:57Z",
+  "fetchedAt": "2026-07-13T13:14:22Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
       "id": "A0554/26",
       "location": "LLLL",
-      "eLine": "ATS RTE J14 CLSD BTN NAT-ZACCI."
+      "eLine": "ATS RTE J14 CLSD BTN NAT-ZACCI.",
+      "validFrom": "2026-07-14T07:00Z",
+      "validTo": "2026-07-14T11:15Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "0700-0745 1030-1115"
     },
     {
       "id": "C1500/26",
       "location": "LLLL",
-      "eLine": "AN AREA WI HASHARON-SOUTH BUBBLE CLSD TO ALL FLT INCLUDING AGRICULTURE FLT FM GND UP TO 1,500FT AMSL BTN FLW PSN 321945N0345710E 322136N0345736E"
+      "eLine": "AN AREA WI HASHARON-SOUTH BUBBLE CLSD TO ALL FLT INCLUDING AGRICULTURE FLT FM GND UP TO 1,500FT AMSL BTN FLW PSN 321945N0345710E 322136N0345736E",
+      "validFrom": "2026-07-14T07:00Z",
+      "validTo": "2026-07-14T11:15Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 0700-0745 1030-1115"
     },
     {
       "id": "C1499/26",
       "location": "LLLL",
-      "eLine": "LLHZ TRG AREA NR 13 CLSD TO ALL FLT."
+      "eLine": "LLHZ TRG AREA NR 13 CLSD TO ALL FLT.",
+      "validFrom": "2026-07-14T07:00Z",
+      "validTo": "2026-07-14T11:15Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 0700-0745 1030-1115"
     },
     {
       "id": "A0553/26",
       "location": "LLLL",
-      "eLine": "VOR/DME NAT FREQ 112.400MHZ WITHDRAWN FOR MAINT."
+      "eLine": "VOR/DME NAT FREQ 112.400MHZ WITHDRAWN FOR MAINT.",
+      "validFrom": "2026-07-14T07:00Z",
+      "validTo": "2026-07-14T10:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1493/26",
       "location": "LLIB",
-      "eLine": "AD CLSD TO ALL FLT, DUE WIP. OPS OF HEL AVBL BY PPR FM ATC. IN CASE OF EMERG OR MEDEVAC HEL AVBL WI 15MIN."
+      "eLine": "AD CLSD TO ALL FLT, DUE WIP. OPS OF HEL AVBL BY PPR FM ATC. IN CASE OF EMERG OR MEDEVAC HEL AVBL WI 15MIN.",
+      "validFrom": "2026-07-19T06:00Z",
+      "validTo": "2026-07-19T09:00Z",
+      "airfield": "Rosh-Pina",
+      "dLine": ""
     },
     {
       "id": "C1491/26",
       "location": "LLLL",
-      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT TAYIBE. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 321457N0345933E CLSD FM GND UP TO 1,500FT AMSL, TO ALL FLT INCLUDING"
+      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT TAYIBE. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 321457N0345933E CLSD FM GND UP TO 1,500FT AMSL, TO ALL FLT INCLUDING",
+      "validFrom": "2026-07-09T12:48Z",
+      "validTo": "2026-07-21T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1490/26",
       "location": "LLLL",
-      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT SHFARAAM. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 324850N0351002E CLSD FM GND UP TO 1,900FT AMSL, TO ALL FLT INCLUDING"
+      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT SHFARAAM. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 324850N0351002E CLSD FM GND UP TO 1,900FT AMSL, TO ALL FLT INCLUDING",
+      "validFrom": "2026-07-09T12:43Z",
+      "validTo": "2026-07-19T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1487/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT TALMEI-BILU. AN AREA FM GND UP TO 150M, 1,000FT AMSL CLSD BTN FLW PSN 312543N0343847E 312544N0343910E 312334N0343920E"
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT TALMEI-BILU. AN AREA FM GND UP TO 150M, 1,000FT AMSL CLSD BTN FLW PSN 312543N0343847E 312544N0343910E 312334N0343920E",
+      "validFrom": "2026-07-14T02:20Z",
+      "validTo": "2026-07-16T16:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 0220-1630"
     },
     {
       "id": "C1486/26",
       "location": "LLLL",
-      "eLine": "PJE AIRSPACE METZADA ACT FM 8,000FT AMSL. OPR BY PPR FM ATC ONLY. F) GND G) 8000FT AMSL"
+      "eLine": "PJE AIRSPACE METZADA ACT FM 8,000FT AMSL. OPR BY PPR FM ATC ONLY. F) GND G) 8000FT AMSL",
+      "validFrom": "2026-07-16T11:00Z",
+      "validTo": "2026-07-17T11:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "16 1100-1715, 17 0600-1100"
     },
     {
       "id": "A0550/26",
       "location": "LLER",
-      "eLine": "VOR/DME RAM FREQ 113.850MHZ WITHDRAWN FOR MAINT."
+      "eLine": "VOR/DME RAM FREQ 113.850MHZ WITHDRAWN FOR MAINT.",
+      "validFrom": "2026-07-20T07:00Z",
+      "validTo": "2026-07-20T09:00Z",
+      "airfield": "Ramon",
+      "dLine": ""
     },
     {
       "id": "A0549/26",
       "location": "LLER",
-      "eLine": "DME OF ILS RWY 19 C/S RB FREQ 110.500MHZ WITHDRAWN FOR MAINT."
+      "eLine": "DME OF ILS RWY 19 C/S RB FREQ 110.500MHZ WITHDRAWN FOR MAINT.",
+      "validFrom": "2026-07-20T09:00Z",
+      "validTo": "2026-07-20T12:00Z",
+      "airfield": "Ramon",
+      "dLine": ""
     },
     {
       "id": "C1484/26",
       "location": "LLLL",
-      "eLine": "LLMG TRG AREA AND ULTRALIGHT BUBBLE NR A-WEST (BMGWA) CLSD."
+      "eLine": "LLMG TRG AREA AND ULTRALIGHT BUBBLE NR A-WEST (BMGWA) CLSD.",
+      "validFrom": "2026-07-12T14:00Z",
+      "validTo": "2026-07-15T14:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "12 1400-1500 1730-1830, 15 0600-0700 1300-1400"
     },
     {
       "id": "C1483/26",
       "location": "LLLL",
-      "eLine": "AN AREA AT KFAR-TAVOR WI 1.1NM RADIUS CENTERED ON PSN 324241N0352429E CLSD FM GND UP TO 1,500FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN"
+      "eLine": "AN AREA AT KFAR-TAVOR WI 1.1NM RADIUS CENTERED ON PSN 324241N0352429E CLSD FM GND UP TO 1,500FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN",
+      "validFrom": "2026-07-12T14:00Z",
+      "validTo": "2026-07-15T14:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "12 1400-1500 1730-1830, 15 0600-0700 1300-1400"
     },
     {
       "id": "A0545/26",
       "location": "LLER",
-      "eLine": "AD CLSD FOR TKOF/LDG FLT INCLUDING MIL FLT, DUE WIP. IN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN."
+      "eLine": "AD CLSD FOR TKOF/LDG FLT INCLUDING MIL FLT, DUE WIP. IN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN.",
+      "validFrom": "2026-07-15T19:00Z",
+      "validTo": "2026-07-16T02:00Z",
+      "airfield": "Ramon",
+      "dLine": ""
     },
     {
       "id": "A0544/26",
       "location": "LLER",
-      "eLine": "AD CLSD FOR TKOF FLT INCLUDING MIL FLT, DUE WIP. IN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN."
+      "eLine": "AD CLSD FOR TKOF FLT INCLUDING MIL FLT, DUE WIP. IN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN.",
+      "validFrom": "2026-07-12T19:00Z",
+      "validTo": "2026-07-18T02:00Z",
+      "airfield": "Ramon",
+      "dLine": "12-14 16-17 DAILY 1900-0200"
     },
     {
       "id": "C1478/26",
       "location": "LLLL",
-      "eLine": "PJE WILL TAKE PLACE AT REVIVIM. AN AREA FM GND UP 2,400FT AMSL CLSD BTN FLW PSN 310712N0344550E 310511N0343920E 310455N0343655E"
+      "eLine": "PJE WILL TAKE PLACE AT REVIVIM. AN AREA FM GND UP 2,400FT AMSL CLSD BTN FLW PSN 310712N0344550E 310511N0343920E 310455N0343655E",
+      "validFrom": "2026-07-12T07:30Z",
+      "validTo": "2026-07-13T13:50Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "12 0730-0900 1715-1845, 13 1220-1350"
     },
     {
       "id": "C1476/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E CLSD FM GND UP TO 3,700FT AMSL."
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E CLSD FM GND UP TO 3,700FT AMSL.",
+      "validFrom": "2026-07-12T03:00Z",
+      "validTo": "2026-07-16T14:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 0300-1430"
     },
     {
       "id": "C1472/26",
       "location": "LLLL",
-      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT TAMRAH. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 325058N0351056E CLSD FM GND UP TO 1,900FT AMSL, TO ALL FLT INCLUDING"
+      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT TAMRAH. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 325058N0351056E CLSD FM GND UP TO 1,900FT AMSL, TO ALL FLT INCLUDING",
+      "validFrom": "2026-07-07T00:01Z",
+      "validTo": "2026-07-14T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0538/26",
       "location": "LLLL",
-      "eLine": "CHECKLIST YEAR=2025 0886 YEAR=2026 0001 0056 0116 0117 0127 0156 0281 0340 0350 0353 0354 0356"
+      "eLine": "CHECKLIST YEAR=2025 0886 YEAR=2026 0001 0056 0116 0117 0127 0156 0281 0340 0350 0353 0354 0356",
+      "validFrom": "2026-07-05T10:54Z",
+      "validTo": "2027-08-05T10:54Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1468/26",
       "location": "LLLL",
-      "eLine": "CHECKLIST YEAR=2026 0003 0004 0005 0006 0009 0010 0013 0014 0017 0032 0035 0037 0090 0162 0232 0431 0458 0813 0953 1116 1171 1244 1281 1284"
+      "eLine": "CHECKLIST YEAR=2026 0003 0004 0005 0006 0009 0010 0013 0014 0017 0032 0035 0037 0090 0162 0232 0431 0458 0813 0953 1116 1171 1244 1281 1284",
+      "validFrom": "2026-07-05T10:54Z",
+      "validTo": "2027-08-05T10:54Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0537/26",
       "location": "LLHA",
-      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 01/26 WEF 06 AUG 2026 SPOKEN LANGUAGE, GEN INFO, AD OPS HR, FUEL SER OPS HR, FIRE AND RESCUE SER, CHARTS UPDATED ADC, APDC, APDCG,"
+      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 01/26 WEF 06 AUG 2026 SPOKEN LANGUAGE, GEN INFO, AD OPS HR, FUEL SER OPS HR, FIRE AND RESCUE SER, CHARTS UPDATED ADC, APDC, APDCG,",
+      "validFrom": "2026-08-06T00:01Z",
+      "validTo": "2026-08-19T23:59Z",
+      "airfield": "Haifa",
+      "dLine": ""
     },
     {
       "id": "A0536/26",
       "location": "LLER",
-      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 01/26 WEF 06 AUG 2026 HADLING AND CARGO FACILTIES, ASDA DATA, AD SERVICES, TWY AND APN INFO UPDATED, CHARTS UPDATED ADCV, ADCU,"
+      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 01/26 WEF 06 AUG 2026 HADLING AND CARGO FACILTIES, ASDA DATA, AD SERVICES, TWY AND APN INFO UPDATED, CHARTS UPDATED ADCV, ADCU,",
+      "validFrom": "2026-08-06T00:01Z",
+      "validTo": "2026-08-19T23:59Z",
+      "airfield": "Ramon",
+      "dLine": ""
     },
     {
       "id": "A0535/26",
       "location": "LLBG",
-      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 01/26 WEF 06 AUG 2026 PCR FOR RWY 03/21, LGT INFO AND ADMIN DATA UPDATED, CHARTS UPDATED ADC, APDCT3, RNP21Y, ILS30, ILS08."
+      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 01/26 WEF 06 AUG 2026 PCR FOR RWY 03/21, LGT INFO AND ADMIN DATA UPDATED, CHARTS UPDATED ADC, APDCT3, RNP21Y, ILS30, ILS08.",
+      "validFrom": "2026-08-06T00:01Z",
+      "validTo": "2026-08-19T23:59Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "A0534/26",
       "location": "LLLL",
-      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 01/26 WEF 06 AUG 2026 REGULATION YEAR UPDATED, DIFFERENCES, DAYLIGHT SAVING TIME, PUBLIC HOL AND MEMORIAL DAYS, AIS SERVICES INFO, AIS UNIT,"
+      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 01/26 WEF 06 AUG 2026 REGULATION YEAR UPDATED, DIFFERENCES, DAYLIGHT SAVING TIME, PUBLIC HOL AND MEMORIAL DAYS, AIS SERVICES INFO, AIS UNIT,",
+      "validFrom": "2026-08-06T00:01Z",
+      "validTo": "2026-08-19T23:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1467/26",
       "location": "LLHD",
-      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 MIL PHONE NR WITHDRAWN, REF TO BERESHIT AREA, HELIPAD CONTACT NR ADDED."
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 MIL PHONE NR WITHDRAWN, REF TO BERESHIT AREA, HELIPAD CONTACT NR ADDED.",
+      "validFrom": "2026-08-06T00:01Z",
+      "validTo": "2026-08-19T23:59Z",
+      "airfield": "Haddassah Hospital",
+      "dLine": ""
     },
     {
       "id": "C1466/26",
       "location": "LLKS",
-      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 AIRSTRIP FIRE AND RESCUE OPR HR UPDATED, CHG OF AIRSTRIP OPR."
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 AIRSTRIP FIRE AND RESCUE OPR HR UPDATED, CHG OF AIRSTRIP OPR.",
+      "validFrom": "2026-08-06T00:01Z",
+      "validTo": "2026-08-19T23:59Z",
+      "airfield": "Kiryat-Shmona",
+      "dLine": ""
     },
     {
       "id": "C1465/26",
       "location": "LLMZ",
-      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 AIRSTRIP OPR HR UPDATED, INSTRUCTIONS AND RESTRICTIONS FOR NEW TWY."
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 AIRSTRIP OPR HR UPDATED, INSTRUCTIONS AND RESTRICTIONS FOR NEW TWY.",
+      "validFrom": "2026-08-06T00:01Z",
+      "validTo": "2026-08-19T23:59Z",
+      "airfield": "Metzada",
+      "dLine": ""
     },
     {
       "id": "C1464/26",
       "location": "LLFK",
-      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 CHG OF AIRSTRIP OPR."
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 CHG OF AIRSTRIP OPR.",
+      "validFrom": "2026-08-06T00:01Z",
+      "validTo": "2026-08-19T23:59Z",
+      "airfield": "Fiq (El-Al)",
+      "dLine": ""
     },
     {
       "id": "C1463/26",
       "location": "LLEY",
-      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 START OPS/ACT WI AIRSTRIP UPDATED."
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 START OPS/ACT WI AIRSTRIP UPDATED.",
+      "validFrom": "2026-08-06T00:01Z",
+      "validTo": "2026-08-19T23:59Z",
+      "airfield": "Eyn-Yahav",
+      "dLine": ""
     },
     {
       "id": "C1462/26",
       "location": "LLBO",
-      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 ARP PSN, RWY DIMENSIOS, AIRSTRIP FLIGHT RULES UPDATED."
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 ARP PSN, RWY DIMENSIOS, AIRSTRIP FLIGHT RULES UPDATED.",
+      "validFrom": "2026-08-06T00:01Z",
+      "validTo": "2026-08-19T23:59Z",
+      "airfield": "Habonim",
+      "dLine": ""
     },
     {
       "id": "C1461/26",
       "location": "LLIB",
-      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 PCR ON APN UPDATED, VDI ADDED, ACFT STAND UPDATED, JOINING TO ATS RTE, NISPACHIM 1 2 12 UPDATED."
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 PCR ON APN UPDATED, VDI ADDED, ACFT STAND UPDATED, JOINING TO ATS RTE, NISPACHIM 1 2 12 UPDATED.",
+      "validFrom": "2026-08-06T00:01Z",
+      "validTo": "2026-08-19T23:59Z",
+      "airfield": "Rosh-Pina",
+      "dLine": ""
     },
     {
       "id": "C1460/26",
       "location": "LLHA",
-      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 OPS CENTER OPR HR, FUEL, APN A L N, RESTRICTIONS ON APN A, EXIT/ENTRY TO/FM APN N, SPOKEN LANGUAGE, MAINT COMPANIES,"
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 OPS CENTER OPR HR, FUEL, APN A L N, RESTRICTIONS ON APN A, EXIT/ENTRY TO/FM APN N, SPOKEN LANGUAGE, MAINT COMPANIES,",
+      "validFrom": "2026-08-06T00:01Z",
+      "validTo": "2026-08-19T23:59Z",
+      "airfield": "Haifa",
+      "dLine": ""
     },
     {
       "id": "C1459/26",
       "location": "LLHZ",
-      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 AEROBATICS FLT WI TRG AREA 12, EMAIL FOR COOR UAS ACT, HOTSPOT CHART UPDATED."
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 AEROBATICS FLT WI TRG AREA 12, EMAIL FOR COOR UAS ACT, HOTSPOT CHART UPDATED.",
+      "validFrom": "2026-08-06T00:01Z",
+      "validTo": "2026-08-19T23:59Z",
+      "airfield": "Herzlia",
+      "dLine": ""
     },
     {
       "id": "C1458/26",
       "location": "LLLL",
-      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 PHONE NR AND FREQ UPDATED, SPOKEN LANGUAGE, LOCAL FLT DEFINITION, DOM FPL TO/FM LLER, CLOSURE OF LLER AIS UNIT,"
+      "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 PHONE NR AND FREQ UPDATED, SPOKEN LANGUAGE, LOCAL FLT DEFINITION, DOM FPL TO/FM LLER, CLOSURE OF LLER AIS UNIT,",
+      "validFrom": "2026-08-06T00:01Z",
+      "validTo": "2026-08-19T23:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0533/26",
       "location": "LLLL",
-      "eLine": "VOR/DME BSA FREQ 114.300MHZ WITHDRAWN FOR MAINT."
+      "eLine": "VOR/DME BSA FREQ 114.300MHZ WITHDRAWN FOR MAINT.",
+      "validFrom": "2026-07-26T06:00Z",
+      "validTo": "2026-07-26T10:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0531/26",
       "location": "LLBG",
-      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE."
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "validFrom": "2026-08-16T04:00Z",
+      "validTo": "2026-08-18T08:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "DAILY 0400-0800"
     },
     {
       "id": "A0529/26",
       "location": "LLBG",
-      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE."
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "validFrom": "2026-07-19T04:00Z",
+      "validTo": "2026-07-23T08:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "DAILY 0400-0800"
     },
     {
       "id": "A0530/26",
       "location": "LLBG",
-      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE."
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "validFrom": "2026-08-02T04:00Z",
+      "validTo": "2026-08-05T08:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "DAILY 0400-0800"
     },
     {
       "id": "A0526/26",
       "location": "LLBG",
-      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E"
+      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E",
+      "validFrom": "2026-08-02T04:00Z",
+      "validTo": "2026-08-05T08:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "DAILY 0400-0800"
     },
     {
       "id": "A0527/26",
       "location": "LLBG",
-      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E"
+      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E",
+      "validFrom": "2026-08-16T04:00Z",
+      "validTo": "2026-08-18T08:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "DAILY 0400-0800"
     },
     {
       "id": "A0525/26",
       "location": "LLBG",
-      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E"
+      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E",
+      "validFrom": "2026-07-19T04:00Z",
+      "validTo": "2026-07-23T08:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "DAILY 0400-0800"
     },
     {
       "id": "C1434/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT KFAR-HAMACABIYA WI LLBG CTR, FM GND UP TO 100M AGL, BTN FLW PSN 320311N0344907E 320325N0344914E 320339N0344932E 320337N0344953E"
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT KFAR-HAMACABIYA WI LLBG CTR, FM GND UP TO 100M AGL, BTN FLW PSN 320311N0344907E 320325N0344914E 320339N0344932E 320337N0344953E",
+      "validFrom": "2026-07-01T00:01Z",
+      "validTo": "2026-07-24T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1412/26",
       "location": "LLLL",
-      "eLine": "FRNG WILL TAKE PLACE AT RAMAT-BEKA WI LLP14. AN AREA BTN THE FLW PSN 310542N0345314E 310541N0345352E 310509N0345351E 310453N0345313E"
+      "eLine": "FRNG WILL TAKE PLACE AT RAMAT-BEKA WI LLP14. AN AREA BTN THE FLW PSN 310542N0345314E 310541N0345352E 310509N0345351E 310453N0345313E",
+      "validFrom": "2026-07-01T05:00Z",
+      "validTo": "2026-07-30T15:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "SUN-THU 0500-1500"
     },
     {
       "id": "C1405/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT KESARYA UP TO 100M AGL, AN AREA WI 0.8NM RADIUS CENTERED ON PSN 322941N0345439E CLSD FM GND UP TO 500FT AMSL."
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT KESARYA UP TO 100M AGL, AN AREA WI 0.8NM RADIUS CENTERED ON PSN 322941N0345439E CLSD FM GND UP TO 500FT AMSL.",
+      "validFrom": "2026-07-01T19:00Z",
+      "validTo": "2026-08-01T02:15Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 1900-0215"
     },
     {
       "id": "A0511/26",
       "location": "LLBG",
-      "eLine": "RESTRICTIONS OF LDG 4 ENGINE ACFT WI LLBG TEMPO WITHDRAWN."
+      "eLine": "RESTRICTIONS OF LDG 4 ENGINE ACFT WI LLBG TEMPO WITHDRAWN.",
+      "validFrom": "2026-06-28T11:50Z",
+      "validTo": "2026-07-31T23:59Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "A0508/26",
       "location": "LLLL",
-      "eLine": "POSS INTRP TO AIRBORNE GNSS EQPT WI TEL-AVIV FIR."
+      "eLine": "POSS INTRP TO AIRBORNE GNSS EQPT WI TEL-AVIV FIR.",
+      "validFrom": "2026-06-28T11:48Z",
+      "validTo": "2026-07-31T23:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0509/26",
       "location": "LLBG",
-      "eLine": "CLOSURE FOR LDG BTN 0100-0200LMT (2300-2359UTC) TEMPO WITHDRAWN."
+      "eLine": "CLOSURE FOR LDG BTN 0100-0200LMT (2300-2359UTC) TEMPO WITHDRAWN.",
+      "validFrom": "2026-06-28T11:49Z",
+      "validTo": "2026-07-31T23:59Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "A0510/26",
       "location": "LLBG",
-      "eLine": "NIGHT RESTRICTIONS BTN 0140-0500LMT (2240-0200UTC) TEMPO WITHDRAWN."
+      "eLine": "NIGHT RESTRICTIONS BTN 0140-0500LMT (2240-0200UTC) TEMPO WITHDRAWN.",
+      "validFrom": "2026-06-28T11:50Z",
+      "validTo": "2026-07-31T23:59Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "A0506/26",
       "location": "LLLL",
-      "eLine": "ATS RTE L53 BTN TALMI-TAPUZ AND N134 BTN VOLFO-SALAM AVBL H24 BTN 11,000-16,000FT FOR TFC WITH ARR/DEP AT AD WITHIN AMMAN FIR, LLER, LLNV, LLOV AND LLRM ONLY,"
+      "eLine": "ATS RTE L53 BTN TALMI-TAPUZ AND N134 BTN VOLFO-SALAM AVBL H24 BTN 11,000-16,000FT FOR TFC WITH ARR/DEP AT AD WITHIN AMMAN FIR, LLER, LLNV, LLOV AND LLRM ONLY,",
+      "validFrom": "2026-06-28T11:47Z",
+      "validTo": "2026-07-31T23:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0507/26",
       "location": "LLLL",
-      "eLine": "MAX ALT ALONG ATS RTE J10 BTN NURIT-SIVAK 18,000FT AMSL."
+      "eLine": "MAX ALT ALONG ATS RTE J10 BTN NURIT-SIVAK 18,000FT AMSL.",
+      "validFrom": "2026-06-28T11:48Z",
+      "validTo": "2026-07-31T23:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1399/26",
       "location": "LLIB",
-      "eLine": "DEP/ARR AVBL VIA SOUTH ENTRY/EXIT ONLY. OPS OF ACFT AVBL WITH MAX 10 PAX ON BOARD. PJE PROHIBITED."
+      "eLine": "DEP/ARR AVBL VIA SOUTH ENTRY/EXIT ONLY. OPS OF ACFT AVBL WITH MAX 10 PAX ON BOARD. PJE PROHIBITED.",
+      "validFrom": "2026-06-28T08:19Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Rosh-Pina",
+      "dLine": ""
     },
     {
       "id": "C1398/26",
       "location": "LLLL",
-      "eLine": "LLIB TRG AREA NR A AND B CLSD."
+      "eLine": "LLIB TRG AREA NR A AND B CLSD.",
+      "validFrom": "2026-06-28T08:16Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0505/26",
       "location": "LLLL",
-      "eLine": "ATS RTE Q30 CLSD BTN BEXOM-NURIT."
+      "eLine": "ATS RTE Q30 CLSD BTN BEXOM-NURIT.",
+      "validFrom": "2026-06-28T08:13Z",
+      "validTo": "2026-07-31T23:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1397/26",
       "location": "LLRS",
-      "eLine": "FLT DEPARTING AIRSTRIP NB VIA TYONA PILOT SHALL CONTACT PLUTO CTL FOR IDENT OVER TYONA."
+      "eLine": "FLT DEPARTING AIRSTRIP NB VIA TYONA PILOT SHALL CONTACT PLUTO CTL FOR IDENT OVER TYONA.",
+      "validFrom": "2026-06-28T08:11Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Rishon Letzion",
+      "dLine": ""
     },
     {
       "id": "C1396/26",
       "location": "LLMG",
-      "eLine": "GLD ACT AVBL S OF ROAD NR 85 AND ROAD NR 91, MAX 10 GLIDERS AIRBORNE APPROVED. PILOT SHALL MAKE TWO WAY RADIO COMM WITH ATC AND"
+      "eLine": "GLD ACT AVBL S OF ROAD NR 85 AND ROAD NR 91, MAX 10 GLIDERS AIRBORNE APPROVED. PILOT SHALL MAKE TWO WAY RADIO COMM WITH ATC AND",
+      "validFrom": "2026-06-28T08:09Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Meggido",
+      "dLine": ""
     },
     {
       "id": "C1394/26",
       "location": "LLLL",
-      "eLine": "ULTRALIGHT BUBBLE RAMAT HAGOLAN (BRGOL) CLSD N OF ROAD NR 91."
+      "eLine": "ULTRALIGHT BUBBLE RAMAT HAGOLAN (BRGOL) CLSD N OF ROAD NR 91.",
+      "validFrom": "2026-06-28T08:07Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1395/26",
       "location": "LLGV",
-      "eLine": "CTR AVBL FOR UAS/UAV OR AGRICULTURE FLT ONLY."
+      "eLine": "CTR AVBL FOR UAS/UAV OR AGRICULTURE FLT ONLY.",
+      "validFrom": "2026-06-28T08:08Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Gvuloth",
+      "dLine": ""
     },
     {
       "id": "C1391/26",
       "location": "LLLL",
-      "eLine": "ULTRALIGHT BUBBLE CLSD CHARIF (BHARF), TZNIFIM (BZNIF)."
+      "eLine": "ULTRALIGHT BUBBLE CLSD CHARIF (BHARF), TZNIFIM (BZNIF).",
+      "validFrom": "2026-06-28T08:05Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1392/26",
       "location": "LLLL",
-      "eLine": "ULTRALIGHT BUBBLE SHDEROT NORTH (BDRTN) AVBL UP TO 1,000FT AMSL, SHDEROT SOUTH (BDRTS) AVBL E OF ROAD NR 34 AND NE OF ROAD NR 25 UP TO 1,000FT AMSL AND CLSD W OF ROAD NR 34 AND"
+      "eLine": "ULTRALIGHT BUBBLE SHDEROT NORTH (BDRTN) AVBL UP TO 1,000FT AMSL, SHDEROT SOUTH (BDRTS) AVBL E OF ROAD NR 34 AND NE OF ROAD NR 25 UP TO 1,000FT AMSL AND CLSD W OF ROAD NR 34 AND",
+      "validFrom": "2026-06-28T08:05Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1393/26",
       "location": "LLLL",
-      "eLine": "ULTRALIGHT BUBBLE CLSD HAHULA (BHULA), KARMIEL (BKRML)."
+      "eLine": "ULTRALIGHT BUBBLE CLSD HAHULA (BHULA), KARMIEL (BKRML).",
+      "validFrom": "2026-06-28T08:06Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1388/26",
       "location": "LLLL",
-      "eLine": "OPS OF FLT FM JORDAN BOUNDRAY TO 6KM WB REQUIRES TRANSPONDER OPERATING DRG ALL THE FLT AND MAINTANING TWO WAY RADIO COM WITH ATC."
+      "eLine": "OPS OF FLT FM JORDAN BOUNDRAY TO 6KM WB REQUIRES TRANSPONDER OPERATING DRG ALL THE FLT AND MAINTANING TWO WAY RADIO COM WITH ATC.",
+      "validFrom": "2026-06-28T08:02Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1389/26",
       "location": "LLLL",
-      "eLine": "OPS OF FLT FM EGYPT BOUNDRAY TO 6KM WB REQUIRES TRANSPONDER OPERATING DRG ALL THE FLT AND MAINTANING TWO WAY RADIO COM WITH ATC."
+      "eLine": "OPS OF FLT FM EGYPT BOUNDRAY TO 6KM WB REQUIRES TRANSPONDER OPERATING DRG ALL THE FLT AND MAINTANING TWO WAY RADIO COM WITH ATC.",
+      "validFrom": "2026-06-28T08:03Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1390/26",
       "location": "LLLL",
-      "eLine": "PILOT SHALL FLY AT MNM 500FT AGL WI ULTRALIGHT BUBBLE, TKOF/LDG AVBL HARROD (BHROD), NAAMA (BNAMM), ALMOG (BLMOG)."
+      "eLine": "PILOT SHALL FLY AT MNM 500FT AGL WI ULTRALIGHT BUBBLE, TKOF/LDG AVBL HARROD (BHROD), NAAMA (BNAMM), ALMOG (BLMOG).",
+      "validFrom": "2026-06-28T08:04Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1384/26",
       "location": "LLLL",
-      "eLine": "AN AREA AT GAZA-STRIP BTN FLW PSN CLSD TO ALL FLT, EXC PPR FLT FM IAF OR AGRICULTURE FLT, EMERG, MEDEVAC HEL 310714N0341759E 310818N0343709E 310550N0344003E"
+      "eLine": "AN AREA AT GAZA-STRIP BTN FLW PSN CLSD TO ALL FLT, EXC PPR FLT FM IAF OR AGRICULTURE FLT, EMERG, MEDEVAC HEL 310714N0341759E 310818N0343709E 310550N0344003E",
+      "validFrom": "2026-06-28T08:00Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1385/26",
       "location": "LLLL",
-      "eLine": "AN AREA N OF ROAD NR 85 AND ROAD NR 91 CLSD TO ALL DOM FLT, EXC ULTRALIGHT BUBBLE BZVUE, EMERG, OIL RIG FLT, MEDEVAC HEL OR PPR FLT FM IAF."
+      "eLine": "AN AREA N OF ROAD NR 85 AND ROAD NR 91 CLSD TO ALL DOM FLT, EXC ULTRALIGHT BUBBLE BZVUE, EMERG, OIL RIG FLT, MEDEVAC HEL OR PPR FLT FM IAF.",
+      "validFrom": "2026-06-28T08:01Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1386/26",
       "location": "LLLL",
-      "eLine": "AN AREA FM LEBANON BOUNDRAY TO 8KM SB CLSD TO ALL DOM FLT, EXC POLICE, FIREFIGHTING, MEDEVAC FLT OR UAS/UAV FLT FOR EMERG, SECURITY, MEDEVAC PURPOSES ONLY."
+      "eLine": "AN AREA FM LEBANON BOUNDRAY TO 8KM SB CLSD TO ALL DOM FLT, EXC POLICE, FIREFIGHTING, MEDEVAC FLT OR UAS/UAV FLT FOR EMERG, SECURITY, MEDEVAC PURPOSES ONLY.",
+      "validFrom": "2026-06-28T08:01Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1387/26",
       "location": "LLLL",
-      "eLine": "AN AREA FM SYRIA BOUNDRAY TO 6KM WB CLSD TO ALL DOM FLT, EXC POLICE, FIREFIGHTING, MEDEVAC FLT OR UAS/UAV FLT FOR EMERG, SECURITY, MEDEVAC PURPOSES ONLY."
+      "eLine": "AN AREA FM SYRIA BOUNDRAY TO 6KM WB CLSD TO ALL DOM FLT, EXC POLICE, FIREFIGHTING, MEDEVAC FLT OR UAS/UAV FLT FOR EMERG, SECURITY, MEDEVAC PURPOSES ONLY.",
+      "validFrom": "2026-06-28T08:02Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1361/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT ASHDOD, FM GND UP TO 100M AGL. AN AREA BTN FLW PSN CLSD FM GND UP TO 950FT AMSL 315119N0344122E 315127N0344037E 315123N0344007E"
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT ASHDOD, FM GND UP TO 100M AGL. AN AREA BTN FLW PSN CLSD FM GND UP TO 950FT AMSL 315119N0344122E 315127N0344037E 315123N0344007E",
+      "validFrom": "2026-07-01T00:01Z",
+      "validTo": "2026-12-31T21:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1359/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT PARK-REEM. AN AREA WI 0.5NM RADIUS CENTERED ON PSN 314633N0344520E CLSD FM GND UP TO 25M AGL 300FT AMSL."
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT PARK-REEM. AN AREA WI 0.5NM RADIUS CENTERED ON PSN 314633N0344520E CLSD FM GND UP TO 25M AGL 300FT AMSL.",
+      "validFrom": "2026-07-01T00:01Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1358/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT DALIA/TZAFIT, WI ULTRALIGHT BUBBLE GOVRIN SOUTH (BGOVS) UP TO 100M AGL. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,400FT AMSL"
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT DALIA/TZAFIT, WI ULTRALIGHT BUBBLE GOVRIN SOUTH (BGOVS) UP TO 100M AGL. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,400FT AMSL",
+      "validFrom": "2026-06-25T06:29Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0500/26",
       "location": "LLBG",
-      "eLine": "OCA(H) FOR ILS RWY 26 CHG TO 500(376) FOR ALL CAT."
+      "eLine": "OCA(H) FOR ILS RWY 26 CHG TO 500(376) FOR ALL CAT.",
+      "validFrom": "2026-06-24T16:41Z",
+      "validTo": "2026-08-31T23:59Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "A0501/26",
       "location": "LLBG",
-      "eLine": "OCA(H) FOR ILS RWY 30 CHG TO 500(370) FOR ALL CAT."
+      "eLine": "OCA(H) FOR ILS RWY 30 CHG TO 500(370) FOR ALL CAT.",
+      "validFrom": "2026-06-24T16:42Z",
+      "validTo": "2026-08-31T23:59Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "A0497/26",
       "location": "LLBG",
-      "eLine": "OCA(H) FOR ILS RWY 08 CHG TO 500(403) FOR ALL CAT."
+      "eLine": "OCA(H) FOR ILS RWY 08 CHG TO 500(403) FOR ALL CAT.",
+      "validFrom": "2026-06-24T16:39Z",
+      "validTo": "2026-08-31T23:59Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "A0498/26",
       "location": "LLBG",
-      "eLine": "OCA(H) FOR ILS RWY 12 CHG TO 500(397) FOR ALL CAT."
+      "eLine": "OCA(H) FOR ILS RWY 12 CHG TO 500(397) FOR ALL CAT.",
+      "validFrom": "2026-06-24T16:40Z",
+      "validTo": "2026-08-31T23:59Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "A0499/26",
       "location": "LLBG",
-      "eLine": "OCA(H) FOR ILS RWY 21 CHG TO 500(366) FOR ALL CAT."
+      "eLine": "OCA(H) FOR ILS RWY 21 CHG TO 500(366) FOR ALL CAT.",
+      "validFrom": "2026-06-24T16:40Z",
+      "validTo": "2026-08-31T23:59Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "C1348/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT MAGEN-SHAUL, UP TO 100M AGL. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,500FT AMSL 323145N0351642E 323024N0351638E 323039N0352004E"
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT MAGEN-SHAUL, UP TO 100M AGL. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,500FT AMSL 323145N0351642E 323024N0351638E 323039N0352004E",
+      "validFrom": "2026-07-01T00:01Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1345/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT SEGULA JUNCTION, WI 0.65NM RADIUS CENTERED ON PSN 320612N0345420E FM GND UP TO 300FT AMSL."
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT SEGULA JUNCTION, WI 0.65NM RADIUS CENTERED ON PSN 320612N0345420E FM GND UP TO 300FT AMSL.",
+      "validFrom": "2026-07-01T00:01Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1328/26",
       "location": "LLIB",
-      "eLine": "REFUELING ALL TYP OF AIRCRAFT/HEL NOT AVBL."
+      "eLine": "REFUELING ALL TYP OF AIRCRAFT/HEL NOT AVBL.",
+      "validFrom": "2026-06-20T07:05Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Rosh-Pina",
+      "dLine": ""
     },
     {
       "id": "C1313/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT EITANIM-HOSPITAL. AN AREA WI 500M RADIUS CENTERED ON PSN 314643N0350539E FM GND UP TO 100M AGL, 2,800FT AMSL CLSD TO ALL FLT"
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT EITANIM-HOSPITAL. AN AREA WI 500M RADIUS CENTERED ON PSN 314643N0350539E FM GND UP TO 100M AGL, 2,800FT AMSL CLSD TO ALL FLT",
+      "validFrom": "2026-06-17T12:35Z",
+      "validTo": "2026-07-31T15:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 0500-1500"
     },
     {
       "id": "C1284/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT NESHER WI LLHA CTR FM GND UP TO 460M AGL 1,510FT AMSL, BTN FLW PSN 324637N0350134E 324629N0350037E 324552N0350043E"
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT NESHER WI LLHA CTR FM GND UP TO 460M AGL 1,510FT AMSL, BTN FLW PSN 324637N0350134E 324629N0350037E 324552N0350043E",
+      "validFrom": "2026-06-15T13:32Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C1281/26",
       "location": "LLLL",
-      "eLine": "AN AREA AT GOLANI-INTERCHANGE WI 0.6NM RADIUS CENTRED ON PSN 324600N0352530E CLSD TO ALL FLT INCLUDING AGRICULTURE FLT, FM GND UP TO 1,500FT AMSL."
+      "eLine": "AN AREA AT GOLANI-INTERCHANGE WI 0.6NM RADIUS CENTRED ON PSN 324600N0352530E CLSD TO ALL FLT INCLUDING AGRICULTURE FLT, FM GND UP TO 1,500FT AMSL.",
+      "validFrom": "2026-06-15T11:46Z",
+      "validTo": "2029-06-15T11:49Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0475/26",
       "location": "LLHA",
-      "eLine": "CRANE ERECTED WI LLHA CTR, FM GND UP TO 26M 89FT AGL, 29M 95FT AMSL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 324910.1N0350231.28E CLSD FM GND UP TO 100FT AMSL."
+      "eLine": "CRANE ERECTED WI LLHA CTR, FM GND UP TO 26M 89FT AGL, 29M 95FT AMSL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 324910.1N0350231.28E CLSD FM GND UP TO 100FT AMSL.",
+      "validFrom": "2026-06-15T06:44Z",
+      "validTo": "2026-09-30T20:59Z",
+      "airfield": "Haifa",
+      "dLine": ""
     },
     {
       "id": "A0471/26",
       "location": "LLHA",
-      "eLine": "OPS OF ACFT TYPE C130/C13J PROHIBITED, EXC BY PPR FM AD ADMINISTRATION OR IN CASE OF EMERG."
+      "eLine": "OPS OF ACFT TYPE C130/C13J PROHIBITED, EXC BY PPR FM AD ADMINISTRATION OR IN CASE OF EMERG.",
+      "validFrom": "2026-06-11T14:00Z",
+      "validTo": "2026-08-31T20:59Z",
+      "airfield": "Haifa",
+      "dLine": ""
     },
     {
       "id": "A0467/26",
       "location": "LLER",
-      "eLine": "PAPI RWY 19 EAST U/S."
+      "eLine": "PAPI RWY 19 EAST U/S.",
+      "validFrom": "2026-06-10T05:37Z",
+      "validTo": "2026-09-10T23:59Z",
+      "airfield": "Ramon",
+      "dLine": ""
     },
     {
       "id": "C1244/26",
       "location": "LLLL",
-      "eLine": "LLER TRG AREA HAR BERECH CLSD TO ALL FLT."
+      "eLine": "LLER TRG AREA HAR BERECH CLSD TO ALL FLT.",
+      "validFrom": "2026-06-10T05:37Z",
+      "validTo": "2026-09-10T23:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0457/26",
       "location": "LLBG",
-      "eLine": "MNM CMB GRADIENT CHG AS FLW CHART AD 2 LLBG SID 26-1 ALL SID MNM CMB GRADIENT REQUIRED 7.0 PERCENT UP TO"
+      "eLine": "MNM CMB GRADIENT CHG AS FLW CHART AD 2 LLBG SID 26-1 ALL SID MNM CMB GRADIENT REQUIRED 7.0 PERCENT UP TO",
+      "validFrom": "2026-06-08T05:31Z",
+      "validTo": "2029-06-08T05:32Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "C1171/26",
       "location": "LLLL",
-      "eLine": "TRIGGER NOTAM - NIL AIRAC DOM AIP AMDT WEF 09 JUL 2026."
+      "eLine": "TRIGGER NOTAM - NIL AIRAC DOM AIP AMDT WEF 09 JUL 2026.",
+      "validFrom": "2026-07-09T00:01Z",
+      "validTo": "2026-07-22T23:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0444/26",
       "location": "LLLL",
-      "eLine": "TRIGGER NOTAM - NIL AIRAC AIP AMDT WEF 09 JUL 2026."
+      "eLine": "TRIGGER NOTAM - NIL AIRAC AIP AMDT WEF 09 JUL 2026.",
+      "validFrom": "2026-07-09T00:01Z",
+      "validTo": "2026-07-22T23:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0434/26",
       "location": "LLNV",
-      "eLine": "TWY Z LOCATED S OF RWY 07/25, MARKED AND LIT AS RWY, AVBL FOR TWY, LDG/TKOFF ON TWY Z AVBL BY ATC ONLY. DIRECTIONS 06/24."
+      "eLine": "TWY Z LOCATED S OF RWY 07/25, MARKED AND LIT AS RWY, AVBL FOR TWY, LDG/TKOFF ON TWY Z AVBL BY ATC ONLY. DIRECTIONS 06/24.",
+      "validFrom": "2026-05-27T08:11Z",
+      "validTo": "2026-08-31T20:59Z",
+      "airfield": "Nevatim AB",
+      "dLine": ""
     },
     {
       "id": "A0433/26",
       "location": "LLNV",
-      "eLine": "RADAR SER NOT AVBL."
+      "eLine": "RADAR SER NOT AVBL.",
+      "validFrom": "2026-05-27T08:08Z",
+      "validTo": "2026-08-31T20:59Z",
+      "airfield": "Nevatim AB",
+      "dLine": ""
     },
     {
       "id": "C1116/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT BELINSON-HOSPITAL, BTN FLW PSN FM GND UP TO 300FT AMSL 320545N0345149E 320536N0345134E 320507N0345130E"
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT BELINSON-HOSPITAL, BTN FLW PSN FM GND UP TO 300FT AMSL 320545N0345149E 320536N0345134E 320507N0345130E",
+      "validFrom": "2026-06-01T00:01Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0409/26",
       "location": "LLHA",
-      "eLine": "ACFT STAND A1 CLSD, DUE WIP."
+      "eLine": "ACFT STAND A1 CLSD, DUE WIP.",
+      "validFrom": "2026-05-12T06:01Z",
+      "validTo": "2026-08-31T20:59Z",
+      "airfield": "Haifa",
+      "dLine": ""
     },
     {
       "id": "A0395/26",
       "location": "LLHA",
-      "eLine": "ACFT STAND J9 CLSD, DUE WIP."
+      "eLine": "ACFT STAND J9 CLSD, DUE WIP.",
+      "validFrom": "2026-05-06T12:57Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Haifa",
+      "dLine": ""
     },
     {
       "id": "A0388/26",
       "location": "LLBG",
-      "eLine": "LLBG AIS/ARO/FMP UNIT RE-ESTABLISHED AND SEPARATED FM AD OPS CENTER, WEF 01 MAY 2026, THE FLW INFO CHG PART GEN 3.1-1, PARA 1.3"
+      "eLine": "LLBG AIS/ARO/FMP UNIT RE-ESTABLISHED AND SEPARATED FM AD OPS CENTER, WEF 01 MAY 2026, THE FLW INFO CHG PART GEN 3.1-1, PARA 1.3",
+      "validFrom": "2026-05-04T09:42Z",
+      "validTo": "2029-05-04T09:45Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "C0953/26",
       "location": "LLBG",
-      "eLine": "LLBG AIS/ARO/FMP UNIT RE-ESTABLISHED AND SEPARATED FM AD OPS CENTER, WEF 01 MAY 2026, THE FLW INFO CHG PART A-12, PAGE 1"
+      "eLine": "LLBG AIS/ARO/FMP UNIT RE-ESTABLISHED AND SEPARATED FM AD OPS CENTER, WEF 01 MAY 2026, THE FLW INFO CHG PART A-12, PAGE 1",
+      "validFrom": "2026-05-03T10:50Z",
+      "validTo": "2029-05-03T10:51Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "A0359/26",
       "location": "LLBG",
-      "eLine": "PREFERENTIAL DEP PROC AVBL H24, FLT NB VIA SID DAFNA, WB AVBL VIA SID SUVAS. SB AVBL VIA TOMAL, EB AVBL VIA SALAM,"
+      "eLine": "PREFERENTIAL DEP PROC AVBL H24, FLT NB VIA SID DAFNA, WB AVBL VIA SID SUVAS. SB AVBL VIA TOMAL, EB AVBL VIA SALAM,",
+      "validFrom": "2026-04-26T14:00Z",
+      "validTo": "2029-04-26T08:47Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "A0358/26",
       "location": "LLLL",
-      "eLine": "ATS RTE W13 AVBL H24 BTN TAPUZ-JILET-DAFNA BTN 12,000FT-FL325. AND BTN TAPUZ-JILET-DAFNA CDR1 BTN FL330-FL600, AS FLW SUN 2100(2000) - MON 0500(0400"
+      "eLine": "ATS RTE W13 AVBL H24 BTN TAPUZ-JILET-DAFNA BTN 12,000FT-FL325. AND BTN TAPUZ-JILET-DAFNA CDR1 BTN FL330-FL600, AS FLW SUN 2100(2000) - MON 0500(0400",
+      "validFrom": "2026-04-26T14:00Z",
+      "validTo": "2029-04-26T08:43Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0356/26",
       "location": "LLBG",
-      "eLine": "AD CLSD DUE WIP."
+      "eLine": "AD CLSD DUE WIP.",
+      "validFrom": "2026-07-24T15:00Z",
+      "validTo": "2026-07-24T19:55Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "A0353/26",
       "location": "LLBG",
-      "eLine": "AD CLSD DUE WIP."
+      "eLine": "AD CLSD DUE WIP.",
+      "validFrom": "2026-09-04T15:00Z",
+      "validTo": "2026-09-04T19:55Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "A0354/26",
       "location": "LLBG",
-      "eLine": "AD CLSD DUE WIP."
+      "eLine": "AD CLSD DUE WIP.",
+      "validFrom": "2026-10-16T15:00Z",
+      "validTo": "2026-10-16T19:55Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "A0350/26",
       "location": "LLBG",
-      "eLine": "CRANES ERECTED AT TEL-AVIV VITANYA PROJECT, LIT AND DAY MARKED. AN AREA WI 0.3NM RADIUS CLSD AS FLW PSN 320329.96N0344705.72E FM GND UP TO 172.7M AGL, 630FT AMSL."
+      "eLine": "CRANES ERECTED AT TEL-AVIV VITANYA PROJECT, LIT AND DAY MARKED. AN AREA WI 0.3NM RADIUS CLSD AS FLW PSN 320329.96N0344705.72E FM GND UP TO 172.7M AGL, 630FT AMSL.",
+      "validFrom": "2026-04-23T11:38Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "C0813/26",
       "location": "LLHZ",
-      "eLine": "TWR FREQ TEMPO CHG TO 125.600MHZ."
+      "eLine": "TWR FREQ TEMPO CHG TO 125.600MHZ.",
+      "validFrom": "2026-04-22T13:49Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Herzlia",
+      "dLine": ""
     },
     {
       "id": "A0340/26",
       "location": "LLHA",
-      "eLine": "ACFT STAND N33 CLSD, DUE WIP."
+      "eLine": "ACFT STAND N33 CLSD, DUE WIP.",
+      "validFrom": "2026-04-20T10:47Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Haifa",
+      "dLine": ""
     },
     {
       "id": "A0281/26",
       "location": "LLHA",
-      "eLine": "ACFT STAND J10 CLSD."
+      "eLine": "ACFT STAND J10 CLSD.",
+      "validFrom": "2026-03-25T11:46Z",
+      "validTo": "2029-03-25T11:49Z",
+      "airfield": "Haifa",
+      "dLine": ""
     },
     {
       "id": "C0458/26",
       "location": "LLIB",
-      "eLine": "OBST ERECTED WI LLIB AD PSN 325906.20N0353406.67E HGT 10M AGL, 50.5M FM CL, 167M SW OF THR RWY 15. LIT AND DAY MARKED."
+      "eLine": "OBST ERECTED WI LLIB AD PSN 325906.20N0353406.67E HGT 10M AGL, 50.5M FM CL, 167M SW OF THR RWY 15. LIT AND DAY MARKED.",
+      "validFrom": "2026-02-15T10:07Z",
+      "validTo": "2029-02-15T10:09Z",
+      "airfield": "Rosh-Pina",
+      "dLine": ""
     },
     {
       "id": "C0431/26",
       "location": "LLLL",
-      "eLine": "OPS OF UAS/UAV OR MODEL ACFT WI 500M RADIUS CENTERED ON PSN 320418N0344709.6E FM GND UP TO 300FT AMSL PROHIBITED. DOM AIP, PART A-17, PAGE 5, PARA 1A.C. AND NISPACH C. REF."
+      "eLine": "OPS OF UAS/UAV OR MODEL ACFT WI 500M RADIUS CENTERED ON PSN 320418N0344709.6E FM GND UP TO 300FT AMSL PROHIBITED. DOM AIP, PART A-17, PAGE 5, PARA 1A.C. AND NISPACH C. REF.",
+      "validFrom": "2026-02-11T11:25Z",
+      "validTo": "2029-02-11T11:28Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0156/26",
@@ -541,107 +965,191 @@
     {
       "id": "A0127/26",
       "location": "LLER",
-      "eLine": "LLER AIS/ARO UNIT PERM CLSD, WEF 01 FEB 2026. ALL AIS SER WILL BE PROVIDED BY LLBG AIS. THE FLW INFO INTO AIP COMPLETELY WITHDRAWN."
+      "eLine": "LLER AIS/ARO UNIT PERM CLSD, WEF 01 FEB 2026. ALL AIS SER WILL BE PROVIDED BY LLBG AIS. THE FLW INFO INTO AIP COMPLETELY WITHDRAWN.",
+      "validFrom": "2026-02-02T11:22Z",
+      "validTo": "2029-02-02T11:23Z",
+      "airfield": "Ramon",
+      "dLine": ""
     },
     {
       "id": "A0117/26",
       "location": "LLBG",
-      "eLine": "TWY W4 PCR 1,520/F/C/X/T. ISRAEL AIP, PART AD, CHART AD 2 LLBG ADC-1 REF."
+      "eLine": "TWY W4 PCR 1,520/F/C/X/T. ISRAEL AIP, PART AD, CHART AD 2 LLBG ADC-1 REF.",
+      "validFrom": "2026-01-29T16:39Z",
+      "validTo": "2029-01-29T16:41Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "A0116/26",
       "location": "LLBG",
-      "eLine": "RWY 08/26 PCR 880/F/C/X/T. ISRAEL AIP, PART AD, PAGE AD-2-LLBG-6, TABLE 2.12 REF."
+      "eLine": "RWY 08/26 PCR 880/F/C/X/T. ISRAEL AIP, PART AD, PAGE AD-2-LLBG-6, TABLE 2.12 REF.",
+      "validFrom": "2026-01-29T16:32Z",
+      "validTo": "2029-01-29T16:35Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "A0056/26",
       "location": "LLLL",
-      "eLine": "ATS RTE P42 BTN TAPUZ-MERVA AVBL BY ATC ONLY. ISRAEL AIP, PART ENR 3.1, PAGE ENR 3.1-17, CHART ENR 6-1 REF."
+      "eLine": "ATS RTE P42 BTN TAPUZ-MERVA AVBL BY ATC ONLY. ISRAEL AIP, PART ENR 3.1, PAGE ENR 3.1-17, CHART ENR 6-1 REF.",
+      "validFrom": "2026-01-25T08:05Z",
+      "validTo": "2029-01-25T08:07Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C0232/26",
       "location": "LLPL",
-      "eLine": "CTL TWR PHONE NR CHG AS FLW PRI 076-863-8322. SRI 076-863-8323."
+      "eLine": "CTL TWR PHONE NR CHG AS FLW PRI 076-863-8322. SRI 076-863-8323.",
+      "validFrom": "2026-01-21T11:43Z",
+      "validTo": "2029-01-21T11:45Z",
+      "airfield": "Palmachim AB",
+      "dLine": ""
     },
     {
       "id": "C0162/26",
       "location": "LLLL",
-      "eLine": "MIL ATC PHONE NR TEMPO CHG AS FLW HAGAV LOW-LEVEL 08-6502307. HAGAV FOR UAS/UAV 08-6502308 (ROKAK)."
+      "eLine": "MIL ATC PHONE NR TEMPO CHG AS FLW HAGAV LOW-LEVEL 08-6502307. HAGAV FOR UAS/UAV 08-6502308 (ROKAK).",
+      "validFrom": "2026-01-14T13:07Z",
+      "validTo": "2029-01-14T13:09Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C0090/26",
       "location": "LLLL",
-      "eLine": "OPS OF UAS WI TRG AREA/UAS BUBBLE OR WI CLOSURE DESIGNATED AS LOCAL FLIGHT AND EXEMPTED OF SUBMISSION FPL. OPR OF UAS SHALL GET APPROVAL FM ATC BFR TKOF."
+      "eLine": "OPS OF UAS WI TRG AREA/UAS BUBBLE OR WI CLOSURE DESIGNATED AS LOCAL FLIGHT AND EXEMPTED OF SUBMISSION FPL. OPR OF UAS SHALL GET APPROVAL FM ATC BFR TKOF.",
+      "validFrom": "2026-01-07T16:05Z",
+      "validTo": "2029-01-07T16:08Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C0037/26",
       "location": "LLLL",
-      "eLine": "OPS OF HOT-AIR BALLOON AT MOLEDET-CENTER WI 4.5KM RADIUS SEMI-CIRCLE TO EAST CENTERED ON PSN 323732.9N0352302.1E PROHIBITED."
+      "eLine": "OPS OF HOT-AIR BALLOON AT MOLEDET-CENTER WI 4.5KM RADIUS SEMI-CIRCLE TO EAST CENTERED ON PSN 323732.9N0352302.1E PROHIBITED.",
+      "validFrom": "2026-01-01T16:50Z",
+      "validTo": "2026-12-31T21:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C0035/26",
       "location": "LLLL",
-      "eLine": "AEROBATICS FLT WI LLHZ TRG AREA NR 12 PROHIBITED. DOM AIP, PART AD, PAGE LLHZ 14, PARA 24.D. REF."
+      "eLine": "AEROBATICS FLT WI LLHZ TRG AREA NR 12 PROHIBITED. DOM AIP, PART AD, PAGE LLHZ 14, PARA 24.D. REF.",
+      "validFrom": "2026-01-01T14:49Z",
+      "validTo": "2029-01-01T14:51Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C0032/26",
       "location": "LLLL",
-      "eLine": "AN AREA AT NAURA WI LLMG TRG AREA B-WEST WI 2.2KM RADIUS CENTERED ON PSN 323732.9N0352302.1E CLSD TO ALL FLT INCLUDING AGRICULTURE FLT, FM GND UP TO 10,000FT AMSL."
+      "eLine": "AN AREA AT NAURA WI LLMG TRG AREA B-WEST WI 2.2KM RADIUS CENTERED ON PSN 323732.9N0352302.1E CLSD TO ALL FLT INCLUDING AGRICULTURE FLT, FM GND UP TO 10,000FT AMSL.",
+      "validFrom": "2026-01-01T11:56Z",
+      "validTo": "2026-12-31T21:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C0017/26",
       "location": "LLEK",
-      "eLine": "MIL TRG AREA ATC FREQ CHG TO 129.050MHZ. DOM AIP, PART A-07, PAGE 4, PARA 12. REF."
+      "eLine": "MIL TRG AREA ATC FREQ CHG TO 129.050MHZ. DOM AIP, PART A-07, PAGE 4, PARA 12. REF.",
+      "validFrom": "2026-01-01T08:58Z",
+      "validTo": "2029-01-01T08:59Z",
+      "airfield": "Tel-Nof AB",
+      "dLine": ""
     },
     {
       "id": "C0014/26",
       "location": "LLFK",
-      "eLine": "AIRSTRIP OPR CHG TO HAREL ZEIRA 050-9254449. DOM AIP, PART AIRSTRIP, PAGE LLFK-1, PARA 4.B. REF."
+      "eLine": "AIRSTRIP OPR CHG TO HAREL ZEIRA 050-9254449. DOM AIP, PART AIRSTRIP, PAGE LLFK-1, PARA 4.B. REF.",
+      "validFrom": "2026-01-01T08:47Z",
+      "validTo": "2029-01-01T08:49Z",
+      "airfield": "Fiq (El-Al)",
+      "dLine": ""
     },
     {
       "id": "A0001/26",
       "location": "LLBG",
-      "eLine": "RWY 03/21 PCR 850/F/C/X/T. ISRAEL AIP, PART AD, PAGE AD-2-LLBG-6, TABLE 2.12 REF."
+      "eLine": "RWY 03/21 PCR 850/F/C/X/T. ISRAEL AIP, PART AD, PAGE AD-2-LLBG-6, TABLE 2.12 REF.",
+      "validFrom": "2026-01-01T08:34Z",
+      "validTo": "2029-01-01T08:37Z",
+      "airfield": "Ben-Gurion",
+      "dLine": ""
     },
     {
       "id": "C0013/26",
       "location": "LLMZ",
-      "eLine": "OPS HR ON FRI/HOL EVE AND SAT/HOL CHG TO 0800-1700LMT. DOM AIP, PART AIRSTRIP, PAGE LLMZ-1, PARA 6 REF."
+      "eLine": "OPS HR ON FRI/HOL EVE AND SAT/HOL CHG TO 0800-1700LMT. DOM AIP, PART AIRSTRIP, PAGE LLMZ-1, PARA 6 REF.",
+      "validFrom": "2026-01-01T08:33Z",
+      "validTo": "2029-01-01T08:35Z",
+      "airfield": "Metzada",
+      "dLine": ""
     },
     {
       "id": "C0010/26",
       "location": "LLLL",
-      "eLine": "UAS ACT WILL TAKE PLACE AT LATRUN. AN AREA BTN THE FLW PSNS N314945E0345822 N314949E0345806 N314936E0345743 N314910E0345813 CLSD FM GND UP TO"
+      "eLine": "UAS ACT WILL TAKE PLACE AT LATRUN. AN AREA BTN THE FLW PSNS N314945E0345822 N314949E0345806 N314936E0345743 N314910E0345813 CLSD FM GND UP TO",
+      "validFrom": "2026-01-01T06:40Z",
+      "validTo": "2029-01-01T06:43Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C0009/26",
       "location": "LLLL",
-      "eLine": "LLD42 DEAD SEA-DRONE POLIGON CHG AS FLW 310611N0352313E 310358N0352329E 310244N0352146E 310200N0352109E 310121N0352109E 310007N0352040E"
+      "eLine": "LLD42 DEAD SEA-DRONE POLIGON CHG AS FLW 310611N0352313E 310358N0352329E 310244N0352146E 310200N0352109E 310121N0352109E 310007N0352040E",
+      "validFrom": "2026-01-01T06:38Z",
+      "validTo": "2029-01-01T06:41Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C0005/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT OR-AKIVA INDUSTRY AREA. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 500FT AMSL N323122E0345511 N323119E0345512 N323119E0345515"
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT OR-AKIVA INDUSTRY AREA. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 500FT AMSL N323122E0345511 N323119E0345512 N323119E0345515",
+      "validFrom": "2026-01-01T06:30Z",
+      "validTo": "2029-01-01T06:33Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C0006/26",
       "location": "LLLL",
-      "eLine": "ULTRALIGHT BUBBLE ZVULUN NORTH (BZVUE) AVBL FOR ULTRALIGHT ACFT AND POWERED PARACHUTE ACCORDING CONDITIONS OF AIC 05/25. ON SUN-THU BTN SR-0900LMT FM GND UP TO 500FT AMSL."
+      "eLine": "ULTRALIGHT BUBBLE ZVULUN NORTH (BZVUE) AVBL FOR ULTRALIGHT ACFT AND POWERED PARACHUTE ACCORDING CONDITIONS OF AIC 05/25. ON SUN-THU BTN SR-0900LMT FM GND UP TO 500FT AMSL.",
+      "validFrom": "2026-01-01T06:31Z",
+      "validTo": "2029-01-01T06:33Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C0004/26",
       "location": "LLLL",
-      "eLine": "LLD44 REESTABLISHED BTN FLW PSN FM GND UP TO 2,000FT AMSL OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. 323910N0351040E 323936N0350910E 323923N0350757E"
+      "eLine": "LLD44 REESTABLISHED BTN FLW PSN FM GND UP TO 2,000FT AMSL OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. 323910N0351040E 323936N0350910E 323923N0350757E",
+      "validFrom": "2026-01-01T06:28Z",
+      "validTo": "2029-01-01T06:31Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "C0003/26",
       "location": "LLLL",
-      "eLine": "LLD41 ESTABLISHED BTN 2,000-8,000FT AMSL WI FLW PSN OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. 323714N0350517E 323649N0350505E 323608N0350410E"
+      "eLine": "LLD41 ESTABLISHED BTN 2,000-8,000FT AMSL WI FLW PSN OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. 323714N0350517E 323649N0350505E 323608N0350410E",
+      "validFrom": "2026-01-01T06:27Z",
+      "validTo": "2029-01-01T06:29Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     },
     {
       "id": "A0886/25",
       "location": "LLLL",
-      "eLine": "CHANGES TO THE SUBMITTED FLIGHT PLAN ALL CHANGES TO A FLIGHT PLAN SUBMITTED FOR AN IFR FLIGHT OR A CONTROLLED VFR FLIGHT SHALL BE"
+      "eLine": "CHANGES TO THE SUBMITTED FLIGHT PLAN ALL CHANGES TO A FLIGHT PLAN SUBMITTED FOR AN IFR FLIGHT OR A CONTROLLED VFR FLIGHT SHALL BE",
+      "validFrom": "2025-10-20T08:26Z",
+      "validTo": "2028-10-20T08:29Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": ""
     }
   ]
 }
