@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-13T07:26:42Z",
+  "fetchedAt": "2026-07-13T10:43:35Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -97,11 +97,6 @@
       "id": "C1478/26",
       "location": "LLLL",
       "eLine": "PJE WILL TAKE PLACE AT REVIVIM. AN AREA FM GND UP 2,400FT AMSL CLSD BTN FLW PSN 310712N0344550E 310511N0343920E 310455N0343655E"
-    },
-    {
-      "id": "C1477/26",
-      "location": "LLLL",
-      "eLine": "CVFR AND HEL RTE CLSD AT 1,200FT, AVBL BIDIRECTIONAL AT 800FT AMSL ONLY TYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD."
     },
     {
       "id": "C1476/26",
