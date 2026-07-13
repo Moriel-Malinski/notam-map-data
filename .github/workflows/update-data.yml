@@ -126,3 +126,24 @@ jobs:
             --body "Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
         env:
           GH_TOKEN: ${{ github.token }}
+
+      # Failure push: names the failed step (each step names its script, so
+      # this points at the broken file) and clicking the notification opens
+      # the full run log. Cannot fire when the workflow FILE itself is broken
+      # — a YAML parse error means no step ever runs.
+      - name: Push failure notification (ntfy)
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          STEP=$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/jobs" \
+            --jq '[.jobs[].steps[] | select(.conclusion=="failure")][0].name' 2>/dev/null)
+          RUN_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          curl -s --max-time 30 \
+            -H "Title: Data pipeline FAILED" \
+            -H "Tags: rotating_light" \
+            -H "Priority: high" \
+            -H "Click: ${RUN_URL}" \
+            -d "הצינור היומי נכשל בצעד: ${STEP:-לא ידוע}. לחיצה על ההתראה פותחת את הלוג המלא. ${RUN_URL}" \
+            "https://ntfy.sh/${NTFY_TOPIC}" > /dev/null || true

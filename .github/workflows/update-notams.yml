@@ -57,3 +57,31 @@ jobs:
             echo "could not push after 3 attempts" >&2
             exit 1
           fi
+
+      # Failure push with an anti-spam guard: this workflow runs every ~20
+      # minutes, so a persistent break (e.g. IAA changed the page structure)
+      # would otherwise buzz the phone 72 times a day. Notify only when the
+      # PREVIOUS completed run succeeded — i.e. on the first failure of a
+      # streak. Names the failed step and clicking opens the full run log.
+      - name: Push failure notification (ntfy, first failure only)
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          PREV=$(gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/update-notams.yml/runs?status=completed&per_page=2" \
+            --jq '[.workflow_runs[] | select(.id != '"${GITHUB_RUN_ID}"')][0].conclusion' 2>/dev/null)
+          if [ "$PREV" = "failure" ]; then
+            echo "Previous run also failed - already notified, staying quiet."
+            exit 0
+          fi
+          STEP=$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/jobs" \
+            --jq '[.jobs[].steps[] | select(.conclusion=="failure")][0].name' 2>/dev/null)
+          RUN_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          curl -s --max-time 30 \
+            -H "Title: NOTAM feed FAILED" \
+            -H "Tags: rotating_light" \
+            -H "Priority: high" \
+            -H "Click: ${RUN_URL}" \
+            -d "פיד הנוטאמים נכשל בצעד: ${STEP:-לא ידוע}. אם זה הצעד של fetch_notams.py — כנראה מבנה הדף של רת\"א השתנה. לחיצה פותחת את הלוג. ${RUN_URL}" \
+            "https://ntfy.sh/${NTFY_TOPIC}" > /dev/null || true
