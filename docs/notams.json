@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-13T13:41:51Z",
+  "fetchedAt": "2026-07-13T14:01:10Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -11,7 +11,9 @@
       "validTo": "2026-07-14T11:15Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "0700-0745 1030-1115",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1500/26",
@@ -21,7 +23,9 @@
       "validTo": "2026-07-14T11:15Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "DAILY 0700-0745 1030-1115",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1499/26",
@@ -31,7 +35,9 @@
       "validTo": "2026-07-14T11:15Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "DAILY 0700-0745 1030-1115",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0553/26",
@@ -41,7 +47,9 @@
       "validTo": "2026-07-14T10:00Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1493/26",
@@ -51,47 +59,57 @@
       "validTo": "2026-07-19T09:00Z",
       "airfield": "Rosh-Pina",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1491/26",
       "location": "LLLL",
-      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT TAYIBE. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 321457N0345933E CLSD FM GND UP TO 1,500FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ. F) GND G) 1500FT AMSL",
+      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT TAYIBE. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 321457N0345933E CLSD FM GND UP TO 1,500FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
       "validFrom": "2026-07-09T12:48Z",
       "validTo": "2026-07-21T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "1500FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C1490/26",
       "location": "LLLL",
-      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT SHFARAAM. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 324850N0351002E CLSD FM GND UP TO 1,900FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ. F) GND G) 1900FT AMSL",
+      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT SHFARAAM. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 324850N0351002E CLSD FM GND UP TO 1,900FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
       "validFrom": "2026-07-09T12:43Z",
       "validTo": "2026-07-19T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "1900FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C1487/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT TALMEI-BILU. AN AREA FM GND UP TO 150M, 1,000FT AMSL CLSD BTN FLW PSN 312543N0343847E 312544N0343910E 312334N0343920E 312334N0343857E. CTN ADZ. F) GND G) 1000FT AMSL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT TALMEI-BILU. AN AREA FM GND UP TO 150M, 1,000FT AMSL CLSD BTN FLW PSN 312543N0343847E 312544N0343910E 312334N0343920E 312334N0343857E. CTN ADZ.",
       "validFrom": "2026-07-14T02:20Z",
       "validTo": "2026-07-16T16:30Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "DAILY 0220-1630",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "1000FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C1486/26",
       "location": "LLLL",
-      "eLine": "PJE AIRSPACE METZADA ACT FM 8,000FT AMSL. OPR BY PPR FM ATC ONLY. F) GND G) 8000FT AMSL",
+      "eLine": "PJE AIRSPACE METZADA ACT FM 8,000FT AMSL. OPR BY PPR FM ATC ONLY.",
       "validFrom": "2026-07-16T11:00Z",
       "validTo": "2026-07-17T11:00Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "16 1100-1715, 17 0600-1100",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "8000FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "A0550/26",
@@ -101,7 +119,9 @@
       "validTo": "2026-07-20T09:00Z",
       "airfield": "Ramon",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0549/26",
@@ -111,7 +131,9 @@
       "validTo": "2026-07-20T12:00Z",
       "airfield": "Ramon",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1484/26",
@@ -121,7 +143,9 @@
       "validTo": "2026-07-15T14:00Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "12 1400-1500 1730-1830, 15 0600-0700 1300-1400",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1483/26",
@@ -131,7 +155,9 @@
       "validTo": "2026-07-15T14:00Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "12 1400-1500 1730-1830, 15 0600-0700 1300-1400",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0545/26",
@@ -141,7 +167,9 @@
       "validTo": "2026-07-16T02:00Z",
       "airfield": "Ramon",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0544/26",
@@ -151,37 +179,33 @@
       "validTo": "2026-07-18T02:00Z",
       "airfield": "Ramon",
       "dLine": "12-14 16-17 DAILY 1900-0200",
-      "detailsV": 2
-    },
-    {
-      "id": "C1478/26",
-      "location": "LLLL",
-      "eLine": "PJE WILL TAKE PLACE AT REVIVIM. AN AREA FM GND UP 2,400FT AMSL CLSD BTN FLW PSN 310712N0344550E 310511N0343920E 310455N0343655E 305931N0343815E 310035N0344409E 310359N0344720E 310712N0344550E. OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC CTN ADZ. F) GND G) 2400FT AMSL",
-      "validFrom": "2026-07-12T07:30Z",
-      "validTo": "2026-07-13T13:50Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "12 0730-0900 1715-1845, 13 1220-1350",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1476/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E CLSD FM GND UP TO 3,700FT AMSL. CTN ADZ. F) GND G) 3700FT AMSL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E CLSD FM GND UP TO 3,700FT AMSL. CTN ADZ.",
       "validFrom": "2026-07-12T03:00Z",
       "validTo": "2026-07-16T14:30Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "DAILY 0300-1430",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "3700FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C1472/26",
       "location": "LLLL",
-      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT TAMRAH. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 325058N0351056E CLSD FM GND UP TO 1,900FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ. F) GND G) 1900FT AMSL",
+      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT TAMRAH. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 325058N0351056E CLSD FM GND UP TO 1,900FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
       "validFrom": "2026-07-07T00:01Z",
       "validTo": "2026-07-14T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "1900FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "A0538/26",
@@ -191,7 +215,9 @@
       "validTo": "2027-08-05T10:54Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1468/26",
@@ -201,7 +227,9 @@
       "validTo": "2027-08-05T10:54Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0537/26",
@@ -211,7 +239,9 @@
       "validTo": "2026-08-19T23:59Z",
       "airfield": "Haifa",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0536/26",
@@ -221,7 +251,9 @@
       "validTo": "2026-08-19T23:59Z",
       "airfield": "Ramon",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0535/26",
@@ -231,7 +263,9 @@
       "validTo": "2026-08-19T23:59Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0534/26",
@@ -241,7 +275,9 @@
       "validTo": "2026-08-19T23:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1467/26",
@@ -251,7 +287,9 @@
       "validTo": "2026-08-19T23:59Z",
       "airfield": "Haddassah Hospital",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1466/26",
@@ -261,7 +299,9 @@
       "validTo": "2026-08-19T23:59Z",
       "airfield": "Kiryat-Shmona",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1465/26",
@@ -271,7 +311,9 @@
       "validTo": "2026-08-19T23:59Z",
       "airfield": "Metzada",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1464/26",
@@ -281,7 +323,9 @@
       "validTo": "2026-08-19T23:59Z",
       "airfield": "Fiq (El-Al)",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1463/26",
@@ -291,7 +335,9 @@
       "validTo": "2026-08-19T23:59Z",
       "airfield": "Eyn-Yahav",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1462/26",
@@ -301,7 +347,9 @@
       "validTo": "2026-08-19T23:59Z",
       "airfield": "Habonim",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1461/26",
@@ -311,7 +359,9 @@
       "validTo": "2026-08-19T23:59Z",
       "airfield": "Rosh-Pina",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1460/26",
@@ -321,7 +371,9 @@
       "validTo": "2026-08-19T23:59Z",
       "airfield": "Haifa",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1459/26",
@@ -331,7 +383,9 @@
       "validTo": "2026-08-19T23:59Z",
       "airfield": "Herzlia",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1458/26",
@@ -341,7 +395,9 @@
       "validTo": "2026-08-19T23:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0533/26",
@@ -351,7 +407,9 @@
       "validTo": "2026-07-26T10:00Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0531/26",
@@ -361,7 +419,9 @@
       "validTo": "2026-08-18T08:00Z",
       "airfield": "Ben-Gurion",
       "dLine": "DAILY 0400-0800",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0529/26",
@@ -371,7 +431,9 @@
       "validTo": "2026-07-23T08:00Z",
       "airfield": "Ben-Gurion",
       "dLine": "DAILY 0400-0800",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0530/26",
@@ -381,7 +443,9 @@
       "validTo": "2026-08-05T08:00Z",
       "airfield": "Ben-Gurion",
       "dLine": "DAILY 0400-0800",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0526/26",
@@ -391,7 +455,9 @@
       "validTo": "2026-08-05T08:00Z",
       "airfield": "Ben-Gurion",
       "dLine": "DAILY 0400-0800",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0527/26",
@@ -401,7 +467,9 @@
       "validTo": "2026-08-18T08:00Z",
       "airfield": "Ben-Gurion",
       "dLine": "DAILY 0400-0800",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0525/26",
@@ -411,37 +479,45 @@
       "validTo": "2026-07-23T08:00Z",
       "airfield": "Ben-Gurion",
       "dLine": "DAILY 0400-0800",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1434/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT KFAR-HAMACABIYA WI LLBG CTR, FM GND UP TO 100M AGL, BTN FLW PSN 320311N0344907E 320325N0344914E 320339N0344932E 320337N0344953E 320328N0345004E 320315N0345005E 320303N0344959E 320255N0344950E 320253N0344937E 320258N0344917E CTN ADZ. F) GND G) 830FT AMSL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT KFAR-HAMACABIYA WI LLBG CTR, FM GND UP TO 100M AGL, BTN FLW PSN 320311N0344907E 320325N0344914E 320339N0344932E 320337N0344953E 320328N0345004E 320315N0345005E 320303N0344959E 320255N0344950E 320253N0344937E 320258N0344917E CTN ADZ.",
       "validFrom": "2026-07-01T00:01Z",
       "validTo": "2026-07-24T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "830FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C1412/26",
       "location": "LLLL",
-      "eLine": "FRNG WILL TAKE PLACE AT RAMAT-BEKA WI LLP14. AN AREA BTN THE FLW PSN 310542N0345314E 310541N0345352E 310509N0345351E 310453N0345313E CLSD FM GND UP TO 12,000FT AMSL. CTN ADZ. F) GND G) 12000FT AMSL",
+      "eLine": "FRNG WILL TAKE PLACE AT RAMAT-BEKA WI LLP14. AN AREA BTN THE FLW PSN 310542N0345314E 310541N0345352E 310509N0345351E 310453N0345313E CLSD FM GND UP TO 12,000FT AMSL. CTN ADZ.",
       "validFrom": "2026-07-01T05:00Z",
       "validTo": "2026-07-30T15:00Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "SUN-THU 0500-1500",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "12000FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C1405/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT KESARYA UP TO 100M AGL, AN AREA WI 0.8NM RADIUS CENTERED ON PSN 322941N0345439E CLSD FM GND UP TO 500FT AMSL. CTN ADZ. F) GND G) 500FT AMSL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT KESARYA UP TO 100M AGL, AN AREA WI 0.8NM RADIUS CENTERED ON PSN 322941N0345439E CLSD FM GND UP TO 500FT AMSL. CTN ADZ.",
       "validFrom": "2026-07-01T19:00Z",
       "validTo": "2026-08-01T02:15Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "DAILY 1900-0215",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "500FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "A0511/26",
@@ -451,7 +527,9 @@
       "validTo": "2026-07-31T23:59Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0508/26",
@@ -461,7 +539,9 @@
       "validTo": "2026-07-31T23:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0509/26",
@@ -471,7 +551,9 @@
       "validTo": "2026-07-31T23:59Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0510/26",
@@ -481,7 +563,9 @@
       "validTo": "2026-07-31T23:59Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0506/26",
@@ -491,7 +575,9 @@
       "validTo": "2026-07-31T23:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0507/26",
@@ -501,7 +587,9 @@
       "validTo": "2026-07-31T23:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1399/26",
@@ -511,7 +599,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Rosh-Pina",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1398/26",
@@ -521,7 +611,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0505/26",
@@ -531,7 +623,9 @@
       "validTo": "2026-07-31T23:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1397/26",
@@ -541,7 +635,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Rishon Letzion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1396/26",
@@ -551,7 +647,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Meggido",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1394/26",
@@ -561,7 +659,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1395/26",
@@ -571,7 +671,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Gvuloth",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1391/26",
@@ -581,7 +683,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1392/26",
@@ -591,7 +695,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1393/26",
@@ -601,7 +707,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1388/26",
@@ -611,7 +719,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1389/26",
@@ -621,7 +731,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1390/26",
@@ -631,7 +743,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1384/26",
@@ -641,7 +755,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1385/26",
@@ -651,7 +767,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1386/26",
@@ -661,7 +779,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1387/26",
@@ -671,37 +791,45 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1361/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT ASHDOD, FM GND UP TO 100M AGL. AN AREA BTN FLW PSN CLSD FM GND UP TO 950FT AMSL 315119N0344122E 315127N0344037E 315123N0344007E 315132N0343931E 315055N0343917E 315038N0344013E 315035N0344120E. CTN ADZ. F) GND G) 950FT AMSL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT ASHDOD, FM GND UP TO 100M AGL. AN AREA BTN FLW PSN CLSD FM GND UP TO 950FT AMSL 315119N0344122E 315127N0344037E 315123N0344007E 315132N0343931E 315055N0343917E 315038N0344013E 315035N0344120E. CTN ADZ.",
       "validFrom": "2026-07-01T00:01Z",
       "validTo": "2026-12-31T21:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "950FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C1359/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT PARK-REEM. AN AREA WI 0.5NM RADIUS CENTERED ON PSN 314633N0344520E CLSD FM GND UP TO 25M AGL 300FT AMSL. OPS AVBL WITH PPR FM ATC ONLY. CTN ADZ. F) GND G) 300FT AMSL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT PARK-REEM. AN AREA WI 0.5NM RADIUS CENTERED ON PSN 314633N0344520E CLSD FM GND UP TO 25M AGL 300FT AMSL. OPS AVBL WITH PPR FM ATC ONLY. CTN ADZ.",
       "validFrom": "2026-07-01T00:01Z",
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "300FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C1358/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT DALIA/TZAFIT, WI ULTRALIGHT BUBBLE GOVRIN SOUTH (BGOVS) UP TO 100M AGL. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,400FT AMSL 314353N0345038E 314339N0345010E 314221N0344925E 314150N0345023E 314222N0345118E 314323N0345123E. CTN ADZ. F) GND G) 1400FT AMSL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT DALIA/TZAFIT, WI ULTRALIGHT BUBBLE GOVRIN SOUTH (BGOVS) UP TO 100M AGL. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,400FT AMSL 314353N0345038E 314339N0345010E 314221N0344925E 314150N0345023E 314222N0345118E 314323N0345123E. CTN ADZ.",
       "validFrom": "2026-06-25T06:29Z",
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "1400FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "A0500/26",
@@ -711,7 +839,9 @@
       "validTo": "2026-08-31T23:59Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0501/26",
@@ -721,7 +851,9 @@
       "validTo": "2026-08-31T23:59Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0497/26",
@@ -731,7 +863,9 @@
       "validTo": "2026-08-31T23:59Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0498/26",
@@ -741,7 +875,9 @@
       "validTo": "2026-08-31T23:59Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0499/26",
@@ -751,27 +887,33 @@
       "validTo": "2026-08-31T23:59Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1348/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT MAGEN-SHAUL, UP TO 100M AGL. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,500FT AMSL 323145N0351642E 323024N0351638E 323039N0352004E 323139N0351954E 323153N0351930E 323159N0351907E CTN ADZ. F) GND G) 1500FT AMSL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT MAGEN-SHAUL, UP TO 100M AGL. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,500FT AMSL 323145N0351642E 323024N0351638E 323039N0352004E 323139N0351954E 323153N0351930E 323159N0351907E CTN ADZ.",
       "validFrom": "2026-07-01T00:01Z",
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "1500FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C1345/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT SEGULA JUNCTION, WI 0.65NM RADIUS CENTERED ON PSN 320612N0345420E FM GND UP TO 300FT AMSL. CTN ADZ. F) GND G) 300FT AMSL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT SEGULA JUNCTION, WI 0.65NM RADIUS CENTERED ON PSN 320612N0345420E FM GND UP TO 300FT AMSL. CTN ADZ.",
       "validFrom": "2026-07-01T00:01Z",
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "300FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C1328/26",
@@ -781,27 +923,33 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Rosh-Pina",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1313/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT EITANIM-HOSPITAL. AN AREA WI 500M RADIUS CENTERED ON PSN 314643N0350539E FM GND UP TO 100M AGL, 2,800FT AMSL CLSD TO ALL FLT INCLUDING AGRICULTURE FLT. XNG CLOSURE BY PPR FM FLW ALON KLOSS 052-9459432, HATEM SAAD 052-5582412, 04-9523999. CTN ADZ. F) GND G) 2800FT AMSL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT EITANIM-HOSPITAL. AN AREA WI 500M RADIUS CENTERED ON PSN 314643N0350539E FM GND UP TO 100M AGL, 2,800FT AMSL CLSD TO ALL FLT INCLUDING AGRICULTURE FLT. XNG CLOSURE BY PPR FM FLW ALON KLOSS 052-9459432, HATEM SAAD 052-5582412, 04-9523999. CTN ADZ.",
       "validFrom": "2026-06-17T12:35Z",
       "validTo": "2026-07-31T15:00Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "DAILY 0500-1500",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "2800FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C1284/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT NESHER WI LLHA CTR FM GND UP TO 460M AGL 1,510FT AMSL, BTN FLW PSN 324637N0350134E 324629N0350037E 324552N0350043E 324514N0350131E 324513N0350243E 324559N0350245E 324617N0350207E. CTN ADZ. F) GND G) 1500FT AMSL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT NESHER WI LLHA CTR FM GND UP TO 460M AGL 1,510FT AMSL, BTN FLW PSN 324637N0350134E 324629N0350037E 324552N0350043E 324514N0350131E 324513N0350243E 324559N0350245E 324617N0350207E. CTN ADZ.",
       "validFrom": "2026-06-15T13:32Z",
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "1500FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C1281/26",
@@ -811,7 +959,9 @@
       "validTo": "2029-06-15T11:49Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0475/26",
@@ -821,7 +971,9 @@
       "validTo": "2026-09-30T20:59Z",
       "airfield": "Haifa",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0471/26",
@@ -831,7 +983,9 @@
       "validTo": "2026-08-31T20:59Z",
       "airfield": "Haifa",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0467/26",
@@ -841,7 +995,9 @@
       "validTo": "2026-09-10T23:59Z",
       "airfield": "Ramon",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1244/26",
@@ -851,7 +1007,9 @@
       "validTo": "2026-09-10T23:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0457/26",
@@ -861,7 +1019,9 @@
       "validTo": "2029-06-08T05:32Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1171/26",
@@ -871,7 +1031,9 @@
       "validTo": "2026-07-22T23:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0444/26",
@@ -881,7 +1043,9 @@
       "validTo": "2026-07-22T23:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0434/26",
@@ -891,7 +1055,9 @@
       "validTo": "2026-08-31T20:59Z",
       "airfield": "Nevatim AB",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0433/26",
@@ -901,17 +1067,21 @@
       "validTo": "2026-08-31T20:59Z",
       "airfield": "Nevatim AB",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C1116/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT BELINSON-HOSPITAL, BTN FLW PSN FM GND UP TO 300FT AMSL 320545N0345149E 320536N0345134E 320507N0345130E 320458N0345138E 320453N0345206E 320459N0345220E 320529N0345227E 320542N0345218E. OPS OF HEL BY PPR FM HELIPAD OPR (LLBL). CTN ADZ. F) GND G) 300FT AMSL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT BELINSON-HOSPITAL, BTN FLW PSN FM GND UP TO 300FT AMSL 320545N0345149E 320536N0345134E 320507N0345130E 320458N0345138E 320453N0345206E 320459N0345220E 320529N0345227E 320542N0345218E. OPS OF HEL BY PPR FM HELIPAD OPR (LLBL). CTN ADZ.",
       "validFrom": "2026-06-01T00:01Z",
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "300FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "A0409/26",
@@ -921,7 +1091,9 @@
       "validTo": "2026-08-31T20:59Z",
       "airfield": "Haifa",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0395/26",
@@ -931,7 +1103,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Haifa",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0388/26",
@@ -941,7 +1115,9 @@
       "validTo": "2029-05-04T09:45Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C0953/26",
@@ -951,7 +1127,9 @@
       "validTo": "2029-05-03T10:51Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0359/26",
@@ -961,7 +1139,9 @@
       "validTo": "2029-04-26T08:47Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0358/26",
@@ -971,7 +1151,9 @@
       "validTo": "2029-04-26T08:43Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0356/26",
@@ -981,7 +1163,9 @@
       "validTo": "2026-07-24T19:55Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0353/26",
@@ -991,7 +1175,9 @@
       "validTo": "2026-09-04T19:55Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0354/26",
@@ -1001,7 +1187,9 @@
       "validTo": "2026-10-16T19:55Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0350/26",
@@ -1011,7 +1199,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C0813/26",
@@ -1021,7 +1211,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Herzlia",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0340/26",
@@ -1031,7 +1223,9 @@
       "validTo": "2026-07-31T20:59Z",
       "airfield": "Haifa",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0281/26",
@@ -1041,7 +1235,9 @@
       "validTo": "2029-03-25T11:49Z",
       "airfield": "Haifa",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C0458/26",
@@ -1051,27 +1247,33 @@
       "validTo": "2029-02-15T10:09Z",
       "airfield": "Rosh-Pina",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C0431/26",
       "location": "LLLL",
-      "eLine": "OPS OF UAS/UAV OR MODEL ACFT WI 500M RADIUS CENTERED ON PSN 320418N0344709.6E FM GND UP TO 300FT AMSL PROHIBITED. DOM AIP, PART A-17, PAGE 5, PARA 1A.C. AND NISPACH C. REF. F) GND G) 300FT AMSL",
+      "eLine": "OPS OF UAS/UAV OR MODEL ACFT WI 500M RADIUS CENTERED ON PSN 320418N0344709.6E FM GND UP TO 300FT AMSL PROHIBITED. DOM AIP, PART A-17, PAGE 5, PARA 1A.C. AND NISPACH C. REF.",
       "validFrom": "2026-02-11T11:25Z",
       "validTo": "2029-02-11T11:28Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "300FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "A0156/26",
       "location": "LLLL",
-      "eLine": "LLR01 ACTIVATED H24, XNG MERVA NOT AVBL EXC BY ATC. TFC TO/FM LLHA AVBL VIA MERVA BIDIRECTIONAL AT 5,000FT AMSL. ISRAEL AIP, PART ENR 5.1, PAGE ENR 5.1-3, PARA 2, CHART ENR 6-1 REF. F) 7000FT AMSL G) 40000FT AMSL",
+      "eLine": "LLR01 ACTIVATED H24, XNG MERVA NOT AVBL EXC BY ATC. TFC TO/FM LLHA AVBL VIA MERVA BIDIRECTIONAL AT 5,000FT AMSL. ISRAEL AIP, PART ENR 5.1, PAGE ENR 5.1-3, PARA 2, CHART ENR 6-1 REF.",
       "validFrom": "2026-02-05T08:42Z",
       "validTo": "2029-02-05T08:43Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "7000FT AMSL",
+      "upperLimit": "40000FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "A0127/26",
@@ -1081,7 +1283,9 @@
       "validTo": "2029-02-02T11:23Z",
       "airfield": "Ramon",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0117/26",
@@ -1091,7 +1295,9 @@
       "validTo": "2029-01-29T16:41Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0116/26",
@@ -1101,7 +1307,9 @@
       "validTo": "2029-01-29T16:35Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0056/26",
@@ -1111,7 +1319,9 @@
       "validTo": "2029-01-25T08:07Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C0232/26",
@@ -1121,7 +1331,9 @@
       "validTo": "2029-01-21T11:45Z",
       "airfield": "Palmachim AB",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C0162/26",
@@ -1131,7 +1343,9 @@
       "validTo": "2029-01-14T13:09Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C0090/26",
@@ -1141,7 +1355,9 @@
       "validTo": "2029-01-07T16:08Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C0037/26",
@@ -1151,7 +1367,9 @@
       "validTo": "2026-12-31T21:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C0035/26",
@@ -1161,7 +1379,9 @@
       "validTo": "2029-01-01T14:51Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C0032/26",
@@ -1171,7 +1391,9 @@
       "validTo": "2026-12-31T21:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C0017/26",
@@ -1181,7 +1403,9 @@
       "validTo": "2029-01-01T08:59Z",
       "airfield": "Tel-Nof AB",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C0014/26",
@@ -1191,7 +1415,9 @@
       "validTo": "2029-01-01T08:49Z",
       "airfield": "Fiq (El-Al)",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0001/26",
@@ -1201,7 +1427,9 @@
       "validTo": "2029-01-01T08:37Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C0013/26",
@@ -1211,37 +1439,45 @@
       "validTo": "2029-01-01T08:35Z",
       "airfield": "Metzada",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C0010/26",
       "location": "LLLL",
-      "eLine": "UAS ACT WILL TAKE PLACE AT LATRUN. AN AREA BTN THE FLW PSNS N314945E0345822 N314949E0345806 N314936E0345743 N314910E0345813 CLSD FM GND UP TO 300FT AGL, 950FT AMSL. CTN ADZ. DOM AIP, PART B-03, CHART A, B-08, CHART A. REF. F) GND G) 1000FT AMSL",
+      "eLine": "UAS ACT WILL TAKE PLACE AT LATRUN. AN AREA BTN THE FLW PSNS N314945E0345822 N314949E0345806 N314936E0345743 N314910E0345813 CLSD FM GND UP TO 300FT AGL, 950FT AMSL. CTN ADZ. DOM AIP, PART B-03, CHART A, B-08, CHART A. REF.",
       "validFrom": "2026-01-01T06:40Z",
       "validTo": "2029-01-01T06:43Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "1000FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C0009/26",
       "location": "LLLL",
-      "eLine": "LLD42 DEAD SEA-DRONE POLIGON CHG AS FLW 310611N0352313E 310358N0352329E 310244N0352146E 310200N0352109E 310121N0352109E 310007N0352040E 305948N0352055E 305940N0352116E 305805N0352121E 305747N0352118E 305738N0352124E 305727N0352151E 305744N0352455E 305800N0352514E 310241N0352539E 310441N0352656E 310526N0352647E 310642N0352430E 310647N0352335E 310637N0352316E. CTN ADZ. DOM AIP, PART A-17, PAGE 10, PARA 3.12, PAGE 19, TABLE, CHART A. REF. F) GND G) 100FT AMSL",
+      "eLine": "LLD42 DEAD SEA-DRONE POLIGON CHG AS FLW 310611N0352313E 310358N0352329E 310244N0352146E 310200N0352109E 310121N0352109E 310007N0352040E 305948N0352055E 305940N0352116E 305805N0352121E 305747N0352118E 305738N0352124E 305727N0352151E 305744N0352455E 305800N0352514E 310241N0352539E 310441N0352656E 310526N0352647E 310642N0352430E 310647N0352335E 310637N0352316E. CTN ADZ. DOM AIP, PART A-17, PAGE 10, PARA 3.12, PAGE 19, TABLE, CHART A. REF.",
       "validFrom": "2026-01-01T06:38Z",
       "validTo": "2029-01-01T06:41Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "100FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C0005/26",
       "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT OR-AKIVA INDUSTRY AREA. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 500FT AMSL N323122E0345511 N323119E0345512 N323119E0345515 N323123E0345514. CTN ADZ. DOM AIP, PART A-17, PAGE 10, PARA 3. NISPACH 2 REF. F) GND G) 500FT AMSL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT OR-AKIVA INDUSTRY AREA. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 500FT AMSL N323122E0345511 N323119E0345512 N323119E0345515 N323123E0345514. CTN ADZ. DOM AIP, PART A-17, PAGE 10, PARA 3. NISPACH 2 REF.",
       "validFrom": "2026-01-01T06:30Z",
       "validTo": "2029-01-01T06:33Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "500FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C0006/26",
@@ -1251,27 +1487,33 @@
       "validTo": "2029-01-01T06:33Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "C0004/26",
       "location": "LLLL",
-      "eLine": "LLD44 REESTABLISHED BTN FLW PSN FM GND UP TO 2,000FT AMSL OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. 323910N0351040E 323936N0350910E 323923N0350757E 323711N0350540E 323603N0350541E 323456N0351004E 323552N0351037E. CTN ADZ. DOM AIP, PART A-17, PAGE 10, PARA 3.12/13, PAGE 19, TABLE., CHART A. REF. F) GND G) 2000FT AMSL",
+      "eLine": "LLD44 REESTABLISHED BTN FLW PSN FM GND UP TO 2,000FT AMSL OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. 323910N0351040E 323936N0350910E 323923N0350757E 323711N0350540E 323603N0350541E 323456N0351004E 323552N0351037E. CTN ADZ. DOM AIP, PART A-17, PAGE 10, PARA 3.12/13, PAGE 19, TABLE., CHART A. REF.",
       "validFrom": "2026-01-01T06:28Z",
       "validTo": "2029-01-01T06:31Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "GND",
+      "upperLimit": "2000FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "C0003/26",
       "location": "LLLL",
-      "eLine": "LLD41 ESTABLISHED BTN 2,000-8,000FT AMSL WI FLW PSN OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. 323714N0350517E 323649N0350505E 323608N0350410E 323421N0350411E 323315N0350832E 323502N0350911E 323601N0350534E 323713N0350531E. CTN ADZ. DOM AIP, PART A-17, PAGE 10, PARA 3.12/13, PAGE 19, TABLE., CHART A. REF. F) 2000FT AMSL G) 8000FT AMSL",
+      "eLine": "LLD41 ESTABLISHED BTN 2,000-8,000FT AMSL WI FLW PSN OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. 323714N0350517E 323649N0350505E 323608N0350410E 323421N0350411E 323315N0350832E 323502N0350911E 323601N0350534E 323713N0350531E. CTN ADZ. DOM AIP, PART A-17, PAGE 10, PARA 3.12/13, PAGE 19, TABLE., CHART A. REF.",
       "validFrom": "2026-01-01T06:27Z",
       "validTo": "2029-01-01T06:29Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "2000FT AMSL",
+      "upperLimit": "8000FT AMSL",
+      "detailsV": 3
     },
     {
       "id": "A0886/25",
@@ -1281,7 +1523,9 @@
       "validTo": "2028-10-20T08:29Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "detailsV": 2
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     }
   ]
 }

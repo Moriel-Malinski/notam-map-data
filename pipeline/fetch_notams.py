@@ -63,11 +63,19 @@ DETAIL_DELAY_S = 0.4
 # Fields filled by a successful details postback. eLine is special: the list
 # page truncates long messages after ~3 lines (cutting polygon coordinates!),
 # so the details' full E-line replaces the truncated list one.
-DETAIL_KEYS = ("validFrom", "validTo", "airfield", "dLine", "eLine")
+DETAIL_KEYS = (
+    "validFrom",
+    "validTo",
+    "airfield",
+    "dLine",
+    "lowerLimit",
+    "upperLimit",
+    "eLine",
+)
 
 # Stamped on every detailed NOTAM. Bump when parse_details_xml starts
 # extracting more, so already-published NOTAMs get re-detailed once.
-DETAILS_VERSION = 2
+DETAILS_VERSION = 3
 
 
 def _clean(text: str) -> str:
@@ -139,18 +147,27 @@ def parse_details_xml(xml_str: str) -> dict | None:
         "validTo": _iso_from_notam_stamp(root.get("ToDate", "")),
         "airfield": (root.get("Airfield") or "").strip(),
         "dLine": d_line,
+        "lowerLimit": "",
+        "upperLimit": "",
         "detailsV": DETAILS_VERSION,
     }
-    # Full E-line: the E) entry plus every continuation line after it. The
-    # list page shows only the first ~3 lines, so this is the one complete
-    # copy of the message (long coordinate lists live in the tail).
+    # Full message tail: the E) entry plus every continuation line after it.
+    # The list page shows only the first ~3 lines, so this is the one
+    # complete copy (long coordinate lists live in the tail).
     e_index = next((i for i, t in enumerate(texts) if t.startswith("E)")), None)
     if e_index is not None:
-        full = _clean(" ".join(texts[e_index:]))
-        full = re.sub(r"^E\)\s*", "", full)
-        full = re.sub(r"\)\s*$", "", full).strip()
-        if full:
-            details["eLine"] = full
+        tail = _clean(" ".join(texts[e_index:]))
+        # Split off the F)/G) vertical-limits block if present, so it becomes
+        # structured fields instead of noise glued to the message text.
+        fg = re.search(r"\bF\)\s*(.*?)\s*(?:G\)\s*(.*))?$", tail)
+        if fg and (fg.group(1) or fg.group(2)):
+            details["lowerLimit"] = (fg.group(1) or "").strip().rstrip(")").strip()
+            details["upperLimit"] = (fg.group(2) or "").strip().rstrip(")").strip()
+            tail = tail[: fg.start()].strip()
+        e_text = re.sub(r"^E\)\s*", "", tail)
+        e_text = re.sub(r"\)\s*$", "", e_text).strip()
+        if e_text:
+            details["eLine"] = e_text
     return details
 
 

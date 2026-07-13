@@ -80,9 +80,28 @@ def test_details_script_extraction_and_parsing():
         "validTo": "2026-07-14T11:15Z",
         "airfield": "Tel-Aviv FIR",
         "dLine": "0700-0745 1030-1115",
-        "detailsV": 2,
+        "lowerLimit": "",
+        "upperLimit": "",
+        "detailsV": 3,
         "eLine": "TEMPORARY RESTRICTED AREA ACTIVE.",
     }
+
+
+def test_fg_vertical_limits_become_fields_and_leave_eline():
+    details = parse_details_xml(
+        '<Msg MsgNumber="5" NotamID="C1486/26" Location="LLLL" Airfield="X" '
+        'FromDate="202607161100" ToDate="202607171100">'
+        "<MsgText>D) 16 1100-1715, 17 0600-1100</MsgText>"
+        "<MsgText>E) PJE AIRSPACE METZADA ACT FM 8,000FT AMSL.</MsgText>"
+        "<MsgText>OPR BY PPR FM ATC ONLY.</MsgText>"
+        "<MsgText>F) GND G) 8000FT AMSL)</MsgText></Msg>"
+    )
+    assert details["dLine"] == "16 1100-1715, 17 0600-1100"
+    assert details["lowerLimit"] == "GND"
+    assert details["upperLimit"] == "8000FT AMSL"
+    assert details["eLine"] == (
+        "PJE AIRSPACE METZADA ACT FM 8,000FT AMSL. OPR BY PPR FM ATC ONLY."
+    )
 
 
 def test_full_e_line_joins_continuation_lines():
@@ -102,6 +121,7 @@ def test_full_e_line_joins_continuation_lines():
         "AN AREA CLSD TO ALL FLT BTN FLW PSN 321945N0345710E 322136N0345736E "
         "322107N0345856E 322019N0350115E 321821N0350039E. CTN ADZ."
     )
+    assert details["lowerLimit"] == "" and details["upperLimit"] == ""
 
 
 def test_permanent_notam_dates_become_null():
