@@ -1,32 +1,8 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-13T14:36:43Z",
+  "fetchedAt": "2026-07-13T16:03:04Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
-    {
-      "id": "A0555/26",
-      "location": "LLLL",
-      "eLine": "ATS RTE J14 CLSD BTN ZACCI-MEGID.",
-      "validFrom": "2026-07-14T16:00Z",
-      "validTo": "2026-07-15T01:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1502/26",
-      "location": "LLLL",
-      "eLine": "AN AREA WI 1.5NM RADIUS CENTERED ON PSN 323256N0351645E CLSD FM GND UP TO 2,500FT AMSL TO ALL FLT, INCLUDING AGRICULTURE FLT. CTN ADZ.",
-      "validFrom": "2026-07-14T16:00Z",
-      "validTo": "2026-07-15T01:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
     {
       "id": "A0554/26",
       "location": "LLLL",
