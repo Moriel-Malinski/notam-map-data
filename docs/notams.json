@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-13T10:43:35Z",
+  "fetchedAt": "2026-07-13T13:07:57Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -22,21 +22,6 @@
       "id": "A0553/26",
       "location": "LLLL",
       "eLine": "VOR/DME NAT FREQ 112.400MHZ WITHDRAWN FOR MAINT."
-    },
-    {
-      "id": "A0551/26",
-      "location": "LLLL",
-      "eLine": "ATS RTE J14 CLSD BTN NAT-ZACCI."
-    },
-    {
-      "id": "C1497/26",
-      "location": "LLLL",
-      "eLine": "AN AREA WI HASHARON-SOUTH BUBBLE CLSD FM GND UP TO 1,500FT AMSL BTN FLW PSN 321945N0345710E 322136N0345736E 322107N0345856E 322019N0350115E"
-    },
-    {
-      "id": "C1495/26",
-      "location": "LLLL",
-      "eLine": "LLHZ TRG AREA NR 13 CLSD TO ALL FLT."
     },
     {
       "id": "C1493/26",
