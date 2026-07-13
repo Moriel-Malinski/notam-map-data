@@ -1,0 +1,55 @@
+name: Daily failure digest
+
+# End-of-day ntfy summary: which workflows failed today and how many times,
+# so a recurring break shows its frequency (the per-failure notification
+# fires only on the FIRST failure of a streak). Also catches failures the
+# broken workflow itself could never report — e.g. a YAML parse error runs
+# no steps, but still shows up as a failed run in the API this digest reads.
+# Silent when the day was clean; the morning pipeline already pushes its OK.
+on:
+  schedule:
+    - cron: "30 20 * * *" # ~23:30 Israel in summer, ~22:30 in winter
+  workflow_dispatch: {}
+
+permissions:
+  actions: read
+  contents: read
+
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Collect today's failures and push summary
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          TODAY=$(date -u +%F)
+          RUNS=$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs?created=${TODAY}&per_page=100" \
+            --jq '[.workflow_runs[] | select(.conclusion=="failure") | {id, name}]')
+          COUNT=$(jq 'length' <<<"$RUNS")
+          echo "failed runs today: $COUNT"
+          if [ "$COUNT" -eq 0 ]; then
+            echo "Clean day - no digest."
+            exit 0
+          fi
+
+          # Per failed run, name the failed step (empty for runs that never
+          # started, e.g. a broken workflow file). Then count per
+          # workflow+step pair.
+          DETAILS=$(for id in $(jq -r '.[].id' <<<"$RUNS" | head -40); do
+            name=$(jq -r --argjson i "$id" '.[] | select(.id==$i) | .name' <<<"$RUNS")
+            step=$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${id}/jobs" \
+              --jq '[.jobs[].steps[]? | select(.conclusion=="failure")][0].name // empty' 2>/dev/null)
+            echo "${name} | ${step:-הקובץ לא נטען כלל / ללא צעד}"
+          done | sort | uniq -c | sort -rn \
+            | sed -E 's/^ *([0-9]+) (.*)$/\2 — \1 פעמים/' \
+            | paste -sd ';' - | sed 's/;/; /g')
+
+          RUNS_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions"
+          curl -s --max-time 30 \
+            -H "Title: Daily failure digest" \
+            -H "Tags: bar_chart" \
+            -H "Click: ${RUNS_URL}" \
+            -d "סיכום תקלות היום (${TODAY}): סה\"כ ${COUNT} ריצות נכשלו. פירוט: ${DETAILS}. לחיצה פותחת את יומן הריצות." \
+            "https://ntfy.sh/${NTFY_TOPIC}" > /dev/null
