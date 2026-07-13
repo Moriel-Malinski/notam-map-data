@@ -103,6 +103,21 @@ jobs:
             exit 1
           fi
 
+      # Daily push to the user's phone on EVERY successful run (his choice:
+      # a positive daily signal, so a silent day means the pipeline is stuck).
+      # The topic name is a secret — the repo is public and anyone who knows
+      # the topic could spam or snoop it. Notification failure must not fail
+      # a run that already published fine, hence the trailing "|| true".
+      - name: Push success notification (ntfy)
+        if: success()
+        run: |
+          BODY="הצינור היומי רץ בהצלחה. גרסת נתונים: $(python -c "import json;print(json.load(open('docs/manifest.json'))['dataVersion'])")"
+          curl -s --max-time 30 \
+            -H "Title: NOTAM data pipeline OK" \
+            -H "Tags: white_check_mark" \
+            -d "$BODY" \
+            "https://ntfy.sh/${{ secrets.NTFY_TOPIC }}" > /dev/null || true
+
       - name: Open issue on failure
         if: failure()
         run: |
