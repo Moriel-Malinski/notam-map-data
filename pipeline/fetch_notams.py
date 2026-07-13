@@ -60,9 +60,14 @@ REFRESH_AFTER = dt.timedelta(hours=3)
 DETAILS_CAP = 150
 DETAIL_DELAY_S = 0.4
 
-# Keys that only exist after a successful details postback. Their presence
-# on a previously published NOTAM means "no need to fetch again".
-DETAIL_KEYS = ("validFrom", "validTo", "airfield", "dLine")
+# Fields filled by a successful details postback. eLine is special: the list
+# page truncates long messages after ~3 lines (cutting polygon coordinates!),
+# so the details' full E-line replaces the truncated list one.
+DETAIL_KEYS = ("validFrom", "validTo", "airfield", "dLine", "eLine")
+
+# Stamped on every detailed NOTAM. Bump when parse_details_xml starts
+# extracting more, so already-published NOTAMs get re-detailed once.
+DETAILS_VERSION = 2
 
 
 def _clean(text: str) -> str:
@@ -129,12 +134,24 @@ def parse_details_xml(xml_str: str) -> dict | None:
     d_line = next(
         (re.sub(r"^D\)\s*", "", t) for t in texts if t.startswith("D)")), ""
     )
-    return {
+    details = {
         "validFrom": _iso_from_notam_stamp(root.get("FromDate", "")),
         "validTo": _iso_from_notam_stamp(root.get("ToDate", "")),
         "airfield": (root.get("Airfield") or "").strip(),
         "dLine": d_line,
+        "detailsV": DETAILS_VERSION,
     }
+    # Full E-line: the E) entry plus every continuation line after it. The
+    # list page shows only the first ~3 lines, so this is the one complete
+    # copy of the message (long coordinate lists live in the tail).
+    e_index = next((i for i, t in enumerate(texts) if t.startswith("E)")), None)
+    if e_index is not None:
+        full = _clean(" ".join(texts[e_index:]))
+        full = re.sub(r"^E\)\s*", "", full)
+        full = re.sub(r"\)\s*$", "", full).strip()
+        if full:
+            details["eLine"] = full
+    return details
 
 
 def extract_details_script(html: str) -> str | None:
@@ -215,14 +232,16 @@ def main() -> int:
     }
 
     # Details: reuse what an earlier run already fetched (NOTAMs are
-    # immutable once issued); postback only for ids we have never detailed.
+    # immutable once issued); postback only for ids never detailed by the
+    # current DETAILS_VERSION.
     form = _hidden_fields(BeautifulSoup(html, "html.parser"))
     fetched = 0
     for notam in notams:
         prev = prev_by_id.get(notam["id"])
-        if prev is not None and all(k in prev for k in DETAIL_KEYS):
-            for k in DETAIL_KEYS:
-                notam[k] = prev[k]
+        if prev is not None and prev.get("detailsV") == DETAILS_VERSION:
+            for k in (*DETAIL_KEYS, "detailsV"):
+                if k in prev:
+                    notam[k] = prev[k]
             continue
         if not notam["msgNum"] or fetched >= DETAILS_CAP:
             continue

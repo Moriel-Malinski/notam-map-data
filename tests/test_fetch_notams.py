@@ -80,7 +80,28 @@ def test_details_script_extraction_and_parsing():
         "validTo": "2026-07-14T11:15Z",
         "airfield": "Tel-Aviv FIR",
         "dLine": "0700-0745 1030-1115",
+        "detailsV": 2,
+        "eLine": "TEMPORARY RESTRICTED AREA ACTIVE.",
     }
+
+
+def test_full_e_line_joins_continuation_lines():
+    # The list page truncates after ~3 lines; the details carry the full
+    # message, including the coordinate tail and any CTN suffix.
+    details = parse_details_xml(
+        '<Msg MsgNumber="9" NotamID="C1500/26" Location="LLLL" Airfield="X" '
+        'FromDate="202607140700" ToDate="202607141115">'
+        "<MsgText>(C1500/26 NOTAMN</MsgText>"
+        "<MsgText>A) LLLL B) 2607140700 C) 2607141115</MsgText>"
+        "<MsgText>E) AN AREA CLSD TO ALL FLT</MsgText>"
+        "<MsgText>BTN FLW PSN  321945N0345710E 322136N0345736E</MsgText>"
+        "<MsgText>322107N0345856E 322019N0350115E 321821N0350039E.</MsgText>"
+        "<MsgText>CTN ADZ.)</MsgText></Msg>"
+    )
+    assert details["eLine"] == (
+        "AN AREA CLSD TO ALL FLT BTN FLW PSN 321945N0345710E 322136N0345736E "
+        "322107N0345856E 322019N0350115E 321821N0350039E. CTN ADZ."
+    )
 
 
 def test_permanent_notam_dates_become_null():
