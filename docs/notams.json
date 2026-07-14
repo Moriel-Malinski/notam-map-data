@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-14T18:38:39Z",
+  "fetchedAt": "2026-07-14T21:11:17Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -265,18 +265,6 @@
       "dLine": "DAILY 0300-1430",
       "lowerLimit": "GND",
       "upperLimit": "3700FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1472/26",
-      "location": "LLLL",
-      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT TAMRAH. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 325058N0351056E CLSD FM GND UP TO 1,900FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
-      "validFrom": "2026-07-07T00:01Z",
-      "validTo": "2026-07-14T20:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "GND",
-      "upperLimit": "1900FT AMSL",
       "detailsV": 3
     },
     {
