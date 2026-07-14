@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-14T04:14:39Z",
+  "fetchedAt": "2026-07-14T08:55:45Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1505/26",
+      "location": "LLLL",
+      "eLine": "PJE WILL TAKE PLACE AT REVIVIM. AN AREA FM GND UP 2,400FT AMSL CLSD BTN FLW PSN 310712N0344550E 310511N0343920E 310455N0343655E 305931N0343815E 310035N0344409E 310359N0344720E 310712N0344550E. OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC CTN ADZ.",
+      "validFrom": "2026-07-21T12:20Z",
+      "validTo": "2026-07-22T07:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "21 1220-1350 , 22 0600-0730",
+      "lowerLimit": "GND",
+      "upperLimit": "2400FT AMSL",
+      "detailsV": 3
+    },
+    {
+      "id": "C1504/26",
+      "location": "LLLL",
+      "eLine": "CVFR AND HEL RTE CLSD AT 1,200FT, AVBL BIDIRECTIONAL AT 800FT AMSL ONLY TYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.",
+      "validFrom": "2026-07-21T09:00Z",
+      "validTo": "2026-07-22T19:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "21 0900-1000, 22 1800-1900",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "A0554/26",
       "location": "LLLL",
