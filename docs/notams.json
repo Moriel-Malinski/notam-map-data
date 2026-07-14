@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-14T15:54:51Z",
+  "fetchedAt": "2026-07-14T18:38:39Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1508/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT HEBRON WI 1.5NM RADIUS CENTERED ON PSN 314042N0345936E CLSD TO ALL FLT FM GND UP TO 4,000FT AMSL. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "validFrom": "2026-07-14T20:00Z",
+      "validTo": "2026-07-15T04:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "A0561/26",
       "location": "LLBG",
