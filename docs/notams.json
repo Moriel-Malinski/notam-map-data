@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-14T08:55:45Z",
+  "fetchedAt": "2026-07-14T10:54:42Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1506/26",
+      "location": "LLIB",
+      "eLine": "AD CLSD TO ALL FLT, DUE WIP. AD NOT AVBL FOR EMERG.",
+      "validFrom": "2026-07-20T03:00Z",
+      "validTo": "2026-07-22T10:30Z",
+      "airfield": "Rosh-Pina",
+      "dLine": "DAILY 0300-1030",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1505/26",
       "location": "LLLL",
@@ -59,18 +71,6 @@
       "validTo": "2026-07-14T11:15Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "DAILY 0700-0745 1030-1115",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0553/26",
-      "location": "LLLL",
-      "eLine": "VOR/DME NAT FREQ 112.400MHZ WITHDRAWN FOR MAINT.",
-      "validFrom": "2026-07-14T07:00Z",
-      "validTo": "2026-07-14T10:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
       "lowerLimit": "",
       "upperLimit": "",
       "detailsV": 3
