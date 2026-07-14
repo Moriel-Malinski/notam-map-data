@@ -8,7 +8,7 @@ name: Daily failure digest
 # Silent when the day was clean; the morning pipeline already pushes its OK.
 on:
   schedule:
-    - cron: "30 20 * * *" # ~23:30 Israel in summer, ~22:30 in winter
+    - cron: "30 20 * * *" # ~22:30 Israel in summer, ~21:30 in winter
   workflow_dispatch: {}
 
 permissions:
