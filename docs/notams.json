@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-14T10:54:42Z",
+  "fetchedAt": "2026-07-14T12:20:42Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "A0557/26",
+      "location": "LLHA",
+      "eLine": "AD CLSD TO ALL FLT INCLUDING HEL, DUE WIP. IN CASE OF EMERG AVBL WI 10MIN.",
+      "validFrom": "2026-08-04T05:25Z",
+      "validTo": "2026-08-04T10:00Z",
+      "airfield": "Haifa",
+      "dLine": "0525-0725 0830-1000",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1507/26",
+      "location": "LLLL",
+      "eLine": "PJE WILL TAKE PLACE AT KELACH. AN AREA BTN FLW PSN CLSD TO ALL FLT FM GND UP TO 8,000FT AMSL. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. 313200N0345319E 313159N0344733E 312602N0344730E 312444N0345024E 312602N0345311E. CTN ADZ.",
+      "validFrom": "2026-07-20T11:30Z",
+      "validTo": "2026-07-20T20:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "8000FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1506/26",
       "location": "LLIB",
@@ -35,42 +59,6 @@
       "validTo": "2026-07-22T19:00Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "21 0900-1000, 22 1800-1900",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0554/26",
-      "location": "LLLL",
-      "eLine": "ATS RTE J14 CLSD BTN NAT-ZACCI.",
-      "validFrom": "2026-07-14T07:00Z",
-      "validTo": "2026-07-14T11:15Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "0700-0745 1030-1115",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1500/26",
-      "location": "LLLL",
-      "eLine": "AN AREA WI HASHARON-SOUTH BUBBLE CLSD TO ALL FLT INCLUDING AGRICULTURE FLT FM GND UP TO 1,500FT AMSL BTN FLW PSN 321945N0345710E 322136N0345736E 322107N0345856E 322019N0350115E 321821N0350039E. CTN ADZ.",
-      "validFrom": "2026-07-14T07:00Z",
-      "validTo": "2026-07-14T11:15Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "DAILY 0700-0745 1030-1115",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1499/26",
-      "location": "LLLL",
-      "eLine": "LLHZ TRG AREA NR 13 CLSD TO ALL FLT.",
-      "validFrom": "2026-07-14T07:00Z",
-      "validTo": "2026-07-14T11:15Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "DAILY 0700-0745 1030-1115",
       "lowerLimit": "",
       "upperLimit": "",
       "detailsV": 3
