@@ -1,8 +1,56 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-15T09:01:29Z",
+  "fetchedAt": "2026-07-15T11:00:45Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1512/26",
+      "location": "LLLL",
+      "eLine": "UAS ACT WILL TAKE PLACE AT TAANACHIM/GADISH. AN AREA WI 400M RADIUS CENTERED ON PSN 323309N0351447E FM GND UP TO 100M AGL, 560FT AMSL CLSD TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
+      "validFrom": "2026-07-15T10:42Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "560FT AMSL",
+      "detailsV": 3
+    },
+    {
+      "id": "C1511/26",
+      "location": "LLLL",
+      "eLine": "UAS ACT WILL TAKE PLACE AT TAANACHIM. AN AREA BTN FLW PSN CLSD FM GND UP TO 100M AGL 560FT AMSL 323333N0351719E 323219N0351747E 323221N0351759E 323207N0351803E 323201N0351722E 323254N0351640E 323313N0351637E 323317N0351558E 323335N0351558E. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "validFrom": "2026-07-15T10:18Z",
+      "validTo": "2026-07-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "560FT AMSL",
+      "detailsV": 3
+    },
+    {
+      "id": "C1510/26",
+      "location": "LLLL",
+      "eLine": "CVFR RTE CLSD SDTYM-FRDIS-HASID. HADRA-FRDIS-BOREN. HEL RTE CLSD ORAKV-FRDIS-ATLIT. FRDIS-LVTAN.",
+      "validFrom": "2026-07-15T17:00Z",
+      "validTo": "2026-07-15T19:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1509/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT FURADIS WI 0.6NM RADIUS CENTERED ON PSN 323525N0345708E CLSD FM GND UP TO 1,300FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
+      "validFrom": "2026-07-15T17:00Z",
+      "validTo": "2026-07-15T19:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "A0561/26",
       "location": "LLBG",
