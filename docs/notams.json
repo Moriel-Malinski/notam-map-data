@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-15T17:34:36Z",
+  "fetchedAt": "2026-07-15T19:57:26Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -109,30 +109,6 @@
       "dLine": "",
       "lowerLimit": "GND",
       "upperLimit": "560FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1510/26",
-      "location": "LLLL",
-      "eLine": "CVFR RTE CLSD SDTYM-FRDIS-HASID. HADRA-FRDIS-BOREN. HEL RTE CLSD ORAKV-FRDIS-ATLIT. FRDIS-LVTAN.",
-      "validFrom": "2026-07-15T17:00Z",
-      "validTo": "2026-07-15T19:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1509/26",
-      "location": "LLLL",
-      "eLine": "AN AREA AT FURADIS WI 0.6NM RADIUS CENTERED ON PSN 323525N0345708E CLSD FM GND UP TO 1,300FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
-      "validFrom": "2026-07-15T17:00Z",
-      "validTo": "2026-07-15T19:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
       "detailsV": 3
     },
     {
