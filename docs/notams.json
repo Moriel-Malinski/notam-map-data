@@ -1,8 +1,80 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-15T12:23:07Z",
+  "fetchedAt": "2026-07-15T14:19:01Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1519/26",
+      "location": "LLEY",
+      "eLine": "UAS ACT WILL TAKE PLACE WI AIRSTRIP, FM GND UP TO 3,000FT AMSL. OPS WILL BE COORD AND APPROVED BY ATC. CTN ADZ.",
+      "validFrom": "2026-07-21T03:00Z",
+      "validTo": "2026-07-22T04:25Z",
+      "airfield": "Eyn-Yahav",
+      "dLine": "21 0300-0545 0915-0955 1325-1600, 22 0300-0425",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1518/26",
+      "location": "LLLL",
+      "eLine": "CVFR RTE CLSD BMNUH-YAHEL",
+      "validFrom": "2026-07-20T15:15Z",
+      "validTo": "2026-07-20T22:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1517/26",
+      "location": "LLLL",
+      "eLine": "CVFR RTE CLSD ZOFAR-HRGVS-RUHOT.",
+      "validFrom": "2026-07-21T02:20Z",
+      "validTo": "2026-07-21T13:20Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "0220-0910 1010-1320",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1516/26",
+      "location": "LLLL",
+      "eLine": "CVFR RTE CLSD ZOFAR-HRGVS-RUHOT.",
+      "validFrom": "2026-07-20T02:20Z",
+      "validTo": "2026-07-20T13:20Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "0220-0910 1010-1320",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1515/26",
+      "location": "LLLL",
+      "eLine": "CVFR RTE CLSD ZOFAR-HRGVS-RUHOT.",
+      "validFrom": "2026-07-19T07:40Z",
+      "validTo": "2026-07-19T14:10Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1514/26",
+      "location": "LLLL",
+      "eLine": "PJE AIRSPACE METZADA ACT FM 8,000FT AMSL. OPR BY PPR FM ATC ONLY.",
+      "validFrom": "2026-07-23T09:30Z",
+      "validTo": "2026-07-24T11:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "23 0930-1710, 24 0600-1100",
+      "lowerLimit": "GND",
+      "upperLimit": "8000FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1513/26",
       "location": "LLLL",
@@ -251,30 +323,6 @@
       "validTo": "2026-07-20T12:00Z",
       "airfield": "Ramon",
       "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1484/26",
-      "location": "LLLL",
-      "eLine": "LLMG TRG AREA AND ULTRALIGHT BUBBLE NR A-WEST (BMGWA) CLSD.",
-      "validFrom": "2026-07-12T14:00Z",
-      "validTo": "2026-07-15T14:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "12 1400-1500 1730-1830, 15 0600-0700 1300-1400",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1483/26",
-      "location": "LLLL",
-      "eLine": "AN AREA AT KFAR-TAVOR WI 1.1NM RADIUS CENTERED ON PSN 324241N0352429E CLSD FM GND UP TO 1,500FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. CTN ADZ.",
-      "validFrom": "2026-07-12T14:00Z",
-      "validTo": "2026-07-15T14:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "12 1400-1500 1730-1830, 15 0600-0700 1300-1400",
       "lowerLimit": "",
       "upperLimit": "",
       "detailsV": 3
