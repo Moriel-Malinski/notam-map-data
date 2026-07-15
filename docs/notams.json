@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-15T11:00:45Z",
+  "fetchedAt": "2026-07-15T12:23:07Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1513/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT KFAR-TAVOR WI 1.1NM RADIUS CENTERED ON PSN 324241N0352429E CLSD FM GND UP TO 1,500FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "validFrom": "2026-07-19T10:00Z",
+      "validTo": "2026-07-22T13:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "19 1000-1115 1430-1530, 20-21 DAILY 0630-0745 1700-1800,  22",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1512/26",
       "location": "LLLL",
