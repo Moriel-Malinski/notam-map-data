@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-16T08:49:16Z",
+  "fetchedAt": "2026-07-16T09:14:15Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1520/26",
+      "location": "LLLL",
+      "eLine": "UAS ACT WILL TAKE PLACE AT NEVE-MICHAEL. AN AREA BTN FLW PSN FM GND UP TO 3,500FT AMSL CLSD TO ALL FLT 314107N0345919E 313846N0345857E 313824N0350011E 314028N0350307E 314131N0350134E. OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC CTN ADZ.",
+      "validFrom": "2026-07-20T07:00Z",
+      "validTo": "2026-07-21T11:15Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 0700-0800 1015-1115",
+      "lowerLimit": "GND",
+      "upperLimit": "3500FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "A0571/26",
       "location": "LLBG",
@@ -33,18 +45,6 @@
       "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
       "validFrom": "2026-07-23T04:00Z",
       "validTo": "2026-07-23T09:00Z",
-      "airfield": "Ben-Gurion",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0568/26",
-      "location": "LLBG",
-      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
-      "validFrom": "2026-07-16T08:37Z",
-      "validTo": "2026-07-16T09:00Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
       "lowerLimit": "",
@@ -201,18 +201,6 @@
       "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E 315926N0345421E. CTN ADZ.",
       "validFrom": "2026-08-19T04:00Z",
       "validTo": "2026-08-19T09:00Z",
-      "airfield": "Ben-Gurion",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0558/26",
-      "location": "LLBG",
-      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E 315926N0345421E. CTN ADZ.",
-      "validFrom": "2026-07-16T04:00Z",
-      "validTo": "2026-07-16T09:00Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
       "lowerLimit": "",
