@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-16T14:45:02Z",
+  "fetchedAt": "2026-07-16T16:42:46Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -397,18 +397,6 @@
       "dLine": "",
       "lowerLimit": "GND",
       "upperLimit": "1900FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1487/26",
-      "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT TALMEI-BILU. AN AREA FM GND UP TO 150M, 1,000FT AMSL CLSD BTN FLW PSN 312543N0343847E 312544N0343910E 312334N0343920E 312334N0343857E. CTN ADZ.",
-      "validFrom": "2026-07-14T02:20Z",
-      "validTo": "2026-07-16T16:30Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "DAILY 0220-1630",
-      "lowerLimit": "GND",
-      "upperLimit": "1000FT AMSL",
       "detailsV": 3
     },
     {
