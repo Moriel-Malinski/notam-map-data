@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-16T09:14:15Z",
+  "fetchedAt": "2026-07-16T11:48:42Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1521/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT KFAR-TAVOR FM GND UP TO 2,000FT AMSL CLSD TO ALL FLT BTN FLW PSN 324154N0352333E 324245N0352546E 324657N0352348E 324604N0352151E. CTN ADZ.",
+      "validFrom": "2026-07-19T10:00Z",
+      "validTo": "2026-07-22T13:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "19 1000-1115 1430-1530, 20-21 DAILY 0630-0745 1700-1800,  22",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1520/26",
       "location": "LLLL",
