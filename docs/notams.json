@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-16T04:33:25Z",
+  "fetchedAt": "2026-07-16T07:27:46Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "A0562/26",
+      "location": "LLBG",
+      "eLine": "ILS RWY 12 C/S BG FREQ 110.300MHZ WITHDRAWN FOR MAINT.",
+      "validFrom": "2026-07-20T06:00Z",
+      "validTo": "2026-07-20T10:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1519/26",
       "location": "LLEY",
