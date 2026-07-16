@@ -1,22 +1,39 @@
 name: Update NOTAMs
 
-# Frequent, tiny sibling of update-data.yml: scrapes the IAA NOTAM page once
-# and publishes docs/notams.json for all installed apps, so they stop
-# scraping IAA individually. Off-the-hour minutes because GitHub delays
-# top-of-the-hour crons the most.
+# Publishes docs/notams.json for all installed apps so they don't each scrape
+# the IAA page themselves.
+#
+# Why a long self-looping run instead of a frequent cron: GitHub throttles
+# scheduled workflows hard on low-traffic repos — a "*/20 min" cron actually
+# fired only every ~1.5-2h (measured), which matters because NOTAMs can go
+# active the instant they're issued. So we DON'T ask GitHub to start us every
+# 20 minutes. Instead a COARSE cron starts one job that stays alive ~5 hours
+# and re-scrapes on its own jittered 15-25 min loop. GitHub only has to honour
+# a 3-hourly cron (which it does reliably), and the tight cadence is driven by
+# `sleep` inside the job — using free unlimited public-repo Actions minutes and
+# the built-in GITHUB_TOKEN, no external service or secret.
+#
+# concurrency (single, no cancel) keeps exactly one loop alive: a cron that
+# fires while the previous 5h run is still going queues and starts the moment
+# it ends, so coverage is continuous. The 3h cron (shorter than the 5h run)
+# guarantees a successor is always queued even if some fires are dropped.
 on:
   schedule:
-    - cron: "7,27,47 * * * *"
+    - cron: "7 */3 * * *"
   workflow_dispatch: {}
 
 permissions:
   contents: write
 
-concurrency: notam-feed
+concurrency:
+  group: notam-feed
+  cancel-in-progress: false
 
 jobs:
   update:
     runs-on: ubuntu-latest
+    # ~5h loop plus a small margin for the final cycle's work.
+    timeout-minutes: 310
     steps:
       # Tip of main, not the triggering SHA — same reasoning as update-data.yml.
       - uses: actions/checkout@v4
@@ -33,36 +50,63 @@ jobs:
       - name: Install dependencies
         run: pip install requests beautifulsoup4
 
-      - name: Fetch and publish NOTAMs
-        run: python pipeline/fetch_notams.py
-
-      - name: Commit and push if changed
+      - name: Fetch and publish on a jittered loop for ~5 hours
         run: |
           git config user.name "data-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add docs/notams.json
-          if git diff --cached --quiet; then
-            echo "No changes to publish."
-          else
-            git commit -m "notams: automated update $(date -u +%FT%H:%M)"
-            # The daily data pipeline (or a human) may push while this job
-            # runs. Replay our commit on top rather than failing outright.
-            for attempt in 1 2 3; do
-              if git pull --rebase origin main && git push; then
-                exit 0
-              fi
-              echo "push attempt $attempt failed; retrying"
-              sleep 5
-            done
-            echo "could not push after 3 attempts" >&2
-            exit 1
-          fi
+          END=$(( $(date +%s) + 5 * 3600 ))
+          CYCLE=0
+          while [ "$(date +%s)" -lt "$END" ]; do
+            CYCLE=$(( CYCLE + 1 ))
+            echo "::group::cycle $CYCLE ($(date -u +%H:%M:%SZ))"
 
-      # Failure push with an anti-spam guard: this workflow runs every ~20
-      # minutes, so a persistent break (e.g. IAA changed the page structure)
-      # would otherwise buzz the phone 72 times a day. Notify only when the
-      # PREVIOUS completed run succeeded — i.e. on the first failure of a
-      # streak. Names the failed step and clicking opens the full run log.
+            # A non-zero exit means a real structural break (0 NOTAMs out of an
+            # HTTP 200 page); a transient IAA outage exits 0 keeping the old
+            # file. Fail the whole run on the former so the ntfy alert fires.
+            if ! python pipeline/fetch_notams.py; then
+              echo "fetch_notams.py failed — likely the IAA page structure changed." >&2
+              exit 1
+            fi
+
+            git add docs/notams.json
+            if git diff --cached --quiet; then
+              echo "No change this cycle."
+            else
+              git commit -m "notams: automated update $(date -u +%FT%H:%M)"
+              # The daily data pipeline (or a human) may push during our 5h
+              # window. Replay our commit on top rather than failing; a stuck
+              # rebase is aborted so the next attempt starts clean. A push that
+              # never lands is left for the next cycle rather than killing the
+              # loop.
+              for attempt in 1 2 3; do
+                if git pull --rebase origin main && git push; then
+                  break
+                fi
+                git rebase --abort 2>/dev/null || true
+                echo "push attempt $attempt failed; retrying"
+                sleep 5
+              done
+            fi
+            echo "::endgroup::"
+
+            # Jitter: 15-25 min, so cycles land on different minutes instead of
+            # a predictable :00/:20/:40 pattern. Never sleep past the window.
+            REMAIN=$(( END - $(date +%s) ))
+            if [ "$REMAIN" -le 60 ]; then
+              break
+            fi
+            NAP=$(( 900 + RANDOM % 601 ))
+            if [ "$NAP" -gt "$REMAIN" ]; then
+              NAP="$REMAIN"
+            fi
+            echo "sleeping ${NAP}s until next cycle"
+            sleep "$NAP"
+          done
+
+      # Failure push with an anti-spam guard: notify only when the PREVIOUS
+      # completed run succeeded — i.e. on the first failure of a streak — so a
+      # persistent break (e.g. the IAA page structure changed) doesn't buzz the
+      # phone on every restart. Names the failed step; clicking opens the log.
       - name: Push failure notification (ntfy, first failure only)
         if: failure()
         env:
