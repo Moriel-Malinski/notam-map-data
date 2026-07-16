@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-16T07:27:46Z",
+  "fetchedAt": "2026-07-16T08:03:46Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -311,18 +311,6 @@
       "validTo": "2026-07-20T12:00Z",
       "airfield": "Ramon",
       "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0544/26",
-      "location": "LLER",
-      "eLine": "AD CLSD FOR TKOF FLT INCLUDING MIL FLT, DUE WIP. IN CASE OF EMERG OR MEDEVAC HEL AVBL WI 10MIN.",
-      "validFrom": "2026-07-12T19:00Z",
-      "validTo": "2026-07-18T02:00Z",
-      "airfield": "Ramon",
-      "dLine": "12-14 16-17 DAILY 1900-0200",
       "lowerLimit": "",
       "upperLimit": "",
       "detailsV": 3
