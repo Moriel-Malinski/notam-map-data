@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-16T11:48:42Z",
+  "fetchedAt": "2026-07-16T12:24:24Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1523/26",
+      "location": "LLLL",
+      "eLine": "ULTRALIGHT RTE CLSD TAVOR-ZGLNI-KKANA.",
+      "validFrom": "2026-07-19T10:00Z",
+      "validTo": "2026-07-22T13:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "19 1000-1115 1430-1530, 20-21 DAILY 0630-0745 1700-1800,  22",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1522/26",
+      "location": "LLLL",
+      "eLine": "LLMG TRG AREA NR A-WEST CLSD.",
+      "validFrom": "2026-07-19T10:00Z",
+      "validTo": "2026-07-22T13:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "19 1000-1115 1430-1530, 20-21 DAILY 0630-0745 1700-1800,  22",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1521/26",
       "location": "LLLL",
