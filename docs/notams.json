@@ -1,8 +1,80 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-16T08:03:46Z",
+  "fetchedAt": "2026-07-16T08:49:16Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "A0571/26",
+      "location": "LLBG",
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "validFrom": "2026-08-19T04:00Z",
+      "validTo": "2026-08-19T09:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "A0570/26",
+      "location": "LLBG",
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "validFrom": "2026-08-06T04:00Z",
+      "validTo": "2026-08-06T09:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "A0569/26",
+      "location": "LLBG",
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "validFrom": "2026-07-23T04:00Z",
+      "validTo": "2026-07-23T09:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "A0568/26",
+      "location": "LLBG",
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "validFrom": "2026-07-16T08:37Z",
+      "validTo": "2026-07-16T09:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "A0567/26",
+      "location": "LLBG",
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "validFrom": "2026-07-19T04:00Z",
+      "validTo": "2026-07-22T08:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "DAILY 0400-0800",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "A0566/26",
+      "location": "LLBG",
+      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E 315926N0345421E. CTN ADZ.",
+      "validFrom": "2026-07-19T04:00Z",
+      "validTo": "2026-07-22T08:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "DAILY 0400-0800",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "A0562/26",
       "location": "LLBG",
@@ -544,18 +616,6 @@
       "detailsV": 3
     },
     {
-      "id": "A0529/26",
-      "location": "LLBG",
-      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
-      "validFrom": "2026-07-19T04:00Z",
-      "validTo": "2026-07-23T08:00Z",
-      "airfield": "Ben-Gurion",
-      "dLine": "DAILY 0400-0800",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
       "id": "A0530/26",
       "location": "LLBG",
       "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
@@ -585,18 +645,6 @@
       "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E 315926N0345421E. CTN ADZ.",
       "validFrom": "2026-08-16T04:00Z",
       "validTo": "2026-08-18T08:00Z",
-      "airfield": "Ben-Gurion",
-      "dLine": "DAILY 0400-0800",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0525/26",
-      "location": "LLBG",
-      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E 315926N0345421E. CTN ADZ.",
-      "validFrom": "2026-07-19T04:00Z",
-      "validTo": "2026-07-23T08:00Z",
       "airfield": "Ben-Gurion",
       "dLine": "DAILY 0400-0800",
       "lowerLimit": "",
