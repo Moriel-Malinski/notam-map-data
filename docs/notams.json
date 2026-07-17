@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-17T08:30:38Z",
+  "fetchedAt": "2026-07-17T11:10:31Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -397,18 +397,6 @@
       "dLine": "",
       "lowerLimit": "GND",
       "upperLimit": "1900FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1486/26",
-      "location": "LLLL",
-      "eLine": "PJE AIRSPACE METZADA ACT FM 8,000FT AMSL. OPR BY PPR FM ATC ONLY.",
-      "validFrom": "2026-07-16T11:00Z",
-      "validTo": "2026-07-17T11:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "16 1100-1715, 17 0600-1100",
-      "lowerLimit": "GND",
-      "upperLimit": "8000FT AMSL",
       "detailsV": 3
     },
     {
