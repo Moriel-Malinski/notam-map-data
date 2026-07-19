@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-19T20:29:20Z",
+  "fetchedAt": "2026-07-19T21:07:26Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -409,18 +409,6 @@
       "dLine": "",
       "lowerLimit": "GND",
       "upperLimit": "1500FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1490/26",
-      "location": "LLLL",
-      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT SHFARAAM. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 324850N0351002E CLSD FM GND UP TO 1,900FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
-      "validFrom": "2026-07-09T12:43Z",
-      "validTo": "2026-07-19T20:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "GND",
-      "upperLimit": "1900FT AMSL",
       "detailsV": 3
     },
     {
