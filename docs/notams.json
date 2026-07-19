@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-19T09:03:06Z",
+  "fetchedAt": "2026-07-19T11:58:19Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "A0575/26",
+      "location": "LLER",
+      "eLine": "OCA(H) FOR ILS RWY 19 CHG TO 500(228) FOR ALL CAT.",
+      "validFrom": "2026-07-19T11:45Z",
+      "validTo": "2026-08-31T23:59Z",
+      "airfield": "Ramon",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "A0572/26",
+      "location": "LLER",
+      "eLine": "OCA(H) FOR ILS RWY 01 CHG TO 500(248) FOR ALL CAT.",
+      "validFrom": "2026-07-19T11:37Z",
+      "validTo": "2026-08-31T23:59Z",
+      "airfield": "Ramon",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1529/26",
       "location": "LLLL",
