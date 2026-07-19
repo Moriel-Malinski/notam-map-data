@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-19T11:58:19Z",
+  "fetchedAt": "2026-07-19T13:17:33Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "A0576/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE J14 CLSD BTN ZACCI-GIMIK.",
+      "validFrom": "2026-07-20T17:30Z",
+      "validTo": "2026-07-21T01:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "A0575/26",
       "location": "LLER",
