@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-20T12:08:44Z",
+  "fetchedAt": "2026-07-20T13:38:43Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -261,18 +261,6 @@
       "eLine": "CVFR RTE CLSD ZOFAR-HRGVS-RUHOT.",
       "validFrom": "2026-07-21T02:20Z",
       "validTo": "2026-07-21T13:20Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "0220-0910 1010-1320",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1516/26",
-      "location": "LLLL",
-      "eLine": "CVFR RTE CLSD ZOFAR-HRGVS-RUHOT.",
-      "validFrom": "2026-07-20T02:20Z",
-      "validTo": "2026-07-20T13:20Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "0220-0910 1010-1320",
       "lowerLimit": "",
