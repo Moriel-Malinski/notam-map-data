@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-20T20:39:36Z",
+  "fetchedAt": "2026-07-20T22:22:48Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -239,18 +239,6 @@
       "validTo": "2026-07-22T04:25Z",
       "airfield": "Eyn-Yahav",
       "dLine": "21 0300-0545 0915-0955 1325-1600, 22 0300-0425",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1518/26",
-      "location": "LLLL",
-      "eLine": "CVFR RTE CLSD BMNUH-YAHEL",
-      "validFrom": "2026-07-20T15:15Z",
-      "validTo": "2026-07-20T22:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
       "lowerLimit": "",
       "upperLimit": "",
       "detailsV": 3
