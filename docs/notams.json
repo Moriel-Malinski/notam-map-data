@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-20T06:53:38Z",
+  "fetchedAt": "2026-07-20T09:12:32Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -409,18 +409,6 @@
       "dLine": "",
       "lowerLimit": "GND",
       "upperLimit": "1500FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "A0550/26",
-      "location": "LLER",
-      "eLine": "VOR/DME RAM FREQ 113.850MHZ WITHDRAWN FOR MAINT.",
-      "validFrom": "2026-07-20T07:00Z",
-      "validTo": "2026-07-20T09:00Z",
-      "airfield": "Ramon",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
       "detailsV": 3
     },
     {
