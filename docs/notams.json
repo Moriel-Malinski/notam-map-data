@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-20T19:43:45Z",
+  "fetchedAt": "2026-07-20T20:39:36Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -361,18 +361,6 @@
       "dLine": "0525-0725 0830-1000",
       "lowerLimit": "",
       "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1507/26",
-      "location": "LLLL",
-      "eLine": "PJE WILL TAKE PLACE AT KELACH. AN AREA BTN FLW PSN CLSD TO ALL FLT FM GND UP TO 8,000FT AMSL. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. 313200N0345319E 313159N0344733E 312602N0344730E 312444N0345024E 312602N0345311E. CTN ADZ.",
-      "validFrom": "2026-07-20T11:30Z",
-      "validTo": "2026-07-20T20:30Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "GND",
-      "upperLimit": "8000FT AMSL",
       "detailsV": 3
     },
     {
