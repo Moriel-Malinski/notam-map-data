@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-20T11:53:18Z",
+  "fetchedAt": "2026-07-20T12:08:44Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -421,18 +421,6 @@
       "dLine": "",
       "lowerLimit": "GND",
       "upperLimit": "1500FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "A0549/26",
-      "location": "LLER",
-      "eLine": "DME OF ILS RWY 19 C/S RB FREQ 110.500MHZ WITHDRAWN FOR MAINT.",
-      "validFrom": "2026-07-20T09:00Z",
-      "validTo": "2026-07-20T12:00Z",
-      "airfield": "Ramon",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
       "detailsV": 3
     },
     {
