@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-21T11:26:44Z",
+  "fetchedAt": "2026-07-21T11:47:02Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1539/26",
+      "location": "LLLL",
+      "eLine": "MINI UAS/UAV BUBBLE CARMEL EAST AND NORTH CLSD.",
+      "validFrom": "2026-07-24T06:00Z",
+      "validTo": "2026-07-24T09:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1538/26",
       "location": "LLLL",
