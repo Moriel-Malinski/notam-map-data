@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-21T11:03:41Z",
+  "fetchedAt": "2026-07-21T11:26:44Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1538/26",
+      "location": "LLLL",
+      "eLine": "PJE AIRSPACE METZADA ACT FM 8,000FT AMSL. OPR BY PPR FM ATC ONLY.",
+      "validFrom": "2026-07-30T09:30Z",
+      "validTo": "2026-07-31T11:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "30 0930-1700, 31 0600-1100",
+      "lowerLimit": "GND",
+      "upperLimit": "8000FT AMSL",
+      "detailsV": 3
+    },
+    {
+      "id": "C1537/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT ASHALIM WI 0.8NM RADIUS CENTERED ON PSN 305808N0344215E CLSD TO ALL FLT FM GND UP TO 3,500FT AMSL. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "validFrom": "2026-07-22T07:00Z",
+      "validTo": "2026-07-22T12:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1536/26",
       "location": "LLLL",
@@ -181,18 +205,6 @@
       "dLine": "19 1000-1115 1430-1530, 20-21 DAILY 0630-0745 1700-1800,  22",
       "lowerLimit": "",
       "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1520/26",
-      "location": "LLLL",
-      "eLine": "UAS ACT WILL TAKE PLACE AT NEVE-MICHAEL. AN AREA BTN FLW PSN FM GND UP TO 3,500FT AMSL CLSD TO ALL FLT 314107N0345919E 313846N0345857E 313824N0350011E 314028N0350307E 314131N0350134E. OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC CTN ADZ.",
-      "validFrom": "2026-07-20T07:00Z",
-      "validTo": "2026-07-21T11:15Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "DAILY 0700-0800 1015-1115",
-      "lowerLimit": "GND",
-      "upperLimit": "3500FT AMSL",
       "detailsV": 3
     },
     {
