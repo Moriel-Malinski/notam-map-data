@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-21T08:01:21Z",
+  "fetchedAt": "2026-07-21T11:03:41Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1536/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT RETAMIM WI 0.8NM RADIUS CENTERED ON PSN 310313N0344118E CLSD TO ALL FLT FM GND UP TO 3,300FT AMSL. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "validFrom": "2026-07-22T09:40Z",
+      "validTo": "2026-07-22T12:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1535/26",
       "location": "LLLL",
