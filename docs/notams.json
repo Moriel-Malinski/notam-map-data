@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-21T15:42:07Z",
+  "fetchedAt": "2026-07-21T15:58:28Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1544/26",
+      "location": "LLLL",
+      "eLine": "AN AREA WI 1.5NM RADIUS CENTERED ON PSN 323256N0351645E CLSD FM GND UP TO 3,500FT AMSL TO ALL FLT. CTN ADZ.",
+      "validFrom": "2026-07-22T14:30Z",
+      "validTo": "2026-07-23T04:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "A0579/26",
       "location": "LLLL",
