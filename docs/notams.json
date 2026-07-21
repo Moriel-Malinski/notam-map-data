@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-21T11:47:02Z",
+  "fetchedAt": "2026-07-21T12:12:35Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1540/26",
+      "location": "LLLL",
+      "eLine": "HEL ACT WILL TAKE PLACE AT KARMEL WI OREN ULTRALIGHT BUBBLE (BOORN) FM GND UP TO 500FT AGL, 2,500FT AMSL BTN FLW PSN 324538N0345920E 324440N0350146E 324421N0350433E 323950N0350520E 323903N0350027E. OPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC CTN ADZ.",
+      "validFrom": "2026-07-24T06:00Z",
+      "validTo": "2026-07-24T09:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1539/26",
       "location": "LLLL",
