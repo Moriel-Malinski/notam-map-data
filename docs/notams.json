@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-21T12:12:35Z",
+  "fetchedAt": "2026-07-21T12:54:01Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1541/26",
+      "location": "LLHZ",
+      "eLine": "THE FLW ELEMENTS PENETRATING RWY STRIP TWY PENETRATING S OF RWY 10. FENCE PENETRATING NW OF RWY 10. POLES HEIGHT 1.20M AGL E OF RWY 28. CTN ADZ.",
+      "validFrom": "2026-07-21T12:44Z",
+      "validTo": "2029-07-21T12:45Z",
+      "airfield": "Herzlia",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1540/26",
       "location": "LLLL",
