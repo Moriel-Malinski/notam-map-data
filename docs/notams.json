@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-20T22:22:48Z",
+  "fetchedAt": "2026-07-21T01:19:26Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -35,18 +35,6 @@
       "validTo": "2026-07-22T10:30Z",
       "airfield": "Rosh-Pina",
       "dLine": "21 0300-0830, 22 0300-1030",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0576/26",
-      "location": "LLLL",
-      "eLine": "ATS RTE J14 CLSD BTN ZACCI-GIMIK.",
-      "validFrom": "2026-07-20T17:30Z",
-      "validTo": "2026-07-21T01:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
       "lowerLimit": "",
       "upperLimit": "",
       "detailsV": 3
