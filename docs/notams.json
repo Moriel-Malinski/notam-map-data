@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-21T18:37:12Z",
+  "fetchedAt": "2026-07-21T21:01:42Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -469,18 +469,6 @@
       "dLine": "21 0900-1000, 22 1800-1900",
       "lowerLimit": "",
       "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1491/26",
-      "location": "LLLL",
-      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT TAYIBE. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 321457N0345933E CLSD FM GND UP TO 1,500FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
-      "validFrom": "2026-07-09T12:48Z",
-      "validTo": "2026-07-21T20:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "GND",
-      "upperLimit": "1500FT AMSL",
       "detailsV": 3
     },
     {
