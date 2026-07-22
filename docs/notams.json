@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-22T12:39:34Z",
+  "fetchedAt": "2026-07-22T13:11:09Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -292,42 +292,6 @@
       "detailsV": 3
     },
     {
-      "id": "C1523/26",
-      "location": "LLLL",
-      "eLine": "ULTRALIGHT RTE CLSD TAVOR-ZGLNI-KKANA.",
-      "validFrom": "2026-07-19T10:00Z",
-      "validTo": "2026-07-22T13:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "19 1000-1115 1430-1530, 20-21 DAILY 0630-0745 1700-1800,  22",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1522/26",
-      "location": "LLLL",
-      "eLine": "LLMG TRG AREA NR A-WEST CLSD.",
-      "validFrom": "2026-07-19T10:00Z",
-      "validTo": "2026-07-22T13:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "19 1000-1115 1430-1530, 20-21 DAILY 0630-0745 1700-1800,  22",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1521/26",
-      "location": "LLLL",
-      "eLine": "AN AREA AT KFAR-TAVOR FM GND UP TO 2,000FT AMSL CLSD TO ALL FLT BTN FLW PSN 324154N0352333E 324245N0352546E 324657N0352348E 324604N0352151E. CTN ADZ.",
-      "validFrom": "2026-07-19T10:00Z",
-      "validTo": "2026-07-22T13:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "19 1000-1115 1430-1530, 20-21 DAILY 0630-0745 1700-1800,  22",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
       "id": "A0571/26",
       "location": "LLBG",
       "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
@@ -373,18 +337,6 @@
       "dLine": "23 0930-1710, 24 0600-1100",
       "lowerLimit": "GND",
       "upperLimit": "8000FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1513/26",
-      "location": "LLLL",
-      "eLine": "AN AREA AT KFAR-TAVOR WI 1.1NM RADIUS CENTERED ON PSN 324241N0352429E CLSD FM GND UP TO 1,500FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC. CTN ADZ.",
-      "validFrom": "2026-07-19T10:00Z",
-      "validTo": "2026-07-22T13:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "19 1000-1115 1430-1530, 20-21 DAILY 0630-0745 1700-1800,  22",
-      "lowerLimit": "",
-      "upperLimit": "",
       "detailsV": 3
     },
     {
