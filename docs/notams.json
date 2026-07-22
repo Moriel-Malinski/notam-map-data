@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-22T03:12:36Z",
+  "fetchedAt": "2026-07-22T04:29:31Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -335,18 +335,6 @@
       "validTo": "2026-07-22T08:00Z",
       "airfield": "Ben-Gurion",
       "dLine": "DAILY 0400-0800",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1519/26",
-      "location": "LLEY",
-      "eLine": "UAS ACT WILL TAKE PLACE WI AIRSTRIP, FM GND UP TO 3,000FT AMSL. OPS WILL BE COORD AND APPROVED BY ATC. CTN ADZ.",
-      "validFrom": "2026-07-21T03:00Z",
-      "validTo": "2026-07-22T04:25Z",
-      "airfield": "Eyn-Yahav",
-      "dLine": "21 0300-0545 0915-0955 1325-1600, 22 0300-0425",
       "lowerLimit": "",
       "upperLimit": "",
       "detailsV": 3
