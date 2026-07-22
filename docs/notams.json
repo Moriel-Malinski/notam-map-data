@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-22T04:29:31Z",
+  "fetchedAt": "2026-07-22T06:36:59Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "A0581/26",
+      "location": "LLER",
+      "eLine": "DME OF ILS RWY 01 C/S RC FREQ 108.700MHZ WITHDRAWN FOR MAINT.",
+      "validFrom": "2026-07-28T07:00Z",
+      "validTo": "2026-07-28T11:00Z",
+      "airfield": "Ramon",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "A0580/26",
+      "location": "LLER",
+      "eLine": "ILS RWY 01 C/S RC FREQ 108.700MHZ WITHDRAWN FOR MAINT.",
+      "validFrom": "2026-07-27T11:00Z",
+      "validTo": "2026-07-27T14:00Z",
+      "airfield": "Ramon",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1545/26",
       "location": "LLLL",
