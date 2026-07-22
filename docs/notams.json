@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-22T16:39:25Z",
+  "fetchedAt": "2026-07-22T19:16:06Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -395,18 +395,6 @@
       "validTo": "2026-08-04T10:00Z",
       "airfield": "Haifa",
       "dLine": "0525-0725 0830-1000",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1504/26",
-      "location": "LLLL",
-      "eLine": "CVFR AND HEL RTE CLSD AT 1,200FT, AVBL BIDIRECTIONAL AT 800FT AMSL ONLY TYONA-SUPER-NTAIM-BOVED-NAGID-YAVNE-ZASHD.",
-      "validFrom": "2026-07-21T09:00Z",
-      "validTo": "2026-07-22T19:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "21 0900-1000, 22 1800-1900",
       "lowerLimit": "",
       "upperLimit": "",
       "detailsV": 3
