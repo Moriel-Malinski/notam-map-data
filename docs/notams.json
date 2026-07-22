@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-22T08:34:18Z",
+  "fetchedAt": "2026-07-22T09:22:09Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -46,18 +46,6 @@
       "validFrom": "2026-07-27T11:00Z",
       "validTo": "2026-07-27T14:00Z",
       "airfield": "Ramon",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1545/26",
-      "location": "LLLL",
-      "eLine": "AN AREA WI 1.62NM RADIUS CENTERED ON PSN 313809N0343107E CLSD FM GND UP TO 2,500FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC ONLY. CTN ADZ.",
-      "validFrom": "2026-07-22T06:00Z",
-      "validTo": "2026-07-22T09:00Z",
-      "airfield": "Tel-Aviv FIR",
       "dLine": "",
       "lowerLimit": "",
       "upperLimit": "",
