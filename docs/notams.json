@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-23T12:19:34Z",
+  "fetchedAt": "2026-07-23T12:37:31Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1563/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV AIR-SHOW WILL TAKE PLACE AT BAT-YAM. AN AREA WI 0.3KM RADIUS CENTERED ON PSN 320050N0344417E CLSD FM GND UP TO 50M AGL 300FT AMSL. CTN ADZ.",
+      "validFrom": "2026-07-29T18:00Z",
+      "validTo": "2026-07-29T20:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "300FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1562/26",
       "location": "LLLL",
