@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-23T05:48:32Z",
+  "fetchedAt": "2026-07-23T07:10:47Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1556/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT LOD TRAIN, FM GND UP TO 40M AGL, BTN FLW PSN 315630N0345208E 315644N0345204E 315703N0345210E 315718N0345229E 315716N0345249E 315710N0345306E 315657N0345311E 315645N0345305E 315631N0345249E 315624N0345228E CTN ADZ.",
+      "validFrom": "2026-08-01T00:01Z",
+      "validTo": "2026-09-30T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "330FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1555/26",
       "location": "LLLL",
