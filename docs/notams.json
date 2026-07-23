@@ -1,20 +1,8 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-23T03:20:34Z",
+  "fetchedAt": "2026-07-23T03:40:13Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
-    {
-      "id": "C1552/26",
-      "location": "LLIB",
-      "eLine": "AD CLSD TO ALL FLT. AD NOT AVBL FOR EMERG.",
-      "validFrom": "2026-07-23T14:00Z",
-      "validTo": "2026-07-23T15:50Z",
-      "airfield": "Rosh-Pina",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
     {
       "id": "C1551/26",
       "location": "LLLL",
