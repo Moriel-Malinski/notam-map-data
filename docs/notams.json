@@ -1,12 +1,12 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-23T10:57:55Z",
+  "fetchedAt": "2026-07-23T11:16:03Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
-      "id": "C1559/26",
+      "id": "C1561/26",
       "location": "LLLL",
-      "eLine": "MINI UAS/UAV BUBBLE CARMEL NORTH CLSD.",
+      "eLine": "AN AREA AT CARMEL-NORTH WI 0.5NM RADIUS CENTERED ON PSN 323931N0350044E CLSD FM GND UP TO 1,000FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
       "validFrom": "2026-07-26T06:30Z",
       "validTo": "2026-07-30T18:30Z",
       "airfield": "Tel-Aviv FIR",
