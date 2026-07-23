@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-23T07:10:47Z",
+  "fetchedAt": "2026-07-23T08:03:45Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1557/26",
+      "location": "LLLL",
+      "eLine": "UAS ACT WILL TAKE PLACE AT NEVE-MICHAEL. AN AREA BTN FLW PSN FM GND UP TO 3,500FT AMSL CLSD TO ALL FLT 314107N0345919E 313846N0345857E 313824N0350011E 314028N0350307E 314131N0350134E. OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC CTN ADZ.",
+      "validFrom": "2026-07-27T07:00Z",
+      "validTo": "2026-07-28T11:15Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 0700-0800 1015-1115",
+      "lowerLimit": "GND",
+      "upperLimit": "3500FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1556/26",
       "location": "LLLL",
