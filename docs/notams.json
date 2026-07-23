@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-23T03:40:13Z",
+  "fetchedAt": "2026-07-23T04:17:51Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1554/26",
+      "location": "LLLL",
+      "eLine": "AN AREA WI 1.62NM RADIUS CENTERED ON PSN 313809N0343107E CLSD FM GND UP TO 2,500FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "validFrom": "2026-07-23T07:00Z",
+      "validTo": "2026-07-23T13:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1551/26",
       "location": "LLLL",
@@ -1282,18 +1294,6 @@
       "validFrom": "2026-04-26T14:00Z",
       "validTo": "2029-04-26T08:43Z",
       "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0356/26",
-      "location": "LLBG",
-      "eLine": "AD CLSD DUE WIP.",
-      "validFrom": "2026-07-24T15:00Z",
-      "validTo": "2026-07-24T19:55Z",
-      "airfield": "Ben-Gurion",
       "dLine": "",
       "lowerLimit": "",
       "upperLimit": "",
