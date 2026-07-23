@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-22T22:17:57Z",
+  "fetchedAt": "2026-07-23T00:05:47Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -1186,30 +1186,6 @@
       "validFrom": "2026-06-08T05:31Z",
       "validTo": "2029-06-08T05:32Z",
       "airfield": "Ben-Gurion",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1171/26",
-      "location": "LLLL",
-      "eLine": "TRIGGER NOTAM - NIL AIRAC DOM AIP AMDT WEF 09 JUL 2026.",
-      "validFrom": "2026-07-09T00:01Z",
-      "validTo": "2026-07-22T23:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0444/26",
-      "location": "LLLL",
-      "eLine": "TRIGGER NOTAM - NIL AIRAC AIP AMDT WEF 09 JUL 2026.",
-      "validFrom": "2026-07-09T00:01Z",
-      "validTo": "2026-07-22T23:59Z",
-      "airfield": "Tel-Aviv FIR",
       "dLine": "",
       "lowerLimit": "",
       "upperLimit": "",
