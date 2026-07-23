@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-23T04:37:46Z",
+  "fetchedAt": "2026-07-23T05:48:32Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1555/26",
+      "location": "LLLL",
+      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT HACHULA-LAKE, FM GND UP TO 400M AGL. LIT AND DAY MARKED. AN AREA WI 0.54NM RADIUS CENTERED ON PSN 330622N0353454E CLSD FM GND UP TO 1,800FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
+      "validFrom": "2026-07-26T03:30Z",
+      "validTo": "2026-08-01T02:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 0330-1400 1700-0200",
+      "lowerLimit": "GND",
+      "upperLimit": "1800FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "A0583/26",
       "location": "LLBG",
