@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-23T11:16:03Z",
+  "fetchedAt": "2026-07-23T12:19:34Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1562/26",
+      "location": "LLLL",
+      "eLine": "UAS ACT WILL TAKE PLACE AT KFAR-SABA WI LLHZ TRG AREA NR 3, FM GND UP TO 400FT AGL. AN AREA BTN FLW PSN CLSD FM GND UP TO 900FT AMSL 321038N0345552E 321015N0345531E 321023N0345500E 321100N0345511E 321112N0345414E 321144N0345442E 321143N0345448E 321141N0345447E 321132N0345511E 321126N0345509E 321122N0345510E 321114N0345542E 321045N0345541E. CTN ADZ.",
+      "validFrom": "2026-07-23T12:11Z",
+      "validTo": "2026-08-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "900FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1561/26",
       "location": "LLLL",
