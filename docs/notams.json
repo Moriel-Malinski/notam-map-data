@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-24T06:56:33Z",
+  "fetchedAt": "2026-07-24T07:32:45Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1567/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT NITANIM FM GND UP TO 1,000FT AMSL CLSD TO ALL FLT BTN FLW PSN 314227N0343436E 314114N0343603E 314538N0343812E 314558N0343659E CTN ADZ.",
+      "validFrom": "2026-07-24T07:19Z",
+      "validTo": "2026-07-24T11:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1566/26",
       "location": "LLIB",
