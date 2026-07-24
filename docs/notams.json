@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-24T11:03:12Z",
+  "fetchedAt": "2026-07-24T14:09:45Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -142,30 +142,6 @@
       "validFrom": "2026-07-24T16:00Z",
       "validTo": "2026-07-24T20:00Z",
       "airfield": "Ben-Gurion",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1551/26",
-      "location": "LLLL",
-      "eLine": "HEL ACT WILL TAKE PLACE WI NITZANIM ULTRALIGHT BUBBLE (BNZNI) FM GND UP TO 1,000FT AMSL BTN FLW PSN 314603N0343639E 314506N0343903E 314131N0343643E 314237N0343425E. OPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC CTN ADZ.",
-      "validFrom": "2026-07-24T12:00Z",
-      "validTo": "2026-07-24T14:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1550/26",
-      "location": "LLLL",
-      "eLine": "ULTRALIGHT BUBBLE NITZANIM (BNZNI) CLSD.",
-      "validFrom": "2026-07-24T12:00Z",
-      "validTo": "2026-07-24T14:00Z",
-      "airfield": "Tel-Aviv FIR",
       "dLine": "",
       "lowerLimit": "",
       "upperLimit": "",
