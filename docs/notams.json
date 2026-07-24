@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-24T02:41:27Z",
+  "fetchedAt": "2026-07-24T05:55:14Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1565/26",
+      "location": "LLMZ",
+      "eLine": "AIRSTRIP CLSD TO ALL FLT.",
+      "validFrom": "2026-07-24T05:42Z",
+      "validTo": "2026-08-31T20:59Z",
+      "airfield": "Metzada",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1563/26",
       "location": "LLLL",
@@ -349,18 +361,6 @@
       "dLine": "",
       "lowerLimit": "",
       "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1514/26",
-      "location": "LLLL",
-      "eLine": "PJE AIRSPACE METZADA ACT FM 8,000FT AMSL. OPR BY PPR FM ATC ONLY.",
-      "validFrom": "2026-07-23T09:30Z",
-      "validTo": "2026-07-24T11:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "23 0930-1710, 24 0600-1100",
-      "lowerLimit": "GND",
-      "upperLimit": "8000FT AMSL",
       "detailsV": 3
     },
     {
