@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-24T07:32:45Z",
+  "fetchedAt": "2026-07-24T07:56:23Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1568/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT EIN-ZURIM WI 0.8NM RADIUS CENTERED ON PSN 314130N0344219E CLSD FM GND UP TO 800FT AMSL TO ALL FLT. CTN ADZ.",
+      "validFrom": "2026-07-24T14:00Z",
+      "validTo": "2026-07-24T20:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1567/26",
       "location": "LLLL",
