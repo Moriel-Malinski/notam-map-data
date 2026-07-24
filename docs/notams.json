@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-24T20:19:07Z",
+  "fetchedAt": "2026-07-24T21:01:26Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -613,18 +613,6 @@
       "dLine": "DAILY 0400-0800",
       "lowerLimit": "",
       "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1434/26",
-      "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT KFAR-HAMACABIYA WI LLBG CTR, FM GND UP TO 100M AGL, BTN FLW PSN 320311N0344907E 320325N0344914E 320339N0344932E 320337N0344953E 320328N0345004E 320315N0345005E 320303N0344959E 320255N0344950E 320253N0344937E 320258N0344917E CTN ADZ.",
-      "validFrom": "2026-07-01T00:01Z",
-      "validTo": "2026-07-24T20:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "GND",
-      "upperLimit": "830FT AMSL",
       "detailsV": 3
     },
     {
