@@ -3914,98 +3914,6 @@
     "notes": "גובה מזערי: 3,500 רגל"
   },
   {
-    "code": "LLU_ASHKELON",
-    "name_he": "אשקלון",
-    "name_en": "Ashkelon",
-    "type": "LLU",
-    "type_he": "אסור לכטב\"מ/טיסן",
-    "max_alt_ft": 2000,
-    "min_alt_ft": 0,
-    "shape": "polygon",
-    "coords": [
-      [
-        31.634444,
-        34.521944
-      ],
-      [
-        31.643889,
-        34.53
-      ],
-      [
-        31.638056,
-        34.595
-      ],
-      [
-        31.655,
-        34.598056
-      ],
-      [
-        31.65,
-        34.65
-      ],
-      [
-        31.625833,
-        34.661667
-      ],
-      [
-        31.612222,
-        34.655556
-      ],
-      [
-        31.604444,
-        34.631389
-      ],
-      [
-        31.583056,
-        34.621944
-      ],
-      [
-        31.561944,
-        34.605556
-      ]
-    ],
-    "center": null,
-    "radius_km": null,
-    "contact": "אין",
-    "notes": "תכנון ההפעלה יבוצע מול מודיעין טיס. האזור יוגבל כאשר הנתיב אשקלון ברור חייל בשימוש. בתחום האזור מצויים שטחי אש של צה\"ל."
-  },
-  {
-    "code": "LLU_ASHKELON_C",
-    "name_he": "אשקלון - מעגל",
-    "name_en": "Ashkelon Circle",
-    "type": "LLU",
-    "type_he": "אסור לכטב\"מ/טיסן",
-    "max_alt_ft": 2000,
-    "min_alt_ft": 0,
-    "shape": "circle",
-    "coords": [],
-    "center": [
-      31.62889,
-      34.53194
-    ],
-    "radius_km": 1.0,
-    "contact": "אין",
-    "notes": "מעגל רדיוס 1 ק\"מ."
-  },
-  {
-    "code": "LLU_TAIBE",
-    "name_he": "טייבה",
-    "name_en": "Taibe",
-    "type": "LLU",
-    "type_he": "אסור לכטב\"מ/טיסן",
-    "max_alt_ft": 2000,
-    "min_alt_ft": 0,
-    "shape": "circle",
-    "coords": [],
-    "center": [
-      32.25389,
-      35.03222
-    ],
-    "radius_km": 1.5,
-    "contact": "אין",
-    "notes": "תיאום עם מגדל נתב\"ג."
-  },
-  {
     "code": "LLU_KOCHAV_YAIR",
     "name_he": "כוכב יאיר",
     "name_en": "Kochav Yair",
@@ -4640,24 +4548,6 @@
     "radius_km": 1.0,
     "contact": "08-8587003",
     "notes": "תיאום עם תעופה חקלאית."
-  },
-  {
-    "code": "LLU_NATAF",
-    "name_he": "נטף",
-    "name_en": "Nataf",
-    "type": "LLU",
-    "type_he": "אסור לכטב\"מ/טיסן",
-    "max_alt_ft": 3000,
-    "min_alt_ft": 0,
-    "shape": "circle",
-    "coords": [],
-    "center": [
-      31.83167,
-      35.04194
-    ],
-    "radius_km": 1.0,
-    "contact": "אין",
-    "notes": ""
   },
   {
     "code": "LLU_AFULA_E",
