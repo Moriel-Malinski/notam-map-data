@@ -11,7 +11,13 @@ import argparse
 import os
 import sys
 
+import geometry_gates
 from common import DATA_DIR, DOCS_DIR, MANAGED_FILES, in_israel_bbox, load_json
+
+# Findings listed here are known and outstanding — they print but do not fail.
+# Anything new does fail. Shrinking this file is the point; adding to it should
+# be a deliberate decision with the source in hand.
+BASELINE_FILE = os.path.join(DATA_DIR, ".geometry_gate_baseline.json")
 
 # name -> (min_count, max_count)
 COUNT_BOUNDS = {
@@ -111,6 +117,40 @@ def validate_counts(name, entries, previous_counts, allow_shrink):
             )
 
 
+def run_geometry_gates(zone_entries):
+    """Meaning-level gates (see geometry_gates.py). Known findings are read
+    from the baseline and only reported; new ones become errors."""
+    baseline = {}
+    if os.path.exists(BASELINE_FILE):
+        baseline = load_json(BASELINE_FILE).get("known", {})
+
+    findings = geometry_gates.run(zone_entries)
+    seen = set()
+    fresh = []
+    for f in findings:
+        seen.add(f.key)
+        if f.key in baseline:
+            continue
+        fresh.append(f)
+        err(f"geometry gate: {f.message}")
+
+    known_hits = len(findings) - len(fresh)
+    if known_hits:
+        print(f"Geometry gates: {known_hits} known finding(s) from the baseline:")
+        for f in findings:
+            if f.key in baseline:
+                print(f"  · {f.key} — {baseline[f.key]}")
+
+    resolved = sorted(set(baseline) - seen)
+    if resolved:
+        print(
+            f"Geometry gates: {len(resolved)} baseline entr(y/ies) no longer "
+            f"fire — delete them from {os.path.basename(BASELINE_FILE)}:"
+        )
+        for key in resolved:
+            print(f"  · {key}")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--allow-shrink", action="store_true")
@@ -125,6 +165,7 @@ def main():
             if isinstance(info.get("count"), int):
                 previous_counts[fname] = info["count"]
 
+    zone_entries = {}
     for name in MANAGED_FILES:
         path = os.path.join(DATA_DIR, name)
         if not os.path.exists(path):
@@ -141,11 +182,17 @@ def main():
 
         if name in ZONE_FILES:
             validate_zone_file(name, entries)
+            zone_entries[name] = entries
         elif name == "ratag_output.json":
             validate_ratag_output(name, entries)
         elif name == "rtg_closures.json":
             validate_rtg_closures(name, entries)
         validate_counts(name, entries, previous_counts, args.allow_shrink)
+
+    # Only the hand-maintained zone files. ratag_output.json is generated from
+    # the official KMZ, so its outlines are not hand-transcribed.
+    if zone_entries:
+        run_geometry_gates(zone_entries)
 
     errs = [e for e in errors if e]
     if errs:

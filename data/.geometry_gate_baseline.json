@@ -1,0 +1,14 @@
+{
+  "_comment": "Findings from pipeline/geometry_gates.py that are known and still outstanding. Listed here they report but do not fail the build; anything NOT listed fails. Each line needs the פמ\"ת row to resolve, not a code change. Shrinking this file is the goal — when a key stops firing, validate.py says so and it should be deleted.",
+  "known": {
+    "dup-code:LLU_KOCHAV_YAIR": "same code in both files with centres ~500 m apart, so one of the two positions is wrong; needs the פמ\"ת row to decide which",
+    "shape-vs-text:LLU_KOCHAV_YAIR": "notes call it a קשת (arc); stored as a full circle, which over-covers",
+    "shape-vs-text:LLU_NATAF": "notes call it a קשת ברדיוס 1.5 ק\"מ; stored as a full circle, which over-covers",
+    "shape-vs-text:LLD28": "גליל הצנחה חוף התמרים is a חצי מעגל צפוני in the notes but a whole circle in the geometry — double the real area",
+    "same-geom:LLD37|LLD38": "מחניים מערב and מחניים מזרח are the west and east halves of one parachuting cylinder; both are stored as the same full 2.5 km circle",
+    "self-intersect:LLP16": "עין עבדת outline crosses itself. Worst of the four: the code starts with LLP1, so the app treats it as an ordered path and skips the angle sort, meaning the bowtie is what tap detection and route-conflict checks actually use",
+    "self-intersect:LLR01": "outline crosses itself; the app angle-sorts LLR zones at runtime, which hides it but produces a star-convex outline rather than the true one",
+    "self-intersect:LLR02": "outline crosses itself; same runtime angle-sort caveat as LLR01",
+    "self-intersect:LLU_BERESHIT_101": "outline crosses itself; same runtime angle-sort caveat"
+  }
+}

@@ -1,29 +1,29 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 6,
+  "dataVersion": 7,
   "files": {
     "zones_data.json": {
-      "version": 4,
+      "version": 5,
       "url": "https://moriel-malinski.github.io/notam-map-data/v1/zones_data.json.gz",
       "fallbackUrl": "https://raw.githubusercontent.com/Moriel-Malinski/notam-map-data/main/docs/v1/zones_data.json.gz",
-      "sha256": "2a05c89238b691fb08043478cd9ea0b1f35c9a4ec23fad4eb4a93d86537a3986",
-      "gzSha256": "a404b16024c44dc26150a623b9a03c8572713db22d642f79a08baf31a48e7e25",
-      "sizeBytes": 87730,
-      "gzSizeBytes": 16250,
+      "sha256": "0e22496b05ab2d43480ea6a941245b476451d4981ff4a0114dc0fede090ee02b",
+      "gzSha256": "74fd7aa4a8424d925e9e545e61ef10c94415874591306c69f8f202c41304c06f",
+      "sizeBytes": 87933,
+      "gzSizeBytes": 16314,
       "count": 216,
-      "updatedAt": "2026-07-25T17:36:45Z",
+      "updatedAt": "2026-07-25T18:11:46Z",
       "source": "AIP Israel ENR / רשות התעופה האזרחית פמ\"ת"
     },
     "a17_additions.json": {
-      "version": 3,
+      "version": 4,
       "url": "https://moriel-malinski.github.io/notam-map-data/v1/a17_additions.json.gz",
       "fallbackUrl": "https://raw.githubusercontent.com/Moriel-Malinski/notam-map-data/main/docs/v1/a17_additions.json.gz",
-      "sha256": "76d22dcb8eb3d46736d55d496eb749592d6f1509379db1fc4029ba816d716f37",
-      "gzSha256": "505827761cfff3bd4a3a302a0d734a1bca37188fe54de221e9b212405caac778",
-      "sizeBytes": 28490,
-      "gzSizeBytes": 4685,
-      "count": 68,
-      "updatedAt": "2026-07-25T16:39:58Z",
+      "sha256": "1919856fb58652732f335b0b02ad29151a1c2043a9ed09fdc2a6913173b80742",
+      "gzSha256": "49ab44ee0df4ed9760f8272d1256be0128d9771ed8b73f5f9a4c926f70228ac8",
+      "sizeBytes": 24762,
+      "gzSizeBytes": 4158,
+      "count": 60,
+      "updatedAt": "2026-07-25T18:11:46Z",
       "source": "פמ\"ת א-17 נספחים / רשות התעופה האזרחית"
     },
     "ratag_output.json": {
@@ -52,5 +52,5 @@
     }
   },
   "minAppVersion": "1.4.0",
-  "generatedAt": "2026-07-25T17:36:45Z"
+  "generatedAt": "2026-07-25T18:11:46Z"
 }
