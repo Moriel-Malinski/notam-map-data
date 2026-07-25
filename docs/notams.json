@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-25T08:15:08Z",
+  "fetchedAt": "2026-07-25T11:17:19Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "A0585/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE J14 CLSD BTN NAT-ZACCI.",
+      "validFrom": "2026-07-25T12:00Z",
+      "validTo": "2026-07-26T01:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1570/26",
+      "location": "LLLL",
+      "eLine": "AN AREA NEAR OLESH CLSD FM BTN 3000FT-5000FT AMSL BTN FLW PSN 322038N0345856E 322014N0345835E 321724N0350312E 321755N0350331E. CTN ADZ.",
+      "validFrom": "2026-07-25T12:00Z",
+      "validTo": "2026-07-26T01:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1565/26",
       "location": "LLMZ",
