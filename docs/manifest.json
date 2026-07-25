@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "dataVersion": 3,
+  "dataVersion": 4,
   "files": {
     "zones_data.json": {
       "version": 2,
@@ -15,15 +15,15 @@
       "source": "AIP Israel ENR / רשות התעופה האזרחית פמ\"ת"
     },
     "a17_additions.json": {
-      "version": 2,
+      "version": 3,
       "url": "https://moriel-malinski.github.io/notam-map-data/v1/a17_additions.json.gz",
       "fallbackUrl": "https://raw.githubusercontent.com/Moriel-Malinski/notam-map-data/main/docs/v1/a17_additions.json.gz",
-      "sha256": "55f2a17473d4f118408e69941b99aa2f8e7ef8f5937de3b9f4220fb52179db47",
-      "gzSha256": "4bd1d2bcc21604f60448e8da9d216815eacbb1446658b3f43dd1263c5338b89d",
-      "sizeBytes": 26987,
-      "gzSizeBytes": 4171,
+      "sha256": "76d22dcb8eb3d46736d55d496eb749592d6f1509379db1fc4029ba816d716f37",
+      "gzSha256": "505827761cfff3bd4a3a302a0d734a1bca37188fe54de221e9b212405caac778",
+      "sizeBytes": 28490,
+      "gzSizeBytes": 4685,
       "count": 68,
-      "updatedAt": "2026-07-09T17:54:35Z",
+      "updatedAt": "2026-07-25T16:39:58Z",
       "source": "פמ\"ת א-17 נספחים / רשות התעופה האזרחית"
     },
     "ratag_output.json": {
@@ -52,5 +52,5 @@
     }
   },
   "minAppVersion": "1.4.0",
-  "generatedAt": "2026-07-09T18:52:22Z"
+  "generatedAt": "2026-07-25T16:39:58Z"
 }
