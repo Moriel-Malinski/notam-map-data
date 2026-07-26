@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-26T16:28:54Z",
+  "fetchedAt": "2026-07-26T16:52:56Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
-      "id": "A0592/26",
+      "id": "A0593/26",
       "location": "LLLL",
-      "eLine": "ATS RTE Q30 CLSD BTN BEXOM-NURIT.",
-      "validFrom": "2026-07-26T16:24Z",
-      "validTo": "2026-08-31T20:59Z",
+      "eLine": "ATS RTE J14 CLSD BTN NAT-MEGID.",
+      "validFrom": "2026-07-26T16:49Z",
+      "validTo": "2026-07-28T04:00Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
       "lowerLimit": "",
@@ -16,11 +16,11 @@
       "detailsV": 3
     },
     {
-      "id": "A0591/26",
+      "id": "A0592/26",
       "location": "LLLL",
-      "eLine": "ATS RTE J14 CLSD BTN NAT-MEGID.",
-      "validFrom": "2026-07-26T16:02Z",
-      "validTo": "2026-07-27T04:00Z",
+      "eLine": "ATS RTE Q30 CLSD BTN BEXOM-NURIT.",
+      "validFrom": "2026-07-26T16:24Z",
+      "validTo": "2026-08-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
       "lowerLimit": "",
