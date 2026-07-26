@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-26T11:53:41Z",
+  "fetchedAt": "2026-07-26T13:36:56Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "A0588/26",
+      "location": "LLBG",
+      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 315938.65N0345424.86E CLSD FM GND UP TO 92M 302FT AMSL. IN CASE OF EMERG LOWERED WI 5MIN. CTN ADZ.",
+      "validFrom": "2026-07-27T05:30Z",
+      "validTo": "2026-07-27T10:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "A0587/26",
       "location": "LLBG",
