@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-26T15:28:12Z",
+  "fetchedAt": "2026-07-26T15:46:02Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1592/26",
+      "location": "LLIB",
+      "eLine": "DEP/ARR AVBL VIA SOUTH ENTRY/EXIT ONLY. OPS OF ACFT AVBL WITH MAX 10 PAX ON BOARD. PJE PROHIBITED.",
+      "validFrom": "2026-07-26T15:28Z",
+      "validTo": "2026-08-31T20:59Z",
+      "airfield": "Rosh-Pina",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1591/26",
+      "location": "LLLL",
+      "eLine": "LLIB TRG AREA NR A AND B CLSD.",
+      "validFrom": "2026-07-26T15:26Z",
+      "validTo": "2026-08-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1590/26",
       "location": "LLRS",
@@ -933,30 +957,6 @@
       "eLine": "MAX ALT ALONG ATS RTE J10 BTN NURIT-SIVAK 18,000FT AMSL.",
       "validFrom": "2026-06-28T11:48Z",
       "validTo": "2026-07-31T23:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1399/26",
-      "location": "LLIB",
-      "eLine": "DEP/ARR AVBL VIA SOUTH ENTRY/EXIT ONLY. OPS OF ACFT AVBL WITH MAX 10 PAX ON BOARD. PJE PROHIBITED.",
-      "validFrom": "2026-06-28T08:19Z",
-      "validTo": "2026-07-31T20:59Z",
-      "airfield": "Rosh-Pina",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1398/26",
-      "location": "LLLL",
-      "eLine": "LLIB TRG AREA NR A AND B CLSD.",
-      "validFrom": "2026-06-28T08:16Z",
-      "validTo": "2026-07-31T20:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
       "lowerLimit": "",
