@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-26T16:10:21Z",
+  "fetchedAt": "2026-07-26T16:28:54Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "A0592/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE Q30 CLSD BTN BEXOM-NURIT.",
+      "validFrom": "2026-07-26T16:24Z",
+      "validTo": "2026-08-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "A0591/26",
       "location": "LLLL",
@@ -968,18 +980,6 @@
       "location": "LLLL",
       "eLine": "MAX ALT ALONG ATS RTE J10 BTN NURIT-SIVAK 18,000FT AMSL.",
       "validFrom": "2026-06-28T11:48Z",
-      "validTo": "2026-07-31T23:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0505/26",
-      "location": "LLLL",
-      "eLine": "ATS RTE Q30 CLSD BTN BEXOM-NURIT.",
-      "validFrom": "2026-06-28T08:13Z",
       "validTo": "2026-07-31T23:59Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
