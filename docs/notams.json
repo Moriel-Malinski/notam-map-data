@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-26T20:31:19Z",
+  "fetchedAt": "2026-07-26T21:06:03Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -298,18 +298,6 @@
       "validFrom": "2026-07-26T05:48Z",
       "validTo": "2026-08-31T20:59Z",
       "airfield": "Herzlia",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1573/26",
-      "location": "LLLL",
-      "eLine": "AN AREA AT OLESH WI 0.8NM RADIUS CENTERED ON PSN 322030N0345914E CLSD FM GND UP TO 3,000FT AMSL, TO ALL FLT INCLUDING AGRICULTURE. CTN ADZ.",
-      "validFrom": "2026-07-26T04:28Z",
-      "validTo": "2026-07-26T20:59Z",
-      "airfield": "Tel-Aviv FIR",
       "dLine": "",
       "lowerLimit": "",
       "upperLimit": "",
