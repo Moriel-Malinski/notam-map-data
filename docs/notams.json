@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-26T09:20:04Z",
+  "fetchedAt": "2026-07-26T10:05:51Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -561,18 +561,6 @@
       "eLine": "TRIGGER NOTAM - AIRAC DOM AIP AMDT 01/26 WEF 06 AUG 2026 PHONE NR AND FREQ UPDATED, SPOKEN LANGUAGE, LOCAL FLT DEFINITION, DOM FPL TO/FM LLER, CLOSURE OF LLER AIS UNIT, LLD UPDATED, HEL MAP/CHART UPDATED, TRANSITION FM IFR TO CVFR WI LLHA RTE, OPS OF HOT-AIR BALLOON, CONDITIONS FOR FLT WI ULTRALIGHT ZVULUN BUBBLE UPDATED, UAS FPL FORM ADDED.",
       "validFrom": "2026-08-06T00:01Z",
       "validTo": "2026-08-19T23:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0533/26",
-      "location": "LLLL",
-      "eLine": "VOR/DME BSA FREQ 114.300MHZ WITHDRAWN FOR MAINT.",
-      "validFrom": "2026-07-26T06:00Z",
-      "validTo": "2026-07-26T10:00Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
       "lowerLimit": "",
