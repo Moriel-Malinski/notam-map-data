@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-26T15:46:02Z",
+  "fetchedAt": "2026-07-26T16:10:21Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "A0591/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE J14 CLSD BTN NAT-MEGID.",
+      "validFrom": "2026-07-26T16:02Z",
+      "validTo": "2026-07-27T04:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1592/26",
       "location": "LLIB",
