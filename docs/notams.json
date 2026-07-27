@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-27T12:32:31Z",
+  "fetchedAt": "2026-07-27T12:52:51Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1597/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E CLSD FM GND UP TO 3,700FT AMSL. CTN ADZ.",
+      "validFrom": "2026-08-02T03:00Z",
+      "validTo": "2026-08-06T14:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 0300-1430",
+      "lowerLimit": "GND",
+      "upperLimit": "3700FT AMSL",
+      "detailsV": 3
+    },
+    {
+      "id": "C1596/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT NESHER WI LLHA CTR FM GND UP TO 460M AGL 1,510FT AMSL, BTN FLW PSN 324637N0350134E 324629N0350037E 324552N0350043E 324514N0350131E 324513N0350243E 324559N0350245E 324617N0350207E. CTN ADZ.",
+      "validFrom": "2026-08-01T00:01Z",
+      "validTo": "2026-08-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "1500FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1595/26",
       "location": "LLLL",
