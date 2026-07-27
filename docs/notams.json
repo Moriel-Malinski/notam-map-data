@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-27T12:52:51Z",
+  "fetchedAt": "2026-07-27T13:24:35Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1598/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT OLESH WI 0.8NM RADIUS CENTERED ON PSN 322030N0345914E CLSD FM GND UP TO 3,000FT AMSL, TO ALL FLT INCLUDING AGRICULTURE. CTN ADZ.",
+      "validFrom": "2026-07-28T03:30Z",
+      "validTo": "2026-07-28T12:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1597/26",
       "location": "LLLL",
