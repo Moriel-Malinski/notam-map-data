@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-27T09:00:50Z",
+  "fetchedAt": "2026-07-27T10:19:12Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -232,18 +232,6 @@
       "detailsV": 3
     },
     {
-      "id": "A0590/26",
-      "location": "LLBG",
-      "eLine": "RWY 12/30 CLSD DUE WIP.",
-      "validFrom": "2026-07-27T05:30Z",
-      "validTo": "2026-07-27T10:00Z",
-      "airfield": "Ben-Gurion",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
       "id": "A0589/26",
       "location": "LLBG",
       "eLine": "DUE REDUCED CAPACITY AT AD LDG CARGO FLT BTN 0001-0500LMT PROHIBITED.",
@@ -251,18 +239,6 @@
       "validTo": "2026-08-31T02:00Z",
       "airfield": "Ben-Gurion",
       "dLine": "DAILY 2100-0200",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0588/26",
-      "location": "LLBG",
-      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 315938.65N0345424.86E CLSD FM GND UP TO 92M 302FT AMSL. IN CASE OF EMERG LOWERED WI 5MIN. CTN ADZ.",
-      "validFrom": "2026-07-27T05:30Z",
-      "validTo": "2026-07-27T10:00Z",
-      "airfield": "Ben-Gurion",
-      "dLine": "",
       "lowerLimit": "",
       "upperLimit": "",
       "detailsV": 3
