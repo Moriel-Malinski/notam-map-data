@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-27T18:22:56Z",
+  "fetchedAt": "2026-07-27T18:46:08Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -21,18 +21,6 @@
       "eLine": "AN AREA AT GVULOT WI 1.2NM RADIUS CENTERED ON PSN 311345N0342533E CLSD FM GND UP TO 1,200FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
       "validFrom": "2026-07-28T15:00Z",
       "validTo": "2026-07-28T19:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1598/26",
-      "location": "LLLL",
-      "eLine": "AN AREA AT OLESH WI 0.8NM RADIUS CENTERED ON PSN 322030N0345914E CLSD FM GND UP TO 3,000FT AMSL, TO ALL FLT INCLUDING AGRICULTURE. CTN ADZ.",
-      "validFrom": "2026-07-28T03:30Z",
-      "validTo": "2026-07-28T12:30Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
       "lowerLimit": "",
