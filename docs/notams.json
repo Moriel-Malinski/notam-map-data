@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-27T13:24:35Z",
+  "fetchedAt": "2026-07-27T14:01:13Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1599/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT GVULOT WI 1.2NM RADIUS CENTERED ON PSN 311345N0342533E CLSD FM GND UP TO 1,200FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "validFrom": "2026-07-28T15:00Z",
+      "validTo": "2026-07-28T19:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1598/26",
       "location": "LLLL",
@@ -61,18 +73,6 @@
       "dLine": "",
       "lowerLimit": "GND",
       "upperLimit": "2800FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1593/26",
-      "location": "LLLL",
-      "eLine": "AN AREA AT OLESH WI 0.8NM RADIUS CENTERED ON PSN 322030N0345914E CLSD FM GND UP TO 3,000FT AMSL, TO ALL FLT INCLUDING AGRICULTURE. CTN ADZ.",
-      "validFrom": "2026-07-27T04:30Z",
-      "validTo": "2026-07-27T14:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
       "detailsV": 3
     },
     {
@@ -477,18 +477,6 @@
       "eLine": "DME OF ILS RWY 01 C/S RC FREQ 108.700MHZ WITHDRAWN FOR MAINT.",
       "validFrom": "2026-07-28T07:00Z",
       "validTo": "2026-07-28T11:00Z",
-      "airfield": "Ramon",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0580/26",
-      "location": "LLER",
-      "eLine": "ILS RWY 01 C/S RC FREQ 108.700MHZ WITHDRAWN FOR MAINT.",
-      "validFrom": "2026-07-27T11:00Z",
-      "validTo": "2026-07-27T14:00Z",
       "airfield": "Ramon",
       "dLine": "",
       "lowerLimit": "",
