@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-27T10:19:12Z",
+  "fetchedAt": "2026-07-27T12:12:45Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1594/26",
+      "location": "LLLL",
+      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT MEI-AMI. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 323015N0350902E CLSD FM GND UP TO 2,800FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
+      "validFrom": "2026-07-28T02:30Z",
+      "validTo": "2026-08-02T02:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "2800FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1593/26",
       "location": "LLLL",
