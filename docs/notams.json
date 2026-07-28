@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-28T08:18:11Z",
+  "fetchedAt": "2026-07-28T08:34:49Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1604/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT AVITAL JUNCTION, WI 2.9NM RADIUS CENTERED ON PSN 330326N0354649E FM GND UP TO 8600FT AMSL.AGRICULTURE FLIGHT WITH PPR 15 MIN CTN ADZ.",
+      "validFrom": "2026-07-29T14:00Z",
+      "validTo": "2026-07-30T02:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "8600FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1603/26",
       "location": "LLLL",
