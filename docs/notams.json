@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-28T18:58:44Z",
+  "fetchedAt": "2026-07-28T19:01:24Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -154,18 +154,6 @@
       "validFrom": "2026-08-11T15:00Z",
       "validTo": "2026-08-11T20:59Z",
       "airfield": "Rosh-Pina",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1599/26",
-      "location": "LLLL",
-      "eLine": "AN AREA AT GVULOT WI 1.2NM RADIUS CENTERED ON PSN 311345N0342533E CLSD FM GND UP TO 1,200FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
-      "validFrom": "2026-07-28T15:00Z",
-      "validTo": "2026-07-28T19:00Z",
-      "airfield": "Tel-Aviv FIR",
       "dLine": "",
       "lowerLimit": "",
       "upperLimit": "",
