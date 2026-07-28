@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-28T07:21:28Z",
+  "fetchedAt": "2026-07-28T08:18:11Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1603/26",
+      "location": "LLLL",
+      "eLine": "PJE WILL TAKE PLACE AT REVIVIM. AN AREA FM GND UP 2,400FT AMSL CLSD BTN FLW PSN 310712N0344550E 310511N0343920E 310455N0343655E 305931N0343815E 310035N0344409E 310359N0344720E 310712N0344550E. OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC CTN ADZ.",
+      "validFrom": "2026-08-03T05:30Z",
+      "validTo": "2026-08-03T19:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "0530-0730 1730-1900",
+      "lowerLimit": "GND",
+      "upperLimit": "2400FT AMSL",
+      "detailsV": 3
+    },
+    {
+      "id": "C1602/26",
+      "location": "LLLL",
+      "eLine": "PJE WILL TAKE PLACE AT SHUNRAH. AN AREA FM GND UP TO 2,800FT AMSL CLSD BTN FLW PSN 305416N0342843E 305436N0342531E 305721N0342433E 310025N0343407E 305642N0343528E. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "validFrom": "2026-08-03T06:00Z",
+      "validTo": "2026-08-03T07:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "2800FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1600/26",
       "location": "LLIB",
