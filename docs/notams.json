@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-29T13:56:08Z",
+  "fetchedAt": "2026-07-29T14:14:09Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1622/26",
+      "location": "LLLL",
+      "eLine": "LLHZ TRG AREA NR 8, 9, 12, 13 CLSD.",
+      "validFrom": "2026-08-04T19:00Z",
+      "validTo": "2026-08-05T02:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1621/26",
       "location": "LLLL",
