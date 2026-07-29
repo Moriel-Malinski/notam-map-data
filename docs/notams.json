@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-29T10:20:58Z",
+  "fetchedAt": "2026-07-29T12:57:12Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1616/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT KESARYA UP TO 100M AGL, AN AREA WI 0.8NM RADIUS CENTERED ON PSN 322941N0345439E CLSD FM GND UP TO 500FT AMSL. CTN ADZ.",
+      "validFrom": "2026-08-01T19:00Z",
+      "validTo": "2026-08-31T02:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 1900-0230",
+      "lowerLimit": "GND",
+      "upperLimit": "500FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1614/26",
       "location": "LLLL",
