@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-29T04:31:54Z",
+  "fetchedAt": "2026-07-29T06:36:59Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1612/26",
+      "location": "LLLL",
+      "eLine": "UAS ACT WILL TAKE PLACE AT ADERET. AN AREA BTN FLW PSN FM GND UP TO 3,500FT AMSL CLSD TO ALL FLT 314107N0345919E 313846N0345857E 313824N0350011E 314028N0350307E 314131N0350134E. CTN ADZ.",
+      "validFrom": "2026-08-03T07:00Z",
+      "validTo": "2026-08-04T11:15Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 0700-0800 1015-1115",
+      "lowerLimit": "GND",
+      "upperLimit": "3500FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1611/26",
       "location": "LLLL",
