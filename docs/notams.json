@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-29T06:36:59Z",
+  "fetchedAt": "2026-07-29T08:33:34Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1613/26",
+      "location": "LLLL",
+      "eLine": "MINI UAS/UAV BUBBLE CARMEL WEST LTD TO MAX 2,500FT AMSL.",
+      "validFrom": "2026-07-29T09:00Z",
+      "validTo": "2026-07-29T13:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1612/26",
       "location": "LLLL",
