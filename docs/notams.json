@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-29T09:11:33Z",
+  "fetchedAt": "2026-07-29T10:20:58Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1614/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT ARRAH WI 1.35NM RADIUS CENTERED ON PSN 323131N0350343E CLSD FM GND UP TO 1,000FT AMSL TO ALL FLT. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "validFrom": "2026-08-06T14:00Z",
+      "validTo": "2026-08-06T18:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1613/26",
       "location": "LLLL",
