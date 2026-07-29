@@ -1,8 +1,44 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-29T14:14:09Z",
+  "fetchedAt": "2026-07-29T14:34:46Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1625/26",
+      "location": "LLLL",
+      "eLine": "CVFR RTE CLSD ZOFAR-HRGVS.",
+      "validFrom": "2026-08-04T16:50Z",
+      "validTo": "2026-08-04T18:10Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1624/26",
+      "location": "LLLL",
+      "eLine": "HEL RTE CLSD LIAAD-MARIB.",
+      "validFrom": "2026-08-04T17:45Z",
+      "validTo": "2026-08-04T19:15Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1623/26",
+      "location": "LLEY",
+      "eLine": "AIRSTRIP CLSD TO ALL FLT.",
+      "validFrom": "2026-08-04T16:50Z",
+      "validTo": "2026-08-04T18:10Z",
+      "airfield": "Eyn-Yahav",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1622/26",
       "location": "LLLL",
