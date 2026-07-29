@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-29T14:34:46Z",
+  "fetchedAt": "2026-07-29T14:55:54Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "A0601/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE J14 CLSD BTN NAT-ZACCI.",
+      "validFrom": "2026-07-30T05:30Z",
+      "validTo": "2026-07-30T14:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 0530-0700 1230-1400",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1626/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT PARK-REEM. AN AREA WI 0.5NM RADIUS CENTERED ON PSN 314633N0344520E CLSD FM GND UP TO 25M AGL 300FT AMSL. OPS AVBL WITH PPR FM ATC ONLY. CTN ADZ.",
+      "validFrom": "2026-08-01T00:01Z",
+      "validTo": "2026-08-31T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "300FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1625/26",
       "location": "LLLL",
