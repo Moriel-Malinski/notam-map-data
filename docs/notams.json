@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-29T15:17:41Z",
+  "fetchedAt": "2026-07-29T15:41:06Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1628/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT OLESH BTN 3,000-5,000FT AMSL CLSD TO ALL FLT INCLUDING AGRICULTURE FLT BTN FLW PSN 322029N0345958E 322036N0345938E 322019N0345918E 322000N0345939E CTN ADZ.",
+      "validFrom": "2026-07-30T05:30Z",
+      "validTo": "2026-07-30T14:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "0530-0700 1230-1400",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1627/26",
       "location": "LLLL",
