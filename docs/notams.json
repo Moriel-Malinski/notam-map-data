@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-29T15:41:06Z",
+  "fetchedAt": "2026-07-29T16:01:45Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1629/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT DANGER AREA 618 CLSD FM BTN FM GND UP TO 1,700FT AMSL BTN FLW PSN 305659N0344200E 305632N0344144E 305619N0344234E 305644N0344253E. CTN ADZ.",
+      "validFrom": "2026-08-02T04:30Z",
+      "validTo": "2026-08-06T16:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 0430-1630",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1628/26",
       "location": "LLLL",
@@ -193,18 +205,6 @@
       "dLine": "DAILY 0700-0800 1015-1115",
       "lowerLimit": "GND",
       "upperLimit": "3500FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1611/26",
-      "location": "LLLL",
-      "eLine": "AN AREA WI 1.5NM RADIUS CENTERED ON PSN 314042N0345936E CLSD FM GND UP TO 4,500 FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
-      "validFrom": "2026-07-29T06:30Z",
-      "validTo": "2026-07-29T16:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
       "detailsV": 3
     },
     {
