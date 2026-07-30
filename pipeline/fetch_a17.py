@@ -24,6 +24,7 @@ import json
 import os
 import re
 import sys
+import time
 
 import fitz  # PyMuPDF
 import requests
@@ -227,6 +228,27 @@ def geometry_equal(z1, z2):
     return True
 
 
+def download(url, retries=4):
+    """gov.il resets the TLS handshake on datacenter IPs often enough that a
+    single attempt makes the daily run flaky. Retry with a linear backoff."""
+    last_err = None
+    for attempt in range(retries):
+        try:
+            res = requests.get(
+                url, headers={"User-Agent": USER_AGENT}, timeout=120
+            )
+            res.raise_for_status()
+            return res.content
+        except Exception as e:  # noqa: BLE001
+            last_err = e
+            if attempt == retries - 1:
+                break
+            wait = 5 * (attempt + 1)
+            print(f"Download attempt {attempt + 1} failed: {e}; retry in {wait}s")
+            time.sleep(wait)
+    raise RuntimeError(f"Failed to download {url}: {last_err}")
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--apply", action="store_true",
@@ -242,13 +264,10 @@ def main():
         pdf_path = args.pdf
     else:
         pdf_path = os.path.join(REPO_ROOT, "a17_download.pdf")  # ASCII name
-        res = requests.get(
-            A17_URL, headers={"User-Agent": USER_AGENT}, timeout=120
-        )
-        res.raise_for_status()
+        content = download(A17_URL)
         with open(pdf_path, "wb") as f:
-            f.write(res.content)
-        print(f"Downloaded A-17 PDF ({len(res.content):,} bytes)")
+            f.write(content)
+        print(f"Downloaded A-17 PDF ({len(content):,} bytes)")
 
     parsed = extract_zones(pdf_path)
     if len(parsed) < 20:
