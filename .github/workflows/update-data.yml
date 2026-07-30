@@ -69,9 +69,11 @@ jobs:
       # whose unauthenticated per-IP rate limit is shared by everyone behind
       # the same carrier NAT. Changes every run, so the commit below always
       # has something to push (a "pulse" even when the data itself didn't move).
+      #
+      # Goes through write_heartbeat.py rather than overwriting the file, so the
+      # hourly `lastHeartbeat` pulse from heartbeat.yml survives this write.
       - name: Write heartbeat (when sources were last checked)
-        run: |
-          printf '{"lastRun": "%s"}\n' "$(date -u +%FT%TZ)" > docs/heartbeat.json
+        run: python pipeline/write_heartbeat.py lastRun
 
       - name: Keep scheduled workflow alive (monthly touch)
         if: github.event_name == 'schedule'
