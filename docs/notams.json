@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-30T16:47:22Z",
+  "fetchedAt": "2026-07-30T18:37:07Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1635/26",
+      "location": "LLLL",
+      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT SHFARAAM. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 324850N0351002E CLSD FM GND UP TO 2,000FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
+      "validFrom": "2026-08-01T02:30Z",
+      "validTo": "2026-08-09T02:35Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "2000FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "A0608/26",
       "location": "LLLL",
@@ -709,18 +721,6 @@
       "dLine": "",
       "lowerLimit": "GND",
       "upperLimit": "900FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1561/26",
-      "location": "LLLL",
-      "eLine": "AN AREA AT CARMEL-NORTH WI 0.5NM RADIUS CENTERED ON PSN 323931N0350044E CLSD FM GND UP TO 1,000FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
-      "validFrom": "2026-07-26T06:30Z",
-      "validTo": "2026-07-30T18:30Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "DAILY 0630-0830 1000-1300 1600-1830",
-      "lowerLimit": "",
-      "upperLimit": "",
       "detailsV": 3
     },
     {
