@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-30T15:02:35Z",
+  "fetchedAt": "2026-07-30T16:22:29Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "A0607/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE J14 CLSD BTN NAT-MEGID.",
+      "validFrom": "2026-07-31T20:30Z",
+      "validTo": "2026-08-02T04:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 2030-0400",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1632/26",
       "location": "LLLL",
@@ -733,18 +745,6 @@
       "dLine": "DAILY 0330-1400 1700-0200",
       "lowerLimit": "GND",
       "upperLimit": "1800FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1547/26",
-      "location": "LLLL",
-      "eLine": "AN AREA WI 0.8NM RADIUS CENTERED ON PSN 323131N0350343E CLSD FM GND UP TO 1,000FT AMSL TO ALL FLT, OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC ONLY. CTN ADZ.",
-      "validFrom": "2026-07-26T05:00Z",
-      "validTo": "2026-07-30T16:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "DAILY 0500-1600",
-      "lowerLimit": "",
-      "upperLimit": "",
       "detailsV": 3
     },
     {
