@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-30T14:43:28Z",
+  "fetchedAt": "2026-07-30T15:02:35Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -1141,18 +1141,6 @@
       "dLine": "DAILY 0400-0800",
       "lowerLimit": "",
       "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1412/26",
-      "location": "LLLL",
-      "eLine": "FRNG WILL TAKE PLACE AT RAMAT-BEKA WI LLP14. AN AREA BTN THE FLW PSN 310542N0345314E 310541N0345352E 310509N0345351E 310453N0345313E CLSD FM GND UP TO 12,000FT AMSL. CTN ADZ.",
-      "validFrom": "2026-07-01T05:00Z",
-      "validTo": "2026-07-30T15:00Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "SUN-THU 0500-1500",
-      "lowerLimit": "GND",
-      "upperLimit": "12000FT AMSL",
       "detailsV": 3
     },
     {
