@@ -1,12 +1,31 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-30T09:05:21Z",
+  "fetchedAt": "2026-07-30T09:27:47Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
+      "id": "A0606/26",
+      "location": "LLBG",
+      "eLine": "ILS RWY 26 C/S BA FREQ 108.700MHZ WITHDRAWN FOR MAINT.",
+      "validFrom": "2026-08-05T06:00Z",
+      "validTo": "2026-08-05T09:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
       "id": "A0605/26",
       "location": "LLBG",
-      "eLine": "ILS RWY 21 C/S BN FREQ 109.700MHZ WITHDRAWN FOR MAINT."
+      "eLine": "ILS RWY 21 C/S BN FREQ 109.700MHZ WITHDRAWN FOR MAINT.",
+      "validFrom": "2026-08-04T06:00Z",
+      "validTo": "2026-08-04T09:00Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
     },
     {
       "id": "A0604/26",
