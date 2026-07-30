@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-30T09:27:47Z",
+  "fetchedAt": "2026-07-30T11:46:14Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1632/26",
+      "location": "LLLL",
+      "eLine": "CVFR RTE CLSD DEROR-SHARO-ZYAAR. PELEG-SHARO.",
+      "validFrom": "2026-08-06T19:00Z",
+      "validTo": "2026-08-07T02:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1633/26",
+      "location": "LLLL",
+      "eLine": "LLHZ TRG AREA NR 8, 9, 12, 13 CLSD.",
+      "validFrom": "2026-08-06T19:00Z",
+      "validTo": "2026-08-07T02:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "A0606/26",
       "location": "LLBG",
