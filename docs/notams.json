@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-31T18:03:51Z",
+  "fetchedAt": "2026-07-31T21:05:44Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -832,30 +832,6 @@
       "detailsV": 3
     },
     {
-      "id": "C1512/26",
-      "location": "LLLL",
-      "eLine": "UAS ACT WILL TAKE PLACE AT TAANACHIM/GADISH. AN AREA WI 400M RADIUS CENTERED ON PSN 323309N0351447E FM GND UP TO 100M AGL, 560FT AMSL CLSD TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
-      "validFrom": "2026-07-15T10:42Z",
-      "validTo": "2026-07-31T20:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "GND",
-      "upperLimit": "560FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1511/26",
-      "location": "LLLL",
-      "eLine": "UAS ACT WILL TAKE PLACE AT TAANACHIM. AN AREA BTN FLW PSN CLSD FM GND UP TO 100M AGL 560FT AMSL 323333N0351719E 323219N0351747E 323221N0351759E 323207N0351803E 323201N0351722E 323254N0351640E 323313N0351637E 323317N0351558E 323335N0351558E. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
-      "validFrom": "2026-07-15T10:18Z",
-      "validTo": "2026-07-31T20:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "GND",
-      "upperLimit": "560FT AMSL",
-      "detailsV": 3
-    },
-    {
       "id": "A0561/26",
       "location": "LLBG",
       "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 100M 360FT AMSL CLSD BTN FLW PSN 315924N0345425E 315922N0345423E 315924N0345419E 315926N0345421E. CTN ADZ.",
@@ -1168,30 +1144,6 @@
       "detailsV": 3
     },
     {
-      "id": "C1359/26",
-      "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT PARK-REEM. AN AREA WI 0.5NM RADIUS CENTERED ON PSN 314633N0344520E CLSD FM GND UP TO 25M AGL 300FT AMSL. OPS AVBL WITH PPR FM ATC ONLY. CTN ADZ.",
-      "validFrom": "2026-07-01T00:01Z",
-      "validTo": "2026-07-31T20:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "GND",
-      "upperLimit": "300FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1358/26",
-      "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT DALIA/TZAFIT, WI ULTRALIGHT BUBBLE GOVRIN SOUTH (BGOVS) UP TO 100M AGL. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,400FT AMSL 314353N0345038E 314339N0345010E 314221N0344925E 314150N0345023E 314222N0345118E 314323N0345123E. CTN ADZ.",
-      "validFrom": "2026-06-25T06:29Z",
-      "validTo": "2026-07-31T20:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "GND",
-      "upperLimit": "1400FT AMSL",
-      "detailsV": 3
-    },
-    {
       "id": "A0500/26",
       "location": "LLBG",
       "eLine": "OCA(H) FOR ILS RWY 26 CHG TO 500(376) FOR ALL CAT.",
@@ -1249,54 +1201,6 @@
       "dLine": "",
       "lowerLimit": "",
       "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1348/26",
-      "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT MAGEN-SHAUL, UP TO 100M AGL. AN AREA BTN THE FLW PSN CLSD FM GND UP TO 1,500FT AMSL 323145N0351642E 323024N0351638E 323039N0352004E 323139N0351954E 323153N0351930E 323159N0351907E CTN ADZ.",
-      "validFrom": "2026-07-01T00:01Z",
-      "validTo": "2026-07-31T20:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "GND",
-      "upperLimit": "1500FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1345/26",
-      "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT SEGULA JUNCTION, WI 0.65NM RADIUS CENTERED ON PSN 320612N0345420E FM GND UP TO 300FT AMSL. CTN ADZ.",
-      "validFrom": "2026-07-01T00:01Z",
-      "validTo": "2026-07-31T20:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "GND",
-      "upperLimit": "300FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1328/26",
-      "location": "LLIB",
-      "eLine": "REFUELING ALL TYP OF AIRCRAFT/HEL NOT AVBL.",
-      "validFrom": "2026-06-20T07:05Z",
-      "validTo": "2026-07-31T20:59Z",
-      "airfield": "Rosh-Pina",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1284/26",
-      "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT NESHER WI LLHA CTR FM GND UP TO 460M AGL 1,510FT AMSL, BTN FLW PSN 324637N0350134E 324629N0350037E 324552N0350043E 324514N0350131E 324513N0350243E 324559N0350245E 324617N0350207E. CTN ADZ.",
-      "validFrom": "2026-06-15T13:32Z",
-      "validTo": "2026-07-31T20:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "GND",
-      "upperLimit": "1500FT AMSL",
       "detailsV": 3
     },
     {
@@ -1396,35 +1300,11 @@
       "detailsV": 3
     },
     {
-      "id": "C1116/26",
-      "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT BELINSON-HOSPITAL, BTN FLW PSN FM GND UP TO 300FT AMSL 320545N0345149E 320536N0345134E 320507N0345130E 320458N0345138E 320453N0345206E 320459N0345220E 320529N0345227E 320542N0345218E. OPS OF HEL BY PPR FM HELIPAD OPR (LLBL). CTN ADZ.",
-      "validFrom": "2026-06-01T00:01Z",
-      "validTo": "2026-07-31T20:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "GND",
-      "upperLimit": "300FT AMSL",
-      "detailsV": 3
-    },
-    {
       "id": "A0409/26",
       "location": "LLHA",
       "eLine": "ACFT STAND A1 CLSD, DUE WIP.",
       "validFrom": "2026-05-12T06:01Z",
       "validTo": "2026-08-31T20:59Z",
-      "airfield": "Haifa",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0395/26",
-      "location": "LLHA",
-      "eLine": "ACFT STAND J9 CLSD, DUE WIP.",
-      "validFrom": "2026-05-06T12:57Z",
-      "validTo": "2026-07-31T20:59Z",
       "airfield": "Haifa",
       "dLine": "",
       "lowerLimit": "",
@@ -1498,30 +1378,6 @@
       "validFrom": "2026-10-16T15:00Z",
       "validTo": "2026-10-16T19:55Z",
       "airfield": "Ben-Gurion",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0350/26",
-      "location": "LLBG",
-      "eLine": "CRANES ERECTED AT TEL-AVIV VITANYA PROJECT, LIT AND DAY MARKED. AN AREA WI 0.3NM RADIUS CLSD AS FLW PSN 320329.96N0344705.72E FM GND UP TO 172.7M AGL, 630FT AMSL. PSN 320329.08N0344705.00E FM GND UP TO 191.5M AGL, 690FT AMSL. PSN 320328.49N0344703.40E FM GND UP TO 191.5M AGL, 690FT AMSL. PSN 320328.33N0344704.43E FM GND UP TO 191.5M AGL, 690FT AMSL. PSN 320329.89N0344703.85E FM GND UP TO 90.62M AGL, 360FT AMSL. CTN ADZ.",
-      "validFrom": "2026-04-23T11:38Z",
-      "validTo": "2026-07-31T20:59Z",
-      "airfield": "Ben-Gurion",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0340/26",
-      "location": "LLHA",
-      "eLine": "ACFT STAND N33 CLSD, DUE WIP.",
-      "validFrom": "2026-04-20T10:47Z",
-      "validTo": "2026-07-31T20:59Z",
-      "airfield": "Haifa",
       "dLine": "",
       "lowerLimit": "",
       "upperLimit": "",
