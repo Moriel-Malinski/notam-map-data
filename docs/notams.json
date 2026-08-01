@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-01T02:09:58Z",
+  "fetchedAt": "2026-08-01T02:34:04Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -736,18 +736,6 @@
       "detailsV": 3
     },
     {
-      "id": "C1546/26",
-      "location": "LLLL",
-      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT SHFARAAM. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 324850N0351002E CLSD FM GND UP TO 2,000FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
-      "validFrom": "2026-07-27T02:20Z",
-      "validTo": "2026-08-01T02:20Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "GND",
-      "upperLimit": "2000FT AMSL",
-      "detailsV": 3
-    },
-    {
       "id": "C1541/26",
       "location": "LLHZ",
       "eLine": "THE FLW ELEMENTS PENETRATING RWY STRIP TWY PENETRATING S OF RWY 10. FENCE PENETRATING NW OF RWY 10. POLES HEIGHT 1.20M AGL E OF RWY 28. CTN ADZ.",
@@ -1093,18 +1081,6 @@
       "dLine": "DAILY 0400-0800",
       "lowerLimit": "",
       "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1405/26",
-      "location": "LLLL",
-      "eLine": "UAS/UAV ACT WILL TAKE PLACE AT KESARYA UP TO 100M AGL, AN AREA WI 0.8NM RADIUS CENTERED ON PSN 322941N0345439E CLSD FM GND UP TO 500FT AMSL. CTN ADZ.",
-      "validFrom": "2026-07-01T19:00Z",
-      "validTo": "2026-08-01T02:15Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "DAILY 1900-0215",
-      "lowerLimit": "GND",
-      "upperLimit": "500FT AMSL",
       "detailsV": 3
     },
     {
