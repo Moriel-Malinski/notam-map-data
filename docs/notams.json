@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-07-31T21:05:44Z",
+  "fetchedAt": "2026-08-01T00:06:26Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -1117,18 +1117,6 @@
       "dLine": "DAILY 1900-0215",
       "lowerLimit": "GND",
       "upperLimit": "500FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "A0509/26",
-      "location": "LLBG",
-      "eLine": "CLOSURE FOR LDG BTN 0100-0200LMT (2300-2359UTC) TEMPO WITHDRAWN.",
-      "validFrom": "2026-06-28T11:49Z",
-      "validTo": "2026-07-31T23:59Z",
-      "airfield": "Ben-Gurion",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
       "detailsV": 3
     },
     {
