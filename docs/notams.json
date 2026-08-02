@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-02T07:22:28Z",
+  "fetchedAt": "2026-08-02T10:28:29Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1639/26",
+      "location": "LLIB",
+      "eLine": "AD CLSD TO ALL FLT INCLUDING HEL, DUE WIP. IN CASE OF EMERG AVBL WI 10MIN.",
+      "validFrom": "2026-08-03T06:00Z",
+      "validTo": "2026-08-03T07:00Z",
+      "airfield": "Rosh-Pina",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1635/26",
       "location": "LLLL",
