@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-02T12:33:14Z",
+  "fetchedAt": "2026-08-02T12:49:10Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1643/26",
+      "location": "LLLL",
+      "eLine": "UAS/UAV AIR-SHOW WILL TAKE PLACE AT RISHON LEZION. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 315950E0344404E CLSD FM GND UP TO 50M AGL 300FT AMSL. CTN ADZ.",
+      "validFrom": "2026-08-04T18:30Z",
+      "validTo": "2026-08-04T20:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "300FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1642/26",
       "location": "LLLL",
@@ -251,18 +263,6 @@
       "validTo": "2026-08-04T18:10Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1617/26",
-      "location": "LLLL",
-      "eLine": "CVFR RTE CLSD OVDAT-BOKER.",
-      "validFrom": "2026-08-02T08:50Z",
-      "validTo": "2026-08-02T12:45Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "0850-0930 1200-1245",
       "lowerLimit": "",
       "upperLimit": "",
       "detailsV": 3
