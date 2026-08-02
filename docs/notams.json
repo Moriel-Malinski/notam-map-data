@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-02T12:49:10Z",
+  "fetchedAt": "2026-08-02T13:13:10Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1644/26",
+      "location": "LLLL",
+      "eLine": "CVFR RTE CLSD TYONA-SUPER.",
+      "validFrom": "2026-08-04T18:30Z",
+      "validTo": "2026-08-04T20:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1643/26",
       "location": "LLLL",
