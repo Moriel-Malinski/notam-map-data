@@ -1,20 +1,8 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-02T04:11:26Z",
+  "fetchedAt": "2026-08-02T07:22:28Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
-    {
-      "id": "C1636/26",
-      "location": "LLIB",
-      "eLine": "AD CLSD TO ALL FLT, INCLUDING HEL OR POLICE FLT. NOT AVBL FOR EMERG, MEDEVAC FLT OR AS ALTN.",
-      "validFrom": "2026-08-02T12:00Z",
-      "validTo": "2026-08-02T23:59Z",
-      "airfield": "Rosh-Pina",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
     {
       "id": "C1635/26",
       "location": "LLLL",
