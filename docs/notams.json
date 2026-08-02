@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-02T10:28:29Z",
+  "fetchedAt": "2026-08-02T12:11:12Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1641/26",
+      "location": "LLLL",
+      "eLine": "PJE AIRSPACE TEIMAN ACT FM 11,000FT AMSL. IN CASE OF EMERG CLEAR THE AIRSPACE WI 5MIN. CTN ADZ.",
+      "validFrom": "2026-08-07T09:00Z",
+      "validTo": "2026-08-07T11:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "11000FT AMSL",
+      "detailsV": 3
+    },
+    {
+      "id": "C1640/26",
+      "location": "LLLL",
+      "eLine": "PJE AIRSPACE METZADA ACT FM 8,000FT AMSL. OPR BY PPR FM ATC ONLY.",
+      "validFrom": "2026-08-06T09:30Z",
+      "validTo": "2026-08-07T11:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "06 0930-1700, 07 0600-1100",
+      "lowerLimit": "GND",
+      "upperLimit": "8000FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1639/26",
       "location": "LLIB",
