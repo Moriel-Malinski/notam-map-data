@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-03T10:34:51Z",
+  "fetchedAt": "2026-08-03T12:09:42Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -145,18 +145,6 @@
       "dLine": "",
       "lowerLimit": "7000FT AMSL",
       "upperLimit": "40000FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "A0617/26",
-      "location": "LLLL",
-      "eLine": "SECURITY IDENT PROC ON FREQ 124.300MHZ FOR ARR FLT FM NICOSIA FIR AND FM AMMAN FIR TEMPO NOT AVBL.",
-      "validFrom": "2026-08-03T09:52Z",
-      "validTo": "2026-08-31T23:59Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
       "detailsV": 3
     },
     {
