@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-03T07:41:01Z",
+  "fetchedAt": "2026-08-03T08:02:23Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1652/26",
+      "location": "LLLL",
+      "eLine": "ULTRALIGHT RTE CLSD MACHZ-MKGAT-NAHLA-NAHEM-GEFFN-ZHRYA.",
+      "validFrom": "2026-08-05T10:45Z",
+      "validTo": "2026-08-05T11:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1651/26",
+      "location": "LLLL",
+      "eLine": "CVFR RTE CLSD REVAH-NOAAM-GOVRN-ZHRYA.",
+      "validFrom": "2026-08-05T10:45Z",
+      "validTo": "2026-08-05T11:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1650/26",
       "location": "LLLL",
@@ -345,18 +369,6 @@
       "eLine": "CVFR RTE CLSD YAHEL-BMNUH-ZOFAR-HAZVA-ARAVA-ZOHAR-MMORR-LLMZ-ZUKIM. MMORR-ARRAD-LLMZ. ARRAD-HATRU-ZOHAR. TARAD-ARRAD.",
       "validFrom": "2026-08-04T16:50Z",
       "validTo": "2026-08-04T18:10Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1618/26",
-      "location": "LLLL",
-      "eLine": "CVFR RTE CLSD OVDAT-BOKER.",
-      "validFrom": "2026-08-03T07:10Z",
-      "validTo": "2026-08-03T07:50Z",
       "airfield": "Tel-Aviv FIR",
       "dLine": "",
       "lowerLimit": "",
