@@ -1,8 +1,44 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-03T10:18:24Z",
+  "fetchedAt": "2026-08-03T10:34:51Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "A0627/26",
+      "location": "LLLL",
+      "eLine": "OVERFLIGHT BTN 11,000FT-FL600 TEMPO CHG, FLT SHALL FLY AS FLW FM AMMAN FIR TO NICOSIA FIR, FOR FLT DEP FM AD WI AMMAN FIR, MIL FLT TALMI-L53-GOBRI-J10-NAT-H14-MERVA. FM S ALONG J10 TO NICOSIA FIR SIVAK-J10-GOBRI-J10-NAT-H14-MERVA. FM NICOSIA FIR TO AMMAN FIR, FOR FLT ARR AT AD WI AMMAN FIR, MIL FLT KONFO-Z91-VETEK-Z91-NAT-Z91-SALAM. FM NICOSIA FIR TO S VIA J10 KONFO-Z91-VETEK-Z91-NAT-J10-TOMAL.",
+      "validFrom": "2026-08-05T14:20Z",
+      "validTo": "2026-08-06T16:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 1420-1630",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "A0628/26",
+      "location": "LLLL",
+      "eLine": "LLR01 DEACTIVATED, XNG MERVA AVBL.",
+      "validFrom": "2026-08-05T14:20Z",
+      "validTo": "2026-08-06T16:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 1420-1630",
+      "lowerLimit": "7000FT AMSL",
+      "upperLimit": "40000FT AMSL",
+      "detailsV": 3
+    },
+    {
+      "id": "A0626/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE H14 NAT-MERVA AVBL BTN 5,000-16,000FT QNH. ATS RTE J10 GOBRI-NAT AVBL BTN 6,000-16,000FT QNH. ATS RTE Z91 KONFO-VETEK-NAT-SALAM BTN 11,000-16,000FT QNH.",
+      "validFrom": "2026-08-05T14:20Z",
+      "validTo": "2026-08-06T16:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 1420-1630",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "A0625/26",
       "location": "LLLL",
