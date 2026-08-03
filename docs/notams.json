@@ -1,8 +1,68 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-03T10:02:15Z",
+  "fetchedAt": "2026-08-03T10:18:24Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "A0625/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE W13 CLSD BTN TAPUZ-JILET-DAFNA.",
+      "validFrom": "2026-08-05T14:20Z",
+      "validTo": "2026-08-06T16:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 1420-1630",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "A0624/26",
+      "location": "LLBG",
+      "eLine": "DEP FLT NB AND WB AVBL VIA SID PIDET ONLY. SB AVBL VIA TOMAL, EB AVBL VIA SALAM, SID DAFNA SUVAS MERVA NOT AVBL.",
+      "validFrom": "2026-08-05T14:20Z",
+      "validTo": "2026-08-06T16:30Z",
+      "airfield": "Ben-Gurion",
+      "dLine": "DAILY 1420-1630",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "A0623/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE CLSD L53 BTN ABIMI-SUVAS AND N134 BTN VOLFO-SALAM.",
+      "validFrom": "2026-08-05T14:20Z",
+      "validTo": "2026-08-06T16:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "DAILY 1420-1630",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "A0621/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE W13 AVBL H24 BTN TAPUZ-JILET-DAFNA BTN 12,000FT-FL325. AND BTN TAPUZ-JILET-DAFNA CDR1 BTN FL330-FL600, AS FLW SUN 2100(2000) - MON 0500(0400) MON 2100(2000) - TUE 0500(0400) TUE 2100(2000) - WED 0500(0400) WED 2100(2000) - THU 0500(0400) THU 1500(1400) - SUN 0600(0500) HOL-1 1500(1400) - HOL+1 0600(0500) TIME IN BRACKETS ARE SUMMER SAVING, ALL TIMES UTC. ISRAEL AIP, PART ENR 3.1, PAGE ENR 3.1-30, CHART ENR 6-1 REF.",
+      "validFrom": "2026-08-05T16:30Z",
+      "validTo": "2026-08-06T14:20Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "A0622/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE W13 AVBL H24 BTN TAPUZ-JILET-DAFNA BTN 12,000FT-FL325. AND BTN TAPUZ-JILET-DAFNA CDR1 BTN FL330-FL600, AS FLW SUN 2100(2000) - MON 0500(0400) MON 2100(2000) - TUE 0500(0400) TUE 2100(2000) - WED 0500(0400) WED 2100(2000) - THU 0500(0400) THU 1500(1400) - SUN 0600(0500) HOL-1 1500(1400) - HOL+1 0600(0500) TIME IN BRACKETS ARE SUMMER SAVING, ALL TIMES UTC. ISRAEL AIP, PART ENR 3.1, PAGE ENR 3.1-30, CHART ENR 6-1 REF.",
+      "validFrom": "2026-08-06T16:30Z",
+      "validTo": "2029-08-03T10:01Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "A0618/26",
       "location": "LLBG",
@@ -393,18 +453,6 @@
       "eLine": "RWY 03/21 CLSD EXC RWY INT 03/30 DUE WIP.",
       "validFrom": "2026-08-04T06:00Z",
       "validTo": "2026-08-04T10:00Z",
-      "airfield": "Ben-Gurion",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0603/26",
-      "location": "LLBG",
-      "eLine": "RWY 12/30 CLSD EXC RWY INT DUE WIP.",
-      "validFrom": "2026-08-03T05:30Z",
-      "validTo": "2026-08-03T10:00Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
       "lowerLimit": "",
