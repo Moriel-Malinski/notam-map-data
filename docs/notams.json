@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-03T06:16:26Z",
+  "fetchedAt": "2026-08-03T07:18:43Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1649/26",
+      "location": "LLLL",
+      "eLine": "CVFR RTE CLSD DUE ILS ACT WI LLRD EIRON-ZMGID-AFULA-TAVOR. AFULA-EITAN. ULTRALIGHT AND HEL RTE CLSD EIRON-ARRAA-ZMGID-NIRYA-MRHVA-TAVOR TFC WILL BE DIVERTED VIA FRDIS-HASID",
+      "validFrom": "2026-08-05T09:50Z",
+      "validTo": "2026-08-05T11:15Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1648/26",
+      "location": "LLMG",
+      "eLine": "AIRSTRIP LTD TO MAX 400FT AMSL DUE ILS ACT WI LLRD CTN ADZ.",
+      "validFrom": "2026-08-05T09:50Z",
+      "validTo": "2026-08-05T11:15Z",
+      "airfield": "Meggido",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "A0610/26",
       "location": "LLLL",
@@ -109,18 +133,6 @@
       "dLine": "06 0930-1700, 07 0600-1100",
       "lowerLimit": "GND",
       "upperLimit": "8000FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1639/26",
-      "location": "LLIB",
-      "eLine": "AD CLSD TO ALL FLT INCLUDING HEL, DUE WIP. IN CASE OF EMERG AVBL WI 10MIN.",
-      "validFrom": "2026-08-03T06:00Z",
-      "validTo": "2026-08-03T07:00Z",
-      "airfield": "Rosh-Pina",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
       "detailsV": 3
     },
     {
