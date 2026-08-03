@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-03T05:03:13Z",
+  "fetchedAt": "2026-08-03T05:59:53Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1646/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT NAHARIYA CLSD FM GND UP TO 700FT AMSL TO ALL FLT BTN FLW PSN 330235N0350353E 330204N0350727E 325858N0350638E 325929N0350255E. OPS OF AGRICULTURE FLT WI 15MIN PPR FM ATC. CTN ADZ.",
+      "validFrom": "2026-08-03T09:00Z",
+      "validTo": "2026-08-03T15:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1645/26",
       "location": "LLLL",
