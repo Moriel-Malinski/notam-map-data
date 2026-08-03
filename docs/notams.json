@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-03T12:09:42Z",
+  "fetchedAt": "2026-08-03T12:29:18Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1656/26",
+      "location": "LLIB",
+      "eLine": "REFUELING ALL TYP OF AIRCRAFT/HEL NOT AVBL.",
+      "validFrom": "2026-08-03T12:11Z",
+      "validTo": "2026-10-31T20:59Z",
+      "airfield": "Rosh-Pina",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "A0627/26",
       "location": "LLLL",
