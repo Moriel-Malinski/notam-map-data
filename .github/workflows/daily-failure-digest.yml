@@ -7,8 +7,9 @@ name: Daily failure digest
 # no steps, but still shows up as a failed run in the API this digest reads.
 # Silent when the day was clean; the morning pipeline already pushes its OK.
 on:
-  schedule:
-    - cron: "30 20 * * *" # ~22:30 Israel in summer, ~21:30 in winter
+  # Paused: automatic runs are disabled. Re-enable by uncommenting the cron.
+  # schedule:
+  #   - cron: "30 20 * * *" # ~22:30 Israel in summer, ~21:30 in winter
   workflow_dispatch: {}
 
 permissions:

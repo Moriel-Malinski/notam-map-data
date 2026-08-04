@@ -1,7 +1,18 @@
+# Python
 __pycache__/
 *.pyc
 .pytest_cache/
 .venv/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+
+# Temp / workflow-generated artifacts — downloaded source PDFs and generated
+# reports the pipeline scripts (fetch_a17.py, check_update_file.py, ...) write
+# at runtime. Never committed; the published outputs live under data/ & docs/.
 *.tmp
-a17_download.pdf
+*.log
+*.pdf
 a17_report.md

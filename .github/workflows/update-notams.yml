@@ -18,8 +18,10 @@ name: Update NOTAMs
 # it ends, so coverage is continuous. The 3h cron (shorter than the 5h run)
 # guarantees a successor is always queued even if some fires are dropped.
 on:
-  schedule:
-    - cron: "7 */3 * * *"
+  # NOTAM pulling is paused: the scheduled trigger is disabled so the feed
+  # no longer auto-scrapes the IAA page. Re-enable by uncommenting the cron.
+  # schedule:
+  #   - cron: "7 */3 * * *"
   workflow_dispatch: {}
 
 permissions:
