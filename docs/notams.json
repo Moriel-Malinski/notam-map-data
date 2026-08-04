@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-04T07:52:19Z",
+  "fetchedAt": "2026-08-04T08:32:29Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1667/26",
+      "location": "LLLL",
+      "eLine": "CVFR RTE CLSD RUHOT-OVDAT-BOKER-TLLIM. BOKER-YRUHM. ULTRALIGHT RTE CLSD RUHOT-KNFHA-OVDAT-BOKER-TLLIM.",
+      "validFrom": "2026-08-05T07:30Z",
+      "validTo": "2026-08-05T13:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "0730-1000 1045-1330",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1666/26",
       "location": "LLLL",
