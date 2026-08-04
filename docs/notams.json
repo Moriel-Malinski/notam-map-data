@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-04T11:26:12Z",
+  "fetchedAt": "2026-08-04T11:48:05Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1677/26",
+      "location": "LLLL",
+      "eLine": "PJE WILL TAKE PLACE AT TEIMAN. AN AREA BTN FLW PSN CLSD FM GND UP 11,000FT AMSL TO ALL FLT INCLUDING AGRICULTURE FLT 311926N0344128E 312047N0344243E 312253N0344319E 312416N0344431E 312428N0344504E 312615N0344554E 312525N0344644E 312456N0344659E 312042N0344713E 311938N0344653E 311707N0344710E 311558N0344621E 311451N0344457E 311926N0344128E. CTN ADZ.",
+      "validFrom": "2026-08-10T17:00Z",
+      "validTo": "2026-08-10T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "11000FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1674/26",
       "location": "LLLL",
