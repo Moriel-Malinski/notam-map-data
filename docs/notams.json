@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-04T09:07:30Z",
+  "fetchedAt": "2026-08-04T10:24:23Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1669/26",
+      "location": "LLLL",
+      "eLine": "AN AREA AT TZEELIM WI 0.4NM RADIUS CENTERED ON PSN 311108N0343446E CLSD TO ALL FLT FM GND UP TO 1,000FT AMSL. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "validFrom": "2026-08-09T02:30Z",
+      "validTo": "2026-08-14T02:30Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1668/26",
       "location": "LLLL",
@@ -453,18 +465,6 @@
       "eLine": "ILS RWY 26 C/S BA FREQ 108.700MHZ WITHDRAWN FOR MAINT.",
       "validFrom": "2026-08-05T06:00Z",
       "validTo": "2026-08-05T09:00Z",
-      "airfield": "Ben-Gurion",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0604/26",
-      "location": "LLBG",
-      "eLine": "RWY 03/21 CLSD EXC RWY INT 03/30 DUE WIP.",
-      "validFrom": "2026-08-04T06:00Z",
-      "validTo": "2026-08-04T10:00Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
       "lowerLimit": "",
@@ -1115,18 +1115,6 @@
       "validTo": "2026-08-06T09:00Z",
       "airfield": "Ben-Gurion",
       "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "A0557/26",
-      "location": "LLHA",
-      "eLine": "AD CLSD TO ALL FLT INCLUDING HEL, DUE WIP. IN CASE OF EMERG AVBL WI 10MIN.",
-      "validFrom": "2026-08-04T05:25Z",
-      "validTo": "2026-08-04T10:00Z",
-      "airfield": "Haifa",
-      "dLine": "0525-0725 0830-1000",
       "lowerLimit": "",
       "upperLimit": "",
       "detailsV": 3
