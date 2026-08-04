@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-04T04:29:24Z",
+  "fetchedAt": "2026-08-04T06:10:04Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -241,78 +241,6 @@
       "dLine": "DAILY 0230-1630",
       "lowerLimit": "GND",
       "upperLimit": "2800FT AMSL",
-      "detailsV": 3
-    },
-    {
-      "id": "C1653/26",
-      "location": "LLLL",
-      "eLine": "CVFR RTE CLSD MYTAR-TARAD-ARRAD-HATRU-ZOHAR. MMORR-ARRAD-LLMZ. TFC WILL BE DIVERTED VIA MYTAR-MZDOT-ENGDI.",
-      "validFrom": "2026-08-05T07:40Z",
-      "validTo": "2026-08-05T13:10Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "0740-0830 0910-0945 1045-1115 1240-1310",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1652/26",
-      "location": "LLLL",
-      "eLine": "ULTRALIGHT RTE CLSD MACHZ-MKGAT-NAHLA-NAHEM-GEFFN-ZHRYA.",
-      "validFrom": "2026-08-05T10:45Z",
-      "validTo": "2026-08-05T11:30Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1651/26",
-      "location": "LLLL",
-      "eLine": "CVFR RTE CLSD REVAH-NOAAM-GOVRN-ZHRYA.",
-      "validFrom": "2026-08-05T10:45Z",
-      "validTo": "2026-08-05T11:30Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1650/26",
-      "location": "LLLL",
-      "eLine": "LLMG TRG AREA NR. AND ULTRALIGHT BUBBLE B-WEST (BMGWB) LTD TO MAX 1,600FT AMSL. CTN ADZ.",
-      "validFrom": "2026-08-05T09:50Z",
-      "validTo": "2026-08-05T11:15Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1649/26",
-      "location": "LLLL",
-      "eLine": "CVFR RTE CLSD DUE ILS ACT WI LLRD EIRON-ZMGID-AFULA-TAVOR. AFULA-EITAN. ULTRALIGHT AND HEL RTE CLSD EIRON-ARRAA-ZMGID-NIRYA-MRHVA-TAVOR TFC WILL BE DIVERTED VIA FRDIS-HASID",
-      "validFrom": "2026-08-05T09:50Z",
-      "validTo": "2026-08-05T11:15Z",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 3
-    },
-    {
-      "id": "C1648/26",
-      "location": "LLMG",
-      "eLine": "AIRSTRIP LTD TO MAX 400FT AMSL DUE ILS ACT WI LLRD CTN ADZ.",
-      "validFrom": "2026-08-05T09:50Z",
-      "validTo": "2026-08-05T11:15Z",
-      "airfield": "Meggido",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
       "detailsV": 3
     },
     {
