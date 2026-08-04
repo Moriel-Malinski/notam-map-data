@@ -1,8 +1,44 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-04T06:10:04Z",
+  "fetchedAt": "2026-08-04T06:48:55Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1665/26",
+      "location": "LLLL",
+      "eLine": "LLMG TRG AREA NR. AND ULTRALIGHT BUBBLE B-WEST (BMGWB) LTD TO MAX 1,600FT AMSL. CTN ADZ.",
+      "validFrom": "2026-08-05T06:00Z",
+      "validTo": "2026-08-05T12:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "0600-0800 1000-1200",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1664/26",
+      "location": "LLLL",
+      "eLine": "CVFR RTE CLSD DUE ILS ACT WI LLRD EIRON-ZMGID-AFULA-TAVOR. AFULA-EITAN. ULTRALIGHT AND HEL RTE CLSD EIRON-ARRAA-ZMGID-NIRYA-MRHVA-TAVOR TFC WILL BE DIVERTED VIA FRDIS-HASID",
+      "validFrom": "2026-08-05T06:00Z",
+      "validTo": "2026-08-05T12:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "0600-0800 1000-1200",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
+    {
+      "id": "C1663/26",
+      "location": "LLMG",
+      "eLine": "AIRSTRIP LTD TO MAX 400FT AMSL DUE ILS ACT WI LLRD CTN ADZ.",
+      "validFrom": "2026-08-05T06:00Z",
+      "validTo": "2026-08-05T12:00Z",
+      "airfield": "Meggido",
+      "dLine": "0600-0800 1000-1200",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1656/26",
       "location": "LLIB",
