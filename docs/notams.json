@@ -1,8 +1,32 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-04T10:24:23Z",
+  "fetchedAt": "2026-08-04T10:43:07Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1671/26",
+      "location": "LLLL",
+      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT TAYIBE. AN AREA WI 0.2 NM RADIUS CENTERED ON PSN 321457N0345933E CLSD FM GND UP TO 1,500FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
+      "validFrom": "2026-08-05T00:01Z",
+      "validTo": "2026-08-12T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "1500FT AMSL",
+      "detailsV": 3
+    },
+    {
+      "id": "C1670/26",
+      "location": "LLLL",
+      "eLine": "PJE WILL TAKE PLACE AT KELACH. AN AREA FM GND UP TO 8,000FT AMSL CLSD TO ALL FLT BTN FLW PSN 313200N0345319E 313159N0344733E 312602N0344730E 312444N0345024E 312602N0345311E. OPS OF AGRICULTURE FLT WITH 15MIN PPR FM ATC. CTN ADZ.",
+      "validFrom": "2026-08-10T12:00Z",
+      "validTo": "2026-08-10T20:59Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "GND",
+      "upperLimit": "8000FT AMSL",
+      "detailsV": 3
+    },
     {
       "id": "C1669/26",
       "location": "LLLL",
