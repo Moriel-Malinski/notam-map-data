@@ -32,6 +32,14 @@ SOURCES = {
 SCHEMA_VERSION = 1
 MIN_APP_VERSION = "1.4.0"
 
+# Feed-wide safety disclaimer, published inside the manifest so every
+# consuming app can surface it — not just readers of the repo README.
+DISCLAIMER = (
+    "המידע מרוכז כאן לצורכי מידע בלבד ואינו מיועד לניווט מבצעי או לתכנון "
+    "טיסה. המקורות המחייבים הם הפרסומים הרשמיים של רשות שדות התעופה, רשות "
+    "התעופה האזרחית ורשות הטבע והגנים בלבד."
+)
+
 
 def main():
     manifest_path = os.path.join(DOCS_DIR, "manifest.json")
@@ -82,6 +90,7 @@ def main():
     if changed:
         manifest["schemaVersion"] = SCHEMA_VERSION
         manifest["minAppVersion"] = MIN_APP_VERSION
+        manifest["disclaimer"] = DISCLAIMER
         manifest["dataVersion"] = int(manifest.get("dataVersion", 0)) + 1
         manifest["generatedAt"] = now
         save_json(manifest_path, manifest)

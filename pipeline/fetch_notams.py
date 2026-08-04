@@ -45,6 +45,16 @@ IAA_NOTAM_URL = "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam"
 OUT_PATH = os.path.join(DOCS_DIR, "notams.json")
 SCHEMA_VERSION = 1
 
+# Attribution and safety disclaimer for the airports-authority (רשות שדות
+# התעופה) NOTAM feed, carried inside the published payload so consuming apps
+# can show it — not just in the repo README.
+ATTRIBUTION = "רשות שדות התעופה — מערכת AeroInfo (iaa.gov.il)"
+DISCLAIMER = (
+    "נתוני ה-NOTAM נשאבים ממערכת AeroInfo של רשות שדות התעופה ומוצגים "
+    "לצורכי מידע בלבד. המידע אינו מיועד לניווט מבצעי או לתכנון טיסה; "
+    "המקור המחייב היחיד הוא הפרסומים הרשמיים של רשות שדות התעופה."
+)
+
 # Honest identification, unlike a spoofed browser UA: lets the IAA see who
 # is calling and reach out instead of blocking blindly.
 USER_AGENT = (
@@ -297,6 +307,8 @@ def main() -> int:
             "schemaVersion": SCHEMA_VERSION,
             "fetchedAt": now.strftime("%Y-%m-%dT%H:%M:%SZ"),
             "source": IAA_NOTAM_URL,
+            "attribution": ATTRIBUTION,
+            "disclaimer": DISCLAIMER,
             "notams": notams,
         },
     )

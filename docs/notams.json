@@ -2,6 +2,8 @@
   "schemaVersion": 1,
   "fetchedAt": "2026-08-04T11:48:05Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
+  "attribution": "רשות שדות התעופה — מערכת AeroInfo (iaa.gov.il)",
+  "disclaimer": "נתוני ה-NOTAM נשאבים ממערכת AeroInfo של רשות שדות התעופה ומוצגים לצורכי מידע בלבד. המידע אינו מיועד לניווט מבצעי או לתכנון טיסה; המקור המחייב היחיד הוא הפרסומים הרשמיים של רשות שדות התעופה.",
   "notams": [
     {
       "id": "C1677/26",
