@@ -1,8 +1,20 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-04T08:32:29Z",
+  "fetchedAt": "2026-08-04T08:50:12Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
+    {
+      "id": "C1668/26",
+      "location": "LLLL",
+      "eLine": "CVFR RTE CLSD SIZFN-SITIM-ZZHOR. SIZFN-YAHEL. ULTRALIGHT RTE CLSD KTORA-SIZFN-SITIM-ZZHOR.",
+      "validFrom": "2026-08-05T06:00Z",
+      "validTo": "2026-08-05T14:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "detailsV": 3
+    },
     {
       "id": "C1667/26",
       "location": "LLLL",
