@@ -1,12 +1,24 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-08-04T10:43:07Z",
+  "fetchedAt": "2026-08-04T11:00:47Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
-      "id": "C1671/26",
+      "id": "C1674/26",
       "location": "LLLL",
-      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT TAYIBE. AN AREA WI 0.2 NM RADIUS CENTERED ON PSN 321457N0345933E CLSD FM GND UP TO 1,500FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
+      "eLine": "PJE WILL TAKE PLACE AT REVIVIM. AN AREA FM GND UP 1,200FT AMSL CLSD BTN FLW PSN 310712N0344550E 310511N0343920E 310455N0343655E 305931N0343815E 310035N0344409E 310359N0344720E 310712N0344550E. OPS OF AGRICULTURE FLT AVBL WITH 15MIN PPR FM ATC CTN ADZ.",
+      "validFrom": "2026-08-10T05:30Z",
+      "validTo": "2026-08-12T19:00Z",
+      "airfield": "Tel-Aviv FIR",
+      "dLine": "10 0530-0730 1220-1600, 12 0530-0730 1730-1900",
+      "lowerLimit": "GND",
+      "upperLimit": "1200FT AMSL",
+      "detailsV": 3
+    },
+    {
+      "id": "C1673/26",
+      "location": "LLLL",
+      "eLine": "CAPTIVE BALLOON WILL TAKE PLACE AT TAYIBE. AN AREA WI 0.2NM RADIUS CENTERED ON PSN 321457N0345933E CLSD FM GND UP TO 1,500FT AMSL, TO ALL FLT INCLUDING AGRICULTURE FLT. CTN ADZ.",
       "validFrom": "2026-08-05T00:01Z",
       "validTo": "2026-08-12T20:59Z",
       "airfield": "Tel-Aviv FIR",
