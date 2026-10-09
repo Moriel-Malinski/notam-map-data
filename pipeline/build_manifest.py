@@ -7,6 +7,7 @@ dataVersion. A run with no data changes rewrites nothing, so the workflow's
 "commit if changed" step stays silent.
 """
 import os
+import re
 from datetime import datetime, timezone
 
 from common import (
@@ -31,6 +32,30 @@ SOURCES = {
 
 SCHEMA_VERSION = 1
 MIN_APP_VERSION = "1.4.0"
+
+# The newest app release, published as the manifest's "app" section: apps
+# older than latestVersion offer the download and list the notes. Edit this
+# file when releasing a new app version.
+APP_RELEASE_PATH = os.path.join(DATA_DIR, "app_release.json")
+
+
+def load_app_release(path=APP_RELEASE_PATH):
+    """data/app_release.json -> the manifest's "app" section, or None when
+    the file doesn't exist. A malformed file raises ValueError (fails the
+    run loudly rather than announcing a broken release)."""
+    if not os.path.exists(path):
+        return None
+    release = load_json(path)
+    version = release.get("latestVersion")
+    url = release.get("downloadUrl")
+    notes = release.get("notes", [])
+    if not isinstance(version, str) or not re.fullmatch(r"\d+(\.\d+)*", version):
+        raise ValueError(f"app_release.json: bad latestVersion {version!r}")
+    if not isinstance(url, str) or not url.startswith("https://"):
+        raise ValueError(f"app_release.json: downloadUrl must be https, got {url!r}")
+    if not isinstance(notes, list) or not all(isinstance(n, str) for n in notes):
+        raise ValueError("app_release.json: notes must be a list of strings")
+    return {"latestVersion": version, "downloadUrl": url, "notes": notes}
 
 
 def main():
@@ -79,16 +104,26 @@ def main():
             f"({len(payload):,} B -> {len(gz):,} B gz)"
         )
 
+    # A new app release alone rewrites the manifest without bumping
+    # dataVersion — apps have no data to download for it.
+    app = load_app_release()
+    app_changed = app is not None and manifest.get("app") != app
+    if app is not None:
+        manifest["app"] = app
+
     if changed:
         manifest["schemaVersion"] = SCHEMA_VERSION
         manifest["minAppVersion"] = MIN_APP_VERSION
         manifest["dataVersion"] = int(manifest.get("dataVersion", 0)) + 1
         manifest["generatedAt"] = now
-        save_json(manifest_path, manifest)
         print(
             f"manifest.json: dataVersion {manifest['dataVersion']} "
             f"({', '.join(changed)})"
         )
+    if app_changed:
+        print(f"manifest.json: app release {app['latestVersion']}")
+    if changed or app_changed:
+        save_json(manifest_path, manifest)
     else:
         print("No content changes; manifest untouched.")
 

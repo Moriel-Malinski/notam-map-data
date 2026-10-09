@@ -1,0 +1,44 @@
+name: A-17 refresh (manual PR gate)
+
+# The daily update-data workflow now applies A-17 changes automatically
+# (fetch_a17.py --apply --guard). This workflow remains for MANUAL use only:
+# run it from the Actions tab when a guard-tripped change needs the full
+# review-by-PR treatment instead of a straight apply.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency: a17-refresh
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r pipeline/requirements.txt
+
+      - name: Parse the official A-17 PDF and merge
+        run: python pipeline/fetch_a17.py --apply
+
+      - name: Validate the merged data
+        run: python pipeline/validate.py
+
+      - name: Open a review PR when something changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          add-paths: data/a17_additions.json
+          branch: auto/a17-refresh
+          commit-message: "a17: automated refresh from the official PDF"
+          title: "עדכון א-17 מהמסמך הרשמי — דורש אישור"
+          body-path: a17_report.md
+          delete-branch: true

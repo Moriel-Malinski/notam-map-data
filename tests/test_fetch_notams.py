@@ -78,11 +78,12 @@ def test_details_script_extraction_and_parsing():
     assert details == {
         "validFrom": "2026-07-14T07:00Z",
         "validTo": "2026-07-14T11:15Z",
+        "created": "2026-07-13T07:21:05",
         "airfield": "Tel-Aviv FIR",
         "dLine": "0700-0745 1030-1115",
         "lowerLimit": "",
         "upperLimit": "",
-        "detailsV": 3,
+        "detailsV": 4,
         "eLine": "TEMPORARY RESTRICTED AREA ACTIVE.",
     }
 
@@ -136,3 +137,18 @@ def test_permanent_notam_dates_become_null():
 
 def test_expired_marker_returns_none():
     assert parse_details_xml('<Msg MsgNumber="0"></Msg>') is None
+
+
+def test_missing_or_odd_create_date_is_null():
+    no_date = parse_details_xml(
+        '<Msg MsgNumber="8" NotamID="A2/26" Location="LLLL" Airfield="X" '
+        'FromDate="202601010000" ToDate="202601020000">'
+        "<MsgText>E) SOMETHING.)</MsgText></Msg>"
+    )
+    assert no_date["created"] is None
+    odd = parse_details_xml(
+        '<Msg MsgNumber="8" NotamID="A2/26" Location="LLLL" Airfield="X" '
+        'FromDate="202601010000" ToDate="202601020000" CreateDate="soon">'
+        "<MsgText>E) SOMETHING.)</MsgText></Msg>"
+    )
+    assert odd["created"] is None

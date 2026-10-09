@@ -16,7 +16,3 @@ __pycache__/
 *.log
 *.pdf
 a17_report.md
-
-# GitHub Actions workflows — removed and ignored so no automation runs.
-# Re-add a workflow with `git add -f .github/workflows/<file>.yml`.
-.github/workflows/
