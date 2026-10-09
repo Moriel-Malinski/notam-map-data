@@ -77,3 +77,31 @@ def test_validate_passes_on_committed_data():
         text=True,
     )
     assert result.returncode == 0, result.stdout + result.stderr
+
+
+def test_committed_app_release_is_valid():
+    import build_manifest
+
+    release = build_manifest.load_app_release()
+    assert release is not None
+    assert release["downloadUrl"].startswith("https://github.com/")
+
+
+def test_app_release_rejects_bad_files(tmp_path):
+    import json
+
+    import pytest
+
+    import build_manifest
+
+    assert build_manifest.load_app_release(str(tmp_path / "missing.json")) is None
+    bad = [
+        {"latestVersion": "next", "downloadUrl": "https://x.org"},
+        {"latestVersion": "2.1.21", "downloadUrl": "http://x.org"},
+        {"latestVersion": "2.1.21", "downloadUrl": "https://x.org", "notes": [1]},
+    ]
+    for i, release in enumerate(bad):
+        path = tmp_path / f"bad{i}.json"
+        path.write_text(json.dumps(release), encoding="utf-8")
+        with pytest.raises(ValueError):
+            build_manifest.load_app_release(str(path))
