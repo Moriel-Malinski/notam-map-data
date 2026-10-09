@@ -73,10 +73,12 @@ HEBREW_MONTHS = {
 
 
 def normalize(text: str) -> str:
-    """Collapses whitespace and unifies Hebrew gershayim/quote variants.
+    """Collapses whitespace and unifies Hebrew gershayim/quote and dash
+    variants — "א־17" with a maqaf must still hit the "א-17" keyword.
     PyMuPDF splits RTL runs mid-word, so downstream matching must tolerate
     arbitrary whitespace inside words."""
     text = re.sub(r'[״”“‟]', '"', text)
+    text = re.sub(r"[\u05be\u2010-\u2015\u2212]", "-", text)
     return re.sub(r"\s+", " ", text)
 
 

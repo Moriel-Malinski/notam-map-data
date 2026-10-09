@@ -83,7 +83,14 @@ def test_uav_hits_ignores_airport_only_amendment():
 
 
 def test_squash_removes_all_whitespace():
-    assert squash("ב-\n09\n –") == 'ב-09–'
+    assert squash("ב-\n09\n –") == 'ב-09-'
+
+
+def test_uav_hits_match_any_dash_variant():
+    # Hebrew maqaf, en dash, em dash — all look like "-" in the PDF.
+    assert uav_hits("עדכון פרק א\u05be17") == ["א-17"]
+    assert uav_hits("עדכון פרק ב\u201309") == ["ב-09"]
+    assert uav_hits("עדכון פרק א\u201417") == ["א-17"]
 
 
 def test_guard_allows_normal_amendment():
