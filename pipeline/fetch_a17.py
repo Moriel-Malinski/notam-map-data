@@ -186,14 +186,27 @@ def extract_zones(pdf_path):
     return zones
 
 
-def change_is_suspicious(parsed_count, added, changed, new_missing):
+def lost_since_last_scan(guard_state, parsed_codes, missing):
+    """Codes the last healthy scan read but this one did not — the signature
+    of a scan that stopped early or misread pages. Covers every code in the
+    PDF, the ones managed in zones_data.json included. A state file written
+    before the lastParsed snapshot existed falls back to the hand-curated
+    missing baseline, which only sees a17_additions codes."""
+    last = set(guard_state.get("lastParsed", []))
+    if last:
+        return sorted(last - set(parsed_codes))
+    baseline = set(guard_state.get("baselineMissing", []))
+    return sorted(set(missing) - baseline) if baseline else []
+
+
+def change_is_suspicious(parsed_count, added, changed, lost):
     """A real amendment adds/changes a bounded set of zones; a broken parse
-    loses many existing zones or rewrites half the file. `new_missing` must
-    already exclude the stable baseline of hand-curated codes that never
-    parse out of the PDF. Returns a reason string on likely breakage."""
-    if len(new_missing) > 10:
-        return (f"{len(new_missing)} אזורים נעלמו מהפענוח לעומת ההרצה "
-                f"התקינה הקודמת ({', '.join(sorted(new_missing)[:15])}…)")
+    loses many existing zones or rewrites half the file. `lost` is what
+    lost_since_last_scan returns. Returns a reason string on likely
+    breakage."""
+    if len(lost) > 10:
+        return (f"{len(lost)} אזורים נעלמו מהפענוח לעומת ההרצה "
+                f"התקינה הקודמת ({', '.join(sorted(lost)[:15])}…)")
     if len(added) + len(changed) > max(10, parsed_count // 2):
         return (f"{len(added) + len(changed)} אזורים נוספו/השתנו בבת אחת "
                 f"(מתוך {parsed_count} שפוענחו)")
@@ -337,6 +350,13 @@ def main():
         if code not in parsed and code not in base_zone_codes:
             missing.append(code)  # reported, never auto-deleted
 
+    guard_path = os.path.join(DATA_DIR, ".a17_guard_state.json")
+    guard_state = load_json(guard_path) if os.path.exists(guard_path) else {}
+    # Hand-curated zones (annex extras, manual splits like LLU22B, LLU_*)
+    # never parse out of the PDF, so a stable "missing" set is normal. Only
+    # codes the last healthy scan read and this one did not signal breakage.
+    lost = lost_since_last_scan(guard_state, parsed, missing)
+
     report = [
         "# דוח עדכון א-17 (אוטומטי)",
         "",
@@ -346,6 +366,8 @@ def main():
         + (f" — {', '.join(sorted(changed))}" if changed else ""),
         f"- קיימים אצלנו אך לא נמצאו במסמך (לבדיקה ידנית, לא נמחקו): "
         f"{len(missing)}" + (f" — {', '.join(sorted(missing))}" if missing else ""),
+        f"- פוענחו בסריקה התקינה הקודמת ולא נמצאו הפעם: {len(lost)}"
+        + (f" — {', '.join(lost)}" if lost else ""),
         "",
         "יש לאמת את השינויים מול המסמך הרשמי לפני מיזוג.",
     ]
@@ -359,27 +381,16 @@ def main():
               encoding="utf-8") as f:
         f.write(report_text + "\n")
 
-    guard_path = os.path.join(DATA_DIR, ".a17_guard_state.json")
-    guard_state = load_json(guard_path) if os.path.exists(guard_path) else {}
-    # Hand-curated zones (annex extras, manual splits like LLU22B, LLU_*)
-    # never parse out of the PDF, so a stable "missing" set is normal.
-    # Only codes newly missing since the last healthy run signal breakage.
-    baseline = set(guard_state.get("baselineMissing", []))
-    new_missing = sorted(set(missing) - baseline) if baseline else []
-
     def mark_healthy():
+        guard_state["lastParsed"] = sorted(parsed)
         guard_state["baselineMissing"] = sorted(missing)
         guard_state.pop("reported", None)
         save_json(guard_path, guard_state)
 
-    if not (added or changed):
-        os.remove(candidate_path)
-        mark_healthy()
-        print("No changes vs current data.")
-        return
-
+    # Checked before the "no changes" exit: a scan that stopped early loses
+    # zones without adding or changing any, and must not pass as healthy.
     if args.apply and args.guard:
-        reason = change_is_suspicious(len(parsed), added, changed, new_missing)
+        reason = change_is_suspicious(len(parsed), added, changed, lost)
         if reason:
             print(f"GUARD TRIPPED — not applying: {reason}")
             # One issue per distinct candidate — a broken layout would
@@ -395,18 +406,39 @@ def main():
                 "המועמד נשמר ב-`data/a17_additions.candidate.json`. אם השינוי "
                 "אמיתי (תיקון גדול בפמ\"ת), יש לאמת מול המסמך, להעתיק את "
                 "המועמד על `data/a17_additions.json` ולדחוף, או להריץ את "
-                "workflow הבדיקה הידני (a17-refresh) שפותח PR.",
+                "workflow הבדיקה הידני (a17-refresh) שפותח PR. אם אזורים "
+                "באמת הוסרו מהפמ\"ת, יש למחוק אותם גם מ-`lastParsed` "
+                "ב-`data/.a17_guard_state.json`.",
             )
             guard_state["reported"] = digest
             save_json(guard_path, guard_state)
             return
+        if lost and guard_state.get("reportedLost") != lost:
+            # Below the trip threshold: a zone really removed from the AIP, or
+            # a scan that missed a page. Either way a person has to look —
+            # zones are never auto-deleted, and a code the scan skips stops
+            # receiving updates. Saved by mark_healthy below.
+            open_github_issue(
+                f"סריקת א-17: {len(lost)} אזורים שפוענחו בעבר לא נמצאו הפעם",
+                f"האזורים {', '.join(lost)} פוענחו בסריקה התקינה הקודמת ולא "
+                "נמצאו בסריקה הנוכחית. ייתכן שהסריקה לא הגיעה עד סוף המסמך "
+                "או לא קראה עמוד, וייתכן שהאזורים הוסרו מהפמ\"ת. אזורים לא "
+                "נמחקים אוטומטית — יש לבדוק מול המסמך.\n\n"
+                f"{report_text}",
+            )
+            guard_state["reportedLost"] = lost
+
+    if not (added or changed):
+        os.remove(candidate_path)
+        mark_healthy()
+        print("No changes vs current data.")
+        return
 
     if args.apply:
         save_json(os.path.join(DATA_DIR, "a17_additions.json"), out)
         os.remove(candidate_path)
         mark_healthy()
         print("Applied merge to data/a17_additions.json")
-
 
 if __name__ == "__main__":
     main()
