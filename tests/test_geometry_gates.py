@@ -94,6 +94,23 @@ def test_partial_circle_text_is_flagged():
     assert "shape-vs-text:LLD28" in keys(found)
 
 
+def test_request_is_not_an_arc():
+    # "בקשת" (a request) contains the letters of "קשת" (an arc).
+    found = geometry_gates.run({
+        "zones_data.json": [
+            circle("LLU_R", 32.0, 34.8, 1.0, notes="טיסה לפי בקשת המפעיל")
+        ],
+    })
+    assert not any(k.startswith("shape-vs-text") for k in keys(found))
+
+
+def test_arc_with_definite_article_is_flagged():
+    found = geometry_gates.run({
+        "zones_data.json": [circle("LLU_A", 32.0, 34.8, 1.0, notes="הקשת הצפונית")],
+    })
+    assert "shape-vs-text:LLU_A" in keys(found)
+
+
 def test_self_intersecting_outline_is_flagged():
     found = geometry_gates.run({"zones_data.json": [polygon("LLP16", BOWTIE)]})
     assert "self-intersect:LLP16" in keys(found)

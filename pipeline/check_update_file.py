@@ -73,10 +73,12 @@ HEBREW_MONTHS = {
 
 
 def normalize(text: str) -> str:
-    """Collapses whitespace and unifies Hebrew gershayim/quote variants.
+    """Collapses whitespace and unifies Hebrew gershayim/quote and dash
+    variants — "א־17" with a maqaf must still hit the "א-17" keyword.
     PyMuPDF splits RTL runs mid-word, so downstream matching must tolerate
     arbitrary whitespace inside words."""
     text = re.sub(r'[״”“‟]', '"', text)
+    text = re.sub(r"[\u05be\u2010-\u2015\u2212]", "-", text)
     return re.sub(r"\s+", " ", text)
 
 
@@ -228,6 +230,20 @@ def save_state(state):
         f.write("\n")
 
 
+def notify(key, url, info):
+    if not info["parseOk"]:
+        open_github_issue(
+            f'קובץ עדכון פמ"ת {key} — נכשל ניתוח אוטומטי, נדרשת בדיקה ידנית',
+            f"לא הצלחתי לחלץ את עמודי הוראות העדכון מהקובץ:\n{url}\n\n"
+            "יש לבדוק ידנית אם העדכון נוגע לפרקים א-17 / ב-09 (רחפנים).",
+        )
+    elif info["uavRelevant"]:
+        title, body = build_issue(key, url, info)
+        open_github_issue(title, body)
+    else:
+        print(f"  no UAV-relevant content in {key}; not opening an issue.")
+
+
 def report(info):
     print(f"  issue: {info['issue']}, effective: {info['effectiveDate']}, "
           f"uavRelevant: {info['uavRelevant']} {info['keywords']}")
@@ -276,8 +292,14 @@ def main():
     if meta.pop("discoveryEmptyReported", None):
         save_state(state)  # discovery recovered; re-arm the alert
     for key, url in sorted(found.items()):
-        res = session.get(url, timeout=120)
-        res.raise_for_status()
+        try:
+            res = session.get(url, timeout=120)
+            res.raise_for_status()
+        except requests.RequestException as e:
+            # gov.il resets connections from datacenter IPs now and then;
+            # this file is retried next run, the others still get checked.
+            print(f"WARN: download failed for {url}: {e}")
+            continue
         digest = sha256_hex(res.content)
         prev = state.get(key)
         if prev and prev.get("sha256") == digest:
@@ -298,21 +320,11 @@ def main():
             "firstSeen": state.get(key, {}).get("firstSeen") or today.isoformat(),
         }
 
-        if args.no_issue:
-            continue
-        if not info["parseOk"]:
-            open_github_issue(
-                f'קובץ עדכון פמ"ת {key} — נכשל ניתוח אוטומטי, נדרשת בדיקה ידנית',
-                f"לא הצלחתי לחלץ את עמודי הוראות העדכון מהקובץ:\n{url}\n\n"
-                "יש לבדוק ידנית אם העדכון נוגע לפרקים א-17 / ב-09 (רחפנים).",
-            )
-        elif info["uavRelevant"]:
-            title, body = build_issue(key, url, info)
-            open_github_issue(title, body)
-        else:
-            print(f"  no UAV-relevant content in {key}; not opening an issue.")
-
-    save_state(state)
+        if not args.no_issue:
+            notify(key, url, info)
+        # Saved per file, right after its issue: a later file failing must
+        # not lose the record that this one was already reported.
+        save_state(state)
 
 
 if __name__ == "__main__":
