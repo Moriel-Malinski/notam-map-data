@@ -2,10 +2,13 @@ import os
 import sys
 from datetime import date
 
+import requests
+
 sys.path.insert(
     0, os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "pipeline")
 )
 
+import check_update_file  # noqa: E402
 from check_update_file import (  # noqa: E402
     candidate_urls,
     normalize,
@@ -107,3 +110,37 @@ def test_candidate_urls_cover_known_real_patterns():
     keys = {key for key, _ in candidate_urls(date(2026, 1, 5))}
     # Early in the year, last year's issues must still be probed.
     assert "4-25" in keys and "1-26" in keys
+
+
+def test_failed_download_does_not_reopen_issues(tmp_path, monkeypatch):
+    # 1-26 gets its issue, then the 2-26 download dies. State used to be saved
+    # only at the very end, so every later run reopened the 1-26 issue.
+    monkeypatch.setattr(check_update_file, "STATE_PATH", str(tmp_path / "state.json"))
+    monkeypatch.setattr(sys, "argv", ["check_update_file.py"])
+    issues = []
+    monkeypatch.setattr(check_update_file, "open_github_issue",
+                        lambda title, body: issues.append(title))
+    monkeypatch.setattr(check_update_file, "discover", lambda session, today: {
+        "1-26": "https://x/1-26.pdf", "2-26": "https://x/2-26.pdf"})
+    monkeypatch.setattr(check_update_file, "analyze_pdf", lambda pdf: {
+        "issue": "1/26", "effectiveDate": None, "uavRelevant": True,
+        "keywords": ["א-17"], "coverText": "", "parseOk": True})
+
+    class Response:
+        content = b"%PDF-1.7"
+
+        def raise_for_status(self):
+            pass
+
+    class Session:
+        headers = {}
+
+        def get(self, url, timeout=None, **kwargs):
+            if "2-26" in url:
+                raise requests.ConnectionError("connection reset")
+            return Response()
+
+    monkeypatch.setattr(check_update_file.requests, "Session", Session)
+    check_update_file.main()
+    check_update_file.main()
+    assert len(issues) == 1
