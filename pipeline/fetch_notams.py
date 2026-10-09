@@ -66,6 +66,7 @@ DETAIL_DELAY_S = 0.4
 DETAIL_KEYS = (
     "validFrom",
     "validTo",
+    "created",
     "airfield",
     "dLine",
     "lowerLimit",
@@ -75,7 +76,7 @@ DETAIL_KEYS = (
 
 # Stamped on every detailed NOTAM. Bump when parse_details_xml starts
 # extracting more, so already-published NOTAMs get re-detailed once.
-DETAILS_VERSION = 3
+DETAILS_VERSION = 4
 
 
 def _clean(text: str) -> str:
@@ -129,6 +130,16 @@ def _iso_from_notam_stamp(raw: str) -> str | None:
     return None
 
 
+def _iso_from_create_date(raw: str) -> str | None:
+    """'2026-07-13-07.21.05.000000' -> '2026-07-13T07:21:05'. Kept without a
+    zone suffix: the site doesn't say whether CreateDate is UTC or Israel
+    time (FromDate/ToDate are UTC). Anything else -> None."""
+    m = re.fullmatch(r"(\d{4}-\d{2}-\d{2})-(\d{2})\.(\d{2})\.(\d{2})(?:\.\d+)?", raw or "")
+    if not m:
+        return None
+    return f"{m.group(1)}T{m.group(2)}:{m.group(3)}:{m.group(4)}"
+
+
 def parse_details_xml(xml_str: str) -> dict | None:
     """The <Msg .../> blob from f_buildMoreMsgInfo -> detail fields.
     Returns None for an unparsable blob or the site's "expired" marker."""
@@ -145,6 +156,7 @@ def parse_details_xml(xml_str: str) -> dict | None:
     details = {
         "validFrom": _iso_from_notam_stamp(root.get("FromDate", "")),
         "validTo": _iso_from_notam_stamp(root.get("ToDate", "")),
+        "created": _iso_from_create_date(root.get("CreateDate", "")),
         "airfield": (root.get("Airfield") or "").strip(),
         "dLine": d_line,
         "lowerLimit": "",
