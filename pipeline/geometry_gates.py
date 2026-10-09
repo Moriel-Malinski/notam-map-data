@@ -12,6 +12,7 @@ do not fail. Anything new fails the build, so this family of bug cannot reach
 a published file again unnoticed.
 """
 import math
+import re
 
 R_KM = 6371.0
 
@@ -22,8 +23,9 @@ R_KM = 6371.0
 CORRIDOR_PHRASES = ('בין הנ"צ', 'בין הנצ', 'בין שתי הנקודות', 'מסדרון')
 
 # Text describing part of a circle. Stored as a full circle it over-covers,
-# which is the safe direction but still wrong.
-PARTIAL_CIRCLE_PHRASES = ('חצי מעגל', 'חצי עיגול', 'קשת')
+# which is the safe direction but still wrong. "קשת" right after a ב is
+# "בקשת" (a request), not an arc; other prefixes (הקשת, וקשת) still count.
+PARTIAL_CIRCLE_RE = re.compile(r"חצי מעגל|חצי עיגול|(?<!ב)קשת")
 
 MIN_POLY_AREA_KM2 = 0.05
 
@@ -148,7 +150,7 @@ def run(zone_files):
                 f"shape-vs-text:{code}",
                 f"{name}: {code} is described as running between coordinates "
                 f"(a corridor) but is stored as a circle"))
-        elif any(p in text for p in PARTIAL_CIRCLE_PHRASES):
+        elif PARTIAL_CIRCLE_RE.search(text):
             findings.append(Finding(
                 f"shape-vs-text:{code}",
                 f"{name}: {code} is described as part of a circle "
