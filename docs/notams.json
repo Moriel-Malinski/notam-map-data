@@ -1,21 +1,8 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-10T08:43:40Z",
+  "fetchedAt": "2026-10-10T12:22:12Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
-    {
-      "id": "C2131/26",
-      "location": "LLLL",
-      "eLine": "ULTRALIGHT WEEKEND RTE CLSD TYONA-SHEFC-SOREK.",
-      "validFrom": "2026-10-10T04:00Z",
-      "validTo": "2026-10-10T11:00Z",
-      "created": "2026-10-09T11:25:26",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 4
-    },
     {
       "id": "C2130/26",
       "location": "LLLL",
