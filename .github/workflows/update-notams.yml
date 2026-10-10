@@ -17,9 +17,12 @@ name: Update NOTAMs
 # fires while the previous 5h run is still going queues and starts the moment
 # it ends, so coverage is continuous. The 3h cron (shorter than the 5h run)
 # guarantees a successor is always queued even if some fires are dropped.
+#
+# STOPPED (owner's call, 10.10.2026): the server no longer scrapes the IAA
+# site on its own. The app loads NOTAMs from the IAA when the user presses
+# refresh. Kept as a manual workflow (Actions -> Update NOTAMs -> Run
+# workflow) in case the owner wants a one-off feed refresh.
 on:
-  schedule:
-    - cron: "7 */3 * * *"
   workflow_dispatch: {}
 
 permissions:
