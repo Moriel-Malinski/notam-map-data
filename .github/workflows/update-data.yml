@@ -1,8 +1,9 @@
 name: Update data
 
+# Manual only (owner's call, 10.10.2026): run it from the Actions tab after
+# editing data/. The NOTAM feed and the hourly heartbeat have their own
+# workflows and keep running.
 on:
-  schedule:
-    - cron: "17 3 * * *" # daily, ~06:17 Israel time
   workflow_dispatch: {}
 
 permissions:
@@ -62,13 +63,6 @@ jobs:
       - name: Write heartbeat (when sources were last checked)
         run: python pipeline/write_heartbeat.py lastRun
 
-      - name: Keep scheduled workflow alive (monthly touch)
-        if: github.event_name == 'schedule'
-        run: |
-          if [ "$(date -u +%d)" = "01" ]; then
-            date -u +%Y-%m > .github/.keepalive
-          fi
-
       - name: Commit and push if changed
         run: |
           git config user.name "data-bot"
@@ -92,8 +86,7 @@ jobs:
             exit 1
           fi
 
-      # Daily push to the user's phone on EVERY successful run (his choice:
-      # a positive daily signal, so a silent day means the pipeline is stuck).
+      # Push to the owner's phone on every successful run.
       # The topic name is a secret — the repo is public and anyone who knows
       # the topic could spam or snoop it. Notification failure must not fail
       # a run that already published fine, hence the trailing "|| true".
