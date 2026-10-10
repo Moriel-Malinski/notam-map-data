@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-10-10T15:33:38Z",
+  "fetchedAt": "2026-10-10T19:14:31Z",
   "source": "https://brin.iaa.gov.il/aeroinfo/AeroInfo.aspx?msgType=Notam",
   "notams": [
     {
@@ -160,19 +160,6 @@
       "detailsV": 4
     },
     {
-      "id": "C2106/26",
-      "location": "LLLL",
-      "eLine": "ULTRALIGHT BUBBLE CLSD HARIF (BHARF).",
-      "validFrom": "2026-10-10T05:00Z",
-      "validTo": "2026-10-10T19:00Z",
-      "created": "2026-10-07T11:15:24",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "detailsV": 4
-    },
-    {
       "id": "C2105/26",
       "location": "LLLL",
       "eLine": "UAS/UAV ACT WILL TAKE PLACE AT YERUHAM, FM GND UP TO 600M AGL. AN AREA WI 0.3NM RADIUS CENTERED ON PSN 305819N0345601E CLSD FM GND UP TO 3,700FT AMSL. CTN ADZ.",
@@ -222,19 +209,6 @@
       "dLine": "",
       "lowerLimit": "",
       "upperLimit": "",
-      "detailsV": 4
-    },
-    {
-      "id": "C2096/26",
-      "location": "LLLL",
-      "eLine": "AN AREA WI 1KM RADIUS CENTERED ON PSN 315455N0345500E AT GEZER POWER PLANT CLSD FM GND UP TO 1,200FT AMSL, DUE TO GAS EMISSION. CTN ADZ.",
-      "validFrom": "2026-10-10T16:00Z",
-      "validTo": "2026-10-10T19:00Z",
-      "created": "2026-10-06T08:33:15",
-      "airfield": "Tel-Aviv FIR",
-      "dLine": "",
-      "lowerLimit": "GND",
-      "upperLimit": "1200FT AMSL",
       "detailsV": 4
     },
     {
