@@ -40,23 +40,10 @@ jobs:
         env:
           RATAG_KMZ_URL: ${{ vars.RATAG_KMZ_URL }}
 
-      - name: Watch CAA/AIP sources for changes
-        run: python pipeline/watch_aip.py
-        env:
-          GH_TOKEN: ${{ github.token }}
-
-      - name: Check consolidated AIP update file (קובץ עדכון)
-        run: python pipeline/check_update_file.py
-        env:
-          GH_TOKEN: ${{ github.token }}
-
-      # Auto-apply: normal-sized changes are published without review
-      # (validate.py below still gates the commit); a suspicious change
-      # volume skips the apply and opens a review issue instead.
-      - name: Refresh A-17 zones from the official PDF (auto-apply)
-        run: python pipeline/fetch_a17.py --apply --guard
-        env:
-          GH_TOKEN: ${{ github.token }}
+      # No gov.il polling here (owner's call, 10.10.2026): the A-17 zones and
+      # the AIP data are maintained in data/ by hand. watch_aip.py,
+      # check_update_file.py and fetch_a17.py stay in the repo for manual use
+      # (a17-refresh.yml still runs fetch_a17.py on demand).
 
       - name: Validate data files
         run: python pipeline/validate.py
