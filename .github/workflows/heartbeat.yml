@@ -2,12 +2,9 @@ name: Heartbeat
 
 # An hourly liveness pulse, independent of the daily source pipeline.
 #
-# update-data.yml writes heartbeat.json's `lastRun` once a day, and only if it
-# gets that far: a crash earlier in the job (e.g. gov.il resetting the TLS
-# handshake during fetch_a17.py) leaves the file frozen at the previous day,
-# which is indistinguishable from "the scheduler stopped firing". This workflow
-# keeps a separate `lastHeartbeat` field moving every hour so the two can be
-# told apart.
+# update-data.yml writes heartbeat.json's `lastRun` only when it runs, which
+# is manual since 10.10.2026. This workflow keeps a separate `lastHeartbeat`
+# field moving every hour, so the pipeline can be seen to be alive.
 #
 # Deliberately touches no external source — it rewrites one JSON field and
 # pushes, adding ZERO traffic to gov.il.
