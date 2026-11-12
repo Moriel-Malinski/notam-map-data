@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-12T08:22:06Z",
+  "fetchedAt": "2026-11-12T15:40:18Z",
   "source": "NMS",
   "environment": "staging",
   "coverage": "series A only - not the domestic series C",
@@ -238,40 +238,6 @@
             "coordinates": [
               34.38333333333333,
               32.28333333333333
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "A0691/26",
-      "location": "LLHA",
-      "eLine": "NEW FREQ INSTL FOR CLEARANCE BFR TAXI (CPT) 121.800MHZ. DEP FLT SHALL CTC TWR ON CPT FREQ BFR STARTING UP ENGINE.",
-      "validFrom": "2026-08-27T05:18Z",
-      "validTo": "2026-11-30T21:59Z",
-      "endEstimated": false,
-      "created": "2026-08-27T05:18Z",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0691/26 NOTAMR A0685/26\nQ) LLLL/QCACS/IV/BO /AE/000/999/3249N03503E005\nA) LLHA B) 2608270518 C) 2611302159\nE) NEW FREQ INSTL FOR CLEARANCE BFR TAXI (CPT) 121.800MHZ.\n   DEP FLT SHALL CTC TWR ON CPT FREQ BFR STARTING UP ENGINE.",
-      "qLine": "LLLL/QCACS/IV/BO /AE/000/999/3249N03503E005",
-      "qCode": "QCACS",
-      "minimumFl": "000",
-      "maximumFl": "999",
-      "qCoordinates": "3249N03503E",
-      "qRadiusNm": "5",
-      "series": "A",
-      "lastUpdated": "2026-08-27T05:18Z",
-      "nmsId": "NMS_ID_1787807918061000",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              35.043889,
-              32.809722
             ]
           }
         ]
@@ -992,40 +958,6 @@
       }
     },
     {
-      "id": "A0857/26",
-      "location": "LLHA",
-      "eLine": "CIRCUIT EXER PROHIBITED, EXC ACFT ATR C/S HFA. LDG PROHIBITED EXC PPR FLT FM AD MANAGEMENT OR FM ATC. EXP DLA FOR DEP FLT.",
-      "validFrom": "2026-11-23T14:00Z",
-      "validTo": "2026-11-23T15:30Z",
-      "endEstimated": false,
-      "created": "2026-10-28T12:32Z",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0857/26 NOTAMN\nQ) LLLL/QACLP/IV/NBO/AE/000/030/3251N03503E007\nA) LLHA B) 2611231400 C) 2611231530\nE) CIRCUIT EXER PROHIBITED, EXC ACFT ATR C/S HFA.\n   LDG PROHIBITED EXC PPR FLT FM AD MANAGEMENT OR FM ATC.\n   EXP DLA FOR DEP FLT.",
-      "qLine": "LLLL/QACLP/IV/NBO/AE/000/030/3251N03503E007",
-      "qCode": "QACLP",
-      "minimumFl": "000",
-      "maximumFl": "030",
-      "qCoordinates": "3251N03503E",
-      "qRadiusNm": "007",
-      "series": "A",
-      "lastUpdated": "2026-10-28T12:33Z",
-      "nmsId": "NMS_ID_1793190763210000",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              35.043889,
-              32.809722
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "A0858/26",
       "location": "LLLL",
       "eLine": "CHECKLIST YEAR=2026 0056 0116 0117 0281 0457 0616 0622 0691 0693 0694 0701 0710 0719 0720 0738 0739 0740 0741 0742 0762 0764 0798 0802 0820 0824 0825 0826 0827 0828 0829 0850 0851 0854 0855 0856 0857 LATEST PUBLICATIONS AIP AIRAC AMDT IFR 002/2026 EFFECTIVE DATE 26 NOV 26 AIP AIRAC SUP IFR 004/2026 EFFECTIVE DATE 14 MAY 26 AIC IFR A001/2026 EFFECTIVE DATE 05 FEB 26 AIC CHECKLIST AIP IFR A001/2026 AIP VFR NIL AIP MIL NIL SUP CHECKLIST AIP IFR NIL AIP VFR NIL AIP MIL NIL",
@@ -1054,40 +986,6 @@
             "coordinates": [
               35.333333333333336,
               31.4
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "A0885/26",
-      "location": "LLER",
-      "eLine": "VOR/DME RAM FREQ 113.850MHZ WITHDRAWN FOR MAINT.",
-      "validFrom": "2026-11-12T07:00Z",
-      "validTo": "2026-11-12T11:00Z",
-      "endEstimated": false,
-      "created": "2026-11-05T07:41Z",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0885/26 NOTAMN\nQ) LLLL/QNMAS/IV/BO /AE/000/999/2945N03501E025\nA) LLER B) 2611120700 C) 2611121100\nE) VOR/DME RAM FREQ 113.850MHZ WITHDRAWN FOR MAINT.",
-      "qLine": "LLLL/QNMAS/IV/BO /AE/000/999/2945N03501E025",
-      "qCode": "QNMAS",
-      "minimumFl": "000",
-      "maximumFl": "999",
-      "qCoordinates": "2945N03501E",
-      "qRadiusNm": "25",
-      "series": "A",
-      "lastUpdated": "2026-11-05T07:42Z",
-      "nmsId": "NMS_ID_1793864523014000",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              35.014167,
-              29.727222
             ]
           }
         ]
@@ -1270,6 +1168,210 @@
                   32.74925330988068
                 ]
               ]
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0891/26",
+      "location": "LLBG",
+      "eLine": "ILS RWY 08 C/S BC FREQ 110.900MHZ WITHDRAWN FOR MAINT.",
+      "validFrom": "2026-11-15T06:00Z",
+      "validTo": "2026-11-15T14:00Z",
+      "endEstimated": false,
+      "created": "2026-11-12T10:46Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0891/26 NOTAMN\nQ) LLLL/QISAS/I /NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611150600 C) 2611151400\nE) ILS RWY 08 C/S BC FREQ 110.900MHZ WITHDRAWN FOR MAINT.",
+      "qLine": "LLLL/QISAS/I /NBO/A /000/999/3201N03453E005",
+      "qCode": "QISAS",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-11-12T10:47Z",
+      "nmsId": "NMS_ID_1794480412214000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0892/26",
+      "location": "LLBG",
+      "eLine": "ILS RWY 12 C/S BG FREQ 110.300MHZ WITHDRAWN FOR MAINT.",
+      "validFrom": "2026-11-16T07:00Z",
+      "validTo": "2026-11-16T11:00Z",
+      "endEstimated": false,
+      "created": "2026-11-12T10:48Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0892/26 NOTAMN\nQ) LLLL/QISAS/I /NBO/A /000/999/3200N03454E005\nA) LLBG B) 2611160700 C) 2611161100\nE) ILS RWY 12 C/S BG FREQ 110.300MHZ WITHDRAWN FOR MAINT.",
+      "qLine": "LLLL/QISAS/I /NBO/A /000/999/3200N03454E005",
+      "qCode": "QISAS",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3200N03454E",
+      "qRadiusNm": "5",
+      "series": "A",
+      "lastUpdated": "2026-11-12T10:49Z",
+      "nmsId": "NMS_ID_1794480564033000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0893/26",
+      "location": "LLBG",
+      "eLine": "RWY 12/30 CLSD EXC RWY INT DUE WIP.",
+      "validFrom": "2026-11-16T06:00Z",
+      "validTo": "2026-11-16T12:00Z",
+      "endEstimated": false,
+      "created": "2026-11-12T10:53Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0893/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611160600 C) 2611161200\nE) RWY 12/30 CLSD EXC RWY INT DUE WIP.",
+      "qLine": "LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005",
+      "qCode": "QMRLC",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "5",
+      "series": "A",
+      "lastUpdated": "2026-11-12T10:53Z",
+      "nmsId": "NMS_ID_1794480823381000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0894/26",
+      "location": "LLBG",
+      "eLine": "RWY 03/21 CLSD DUE WIP.",
+      "validFrom": "2026-11-17T04:00Z",
+      "validTo": "2026-11-17T12:00Z",
+      "endEstimated": false,
+      "created": "2026-11-12T11:41Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0894/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611170400 C) 2611171200\nE) RWY 03/21 CLSD DUE WIP.",
+      "qLine": "LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005",
+      "qCode": "QMRLC",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-11-12T11:43Z",
+      "nmsId": "NMS_ID_1794483748293000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0895/26",
+      "location": "LLBG",
+      "eLine": "RWY 08/26 CLSD EXC RWY INT, DUE WIP.",
+      "validFrom": "2026-11-18T04:00Z",
+      "validTo": "2026-11-18T12:00Z",
+      "endEstimated": false,
+      "created": "2026-11-12T11:43Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0895/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611180400 C) 2611181200\nE) RWY 08/26 CLSD EXC RWY INT, DUE WIP.",
+      "qLine": "LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005",
+      "qCode": "QMRLC",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "5",
+      "series": "A",
+      "lastUpdated": "2026-11-12T11:44Z",
+      "nmsId": "NMS_ID_1794483846212000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0897/26",
+      "location": "LLHA",
+      "eLine": "NEW FREQ INSTL FOR CLEARANCE BFR TAXI (CPT) 121.800MHZ. DEP FLT SHALL CTC TWR ON CPT FREQ BFR STARTING UP ENGINE. ISRAEL AIP, PART AD, PAGE AD-2-LLHA 8, PARA 2.18 REF.)",
+      "validFrom": "2026-11-12T13:09Z",
+      "validTo": null,
+      "endEstimated": false,
+      "created": "2026-11-12T13:09Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0897/26 NOTAMR A0691/26\nQ) LLLL/QCACS/IV/BO /AE/000/999/3249N03503E005\nA) LLHA B) 2611121309 C) PERM\nE) NEW FREQ INSTL FOR CLEARANCE BFR TAXI (CPT) 121.800MHZ.\n   DEP FLT SHALL CTC TWR ON CPT FREQ BFR STARTING UP ENGINE.\n   ISRAEL AIP, PART AD, PAGE AD-2-LLHA 8, PARA 2.18 REF.)",
+      "qLine": "LLLL/QCACS/IV/BO /AE/000/999/3249N03503E005",
+      "qCode": "QCACS",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3249N03503E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-11-12T13:10Z",
+      "nmsId": "NMS_ID_1794489053302770",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.043889,
+              32.809722
             ]
           }
         ]
