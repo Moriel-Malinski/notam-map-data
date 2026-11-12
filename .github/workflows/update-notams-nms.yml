@@ -1,0 +1,123 @@
+name: Update NOTAMs (NMS, series A)
+
+# Publishes docs/notams_nms.json: Israel's series-A NOTAMs from the NMS-API.
+#
+# A COMPLEMENTARY feed. The service does not hold Israel's domestic series C
+# (measured 12.11.2026), so docs/notams.json (IAA) is not touched here and
+# update-notams.yml (the IAA scraper) stays manual-only.
+#
+# One request per run. Limits of the service: staging 1 request per second;
+# production 1 pull per 3 minutes - a run every 20 minutes is far inside both.
+# GitHub may start scheduled runs late on a quiet repository; the published
+# fetchedAt always tells the real age of the data.
+#
+# Secrets (Settings -> Secrets and variables -> Actions):
+#   NMS_CLIENT_ID, NMS_CLIENT_SECRET
+# Optional repository variable NMS_API_HOST (default: the staging host).
+on:
+  schedule:
+    - cron: "7,27,47 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: notam-feed-nms
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      NMS_CLIENT_ID: ${{ secrets.NMS_CLIENT_ID }}
+      NMS_CLIENT_SECRET: ${{ secrets.NMS_CLIENT_SECRET }}
+      NMS_API_HOST: ${{ vars.NMS_API_HOST || 'https://api-staging.cgifederal-aim.com' }}
+    steps:
+      # Fail before anything else when a secret is missing, with a message
+      # that says so. Only the presence is tested - the values are never
+      # echoed (GitHub masks secrets in logs as a second guard).
+      - name: Check that the NMS secrets exist
+        run: |
+          if [ -z "$NMS_CLIENT_ID" ] || [ -z "$NMS_CLIENT_SECRET" ]; then
+            echo "::error::NMS_CLIENT_ID / NMS_CLIENT_SECRET are not defined as repository secrets."
+            exit 1
+          fi
+
+      # Tip of main, not the triggering SHA - same reasoning as update-data.yml.
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      # Exit codes of fetch_notams_nms.py:
+      #   0 = published / nothing new / transient failure (old file kept)
+      #   1 = answer held no usable NOTAM (old file kept)
+      #   2 = authentication failed
+      - name: Fetch from NMS
+        run: |
+          set +e
+          python pipeline/fetch_notams_nms.py
+          CODE=$?
+          set -e
+          if [ "$CODE" -eq 2 ]; then
+            echo "::error::NMS authentication failed - check the NMS_CLIENT_ID / NMS_CLIENT_SECRET secrets."
+          elif [ "$CODE" -ne 0 ]; then
+            echo "::error::NMS answered without any usable Israeli NOTAM - the previous file was kept."
+          fi
+          exit "$CODE"
+
+      - name: Commit and push
+        run: |
+          git config user.name "data-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add docs/notams_nms.json
+          if git diff --cached --quiet; then
+            echo "No change."
+            exit 0
+          fi
+          git commit -m "notams-nms: automated update $(date -u +%FT%H:%MZ)"
+          # The heartbeat and the data pipeline push to main too, so a race is
+          # normal. Replay on top rather than failing; an update that never
+          # lands is left for the next run.
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push; then
+              exit 0
+            fi
+            git rebase --abort 2>/dev/null || true
+            echo "push attempt $attempt failed; retrying"
+            sleep 5
+          done
+          echo "could not push; the next run will retry" >&2
+
+      # Same anti-spam guard as update-notams.yml: notify only on the first
+      # failure of a streak.
+      - name: Push failure notification (ntfy, first failure only)
+        if: failure()
+        env:
+          GH_TOKEN: ${{ github.token }}
+          NTFY_TOPIC: ${{ secrets.NTFY_TOPIC }}
+        run: |
+          PREV=$(gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/update-notams-nms.yml/runs?status=completed&per_page=2" \
+            --jq '[.workflow_runs[] | select(.id != '"${GITHUB_RUN_ID}"')][0].conclusion' 2>/dev/null)
+          if [ "$PREV" = "failure" ]; then
+            echo "Previous run also failed - already notified, staying quiet."
+            exit 0
+          fi
+          STEP=$(gh api "repos/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}/jobs" \
+            --jq '[.jobs[].steps[] | select(.conclusion=="failure")][0].name' 2>/dev/null)
+          RUN_URL="${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/actions/runs/${GITHUB_RUN_ID}"
+          curl -s --max-time 30 \
+            -H "Title: NMS NOTAM feed FAILED" \
+            -H "Tags: rotating_light" \
+            -H "Priority: high" \
+            -H "Click: ${RUN_URL}" \
+            -d "פיד הנוטאמים מ-NMS נכשל בצעד: ${STEP:-לא ידוע}. לחיצה פותחת את הלוג. ${RUN_URL}" \
+            "https://ntfy.sh/${NTFY_TOPIC}" > /dev/null || true

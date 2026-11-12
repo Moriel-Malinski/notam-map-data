@@ -1,0 +1,1279 @@
+{
+  "schemaVersion": 1,
+  "fetchedAt": "2026-11-12T08:22:06Z",
+  "source": "NMS",
+  "environment": "staging",
+  "coverage": "series A only - not the domestic series C",
+  "notams": [
+    {
+      "id": "A0056/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE P42 BTN TAPUZ-MERVA AVBL BY ATC ONLY. ISRAEL AIP, PART ENR 3.1, PAGE ENR 3.1-17, CHART ENR 6-1 REF.",
+      "validFrom": "2026-01-25T08:05Z",
+      "validTo": null,
+      "endEstimated": false,
+      "created": "2026-01-25T08:05Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0056/26 NOTAMR A0722/25\nQ) LLLL/QANLC/I /NBO/E /120/600/3224N03432E024\nA) LLLL B) 2601250805 C) PERM\nE) ATS RTE P42 BTN TAPUZ-MERVA AVBL BY ATC ONLY.\n   ISRAEL AIP, PART ENR 3.1, PAGE ENR 3.1-17, CHART ENR 6-1 REF.",
+      "qLine": "LLLL/QANLC/I /NBO/E /120/600/3224N03432E024",
+      "qCode": "QANLC",
+      "minimumFl": "120",
+      "maximumFl": "600",
+      "qCoordinates": "3224N03432E",
+      "qRadiusNm": "024",
+      "series": "A",
+      "lastUpdated": "2026-01-25T08:06Z",
+      "nmsId": "NMS_ID_1769328419232448",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.53333333333333,
+              32.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0116/26",
+      "location": "LLBG",
+      "eLine": "RWY 08/26 PCR 880/F/C/X/T. ISRAEL AIP, PART AD, PAGE AD-2-LLBG-6, TABLE 2.12 REF.",
+      "validFrom": "2026-01-29T16:32Z",
+      "validTo": null,
+      "endEstimated": false,
+      "created": "2026-01-29T16:33Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0116/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2601291632 C) PERM\nE) RWY 08/26 PCR 880/F/C/X/T.\n   ISRAEL AIP, PART AD, PAGE AD-2-LLBG-6, TABLE 2.12 REF.",
+      "qLine": "LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005",
+      "qCode": "QMRLT",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-01-29T16:33Z",
+      "nmsId": "NMS_ID_1769704451139116",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0117/26",
+      "location": "LLBG",
+      "eLine": "TWY W4 PCR 1,520/F/C/X/T. ISRAEL AIP, PART AD, CHART AD 2 LLBG ADC-1 REF.",
+      "validFrom": "2026-01-29T16:39Z",
+      "validTo": null,
+      "endEstimated": false,
+      "created": "2026-01-29T16:39Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0117/26 NOTAMN\nQ) LLLL/QMXLT/IV/M  /A /000/999/3201N03453E005\nA) LLBG B) 2601291639 C) PERM\nE) TWY W4 PCR 1,520/F/C/X/T.\n   ISRAEL AIP, PART AD, CHART AD 2 LLBG ADC-1 REF.",
+      "qLine": "LLLL/QMXLT/IV/M  /A /000/999/3201N03453E005",
+      "qCode": "QMXLT",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-01-29T16:40Z",
+      "nmsId": "NMS_ID_1769704892098588",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0281/26",
+      "location": "LLHA",
+      "eLine": "ACFT STAND J10 CLSD.",
+      "validFrom": "2026-03-25T11:46Z",
+      "validTo": null,
+      "endEstimated": false,
+      "created": "2026-03-25T11:46Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0281/26 NOTAMN\nQ) LLLL/QMPLC/IV/BO /A /000/999/3249N03503E005\nA) LLHA B) 2603251146 C) PERM\nE) ACFT STAND J10 CLSD.",
+      "qLine": "LLLL/QMPLC/IV/BO /A /000/999/3249N03503E005",
+      "qCode": "QMPLC",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3249N03503E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-03-25T11:47Z",
+      "nmsId": "NMS_ID_1774439270305060",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.043889,
+              32.809722
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0457/26",
+      "location": "LLBG",
+      "eLine": "MNM CMB GRADIENT CHG AS FLW: CHART AD 2 LLBG SID 26-1: ALL SID: MNM CMB GRADIENT REQUIRED 7.0 PERCENT UP TO 2,500FT DUE TO AIR-SPACE RESTRICTIONS. IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF 3.5 PERCENT DUE TO OBST. CHART AD 2 LLBG SID 12-26-30-1: FOR SID PIDET1E: MNM CMB GRADIENT REQUIRED OF 6.0 PERCENT UP TO 5,000FT DUE TO AIR-SPACE RESTRICTIONS. IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF 3.5 PERCENT DUE TO OBST. FOR SID RIPUD1E: MNM CMB GRADIENT REQUIRED OF 7.0 PERCENT UP TO 6,000FT DUE TO AIR-SPACE RESTRICTIONS. IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF 3.5 PERCENT DUE TO OBST. CHART AD 2 LLBG SID 12-26-30-2, FOR SID ORLEV1E: MNM CMB GRADIENT REQUIRED 8.0 PERCENT UP TO 5,000FT DUE TO AIR-SPACE RESTRICTIONS. IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF 3.5 PERCENT DUE TO OBST. ISRAEL AIP, PART AD, CHARTS: AD 2 LLBG SID 26-1, AD 2 LLBG SID 12-26-30-1, AD 2 LLBG SID 12-26-30-2. REF.",
+      "validFrom": "2026-06-08T05:31Z",
+      "validTo": null,
+      "endEstimated": false,
+      "created": "2026-06-08T05:31Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0457/26 NOTAMR A0410/26\nQ) LLLL/QPDCH/I /NBO/A /000/999/3201N03453E005\nA) LLBG B) 2606080531 C) PERM\nE) MNM CMB GRADIENT CHG AS FLW:\n   CHART AD 2 LLBG SID 26-1: \n   ALL SID: MNM CMB GRADIENT REQUIRED 7.0 PERCENT UP TO\n   2,500FT DUE TO AIR-SPACE RESTRICTIONS.\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\n   3.5 PERCENT DUE TO OBST.\n   CHART AD 2 LLBG SID 12-26-30-1:\n   FOR SID PIDET1E: MNM CMB GRADIENT REQUIRED OF 6.0 PERCENT\n   UP TO 5,000FT DUE TO AIR-SPACE RESTRICTIONS.\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\n   3.5 PERCENT DUE TO OBST.\n   FOR SID RIPUD1E: MNM CMB GRADIENT REQUIRED OF 7.0 PERCENT\n   UP TO 6,000FT DUE TO AIR-SPACE RESTRICTIONS.\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\n   3.5 PERCENT DUE TO OBST.\n   CHART AD 2 LLBG SID 12-26-30-2, FOR SID ORLEV1E:\n   MNM CMB GRADIENT REQUIRED 8.0 PERCENT UP TO 5,000FT\n   DUE TO AIR-SPACE RESTRICTIONS.\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\n   3.5 PERCENT DUE TO OBST.\n   ISRAEL AIP, PART AD, CHARTS: AD 2 LLBG SID 26-1, \n   AD 2 LLBG SID 12-26-30-1, AD 2 LLBG SID 12-26-30-2. REF.",
+      "qLine": "LLLL/QPDCH/I /NBO/A /000/999/3201N03453E005",
+      "qCode": "QPDCH",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-06-08T05:32Z",
+      "nmsId": "NMS_ID_1780896798785765",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0616/26",
+      "location": "LLLL",
+      "eLine": "LLR01 ACTIVATED H24, XNG MERVA NOT AVBL EXC BY ATC. TFC TO/FM LLHA AVBL VIA MERVA BIDIRECTIONAL AT 5,000FT AMSL. ISRAEL AIP, PART ENR 5.1, PAGE ENR 5.1-3, PARA 2, CHART ENR 6-1 REF.",
+      "validFrom": "2026-08-06T16:30Z",
+      "validTo": null,
+      "endEstimated": false,
+      "created": "2026-08-03T09:50Z",
+      "dLine": "",
+      "lowerLimit": "7000FT AMSL",
+      "upperLimit": "40000FT AMSL",
+      "rawText": "A0616/26 NOTAMN\nQ) LLLL/QRRCA/IV/BO /W /070/400/3247N03441E022\nA) LLLL B) 2608061630 C) PERM\nE) LLR01 ACTIVATED H24, XNG MERVA NOT AVBL EXC BY ATC.\n   TFC TO/FM LLHA AVBL VIA MERVA BIDIRECTIONAL AT 5,000FT AMSL.\n   ISRAEL AIP, PART ENR 5.1, PAGE ENR 5.1-3, PARA 2,\n   CHART ENR 6-1 REF.\nF) 7000FT AMSL G) 40000FT AMSL",
+      "qLine": "LLLL/QRRCA/IV/BO /W /070/400/3247N03441E022",
+      "qCode": "QRRCA",
+      "minimumFl": "070",
+      "maximumFl": "400",
+      "qCoordinates": "3247N03441E",
+      "qRadiusNm": "022",
+      "series": "A",
+      "lastUpdated": "2026-08-03T09:51Z",
+      "nmsId": "NMS_ID_1785750728880608",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.68333333333333,
+              32.78333333333333
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0622/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE W13 AVBL H24 BTN TAPUZ-JILET-DAFNA BTN 12,000FT-FL325. AND BTN TAPUZ-JILET-DAFNA CDR1 BTN FL330-FL600, AS FLW: SUN 2100(2000) - MON 0500(0400) MON 2100(2000) - TUE 0500(0400) TUE 2100(2000) - WED 0500(0400) WED 2100(2000) - THU 0500(0400) THU 1500(1400) - SUN 0600(0500) HOL-1 1500(1400) - HOL+1 0600(0500) TIME IN BRACKETS ARE SUMMER SAVING, ALL TIMES UTC. ISRAEL AIP, PART ENR 3.1, PAGE ENR 3.1-30, CHART ENR 6-1 REF.",
+      "validFrom": "2026-08-06T16:30Z",
+      "validTo": null,
+      "endEstimated": false,
+      "created": "2026-08-03T09:59Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0622/26 NOTAMN\nQ) LLLL/QANLT/I /NBO/E /120/600/3217N03423E018\nA) LLLL B) 2608061630 C) PERM\nE) ATS RTE W13 AVBL H24 BTN TAPUZ-JILET-DAFNA BTN 12,000FT-FL325.\n   AND BTN TAPUZ-JILET-DAFNA CDR1 BTN FL330-FL600, AS FLW:\n   SUN 2100(2000) - MON 0500(0400)\n   MON 2100(2000) - TUE 0500(0400) \n   TUE 2100(2000) - WED 0500(0400)\n   WED 2100(2000) - THU 0500(0400)\n   THU 1500(1400) - SUN 0600(0500)\n   HOL-1 1500(1400) - HOL+1 0600(0500)\n   TIME IN BRACKETS ARE SUMMER SAVING, ALL TIMES UTC.\n   ISRAEL AIP, PART ENR 3.1, PAGE ENR 3.1-30, CHART ENR 6-1 REF.",
+      "qLine": "LLLL/QANLT/I /NBO/E /120/600/3217N03423E018",
+      "qCode": "QANLT",
+      "minimumFl": "120",
+      "maximumFl": "600",
+      "qCoordinates": "3217N03423E",
+      "qRadiusNm": "018",
+      "series": "A",
+      "lastUpdated": "2026-08-03T10:00Z",
+      "nmsId": "NMS_ID_1785751247481231",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.38333333333333,
+              32.28333333333333
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0691/26",
+      "location": "LLHA",
+      "eLine": "NEW FREQ INSTL FOR CLEARANCE BFR TAXI (CPT) 121.800MHZ. DEP FLT SHALL CTC TWR ON CPT FREQ BFR STARTING UP ENGINE.",
+      "validFrom": "2026-08-27T05:18Z",
+      "validTo": "2026-11-30T21:59Z",
+      "endEstimated": false,
+      "created": "2026-08-27T05:18Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0691/26 NOTAMR A0685/26\nQ) LLLL/QCACS/IV/BO /AE/000/999/3249N03503E005\nA) LLHA B) 2608270518 C) 2611302159\nE) NEW FREQ INSTL FOR CLEARANCE BFR TAXI (CPT) 121.800MHZ.\n   DEP FLT SHALL CTC TWR ON CPT FREQ BFR STARTING UP ENGINE.",
+      "qLine": "LLLL/QCACS/IV/BO /AE/000/999/3249N03503E005",
+      "qCode": "QCACS",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3249N03503E",
+      "qRadiusNm": "5",
+      "series": "A",
+      "lastUpdated": "2026-08-27T05:18Z",
+      "nmsId": "NMS_ID_1787807918061000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.043889,
+              32.809722
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0693/26",
+      "location": "LLNV",
+      "eLine": "RADAR SER NOT AVBL.",
+      "validFrom": "2026-08-27T10:25Z",
+      "validTo": "2026-11-30T21:59Z",
+      "endEstimated": false,
+      "created": "2026-08-27T10:25Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0693/26 NOTAMR A0433/26\nQ) LLLL/QSEAU/IV/BO /AE/000/999/3112N03502E005\nA) LLNV B) 2608271025 C) 2611302159\nE) RADAR SER NOT AVBL.",
+      "qLine": "LLLL/QSEAU/IV/BO /AE/000/999/3112N03502E005",
+      "qCode": "QSEAU",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3112N03502E",
+      "qRadiusNm": "5",
+      "series": "A",
+      "lastUpdated": "2026-08-27T10:25Z",
+      "nmsId": "NMS_ID_1787826342280000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.014819,
+              31.200586
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0694/26",
+      "location": "LLNV",
+      "eLine": "TWY Z LOCATED S OF RWY 07/25, MARKED AND LIT AS RWY, AVBL FOR TWY, LDG/TKOFF ON TWY Z AVBL BY ATC ONLY. DIRECTIONS 06/24. CTN ADZ.",
+      "validFrom": "2026-08-27T10:28Z",
+      "validTo": "2026-11-30T21:59Z",
+      "endEstimated": false,
+      "created": "2026-08-27T10:28Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0694/26 NOTAMR A0434/26\nQ) LLLL/QMXAR/IV/M  /A /000/999/3112N03502E005\nA) LLNV B) 2608271028 C) 2611302159\nE) TWY Z LOCATED S OF RWY 07/25, MARKED AND LIT AS RWY,\n   AVBL FOR TWY, LDG/TKOFF ON TWY Z AVBL BY ATC ONLY.\n   DIRECTIONS 06/24.\n   CTN ADZ.",
+      "qLine": "LLLL/QMXAR/IV/M  /A /000/999/3112N03502E005",
+      "qCode": "QMXAR",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3112N03502E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-08-27T10:29Z",
+      "nmsId": "NMS_ID_1787826524412000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.014819,
+              31.200586
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0701/26",
+      "location": "LLBG",
+      "eLine": "CRANE ERECTED WI LLBG CTR, AT YAHUD/IAI INDUSTRY. AN AREA BTN FLW PSN CLSD FM GND UP TO 74.50M 245FT AMSL: 320152N0345416E 320150N0345416E 320150N0345413E 320152N0345413E. LIT AND DAY MARKED. CTN ADZ.",
+      "validFrom": "2026-10-01T00:01Z",
+      "validTo": "2026-12-31T20:59Z",
+      "endEstimated": false,
+      "created": "2026-08-30T11:28Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0701/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/003/3202N03454E001\nA) LLBG B) 2610010001 C) 2612312059\nE) CRANE ERECTED WI LLBG CTR, AT YAHUD/IAI INDUSTRY.\n   AN AREA BTN FLW PSN CLSD FM GND UP TO 74.50M 245FT AMSL:\n   320152N0345416E 320150N0345416E 320150N0345413E\n   320152N0345413E.\n   LIT AND DAY MARKED.\n   CTN ADZ.",
+      "qLine": "LLLL/QOBCE/IV/M  /AE/000/003/3202N03454E001",
+      "qCode": "QOBCE",
+      "minimumFl": "000",
+      "maximumFl": "003",
+      "qCoordinates": "3202N03454E",
+      "qRadiusNm": "001",
+      "series": "A",
+      "lastUpdated": "2026-08-30T11:29Z",
+      "nmsId": "NMS_ID_1788089407923721",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0710/26",
+      "location": "LLLL",
+      "eLine": "TEL AVIV CTL FLW FREQ TEMPO NOT AVBL: 123.050MHZ, 132.050MHZ, 135.625MHZ.",
+      "validFrom": "2026-08-31T09:45Z",
+      "validTo": "2026-11-30T23:59Z",
+      "endEstimated": false,
+      "created": "2026-08-31T09:45Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0710/26 NOTAMN\nQ) LLLL/QCAAS/IV/BO /E /000/999/3232N03453E060\nA) LLLL B) 2608310945 C) 2611302359\nE) TEL AVIV CTL FLW FREQ TEMPO NOT AVBL:\n   123.050MHZ, 132.050MHZ, 135.625MHZ.",
+      "qLine": "LLLL/QCAAS/IV/BO /E /000/999/3232N03453E060",
+      "qCode": "QCAAS",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3232N03453E",
+      "qRadiusNm": "060",
+      "series": "A",
+      "lastUpdated": "2026-08-31T09:46Z",
+      "nmsId": "NMS_ID_1788169552747000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.88333333333333,
+              32.53333333333333
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0719/26",
+      "location": "LLHA",
+      "eLine": "SELF SER REFUEL FOR ACFT NOT AVBL. COOR WITH PAZ-AVIATION FOR REFUELING BY VEHICLE ONLY.",
+      "validFrom": "2026-09-02T13:44Z",
+      "validTo": "2026-12-31T23:59Z",
+      "endEstimated": false,
+      "created": "2026-09-02T13:44Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0719/26 NOTAMN\nQ) LLLL/QFUAU/IV/NBO/A /000/999/3249N03503E005\nA) LLHA B) 2609021344 C) 2612312359\nE) SELF SER REFUEL FOR ACFT NOT AVBL.\n   COOR WITH PAZ-AVIATION FOR REFUELING BY VEHICLE ONLY.",
+      "qLine": "LLLL/QFUAU/IV/NBO/A /000/999/3249N03503E005",
+      "qCode": "QFUAU",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3249N03503E",
+      "qRadiusNm": "5",
+      "series": "A",
+      "lastUpdated": "2026-09-02T13:45Z",
+      "nmsId": "NMS_ID_1788356707181000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.043889,
+              32.809722
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0720/26",
+      "location": "LLBG",
+      "eLine": "DRILLING TOWER ERECTED WI LLBG CTR, AT YAHUD/IAI INDUSTRY. AN AREA BTN FLW PSN CLSD FM GND UP TO 72M 236FT AMSL: 320152N0345416E 320150N0345416E 320150N0345413E 320152N0345413E. LIT AND DAY MARKED. CTN ADZ.",
+      "validFrom": "2026-09-02T14:24Z",
+      "validTo": "2026-12-31T23:59Z",
+      "endEstimated": false,
+      "created": "2026-09-02T14:24Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0720/26 NOTAMR A0700/26\nQ) LLLL/QOBCE/IV/M  /AE/000/003/3202N03454E001\nA) LLBG B) 2609021424 C) 2612312359\nE) DRILLING TOWER ERECTED WI LLBG CTR, AT YAHUD/IAI INDUSTRY.\n   AN AREA BTN FLW PSN CLSD FM GND UP TO 72M 236FT AMSL:\n   320152N0345416E 320150N0345416E 320150N0345413E\n   320152N0345413E.\n   LIT AND DAY MARKED.\n   CTN ADZ.",
+      "qLine": "LLLL/QOBCE/IV/M  /AE/000/003/3202N03454E001",
+      "qCode": "QOBCE",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3202N03454E",
+      "qRadiusNm": "1",
+      "series": "A",
+      "lastUpdated": "2026-09-02T14:25Z",
+      "nmsId": "NMS_ID_1788359111168000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0738/26",
+      "location": "LLBG",
+      "eLine": "AD CLSD DUE WIP.",
+      "validFrom": "2026-11-20T16:00Z",
+      "validTo": "2026-11-20T21:00Z",
+      "endEstimated": false,
+      "created": "2026-09-10T07:05Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0738/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611201600 C) 2611202100\nE) AD CLSD DUE WIP.",
+      "qLine": "LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005",
+      "qCode": "QFALC",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-09-10T07:06Z",
+      "nmsId": "NMS_ID_1789023948428000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0739/26",
+      "location": "LLBG",
+      "eLine": "AD CLSD DUE WIP.",
+      "validFrom": "2026-12-18T16:00Z",
+      "validTo": "2026-12-18T21:00Z",
+      "endEstimated": false,
+      "created": "2026-09-10T07:06Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0739/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2612181600 C) 2612182100\nE) AD CLSD DUE WIP.",
+      "qLine": "LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005",
+      "qCode": "QFALC",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "5",
+      "series": "A",
+      "lastUpdated": "2026-09-10T07:06Z",
+      "nmsId": "NMS_ID_1789024014822000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0740/26",
+      "location": "LLBG",
+      "eLine": "AD CLSD DUE WIP.",
+      "validFrom": "2027-01-15T16:00Z",
+      "validTo": "2027-01-15T21:00Z",
+      "endEstimated": false,
+      "created": "2026-09-10T07:07Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0740/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2701151600 C) 2701152100\nE) AD CLSD DUE WIP.",
+      "qLine": "LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005",
+      "qCode": "QFALC",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "5",
+      "series": "A",
+      "lastUpdated": "2026-09-10T07:08Z",
+      "nmsId": "NMS_ID_1789024084334000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0741/26",
+      "location": "LLBG",
+      "eLine": "AD CLSD DUE WIP.",
+      "validFrom": "2027-02-12T16:00Z",
+      "validTo": "2027-02-12T21:00Z",
+      "endEstimated": false,
+      "created": "2026-09-10T07:08Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0741/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2702121600 C) 2702122100\nE) AD CLSD DUE WIP.",
+      "qLine": "LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005",
+      "qCode": "QFALC",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "5",
+      "series": "A",
+      "lastUpdated": "2026-09-10T07:08Z",
+      "nmsId": "NMS_ID_1789024122394000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0742/26",
+      "location": "LLBG",
+      "eLine": "AD CLSD DUE WIP.",
+      "validFrom": "2027-03-12T16:00Z",
+      "validTo": "2027-03-12T21:00Z",
+      "endEstimated": false,
+      "created": "2026-09-10T07:09Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0742/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2703121600 C) 2703122100\nE) AD CLSD DUE WIP.",
+      "qLine": "LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005",
+      "qCode": "QFALC",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "5",
+      "series": "A",
+      "lastUpdated": "2026-09-10T07:09Z",
+      "nmsId": "NMS_ID_1789024171795000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0762/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE N134 BTN VOLFO-SALAM AVBL H24 BTN 11,000-16,000FT FOR TFC WITH ARR AT AD WITHIN AMMAN FIR, LLER, LLNV, LLOV AND LLRM ONLY, AVBL H24 ABV 17,000FT FOR MIL TFC ONLY.",
+      "validFrom": "2026-09-17T12:16Z",
+      "validTo": "2026-12-31T23:59Z",
+      "endEstimated": false,
+      "created": "2026-09-17T12:16Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0762/26 NOTAMN\nQ) LLLL/QANLT/I /NBO/E /050/600/3208N03451E038\nA) LLLL B) 2609171216 C) 2612312359\nE) ATS RTE N134 BTN VOLFO-SALAM AVBL H24 BTN 11,000-16,000FT\n   FOR TFC WITH ARR AT AD WITHIN AMMAN FIR, LLER, LLNV,\n   LLOV AND LLRM ONLY, AVBL H24 ABV 17,000FT FOR MIL TFC ONLY.",
+      "qLine": "LLLL/QANLT/I /NBO/E /050/600/3208N03451E038",
+      "qCode": "QANLT",
+      "minimumFl": "050",
+      "maximumFl": "600",
+      "qCoordinates": "3208N03451E",
+      "qRadiusNm": "038",
+      "series": "A",
+      "lastUpdated": "2026-09-17T12:17Z",
+      "nmsId": "NMS_ID_1789647402005000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.85,
+              32.13333333333333
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0764/26",
+      "location": "LLLL",
+      "eLine": "ATS RTE L53 CLSD BTN ABIMI-BGN. TFC WITH DEP FM AD WITHIN AMMAN FIR SHALL FILE H24 TALMI DCT TAPUZ BTN 11,000-16,000FT. TFC WITH DEP FM LLER, LLNV, LLOV AND LLRM ONLY SHALL FILE H24 GOBRI DCT TAPUZ BTN 11,000-16,000FT. MIL FLT OVERFLYING FM AMMAN FIR TO NICOSIA FIR SHALL FILE H24 TALMI DCT TAPUZ ABV 17,000FT. MIL FLT OVERFLYING FM LLER, LLNV, LLOV AND LLRM TO NICOSIA FIR SHALL FILE H24 GOBRI DCT TAPUZ ABV 17,000FT.",
+      "validFrom": "2026-09-22T00:01Z",
+      "validTo": "2026-12-31T23:59Z",
+      "endEstimated": false,
+      "created": "2026-09-17T12:22Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0764/26 NOTAMN\nQ) LLLL/QANLT/I /NBO/E /050/600/3156N03501E027\nA) LLLL B) 2609220001 C) 2612312359\nE) ATS RTE L53 CLSD BTN ABIMI-BGN.\n   TFC WITH DEP FM AD WITHIN AMMAN FIR SHALL FILE H24\n   TALMI DCT TAPUZ BTN 11,000-16,000FT.\n   TFC WITH DEP FM LLER, LLNV, LLOV AND LLRM ONLY SHALL\n   FILE H24 GOBRI DCT TAPUZ BTN 11,000-16,000FT.\n   MIL FLT OVERFLYING FM AMMAN FIR TO NICOSIA FIR SHALL\n   FILE H24 TALMI DCT TAPUZ ABV 17,000FT.\n   MIL FLT OVERFLYING FM LLER, LLNV, LLOV AND LLRM TO NICOSIA\n   FIR SHALL FILE H24 GOBRI DCT TAPUZ ABV 17,000FT.",
+      "qLine": "LLLL/QANLT/I /NBO/E /050/600/3156N03501E027",
+      "qCode": "QANLT",
+      "minimumFl": "050",
+      "maximumFl": "600",
+      "qCoordinates": "3156N03501E",
+      "qRadiusNm": "027",
+      "series": "A",
+      "lastUpdated": "2026-09-17T12:23Z",
+      "nmsId": "NMS_ID_1789647779526000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.016666666666666,
+              31.933333333333334
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0825/26",
+      "location": "LLHA",
+      "eLine": "ACFT STAND A2 CLSD DUE WIP.",
+      "validFrom": "2026-11-23T00:01Z",
+      "validTo": "2026-12-31T21:59Z",
+      "endEstimated": false,
+      "created": "2026-10-13T10:15Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0825/26 NOTAMN\nQ) LLLL/QMPLC/IV/BO /A /000/999/3249N03503E005\nA) LLHA B) 2611230001 C) 2612312159\nE) ACFT STAND A2 CLSD DUE WIP.",
+      "qLine": "LLLL/QMPLC/IV/BO /A /000/999/3249N03503E005",
+      "qCode": "QMPLC",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3249N03503E",
+      "qRadiusNm": "5",
+      "series": "A",
+      "lastUpdated": "2026-10-13T10:15Z",
+      "nmsId": "NMS_ID_1791886538819000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.043889,
+              32.809722
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0826/26",
+      "location": "LLBG",
+      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 02/26 WEF 26 NOV 2026: OBST DATA LINK ON RWY ADDED, AD ADMIN DATA, PCR UPDATED, LGT AND SRY POWER SUPPLY DATA, TAX LIMITATIONS, FLT PROC UPDATED, CHARTS UPDATED: ADC, SIDS.",
+      "validFrom": "2026-11-26T00:01Z",
+      "validTo": "2026-12-09T23:59Z",
+      "endEstimated": false,
+      "created": "2026-10-13T13:27Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0826/26 NOTAMN\nQ) LLLL/QOATT/IV/BO /AE/000/999/3201N03453E005\nA) LLBG B) 2611260001 C) 2612092359\nE) TRIGGER NOTAM - AIRAC AIP AMDT 02/26 WEF 26 NOV 2026:\n   OBST DATA LINK ON RWY ADDED, AD ADMIN DATA, PCR UPDATED,\n   LGT AND SRY POWER SUPPLY DATA, TAX LIMITATIONS, \n   FLT PROC UPDATED, CHARTS UPDATED: ADC, SIDS.",
+      "qLine": "LLLL/QOATT/IV/BO /AE/000/999/3201N03453E005",
+      "qCode": "QOATT",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-10-13T13:28Z",
+      "nmsId": "NMS_ID_1791898073125000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0827/26",
+      "location": "LLER",
+      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 02/26 WEF 26 NOV 2026: AD OBST DATA LINK ADDED, CHART UPDATED: ADC, ADCV.",
+      "validFrom": "2026-11-26T00:01Z",
+      "validTo": "2026-12-09T23:59Z",
+      "endEstimated": false,
+      "created": "2026-10-13T13:28Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0827/26 NOTAMN\nQ) LLLL/QOATT/IV/BO /AE/000/999/2944N03501E005\nA) LLER B) 2611260001 C) 2612092359\nE) TRIGGER NOTAM - AIRAC AIP AMDT 02/26 WEF 26 NOV 2026:\n   AD OBST DATA LINK ADDED, CHART UPDATED: ADC, ADCV.",
+      "qLine": "LLLL/QOATT/IV/BO /AE/000/999/2944N03501E005",
+      "qCode": "QOATT",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "2944N03501E",
+      "qRadiusNm": "5",
+      "series": "A",
+      "lastUpdated": "2026-10-13T13:28Z",
+      "nmsId": "NMS_ID_1791898099908000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.014167,
+              29.727222
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0828/26",
+      "location": "LLHA",
+      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 02/26 WEF 26 NOV 2026: AD OBST DATA LINK ADDED, J10 STAND WITHDRAWN, APN PCR UPDATED, TWY Z WIDTH UPDATED, CPT FREQ ADDED, DEP/ARR FLT PROC UPDATED, CHART UPDATED: APDC, APDCN, APDCZ, VCC.",
+      "validFrom": "2026-11-26T00:01Z",
+      "validTo": "2026-12-09T23:59Z",
+      "endEstimated": false,
+      "created": "2026-10-13T13:29Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0828/26 NOTAMN\nQ) LLLL/QOATT/IV/BO /AE/000/999/3249N03503E005\nA) LLHA B) 2611260001 C) 2612092359\nE) TRIGGER NOTAM - AIRAC AIP AMDT 02/26 WEF 26 NOV 2026:\n   AD OBST DATA LINK ADDED, J10 STAND WITHDRAWN,\n   APN PCR UPDATED, TWY Z WIDTH UPDATED, CPT FREQ ADDED,\n   DEP/ARR FLT PROC UPDATED, CHART UPDATED: APDC, APDCN,\n   APDCZ, VCC.",
+      "qLine": "LLLL/QOATT/IV/BO /AE/000/999/3249N03503E005",
+      "qCode": "QOATT",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3249N03503E",
+      "qRadiusNm": "5",
+      "series": "A",
+      "lastUpdated": "2026-10-13T13:29Z",
+      "nmsId": "NMS_ID_1791898170643000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.043889,
+              32.809722
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0829/26",
+      "location": "LLLL",
+      "eLine": "TRIGGER NOTAM - AIRAC AIP AMDT 02/26 WEF 26 NOV 2026: DIFFERENCES UPDATED, SAR UPDATED, NOTE UPDATE FOR LLR01.",
+      "validFrom": "2026-11-26T00:01Z",
+      "validTo": "2026-12-09T23:59Z",
+      "endEstimated": false,
+      "created": "2026-10-13T13:33Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0829/26 NOTAMN\nQ) LLLL/QOATT/IV/BO /E /000/999/3123N03515E999\nA) LLLL B) 2611260001 C) 2612092359\nE) TRIGGER NOTAM - AIRAC AIP AMDT 02/26 WEF 26 NOV 2026:\n   DIFFERENCES UPDATED, SAR UPDATED, NOTE UPDATE FOR LLR01.",
+      "qLine": "LLLL/QOATT/IV/BO /E /000/999/3123N03515E999",
+      "qCode": "QOATT",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3123N03515E",
+      "qRadiusNm": "999",
+      "series": "A",
+      "lastUpdated": "2026-10-13T13:34Z",
+      "nmsId": "NMS_ID_1791898431697000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.25,
+              31.383333333333333
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0850/26",
+      "location": "LLER",
+      "eLine": "AD CLSD TO ALL FLT DUE UAS/UAV DRILL. IN CASE OF EMERG AVBL WI 5MIN PPR FM ATC.",
+      "validFrom": "2026-11-16T11:00Z",
+      "validTo": "2026-11-16T13:00Z",
+      "endEstimated": false,
+      "created": "2026-10-26T08:56Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0850/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/2944N03501E005\nA) LLER B) 2611161100 C) 2611161300\nE) AD CLSD TO ALL FLT DUE UAS/UAV DRILL.\n   IN CASE OF EMERG AVBL WI 5MIN PPR FM ATC.",
+      "qLine": "LLLL/QFALC/IV/NBO/A /000/999/2944N03501E005",
+      "qCode": "QFALC",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "2944N03501E",
+      "qRadiusNm": "5",
+      "series": "A",
+      "lastUpdated": "2026-10-26T08:56Z",
+      "nmsId": "NMS_ID_1793004992416000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.014167,
+              29.727222
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0854/26",
+      "location": "LLLL",
+      "eLine": "MAX ALT ALONG ATS RTE J10 BTN NURIT-SIVAK 18,000FT AMSL.",
+      "validFrom": "2026-10-28T11:22Z",
+      "validTo": "2026-12-31T23:59Z",
+      "endEstimated": false,
+      "created": "2026-10-28T11:22Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0854/26 NOTAMR A0687/26\nQ) LLLL/QANLT/I /NBO/E /040/370/3053N03516E052\nA) LLLL B) 2610281122 C) 2612312359\nE) MAX ALT ALONG ATS RTE J10 BTN NURIT-SIVAK 18,000FT AMSL.",
+      "qLine": "LLLL/QANLT/I /NBO/E /040/370/3053N03516E052",
+      "qCode": "QANLT",
+      "minimumFl": "040",
+      "maximumFl": "370",
+      "qCoordinates": "3053N03516E",
+      "qRadiusNm": "052",
+      "series": "A",
+      "lastUpdated": "2026-10-28T11:23Z",
+      "nmsId": "NMS_ID_1793186565384000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.266666666666666,
+              30.883333333333333
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0855/26",
+      "location": "LLLL",
+      "eLine": "POSS INTRP TO AIRBORNE GNSS EQPT WI TEL-AVIV FIR.",
+      "validFrom": "2026-10-28T11:23Z",
+      "validTo": "2026-12-31T23:59Z",
+      "endEstimated": false,
+      "created": "2026-10-28T11:23Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0855/26 NOTAMR A0688/26\nQ) LLLL/QGWAU/IV/NBO/E /000/999/3125N03521E117\nA) LLLL B) 2610281123 C) 2612312359\nE) POSS INTRP TO AIRBORNE GNSS EQPT WI TEL-AVIV FIR.",
+      "qLine": "LLLL/QGWAU/IV/NBO/E /000/999/3125N03521E117",
+      "qCode": "QGWAU",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3125N03521E",
+      "qRadiusNm": "117",
+      "series": "A",
+      "lastUpdated": "2026-10-28T11:23Z",
+      "nmsId": "NMS_ID_1793186607140000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.35,
+              31.416666666666668
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0857/26",
+      "location": "LLHA",
+      "eLine": "CIRCUIT EXER PROHIBITED, EXC ACFT ATR C/S HFA. LDG PROHIBITED EXC PPR FLT FM AD MANAGEMENT OR FM ATC. EXP DLA FOR DEP FLT.",
+      "validFrom": "2026-11-23T14:00Z",
+      "validTo": "2026-11-23T15:30Z",
+      "endEstimated": false,
+      "created": "2026-10-28T12:32Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0857/26 NOTAMN\nQ) LLLL/QACLP/IV/NBO/AE/000/030/3251N03503E007\nA) LLHA B) 2611231400 C) 2611231530\nE) CIRCUIT EXER PROHIBITED, EXC ACFT ATR C/S HFA.\n   LDG PROHIBITED EXC PPR FLT FM AD MANAGEMENT OR FM ATC.\n   EXP DLA FOR DEP FLT.",
+      "qLine": "LLLL/QACLP/IV/NBO/AE/000/030/3251N03503E007",
+      "qCode": "QACLP",
+      "minimumFl": "000",
+      "maximumFl": "030",
+      "qCoordinates": "3251N03503E",
+      "qRadiusNm": "007",
+      "series": "A",
+      "lastUpdated": "2026-10-28T12:33Z",
+      "nmsId": "NMS_ID_1793190763210000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.043889,
+              32.809722
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0858/26",
+      "location": "LLLL",
+      "eLine": "CHECKLIST YEAR=2026 0056 0116 0117 0281 0457 0616 0622 0691 0693 0694 0701 0710 0719 0720 0738 0739 0740 0741 0742 0762 0764 0798 0802 0820 0824 0825 0826 0827 0828 0829 0850 0851 0854 0855 0856 0857 LATEST PUBLICATIONS AIP AIRAC AMDT IFR 002/2026 EFFECTIVE DATE 26 NOV 26 AIP AIRAC SUP IFR 004/2026 EFFECTIVE DATE 14 MAY 26 AIC IFR A001/2026 EFFECTIVE DATE 05 FEB 26 AIC CHECKLIST AIP IFR A001/2026 AIP VFR NIL AIP MIL NIL SUP CHECKLIST AIP IFR NIL AIP VFR NIL AIP MIL NIL",
+      "validFrom": "2026-10-29T07:08Z",
+      "validTo": "2026-11-29T07:08Z",
+      "endEstimated": true,
+      "created": "2026-10-29T07:09Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0858/26 NOTAMR A0805/26\nQ) LLLL/QKKKK/K /K  /K /000/999/3124N03520E999\nA) LLLL B) 2610290708 C) 2611290708EST\nE) CHECKLIST\nYEAR=2026 0056 0116 0117 0281 0457 0616 0622 0691 0693 0694 0701 0710\n          0719 0720 0738 0739 0740 0741 0742 0762 0764 0798 0802 0820\n          0824 0825 0826 0827 0828 0829 0850 0851 0854 0855 0856 0857\n \nLATEST PUBLICATIONS\nAIP AIRAC AMDT IFR 002/2026 EFFECTIVE DATE 26 NOV 26\nAIP AIRAC SUP IFR 004/2026 EFFECTIVE DATE 14 MAY 26\nAIC IFR A001/2026 EFFECTIVE DATE 05 FEB 26\n \nAIC CHECKLIST\nAIP IFR\nA001/2026\nAIP VFR\nNIL\nAIP MIL\nNIL\n \nSUP CHECKLIST\nAIP IFR\nNIL\nAIP VFR\nNIL\nAIP MIL\nNIL",
+      "qLine": "LLLL/QKKKK/K /K  /K /000/999/3124N03520E999",
+      "qCode": "QKKKK",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3124N03520E",
+      "qRadiusNm": "999",
+      "series": "A",
+      "lastUpdated": "2026-10-29T07:10Z",
+      "nmsId": "NMS_ID_1793257813177000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.333333333333336,
+              31.4
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0885/26",
+      "location": "LLER",
+      "eLine": "VOR/DME RAM FREQ 113.850MHZ WITHDRAWN FOR MAINT.",
+      "validFrom": "2026-11-12T07:00Z",
+      "validTo": "2026-11-12T11:00Z",
+      "endEstimated": false,
+      "created": "2026-11-05T07:41Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0885/26 NOTAMN\nQ) LLLL/QNMAS/IV/BO /AE/000/999/2945N03501E025\nA) LLER B) 2611120700 C) 2611121100\nE) VOR/DME RAM FREQ 113.850MHZ WITHDRAWN FOR MAINT.",
+      "qLine": "LLLL/QNMAS/IV/BO /AE/000/999/2945N03501E025",
+      "qCode": "QNMAS",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "2945N03501E",
+      "qRadiusNm": "25",
+      "series": "A",
+      "lastUpdated": "2026-11-05T07:42Z",
+      "nmsId": "NMS_ID_1793864523014000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.014167,
+              29.727222
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0890/26",
+      "location": "LLLL",
+      "eLine": "VOR/DME NAT FREQ 112.400MHZ WITHDRAWN FOR MAINT.",
+      "validFrom": "2026-11-19T08:00Z",
+      "validTo": "2026-11-19T10:00Z",
+      "endEstimated": false,
+      "created": "2026-11-11T10:32Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0890/26 NOTAMN\nQ) LLLL/QNMAS/IV/BO /E /000/999/3220N03458E025\nA) LLLL B) 2611190800 C) 2611191000\nE) VOR/DME NAT FREQ 112.400MHZ WITHDRAWN FOR MAINT.",
+      "qLine": "LLLL/QNMAS/IV/BO /E /000/999/3220N03458E025",
+      "qCode": "QNMAS",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3220N03458E",
+      "qRadiusNm": "25",
+      "series": "A",
+      "lastUpdated": "2026-11-11T10:32Z",
+      "nmsId": "NMS_ID_1794393157578000",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  34.96666666666667,
+                  32.74925330988068
+                ],
+                [
+                  35.05253353654352,
+                  32.74290549646327
+                ],
+                [
+                  35.13575580804951,
+                  32.724057595994154
+                ],
+                [
+                  35.213773629831735,
+                  32.69328995532973
+                ],
+                [
+                  35.28419351216856,
+                  32.651549144107015
+                ],
+                [
+                  35.344863846848284,
+                  32.60011774524283
+                ],
+                [
+                  35.39394169375144,
+                  32.54057362264596
+                ],
+                [
+                  35.42994864277057,
+                  32.474740125929976
+                ],
+                [
+                  35.451814090643445,
+                  32.40462897548999
+                ],
+                [
+                  35.458904843412995,
+                  32.33237777228004
+                ],
+                [
+                  35.4510405247108,
+                  32.260184192769124
+                ],
+                [
+                  35.428494802392045,
+                  32.19023896443696
+                ],
+                [
+                  35.391982915175966,
+                  32.12465967882189
+                ],
+                [
+                  35.342636371536535,
+                  32.06542739839229
+                ],
+                [
+                  35.28196600014021,
+                  32.01432786239874
+                ],
+                [
+                  35.21181475828655,
+                  31.972898907190316
+                ],
+                [
+                  35.13430186194973,
+                  31.942385498841734
+                ],
+                [
+                  35.051759901606225,
+                  31.92370353913651
+                ],
+                [
+                  34.96666666666667,
+                  31.917413356786
+                ],
+                [
+                  34.88157343172711,
+                  31.92370353913651
+                ],
+                [
+                  34.799031471383614,
+                  31.942385498841734
+                ],
+                [
+                  34.72151857504679,
+                  31.972898907190316
+                ],
+                [
+                  34.65136733319313,
+                  32.01432786239874
+                ],
+                [
+                  34.590696961796795,
+                  32.06542739839229
+                ],
+                [
+                  34.54135041815737,
+                  32.12465967882189
+                ],
+                [
+                  34.5048385309413,
+                  32.19023896443696
+                ],
+                [
+                  34.48229280862254,
+                  32.260184192769124
+                ],
+                [
+                  34.47442848992034,
+                  32.33237777228004
+                ],
+                [
+                  34.4815192426899,
+                  32.40462897548999
+                ],
+                [
+                  34.50338469056277,
+                  32.474740125929976
+                ],
+                [
+                  34.53939163958191,
+                  32.54057362264596
+                ],
+                [
+                  34.58846948648505,
+                  32.60011774524283
+                ],
+                [
+                  34.64913982116478,
+                  32.651549144107015
+                ],
+                [
+                  34.7195597035016,
+                  32.69328995532973
+                ],
+                [
+                  34.79757752528382,
+                  32.724057595994154
+                ],
+                [
+                  34.88079979678982,
+                  32.74290549646327
+                ],
+                [
+                  34.96666666666667,
+                  32.74925330988068
+                ]
+              ]
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
