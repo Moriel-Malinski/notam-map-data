@@ -1,0 +1,632 @@
+[
+ {
+  "type": "Feature",
+  "properties": {
+   "coreNOTAMData": {
+    "notamEvent": {
+     "scenario": "6000"
+    },
+    "notam": {
+     "id": "NMS_ID_1788089407923721",
+     "series": "A",
+     "number": "A0701/26",
+     "year": "2026",
+     "type": "N",
+     "issued": "2026-08-30T11:28:00Z",
+     "affectedFir": "LLLL",
+     "selectionCode": "QOBCE",
+     "traffic": "IV",
+     "purpose": "M",
+     "scope": "AE",
+     "minimumFl": "000",
+     "maximumFl": "003",
+     "location": "LLBG",
+     "effectiveStart": "2026-10-01T00:01:00Z",
+     "effectiveEnd": "2026-12-31T20:59:00Z",
+     "text": "CRANE ERECTED WI LLBG CTR, AT YAHUD/IAI INDUSTRY.\r\n   AN AREA BTN FLW PSN CLSD FM GND UP TO 74.50M 245FT AMSL:\r\n   320152N0345416E 320150N0345416E 320150N0345413E\r\n   320152N0345413E.\r\n   LIT AND DAY MARKED.\r\n   CTN ADZ.",
+     "classification": "INTL",
+     "accountId": "LLADYNYX",
+     "lastUpdated": "2026-08-30T11:29:00Z",
+     "icaoLocation": "LLBG",
+     "coordinates": "3202N03454E",
+     "radius": "001"
+    },
+    "notamTranslation": [
+     {
+      "type": "ICAO",
+      "formattedText": "A0701/26 NOTAMN\r\nQ) LLLL/QOBCE/IV/M  /AE/000/003/3202N03454E001\r\nA) LLBG B) 2610010001 C) 2612312059\r\nE) CRANE ERECTED WI LLBG CTR, AT YAHUD/IAI INDUSTRY.\r\n   AN AREA BTN FLW PSN CLSD FM GND UP TO 74.50M 245FT AMSL:\r\n   320152N0345416E 320150N0345416E 320150N0345413E\r\n   320152N0345413E.\r\n   LIT AND DAY MARKED.\r\n   CTN ADZ."
+     }
+    ]
+   }
+  },
+  "geometry": {
+   "type": "GeometryCollection",
+   "geometries": [
+    {
+     "type": "Point",
+     "coordinates": [
+      34.885556,
+      32.009444
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "type": "Feature",
+  "properties": {
+   "coreNOTAMData": {
+    "notamEvent": {
+     "scenario": "6000"
+    },
+    "notam": {
+     "id": "NMS_ID_1789647402005000",
+     "series": "A",
+     "number": "A0762/26",
+     "year": "2026",
+     "type": "N",
+     "issued": "2026-09-17T12:16:00Z",
+     "affectedFir": "LLLL",
+     "selectionCode": "QANLT",
+     "traffic": "I",
+     "purpose": "NBO",
+     "scope": "E",
+     "minimumFl": "050",
+     "maximumFl": "600",
+     "location": "LLLL",
+     "effectiveStart": "2026-09-17T12:16:00Z",
+     "effectiveEnd": "2026-12-31T23:59:00Z",
+     "text": "ATS RTE N134 BTN VOLFO-SALAM AVBL H24 BTN 11,000-16,000FT\r\n   FOR TFC WITH ARR AT AD WITHIN AMMAN FIR, LLER, LLNV,\r\n   LLOV AND LLRM ONLY, AVBL H24 ABV 17,000FT FOR MIL TFC ONLY.",
+     "classification": "INTL",
+     "accountId": "LLADYNYX",
+     "lastUpdated": "2026-09-17T12:17:00Z",
+     "icaoLocation": "LLLL",
+     "coordinates": "3208N03451E",
+     "radius": "038"
+    },
+    "notamTranslation": [
+     {
+      "type": "ICAO",
+      "formattedText": "A0762/26 NOTAMN\r\nQ) LLLL/QANLT/I /NBO/E /050/600/3208N03451E038\r\nA) LLLL B) 2609171216 C) 2612312359\r\nE) ATS RTE N134 BTN VOLFO-SALAM AVBL H24 BTN 11,000-16,000FT\r\n   FOR TFC WITH ARR AT AD WITHIN AMMAN FIR, LLER, LLNV,\r\n   LLOV AND LLRM ONLY, AVBL H24 ABV 17,000FT FOR MIL TFC ONLY."
+     }
+    ]
+   }
+  },
+  "geometry": {
+   "type": "GeometryCollection",
+   "geometries": [
+    {
+     "type": "Point",
+     "coordinates": [
+      34.85,
+      32.13333333333333
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "type": "Feature",
+  "properties": {
+   "coreNOTAMData": {
+    "notamEvent": {
+     "scenario": "982"
+    },
+    "notam": {
+     "id": "NMS_ID_1794393157578000",
+     "series": "A",
+     "number": "A0890/26",
+     "year": "2026",
+     "type": "N",
+     "issued": "2026-11-11T10:32:00.000Z",
+     "affectedFir": "LLLL",
+     "selectionCode": "QNMAS",
+     "traffic": "IV",
+     "purpose": "BO ",
+     "scope": "E ",
+     "minimumFl": "000",
+     "maximumFl": "999",
+     "location": "LLLL",
+     "effectiveStart": "2026-11-19T08:00:00.000Z",
+     "effectiveEnd": "2026-11-19T10:00:00.000Z",
+     "text": "VOR/DME NAT FREQ 112.400MHZ WITHDRAWN FOR MAINT.",
+     "classification": "INTL",
+     "accountId": "LLADYNYX",
+     "lastUpdated": "2026-11-11T10:32:00.000Z",
+     "icaoLocation": "LLLL",
+     "coordinates": "3220N03458E",
+     "radius": "25"
+    },
+    "notamTranslation": [
+     {
+      "type": "ICAO",
+      "formattedText": "A0890/26 NOTAMN\r\nQ) LLLL/QNMAS/IV/BO /E /000/999/3220N03458E025\r\nA) LLLL B) 2611190800 C) 2611191000\r\nE) VOR/DME NAT FREQ 112.400MHZ WITHDRAWN FOR MAINT."
+     }
+    ]
+   }
+  },
+  "geometry": {
+   "type": "GeometryCollection",
+   "geometries": [
+    {
+     "type": "Polygon",
+     "coordinates": [
+      [
+       [
+        34.96666666666667,
+        32.74925330988068
+       ],
+       [
+        35.05253353654352,
+        32.74290549646327
+       ],
+       [
+        35.13575580804951,
+        32.724057595994154
+       ],
+       [
+        35.213773629831735,
+        32.69328995532973
+       ],
+       [
+        35.28419351216856,
+        32.651549144107015
+       ],
+       [
+        35.344863846848284,
+        32.60011774524283
+       ],
+       [
+        35.39394169375144,
+        32.54057362264596
+       ],
+       [
+        35.42994864277057,
+        32.474740125929976
+       ],
+       [
+        35.451814090643445,
+        32.40462897548999
+       ],
+       [
+        35.458904843412995,
+        32.33237777228004
+       ],
+       [
+        35.4510405247108,
+        32.260184192769124
+       ],
+       [
+        35.428494802392045,
+        32.19023896443696
+       ],
+       [
+        35.391982915175966,
+        32.12465967882189
+       ],
+       [
+        35.342636371536535,
+        32.06542739839229
+       ],
+       [
+        35.28196600014021,
+        32.01432786239874
+       ],
+       [
+        35.21181475828655,
+        31.972898907190316
+       ],
+       [
+        35.13430186194973,
+        31.942385498841734
+       ],
+       [
+        35.051759901606225,
+        31.92370353913651
+       ],
+       [
+        34.96666666666667,
+        31.917413356786
+       ],
+       [
+        34.88157343172711,
+        31.92370353913651
+       ],
+       [
+        34.799031471383614,
+        31.942385498841734
+       ],
+       [
+        34.72151857504679,
+        31.972898907190316
+       ],
+       [
+        34.65136733319313,
+        32.01432786239874
+       ],
+       [
+        34.590696961796795,
+        32.06542739839229
+       ],
+       [
+        34.54135041815737,
+        32.12465967882189
+       ],
+       [
+        34.5048385309413,
+        32.19023896443696
+       ],
+       [
+        34.48229280862254,
+        32.260184192769124
+       ],
+       [
+        34.47442848992034,
+        32.33237777228004
+       ],
+       [
+        34.4815192426899,
+        32.40462897548999
+       ],
+       [
+        34.50338469056277,
+        32.474740125929976
+       ],
+       [
+        34.53939163958191,
+        32.54057362264596
+       ],
+       [
+        34.58846948648505,
+        32.60011774524283
+       ],
+       [
+        34.64913982116478,
+        32.651549144107015
+       ],
+       [
+        34.7195597035016,
+        32.69328995532973
+       ],
+       [
+        34.79757752528382,
+        32.724057595994154
+       ],
+       [
+        34.88079979678982,
+        32.74290549646327
+       ],
+       [
+        34.96666666666667,
+        32.74925330988068
+       ]
+      ]
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "type": "Feature",
+  "properties": {
+   "coreNOTAMData": {
+    "notamEvent": {
+     "scenario": "6000"
+    },
+    "notam": {
+     "id": "NMS_ID_1769328419232448",
+     "series": "A",
+     "number": "A0056/26",
+     "year": "2026",
+     "type": "R",
+     "issued": "2026-01-25T08:05:00Z",
+     "affectedFir": "LLLL",
+     "selectionCode": "QANLC",
+     "traffic": "I",
+     "purpose": "NBO",
+     "scope": "E",
+     "minimumFl": "120",
+     "maximumFl": "600",
+     "location": "LLLL",
+     "effectiveStart": "2026-01-25T08:05:00Z",
+     "effectiveEnd": "PERM",
+     "text": "ATS RTE P42 BTN TAPUZ-MERVA AVBL BY ATC ONLY.\n   ISRAEL AIP, PART ENR 3.1, PAGE ENR 3.1-17, CHART ENR 6-1 REF.",
+     "classification": "INTL",
+     "accountId": "LLADYNYX",
+     "lastUpdated": "2026-01-25T08:06:00Z",
+     "icaoLocation": "LLLL",
+     "coordinates": "3224N03432E",
+     "radius": "024"
+    },
+    "notamTranslation": [
+     {
+      "type": "ICAO",
+      "formattedText": "A0056/26 NOTAMR A0722/25\nQ) LLLL/QANLC/I /NBO/E /120/600/3224N03432E024\nA) LLLL B) 2601250805 C) PERM\nE) ATS RTE P42 BTN TAPUZ-MERVA AVBL BY ATC ONLY.\n   ISRAEL AIP, PART ENR 3.1, PAGE ENR 3.1-17, CHART ENR 6-1 REF."
+     }
+    ]
+   }
+  },
+  "geometry": {
+   "type": "GeometryCollection",
+   "geometries": [
+    {
+     "type": "Point",
+     "coordinates": [
+      34.53333333333333,
+      32.4
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "type": "Feature",
+  "properties": {
+   "coreNOTAMData": {
+    "notamEvent": {
+     "scenario": "982"
+    },
+    "notam": {
+     "id": "NMS_ID_1780896725057000",
+     "series": "A",
+     "number": "A0457/26",
+     "year": "2026",
+     "type": "R",
+     "issued": "2026-06-08T05:31:00.000Z",
+     "affectedFir": "LLLL",
+     "selectionCode": "QPDCH",
+     "traffic": "I ",
+     "purpose": "NBO",
+     "scope": "A ",
+     "minimumFl": "000",
+     "maximumFl": "999",
+     "location": "LLBG",
+     "effectiveStart": "2026-06-08T05:31:00.000Z",
+     "effectiveEnd": "PERM",
+     "text": "MNM CMB GRADIENT CHG AS FLW:\r\n   CHART AD 2 LLBG SID 26-1: \r\n   ALL SID: MNM CMB GRADIENT REQUIRED 7.0 PERCENT UP TO\r\n   2,500FT DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   CHART AD 2 LLBG SID 12-26-30-1:\r\n   FOR SID PIDET1E: MNM CMB GRADIENT REQUIRED OF 6.0 PERCENT\r\n   UP TO 5,000FT DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   FOR SID RIPUD1E: MNM CMB GRADIENT REQUIRED OF 7.0 PERCENT\r\n   UP TO 6,000FT DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   CHART AD 2 LLBG SID 12-26-30-2, FOR SID ORLEV1E:\r\n   MNM CMB GRADIENT REQUIRED 8.0 PERCENT UP TO 5,000FT\r\n   DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   ISRAEL AIP, PART AD, CHARTS: AD 2 LLBG SID 26-1, \r\n   AD 2 LLBG SID 12-26-30-1, AD 2 LLBG SID 12-26-30-2. REF.",
+     "classification": "INTL",
+     "accountId": "LLADYNYX",
+     "lastUpdated": "2026-06-08T05:32:00.000Z",
+     "icaoLocation": "LLBG",
+     "coordinates": "3201N03453E",
+     "radius": "5"
+    },
+    "notamTranslation": [
+     {
+      "type": "ICAO",
+      "formattedText": "A0457/26 NOTAMR A0410/26\r\nQ) LLLL/QPDCH/I /NBO/A /000/999/3201N03453E005\r\nA) LLBG B) 2606080531 C) PERM\r\nE) MNM CMB GRADIENT CHG AS FLW:\r\n   CHART AD 2 LLBG SID 26-1: \r\n   ALL SID: MNM CMB GRADIENT REQUIRED 7.0 PERCENT UP TO\r\n   2,500FT DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   CHART AD 2 LLBG SID 12-26-30-1:\r\n   FOR SID PIDET1E: MNM CMB GRADIENT REQUIRED OF 6.0 PERCENT\r\n   UP TO 5,000FT DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   FOR SID RIPUD1E: MNM CMB GRADIENT REQUIRED OF 7.0 PERCENT\r\n   UP TO 6,000FT DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   CHART AD 2 LLBG SID 12-26-30-2, FOR SID ORLEV1E:\r\n   MNM CMB GRADIENT REQUIRED 8.0 PERCENT UP TO 5,000FT\r\n   DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   ISRAEL AIP, PART AD, CHARTS: AD 2 LLBG SID 26-1, \r\n   AD 2 LLBG SID 12-26-30-1, AD 2 LLBG SID 12-26-30-2. REF."
+     }
+    ]
+   }
+  },
+  "geometry": {
+   "type": "GeometryCollection",
+   "geometries": [
+    {
+     "type": "Point",
+     "coordinates": [
+      34.885556,
+      32.009444
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "type": "Feature",
+  "properties": {
+   "coreNOTAMData": {
+    "notamEvent": {
+     "scenario": "6000"
+    },
+    "notam": {
+     "id": "NMS_ID_1780896798785765",
+     "series": "A",
+     "number": "A0457/26",
+     "year": "2026",
+     "type": "R",
+     "issued": "2026-06-08T05:31:00Z",
+     "affectedFir": "LLLL",
+     "selectionCode": "QPDCH",
+     "traffic": "I",
+     "purpose": "NBO",
+     "scope": "A",
+     "minimumFl": "000",
+     "maximumFl": "999",
+     "location": "LLBG",
+     "effectiveStart": "2026-06-08T05:31:00Z",
+     "effectiveEnd": "PERM",
+     "text": "MNM CMB GRADIENT CHG AS FLW:\r\n   CHART AD 2 LLBG SID 26-1: \r\n   ALL SID: MNM CMB GRADIENT REQUIRED 7.0 PERCENT UP TO\r\n   2,500FT DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   CHART AD 2 LLBG SID 12-26-30-1:\r\n   FOR SID PIDET1E: MNM CMB GRADIENT REQUIRED OF 6.0 PERCENT\r\n   UP TO 5,000FT DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   FOR SID RIPUD1E: MNM CMB GRADIENT REQUIRED OF 7.0 PERCENT\r\n   UP TO 6,000FT DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   CHART AD 2 LLBG SID 12-26-30-2, FOR SID ORLEV1E:\r\n   MNM CMB GRADIENT REQUIRED 8.0 PERCENT UP TO 5,000FT\r\n   DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   ISRAEL AIP, PART AD, CHARTS: AD 2 LLBG SID 26-1, \r\n   AD 2 LLBG SID 12-26-30-1, AD 2 LLBG SID 12-26-30-2. REF.",
+     "classification": "INTL",
+     "accountId": "LLADYNYX",
+     "lastUpdated": "2026-06-08T05:32:00Z",
+     "icaoLocation": "LLBG",
+     "coordinates": "3201N03453E",
+     "radius": "005"
+    },
+    "notamTranslation": [
+     {
+      "type": "ICAO",
+      "formattedText": "A0457/26 NOTAMR A0410/26\r\nQ) LLLL/QPDCH/I /NBO/A /000/999/3201N03453E005\r\nA) LLBG B) 2606080531 C) PERM\r\nE) MNM CMB GRADIENT CHG AS FLW:\r\n   CHART AD 2 LLBG SID 26-1: \r\n   ALL SID: MNM CMB GRADIENT REQUIRED 7.0 PERCENT UP TO\r\n   2,500FT DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   CHART AD 2 LLBG SID 12-26-30-1:\r\n   FOR SID PIDET1E: MNM CMB GRADIENT REQUIRED OF 6.0 PERCENT\r\n   UP TO 5,000FT DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   FOR SID RIPUD1E: MNM CMB GRADIENT REQUIRED OF 7.0 PERCENT\r\n   UP TO 6,000FT DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   CHART AD 2 LLBG SID 12-26-30-2, FOR SID ORLEV1E:\r\n   MNM CMB GRADIENT REQUIRED 8.0 PERCENT UP TO 5,000FT\r\n   DUE TO AIR-SPACE RESTRICTIONS.\r\n   IF UNABLE ADZ ATC AND EXECUTE MNM CMB GRADIENT OF\r\n   3.5 PERCENT DUE TO OBST.\r\n   ISRAEL AIP, PART AD, CHARTS: AD 2 LLBG SID 26-1, \r\n   AD 2 LLBG SID 12-26-30-1, AD 2 LLBG SID 12-26-30-2. REF."
+     }
+    ]
+   }
+  },
+  "geometry": {
+   "type": "GeometryCollection",
+   "geometries": [
+    {
+     "type": "Point",
+     "coordinates": [
+      34.885556,
+      32.009444
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "type": "Feature",
+  "properties": {
+   "coreNOTAMData": {
+    "notamEvent": {
+     "scenario": "6000"
+    },
+    "notam": {
+     "id": "NMS_ID_1785750728880608",
+     "series": "A",
+     "number": "A0616/26",
+     "year": "2026",
+     "type": "N",
+     "issued": "2026-08-03T09:50:00Z",
+     "affectedFir": "LLLL",
+     "selectionCode": "QRRCA",
+     "traffic": "IV",
+     "purpose": "BO",
+     "scope": "W",
+     "minimumFl": "070",
+     "maximumFl": "400",
+     "location": "LLLL",
+     "effectiveStart": "2026-08-06T16:30:00Z",
+     "effectiveEnd": "PERM",
+     "text": "LLR01 ACTIVATED H24, XNG MERVA NOT AVBL EXC BY ATC.\r\n   TFC TO/FM LLHA AVBL VIA MERVA BIDIRECTIONAL AT 5,000FT AMSL.\r\n   ISRAEL AIP, PART ENR 5.1, PAGE ENR 5.1-3, PARA 2,\r\n   CHART ENR 6-1 REF.",
+     "classification": "INTL",
+     "accountId": "LLADYNYX",
+     "lastUpdated": "2026-08-03T09:51:00Z",
+     "icaoLocation": "LLLL",
+     "lowerLimit": "7000FT AMSL",
+     "upperLimit": "40000FT AMSL",
+     "coordinates": "3247N03441E",
+     "radius": "022"
+    },
+    "notamTranslation": [
+     {
+      "type": "ICAO",
+      "formattedText": "A0616/26 NOTAMN\r\nQ) LLLL/QRRCA/IV/BO /W /070/400/3247N03441E022\r\nA) LLLL B) 2608061630 C) PERM\r\nE) LLR01 ACTIVATED H24, XNG MERVA NOT AVBL EXC BY ATC.\r\n   TFC TO/FM LLHA AVBL VIA MERVA BIDIRECTIONAL AT 5,000FT AMSL.\r\n   ISRAEL AIP, PART ENR 5.1, PAGE ENR 5.1-3, PARA 2,\r\n   CHART ENR 6-1 REF.\r\nF) 7000FT AMSL G) 40000FT AMSL"
+     }
+    ]
+   }
+  },
+  "geometry": {
+   "type": "GeometryCollection",
+   "geometries": [
+    {
+     "type": "Point",
+     "coordinates": [
+      34.68333333333333,
+      32.78333333333333
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "type": "Feature",
+  "properties": {
+   "coreNOTAMData": {
+    "notamEvent": {
+     "scenario": "982"
+    },
+    "notam": {
+     "id": "NMS_ID_1785750655230000",
+     "series": "A",
+     "number": "A0616/26",
+     "year": "2026",
+     "type": "N",
+     "issued": "2026-08-03T09:50:00.000Z",
+     "affectedFir": "LLLL",
+     "selectionCode": "QRRCA",
+     "traffic": "IV",
+     "purpose": "BO ",
+     "scope": "W ",
+     "minimumFl": "000",
+     "maximumFl": "999",
+     "location": "LLLL",
+     "effectiveStart": "2026-08-06T16:30:00.000Z",
+     "effectiveEnd": "PERM",
+     "text": "LLR01 ACTIVATED H24, XNG MERVA NOT AVBL EXC BY ATC.\r\n   TFC TO/FM LLHA AVBL VIA MERVA BIDIRECTIONAL AT 5,000FT AMSL.\r\n   ISRAEL AIP, PART ENR 5.1, PAGE ENR 5.1-3, PARA 2,\r\n   CHART ENR 6-1 REF.",
+     "classification": "INTL",
+     "accountId": "LLADYNYX",
+     "lastUpdated": "2026-08-03T09:50:00.000Z",
+     "icaoLocation": "LLLL",
+     "lowerLimit": "7000FT AMSL",
+     "upperLimit": "40000FT AMSL",
+     "coordinates": "3247N03441E",
+     "radius": "22"
+    },
+    "notamTranslation": [
+     {
+      "type": "ICAO",
+      "formattedText": "A0616/26 NOTAMN\r\nQ) LLLL/QRRCA/IV/BO /W /070/400/3247N03441E022\r\nA) LLLL B) 2608061630 C) PERM\r\nE) LLR01 ACTIVATED H24, XNG MERVA NOT AVBL EXC BY ATC.\r\n   TFC TO/FM LLHA AVBL VIA MERVA BIDIRECTIONAL AT 5,000FT AMSL.\r\n   ISRAEL AIP, PART ENR 5.1, PAGE ENR 5.1-3, PARA 2,\r\n   CHART ENR 6-1 REF.\r\nF) 7000FT AMSL G) 40000FT AMSL"
+     }
+    ]
+   }
+  },
+  "geometry": {
+   "type": "GeometryCollection",
+   "geometries": [
+    {
+     "type": "Point",
+     "coordinates": [
+      34.68333333333333,
+      32.78333333333333
+     ]
+    }
+   ]
+  }
+ },
+ {
+  "type": "Feature",
+  "properties": {
+   "coreNOTAMData": {
+    "notamEvent": {
+     "scenario": "982"
+    },
+    "notam": {
+     "id": "NMS_ID_1793257813177000",
+     "series": "A",
+     "number": "A0858/26",
+     "year": "2026",
+     "type": "R",
+     "issued": "2026-10-29T07:09:00.000Z",
+     "affectedFir": "LLLL",
+     "selectionCode": "QKKKK",
+     "traffic": "K ",
+     "purpose": "K  ",
+     "scope": "K ",
+     "minimumFl": "000",
+     "maximumFl": "999",
+     "location": "LLLL",
+     "effectiveStart": "2026-10-29T07:08:00.000Z",
+     "effectiveEnd": "2026-11-29T07:08:00.000Z",
+     "estimated": "True",
+     "text": "CHECKLIST\r\nYEAR=2026 0056 0116 0117 0281 0457 0616 0622 0691 0693 0694 0701 0710\r\n          0719 0720 0738 0739 0740 0741 0742 0762 0764 0798 0802 0820\r\n          0824 0825 0826 0827 0828 0829 0850 0851 0854 0855 0856 0857\r\n \r\nLATEST PUBLICATIONS\r\nAIP AIRAC AMDT IFR 002/2026 EFFECTIVE DATE 26 NOV 26\r\nAIP AIRAC SUP IFR 004/2026 EFFECTIVE DATE 14 MAY 26\r\nAIC IFR A001/2026 EFFECTIVE DATE 05 FEB 26\r\n \r\nAIC CHECKLIST\r\nAIP IFR\r\nA001/2026\r\nAIP VFR\r\nNIL\r\nAIP MIL\r\nNIL\r\n \r\nSUP CHECKLIST\r\nAIP IFR\r\nNIL\r\nAIP VFR\r\nNIL\r\nAIP MIL\r\nNIL",
+     "classification": "INTL",
+     "accountId": "LLADYNYX",
+     "lastUpdated": "2026-10-29T07:10:00.000Z",
+     "icaoLocation": "LLLL",
+     "coordinates": "3124N03520E",
+     "radius": "999"
+    },
+    "notamTranslation": [
+     {
+      "type": "ICAO",
+      "formattedText": "A0858/26 NOTAMR A0805/26\r\nQ) LLLL/QKKKK/K /K  /K /000/999/3124N03520E999\r\nA) LLLL B) 2610290708 C) 2611290708EST\r\nE) CHECKLIST\r\nYEAR=2026 0056 0116 0117 0281 0457 0616 0622 0691 0693 0694 0701 0710\r\n          0719 0720 0738 0739 0740 0741 0742 0762 0764 0798 0802 0820\r\n          0824 0825 0826 0827 0828 0829 0850 0851 0854 0855 0856 0857\r\n \r\nLATEST PUBLICATIONS\r\nAIP AIRAC AMDT IFR 002/2026 EFFECTIVE DATE 26 NOV 26\r\nAIP AIRAC SUP IFR 004/2026 EFFECTIVE DATE 14 MAY 26\r\nAIC IFR A001/2026 EFFECTIVE DATE 05 FEB 26\r\n \r\nAIC CHECKLIST\r\nAIP IFR\r\nA001/2026\r\nAIP VFR\r\nNIL\r\nAIP MIL\r\nNIL\r\n \r\nSUP CHECKLIST\r\nAIP IFR\r\nNIL\r\nAIP VFR\r\nNIL\r\nAIP MIL\r\nNIL"
+     }
+    ]
+   }
+  },
+  "geometry": {
+   "type": "GeometryCollection",
+   "geometries": [
+    {
+     "type": "Point",
+     "coordinates": [
+      35.333333333333336,
+      31.4
+     ]
+    }
+   ]
+  }
+ }
+]
