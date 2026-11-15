@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-15T07:47:38Z",
+  "fetchedAt": "2026-11-15T15:37:28Z",
   "source": "NMS",
   "environment": "staging",
   "coverage": "series A only - not the domestic series C",
@@ -1174,40 +1174,6 @@
       }
     },
     {
-      "id": "A0891/26",
-      "location": "LLBG",
-      "eLine": "ILS RWY 08 C/S BC FREQ 110.900MHZ WITHDRAWN FOR MAINT.",
-      "validFrom": "2026-11-15T06:00Z",
-      "validTo": "2026-11-15T14:00Z",
-      "endEstimated": false,
-      "created": "2026-11-12T10:46Z",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0891/26 NOTAMN\nQ) LLLL/QISAS/I /NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611150600 C) 2611151400\nE) ILS RWY 08 C/S BC FREQ 110.900MHZ WITHDRAWN FOR MAINT.",
-      "qLine": "LLLL/QISAS/I /NBO/A /000/999/3201N03453E005",
-      "qCode": "QISAS",
-      "minimumFl": "000",
-      "maximumFl": "999",
-      "qCoordinates": "3201N03453E",
-      "qRadiusNm": "005",
-      "series": "A",
-      "lastUpdated": "2026-11-12T10:47Z",
-      "nmsId": "NMS_ID_1794480412214000",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              34.885556,
-              32.009444
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "A0892/26",
       "location": "LLBG",
       "eLine": "ILS RWY 12 C/S BG FREQ 110.300MHZ WITHDRAWN FOR MAINT.",
@@ -1372,6 +1338,142 @@
             "coordinates": [
               35.043889,
               32.809722
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0898/26",
+      "location": "LLBG",
+      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 110M 360FT AMSL CLSD BTN FLW PSN: 315924N0345425E 315923N0345428E 315919N0345426E 315921N0345423E. CTN ADZ.",
+      "validFrom": "2026-11-16T05:00Z",
+      "validTo": "2026-11-16T09:00Z",
+      "endEstimated": false,
+      "created": "2026-11-15T13:26Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0898/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001\nA) LLBG B) 2611160500 C) 2611160900\nE) CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION.\n   AN AREA FM GND UP TO 110M 360FT AMSL CLSD BTN FLW PSN:\n   315924N0345425E 315923N0345428E 315919N0345426E\n   315921N0345423E.\n   CTN ADZ.",
+      "qLine": "LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001",
+      "qCode": "QOBCE",
+      "minimumFl": "000",
+      "maximumFl": "004",
+      "qCoordinates": "3159N03454E",
+      "qRadiusNm": "001",
+      "series": "A",
+      "lastUpdated": "2026-11-15T13:26Z",
+      "nmsId": "NMS_ID_1794749233696201",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0899/26",
+      "location": "LLBG",
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "validFrom": "2026-11-16T05:00Z",
+      "validTo": "2026-11-16T09:00Z",
+      "endEstimated": false,
+      "created": "2026-11-15T13:28Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0899/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611160500 C) 2611160900\nE) RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "qLine": "LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005",
+      "qCode": "QMRLT",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-11-15T13:29Z",
+      "nmsId": "NMS_ID_1794749398865415",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0900/26",
+      "location": "LLBG",
+      "eLine": "DVOR/DME BGN FREQ 113.500MHZ WITHDRAWN FOR MAINT.",
+      "validFrom": "2026-11-15T23:30Z",
+      "validTo": "2026-11-16T01:30Z",
+      "endEstimated": false,
+      "created": "2026-11-15T13:53Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0900/26 NOTAMN\nQ) LLLL/QNMAS/IV/BO /AE/000/999/3201N03453E025\nA) LLBG B) 2611152330 C) 2611160130\nE) DVOR/DME BGN FREQ 113.500MHZ WITHDRAWN FOR MAINT.",
+      "qLine": "LLLL/QNMAS/IV/BO /AE/000/999/3201N03453E025",
+      "qCode": "QNMAS",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "025",
+      "series": "A",
+      "lastUpdated": "2026-11-15T13:54Z",
+      "nmsId": "NMS_ID_1794750923860620",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0901/26",
+      "location": "LLBG",
+      "eLine": "DVOR/DME BGN FREQ 113.500MHZ WITHDRAWN FOR MAINT.",
+      "validFrom": "2026-11-17T23:30Z",
+      "validTo": "2026-11-18T01:30Z",
+      "endEstimated": false,
+      "created": "2026-11-15T13:54Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0901/26 NOTAMN\nQ) LLLL/QNMAS/IV/BO /AE/000/999/3201N03453E025\nA) LLBG B) 2611172330 C) 2611180130\nE) DVOR/DME BGN FREQ 113.500MHZ WITHDRAWN FOR MAINT.",
+      "qLine": "LLLL/QNMAS/IV/BO /AE/000/999/3201N03453E025",
+      "qCode": "QNMAS",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "025",
+      "series": "A",
+      "lastUpdated": "2026-11-15T13:54Z",
+      "nmsId": "NMS_ID_1794750923549170",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
             ]
           }
         ]
