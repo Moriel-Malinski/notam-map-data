@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-16T00:25:34Z",
+  "fetchedAt": "2026-11-16T07:08:30Z",
   "source": "NMS",
   "environment": "staging",
   "coverage": "series A only - not the domestic series C",
@@ -1398,40 +1398,6 @@
       "series": "A",
       "lastUpdated": "2026-11-15T13:29Z",
       "nmsId": "NMS_ID_1794749398865415",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              34.885556,
-              32.009444
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "A0900/26",
-      "location": "LLBG",
-      "eLine": "DVOR/DME BGN FREQ 113.500MHZ WITHDRAWN FOR MAINT.",
-      "validFrom": "2026-11-15T23:30Z",
-      "validTo": "2026-11-16T01:30Z",
-      "endEstimated": false,
-      "created": "2026-11-15T13:53Z",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0900/26 NOTAMN\nQ) LLLL/QNMAS/IV/BO /AE/000/999/3201N03453E025\nA) LLBG B) 2611152330 C) 2611160130\nE) DVOR/DME BGN FREQ 113.500MHZ WITHDRAWN FOR MAINT.",
-      "qLine": "LLLL/QNMAS/IV/BO /AE/000/999/3201N03453E025",
-      "qCode": "QNMAS",
-      "minimumFl": "000",
-      "maximumFl": "999",
-      "qCoordinates": "3201N03453E",
-      "qRadiusNm": "025",
-      "series": "A",
-      "lastUpdated": "2026-11-15T13:54Z",
-      "nmsId": "NMS_ID_1794750923860620",
       "geometry": {
         "type": "GeometryCollection",
         "geometries": [
