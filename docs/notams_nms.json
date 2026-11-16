@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-16T07:08:30Z",
+  "fetchedAt": "2026-11-16T17:16:36Z",
   "source": "NMS",
   "environment": "staging",
   "coverage": "series A only - not the domestic series C",
@@ -856,40 +856,6 @@
       }
     },
     {
-      "id": "A0850/26",
-      "location": "LLER",
-      "eLine": "AD CLSD TO ALL FLT DUE UAS/UAV DRILL. IN CASE OF EMERG AVBL WI 5MIN PPR FM ATC.",
-      "validFrom": "2026-11-16T11:00Z",
-      "validTo": "2026-11-16T13:00Z",
-      "endEstimated": false,
-      "created": "2026-10-26T08:56Z",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0850/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/2944N03501E005\nA) LLER B) 2611161100 C) 2611161300\nE) AD CLSD TO ALL FLT DUE UAS/UAV DRILL.\n   IN CASE OF EMERG AVBL WI 5MIN PPR FM ATC.",
-      "qLine": "LLLL/QFALC/IV/NBO/A /000/999/2944N03501E005",
-      "qCode": "QFALC",
-      "minimumFl": "000",
-      "maximumFl": "999",
-      "qCoordinates": "2944N03501E",
-      "qRadiusNm": "5",
-      "series": "A",
-      "lastUpdated": "2026-10-26T08:56Z",
-      "nmsId": "NMS_ID_1793004992416000",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              35.014167,
-              29.727222
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "A0854/26",
       "location": "LLLL",
       "eLine": "MAX ALT ALONG ATS RTE J10 BTN NURIT-SIVAK 18,000FT AMSL.",
@@ -1174,74 +1140,6 @@
       }
     },
     {
-      "id": "A0892/26",
-      "location": "LLBG",
-      "eLine": "ILS RWY 12 C/S BG FREQ 110.300MHZ WITHDRAWN FOR MAINT.",
-      "validFrom": "2026-11-16T07:00Z",
-      "validTo": "2026-11-16T11:00Z",
-      "endEstimated": false,
-      "created": "2026-11-12T10:48Z",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0892/26 NOTAMN\nQ) LLLL/QISAS/I /NBO/A /000/999/3200N03454E005\nA) LLBG B) 2611160700 C) 2611161100\nE) ILS RWY 12 C/S BG FREQ 110.300MHZ WITHDRAWN FOR MAINT.",
-      "qLine": "LLLL/QISAS/I /NBO/A /000/999/3200N03454E005",
-      "qCode": "QISAS",
-      "minimumFl": "000",
-      "maximumFl": "999",
-      "qCoordinates": "3200N03454E",
-      "qRadiusNm": "5",
-      "series": "A",
-      "lastUpdated": "2026-11-12T10:49Z",
-      "nmsId": "NMS_ID_1794480564033000",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              34.885556,
-              32.009444
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "A0893/26",
-      "location": "LLBG",
-      "eLine": "RWY 12/30 CLSD EXC RWY INT DUE WIP.",
-      "validFrom": "2026-11-16T06:00Z",
-      "validTo": "2026-11-16T12:00Z",
-      "endEstimated": false,
-      "created": "2026-11-12T10:53Z",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0893/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611160600 C) 2611161200\nE) RWY 12/30 CLSD EXC RWY INT DUE WIP.",
-      "qLine": "LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005",
-      "qCode": "QMRLC",
-      "minimumFl": "000",
-      "maximumFl": "999",
-      "qCoordinates": "3201N03453E",
-      "qRadiusNm": "5",
-      "series": "A",
-      "lastUpdated": "2026-11-12T10:53Z",
-      "nmsId": "NMS_ID_1794480823381000",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              34.885556,
-              32.009444
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "A0894/26",
       "location": "LLBG",
       "eLine": "RWY 03/21 CLSD DUE WIP.",
@@ -1344,74 +1242,6 @@
       }
     },
     {
-      "id": "A0898/26",
-      "location": "LLBG",
-      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 110M 360FT AMSL CLSD BTN FLW PSN: 315924N0345425E 315923N0345428E 315919N0345426E 315921N0345423E. CTN ADZ.",
-      "validFrom": "2026-11-16T05:00Z",
-      "validTo": "2026-11-16T09:00Z",
-      "endEstimated": false,
-      "created": "2026-11-15T13:26Z",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0898/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001\nA) LLBG B) 2611160500 C) 2611160900\nE) CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION.\n   AN AREA FM GND UP TO 110M 360FT AMSL CLSD BTN FLW PSN:\n   315924N0345425E 315923N0345428E 315919N0345426E\n   315921N0345423E.\n   CTN ADZ.",
-      "qLine": "LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001",
-      "qCode": "QOBCE",
-      "minimumFl": "000",
-      "maximumFl": "004",
-      "qCoordinates": "3159N03454E",
-      "qRadiusNm": "001",
-      "series": "A",
-      "lastUpdated": "2026-11-15T13:26Z",
-      "nmsId": "NMS_ID_1794749233696201",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              34.885556,
-              32.009444
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "A0899/26",
-      "location": "LLBG",
-      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
-      "validFrom": "2026-11-16T05:00Z",
-      "validTo": "2026-11-16T09:00Z",
-      "endEstimated": false,
-      "created": "2026-11-15T13:28Z",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0899/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611160500 C) 2611160900\nE) RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
-      "qLine": "LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005",
-      "qCode": "QMRLT",
-      "minimumFl": "000",
-      "maximumFl": "999",
-      "qCoordinates": "3201N03453E",
-      "qRadiusNm": "005",
-      "series": "A",
-      "lastUpdated": "2026-11-15T13:29Z",
-      "nmsId": "NMS_ID_1794749398865415",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              34.885556,
-              32.009444
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "A0901/26",
       "location": "LLBG",
       "eLine": "DVOR/DME BGN FREQ 113.500MHZ WITHDRAWN FOR MAINT.",
@@ -1432,6 +1262,346 @@
       "series": "A",
       "lastUpdated": "2026-11-15T13:54Z",
       "nmsId": "NMS_ID_1794750923549170",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0902/26",
+      "location": "LLHA",
+      "eLine": "CIRCUIT EXER PROHIBITED, EXC ACFT ATR C/S HFA. LDG PROHIBITED EXC PPR FLT FM AD MANAGEMENT OR FM ATC. EXP DLA FOR DEP FLT.",
+      "validFrom": "2026-12-07T13:30Z",
+      "validTo": "2026-12-07T15:30Z",
+      "endEstimated": false,
+      "created": "2026-11-16T07:52Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0902/26 NOTAMN\nQ) LLLL/QACLP/IV/NBO/AE/000/030/3251N03503E007\nA) LLHA B) 2612071330 C) 2612071530\nE) CIRCUIT EXER PROHIBITED, EXC ACFT ATR C/S HFA.\n   LDG PROHIBITED EXC PPR FLT FM AD MANAGEMENT OR FM ATC.\n   EXP DLA FOR DEP FLT.",
+      "qLine": "LLLL/QACLP/IV/NBO/AE/000/030/3251N03503E007",
+      "qCode": "QACLP",
+      "minimumFl": "000",
+      "maximumFl": "030",
+      "qCoordinates": "3251N03503E",
+      "qRadiusNm": "007",
+      "series": "A",
+      "lastUpdated": "2026-11-16T07:53Z",
+      "nmsId": "NMS_ID_1794815644968036",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.043889,
+              32.809722
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0903/26",
+      "location": "LLER",
+      "eLine": "AD CLSD TO ALL FLT INCLUDING HEL, DUE RWY INSPECTION. IN CASE OF EMERG AVBL WI 5MIN.",
+      "validFrom": "2026-11-25T11:15Z",
+      "validTo": "2026-11-25T12:15Z",
+      "endEstimated": false,
+      "created": "2026-11-16T08:40Z",
+      "dLine": "",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0903/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/2944N03501E005\nA) LLER B) 2611251115 C) 2611251215\nE) AD CLSD TO ALL FLT INCLUDING HEL, DUE RWY INSPECTION.\n    IN CASE OF EMERG AVBL WI 5MIN.",
+      "qLine": "LLLL/QFALC/IV/NBO/A /000/999/2944N03501E005",
+      "qCode": "QFALC",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "2944N03501E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-11-16T08:40Z",
+      "nmsId": "NMS_ID_1794818483861489",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              35.014167,
+              29.727222
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0904/26",
+      "location": "LLBG",
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "validFrom": "2026-11-16T20:00Z",
+      "validTo": "2026-11-18T09:00Z",
+      "endEstimated": false,
+      "created": "2026-11-16T11:09Z",
+      "dLine": "16 2000-2359, 17 0001-0300 0500-0900 2000-2359, 18 0001-0300 0500-0900",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0904/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611162000 C) 2611180900\nD) 16 2000-2359, 17 0001-0300 0500-0900 2000-2359, 18 0001-0300 \n0500-0900\nE) RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "qLine": "LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005",
+      "qCode": "QMRLT",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-11-16T11:13Z",
+      "nmsId": "NMS_ID_1794827679893877",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0905/26",
+      "location": "LLBG",
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "validFrom": "2026-11-22T20:00Z",
+      "validTo": "2026-11-25T09:00Z",
+      "endEstimated": false,
+      "created": "2026-11-16T11:13Z",
+      "dLine": "22 2000-2359, 23-24 DAILY 0001-0300 0500-0900 2000-2359, 25 0001-0300 0500-0900",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0905/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611222000 C) 2611250900\nD) 22 2000-2359, 23-24 DAILY 0001-0300 0500-0900 2000-2359, 25 \n0001-0300 0500-0900\nE) RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "qLine": "LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005",
+      "qCode": "QMRLT",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-11-16T11:16Z",
+      "nmsId": "NMS_ID_1794827801778872",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0906/26",
+      "location": "LLBG",
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "validFrom": "2026-11-29T20:00Z",
+      "validTo": "2026-12-02T09:00Z",
+      "endEstimated": false,
+      "created": "2026-11-16T11:17Z",
+      "dLine": "29 2000-2359, 30 0001-0300 0500-0900 2000-2359, DEC 01 0001-0300 0500-0900 2000-2359, 02 0001-0300 0500-0900",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0906/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611292000 C) 2612020900\nD) 29 2000-2359, 30 0001-0300 0500-0900 2000-2359, DEC 01 0001-0300 \n0500-0900 2000-2359, 02 0001-0300 0500-0900\nE) RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "qLine": "LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005",
+      "qCode": "QMRLT",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-11-16T11:18Z",
+      "nmsId": "NMS_ID_1794827934390796",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0907/26",
+      "location": "LLBG",
+      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "validFrom": "2026-12-13T20:00Z",
+      "validTo": "2026-12-17T03:00Z",
+      "endEstimated": false,
+      "created": "2026-11-16T11:22Z",
+      "dLine": "13 2000-2359, 14-16 DAILY 0001-0300 0500-0900 2000-2359, 17 0001-0300",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0907/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2612132000 C) 2612170300\nD) 13 2000-2359, 14-16 DAILY 0001-0300 0500-0900 2000-2359, 17 \n0001-0300\nE) RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
+      "qLine": "LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005",
+      "qCode": "QMRLT",
+      "minimumFl": "000",
+      "maximumFl": "999",
+      "qCoordinates": "3201N03453E",
+      "qRadiusNm": "005",
+      "series": "A",
+      "lastUpdated": "2026-11-16T11:23Z",
+      "nmsId": "NMS_ID_1794828251039061",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0908/26",
+      "location": "LLBG",
+      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 110M 360FT AMSL CLSD BTN FLW PSN: 315924N0345425E 315923N0345428E 315919N0345426E 315921N0345423E. CTN ADZ.",
+      "validFrom": "2026-11-16T20:00Z",
+      "validTo": "2026-11-18T09:00Z",
+      "endEstimated": false,
+      "created": "2026-11-16T11:26Z",
+      "dLine": "16 2000-2359, 17 0001-0300 0500-0900 2000-2359, 18 0001-0300 0500-0900",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0908/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001\nA) LLBG B) 2611162000 C) 2611180900\nD) 16 2000-2359, 17 0001-0300 0500-0900 2000-2359, 18 0001-0300 \n0500-0900\nE) CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION.\n   AN AREA FM GND UP TO 110M 360FT AMSL CLSD BTN FLW PSN:\n   315924N0345425E 315923N0345428E 315919N0345426E\n   315921N0345423E.\n   CTN ADZ.",
+      "qLine": "LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001",
+      "qCode": "QOBCE",
+      "minimumFl": "000",
+      "maximumFl": "004",
+      "qCoordinates": "3159N03454E",
+      "qRadiusNm": "001",
+      "series": "A",
+      "lastUpdated": "2026-11-16T11:26Z",
+      "nmsId": "NMS_ID_1794828426241340",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0909/26",
+      "location": "LLBG",
+      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 110M 360FT AMSL CLSD BTN FLW PSN: 315924N0345425E 315923N0345428E 315919N0345426E 315921N0345423E. CTN ADZ.",
+      "validFrom": "2026-11-22T20:00Z",
+      "validTo": "2026-11-25T09:00Z",
+      "endEstimated": false,
+      "created": "2026-11-16T11:27Z",
+      "dLine": "22 2000-2359, 23-24 DAILY 0001-0300 0500-0900 2000-2359, 25 0001-0300 0500-0900",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0909/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001\nA) LLBG B) 2611222000 C) 2611250900\nD) 22 2000-2359, 23-24 DAILY 0001-0300 0500-0900 2000-2359, 25 \n0001-0300 0500-0900\nE) CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION.\n   AN AREA FM GND UP TO 110M 360FT AMSL CLSD BTN FLW PSN:\n   315924N0345425E 315923N0345428E 315919N0345426E\n   315921N0345423E.\n   CTN ADZ.",
+      "qLine": "LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001",
+      "qCode": "QOBCE",
+      "minimumFl": "000",
+      "maximumFl": "004",
+      "qCoordinates": "3159N03454E",
+      "qRadiusNm": "001",
+      "series": "A",
+      "lastUpdated": "2026-11-16T11:28Z",
+      "nmsId": "NMS_ID_1794828534544812",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0910/26",
+      "location": "LLBG",
+      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 110M 360FT AMSL CLSD BTN FLW PSN: 315924N0345425E 315923N0345428E 315919N0345426E 315921N0345423E. CTN ADZ.",
+      "validFrom": "2026-11-29T20:00Z",
+      "validTo": "2026-12-02T09:00Z",
+      "endEstimated": false,
+      "created": "2026-11-16T11:30Z",
+      "dLine": "29 2000-2359, 30 0001-0300 0500-0900 2000-2359, DEC 01 0001-0300 0500-0900 2000-2359, 02 0001-0300 0500-0900",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0910/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001\nA) LLBG B) 2611292000 C) 2612020900\nD) 29 2000-2359, 30 0001-0300 0500-0900 2000-2359, DEC 01 0001-0300 \n0500-0900 2000-2359, 02 0001-0300 0500-0900\nE) CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION.\n   AN AREA FM GND UP TO 110M 360FT AMSL CLSD BTN FLW PSN:\n   315924N0345425E 315923N0345428E 315919N0345426E\n   315921N0345423E.\n   CTN ADZ.",
+      "qLine": "LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001",
+      "qCode": "QOBCE",
+      "minimumFl": "000",
+      "maximumFl": "004",
+      "qCoordinates": "3159N03454E",
+      "qRadiusNm": "001",
+      "series": "A",
+      "lastUpdated": "2026-11-16T11:31Z",
+      "nmsId": "NMS_ID_1794828705985741",
+      "geometry": {
+        "type": "GeometryCollection",
+        "geometries": [
+          {
+            "type": "Point",
+            "coordinates": [
+              34.885556,
+              32.009444
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "id": "A0911/26",
+      "location": "LLBG",
+      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 110M 360FT AMSL CLSD BTN FLW PSN: 315924N0345425E 315923N0345428E 315919N0345426E 315921N0345423E. CTN ADZ.",
+      "validFrom": "2026-12-13T20:00Z",
+      "validTo": "2026-12-17T03:00Z",
+      "endEstimated": false,
+      "created": "2026-11-16T11:33Z",
+      "dLine": "13 2000-2359, 14-16 DAILY 0001-0300 0500-0900 2000-2359, 17 0001-0300",
+      "lowerLimit": "",
+      "upperLimit": "",
+      "rawText": "A0911/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001\nA) LLBG B) 2612132000 C) 2612170300\nD) 13 2000-2359, 14-16 DAILY 0001-0300 0500-0900 2000-2359, 17 \n0001-0300\nE) CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION.\n   AN AREA FM GND UP TO 110M 360FT AMSL CLSD BTN FLW PSN:\n   315924N0345425E 315923N0345428E 315919N0345426E\n   315921N0345423E.\n   CTN ADZ.",
+      "qLine": "LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001",
+      "qCode": "QOBCE",
+      "minimumFl": "000",
+      "maximumFl": "004",
+      "qCoordinates": "3159N03454E",
+      "qRadiusNm": "001",
+      "series": "A",
+      "lastUpdated": "2026-11-16T11:33Z",
+      "nmsId": "NMS_ID_1794828872076462",
       "geometry": {
         "type": "GeometryCollection",
         "geometries": [
