@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-17T09:08:09Z",
+  "fetchedAt": "2026-11-17T18:42:03Z",
   "source": "NMS",
   "environment": "staging",
   "coverage": "series A only - not the domestic series C",
@@ -1140,40 +1140,6 @@
       }
     },
     {
-      "id": "A0894/26",
-      "location": "LLBG",
-      "eLine": "RWY 03/21 CLSD DUE WIP.",
-      "validFrom": "2026-11-17T04:00Z",
-      "validTo": "2026-11-17T12:00Z",
-      "endEstimated": false,
-      "created": "2026-11-12T11:41Z",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0894/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611170400 C) 2611171200\nE) RWY 03/21 CLSD DUE WIP.",
-      "qLine": "LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005",
-      "qCode": "QMRLC",
-      "minimumFl": "000",
-      "maximumFl": "999",
-      "qCoordinates": "3201N03453E",
-      "qRadiusNm": "005",
-      "series": "A",
-      "lastUpdated": "2026-11-12T11:43Z",
-      "nmsId": "NMS_ID_1794483748293000",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              34.885556,
-              32.009444
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "A0895/26",
       "location": "LLBG",
       "eLine": "RWY 08/26 CLSD EXC RWY INT, DUE WIP.",
@@ -1610,40 +1576,6 @@
             "coordinates": [
               34.885556,
               32.009444
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "A0912/26",
-      "location": "LLLL",
-      "eLine": "ATS RTE CLSD BTN: J10 BTN NAT-ADLOD J11 BTN NAT-KANER J14 BTN NAT-ZACCI J15 BTN NAT-RAPIV",
-      "validFrom": "2026-11-17T08:45Z",
-      "validTo": "2026-11-17T17:30Z",
-      "endEstimated": false,
-      "created": "2026-11-16T19:02Z",
-      "dLine": "0845-1015, 1600-1730",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0912/26 NOTAMN\nQ) LLLL/QARLC/IV/NBO/E /040/090/3218N03506E020\nA) LLLL B) 2611170845 C) 2611171730\nD) 0845-1015, 1600-1730\nE) ATS RTE CLSD BTN:\n   J10 BTN NAT-ADLOD\n   J11 BTN NAT-KANER\n   J14 BTN NAT-ZACCI\n   J15 BTN NAT-RAPIV",
-      "qLine": "LLLL/QARLC/IV/NBO/E /040/090/3218N03506E020",
-      "qCode": "QARLC",
-      "minimumFl": "040",
-      "maximumFl": "090",
-      "qCoordinates": "3218N03506E",
-      "qRadiusNm": "020",
-      "series": "A",
-      "lastUpdated": "2026-11-16T19:06Z",
-      "nmsId": "NMS_ID_1794855948682000",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              35.1,
-              32.3
             ]
           }
         ]
