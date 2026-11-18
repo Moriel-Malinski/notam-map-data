@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-18T08:50:18Z",
+  "fetchedAt": "2026-11-18T17:58:18Z",
   "source": "NMS",
   "environment": "staging",
   "coverage": "series A only - not the domestic series C",
@@ -1140,40 +1140,6 @@
       }
     },
     {
-      "id": "A0895/26",
-      "location": "LLBG",
-      "eLine": "RWY 08/26 CLSD EXC RWY INT, DUE WIP.",
-      "validFrom": "2026-11-18T04:00Z",
-      "validTo": "2026-11-18T12:00Z",
-      "endEstimated": false,
-      "created": "2026-11-12T11:43Z",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0895/26 NOTAMN\nQ) LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611180400 C) 2611181200\nE) RWY 08/26 CLSD EXC RWY INT, DUE WIP.",
-      "qLine": "LLLL/QMRLC/IV/NBO/A /000/999/3201N03453E005",
-      "qCode": "QMRLC",
-      "minimumFl": "000",
-      "maximumFl": "999",
-      "qCoordinates": "3201N03453E",
-      "qRadiusNm": "5",
-      "series": "A",
-      "lastUpdated": "2026-11-12T11:44Z",
-      "nmsId": "NMS_ID_1794483846212000",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              34.885556,
-              32.009444
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "A0897/26",
       "location": "LLHA",
       "eLine": "NEW FREQ INSTL FOR CLEARANCE BFR TAXI (CPT) 121.800MHZ. DEP FLT SHALL CTC TWR ON CPT FREQ BFR STARTING UP ENGINE. ISRAEL AIP, PART AD, PAGE AD-2-LLHA 8, PARA 2.18 REF.)",
@@ -1276,40 +1242,6 @@
       }
     },
     {
-      "id": "A0904/26",
-      "location": "LLBG",
-      "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
-      "validFrom": "2026-11-16T20:00Z",
-      "validTo": "2026-11-18T09:00Z",
-      "endEstimated": false,
-      "created": "2026-11-16T11:09Z",
-      "dLine": "16 2000-2359, 17 0001-0300 0500-0900 2000-2359, 18 0001-0300 0500-0900",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0904/26 NOTAMN\nQ) LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611162000 C) 2611180900\nD) 16 2000-2359, 17 0001-0300 0500-0900 2000-2359, 18 0001-0300 \n0500-0900\nE) RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
-      "qLine": "LLLL/QMRLT/IV/NBO/A /000/999/3201N03453E005",
-      "qCode": "QMRLT",
-      "minimumFl": "000",
-      "maximumFl": "999",
-      "qCoordinates": "3201N03453E",
-      "qRadiusNm": "005",
-      "series": "A",
-      "lastUpdated": "2026-11-16T11:13Z",
-      "nmsId": "NMS_ID_1794827679893877",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              34.885556,
-              32.009444
-            ]
-          }
-        ]
-      }
-    },
-    {
       "id": "A0905/26",
       "location": "LLBG",
       "eLine": "RWY 12 CLSD FOR TKOF ONLY, EXC RWY INT DUE CRANE.",
@@ -1398,40 +1330,6 @@
       "series": "A",
       "lastUpdated": "2026-11-16T11:23Z",
       "nmsId": "NMS_ID_1794828251039061",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              34.885556,
-              32.009444
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "A0908/26",
-      "location": "LLBG",
-      "eLine": "CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION. AN AREA FM GND UP TO 110M 360FT AMSL CLSD BTN FLW PSN: 315924N0345425E 315923N0345428E 315919N0345426E 315921N0345423E. CTN ADZ.",
-      "validFrom": "2026-11-16T20:00Z",
-      "validTo": "2026-11-18T09:00Z",
-      "endEstimated": false,
-      "created": "2026-11-16T11:26Z",
-      "dLine": "16 2000-2359, 17 0001-0300 0500-0900 2000-2359, 18 0001-0300 0500-0900",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0908/26 NOTAMN\nQ) LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001\nA) LLBG B) 2611162000 C) 2611180900\nD) 16 2000-2359, 17 0001-0300 0500-0900 2000-2359, 18 0001-0300 \n0500-0900\nE) CRANE ERECTED WI LLBG CTR, AT EL-AL JUNCTION.\n   AN AREA FM GND UP TO 110M 360FT AMSL CLSD BTN FLW PSN:\n   315924N0345425E 315923N0345428E 315919N0345426E\n   315921N0345423E.\n   CTN ADZ.",
-      "qLine": "LLLL/QOBCE/IV/M  /AE/000/004/3159N03454E001",
-      "qCode": "QOBCE",
-      "minimumFl": "000",
-      "maximumFl": "004",
-      "qCoordinates": "3159N03454E",
-      "qRadiusNm": "001",
-      "series": "A",
-      "lastUpdated": "2026-11-16T11:26Z",
-      "nmsId": "NMS_ID_1794828426241340",
       "geometry": {
         "type": "GeometryCollection",
         "geometries": [
