@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "fetchedAt": "2026-11-20T13:25:14Z",
+  "fetchedAt": "2026-11-20T21:26:49Z",
   "source": "NMS",
   "environment": "staging",
   "coverage": "series A only - not the domestic series C",
@@ -434,40 +434,6 @@
       "series": "A",
       "lastUpdated": "2026-09-02T14:25Z",
       "nmsId": "NMS_ID_1788359111168000",
-      "geometry": {
-        "type": "GeometryCollection",
-        "geometries": [
-          {
-            "type": "Point",
-            "coordinates": [
-              34.885556,
-              32.009444
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "id": "A0738/26",
-      "location": "LLBG",
-      "eLine": "AD CLSD DUE WIP.",
-      "validFrom": "2026-11-20T16:00Z",
-      "validTo": "2026-11-20T21:00Z",
-      "endEstimated": false,
-      "created": "2026-09-10T07:05Z",
-      "dLine": "",
-      "lowerLimit": "",
-      "upperLimit": "",
-      "rawText": "A0738/26 NOTAMN\nQ) LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005\nA) LLBG B) 2611201600 C) 2611202100\nE) AD CLSD DUE WIP.",
-      "qLine": "LLLL/QFALC/IV/NBO/A /000/999/3201N03453E005",
-      "qCode": "QFALC",
-      "minimumFl": "000",
-      "maximumFl": "999",
-      "qCoordinates": "3201N03453E",
-      "qRadiusNm": "005",
-      "series": "A",
-      "lastUpdated": "2026-09-10T07:06Z",
-      "nmsId": "NMS_ID_1789023948428000",
       "geometry": {
         "type": "GeometryCollection",
         "geometries": [
