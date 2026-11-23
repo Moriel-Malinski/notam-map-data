@@ -16,7 +16,11 @@
 - `pipeline/` — סקריפטי המשיכה, הוולידציה והפרסום.
 - `tests/` — בדיקות pytest.
 
-## פיד משלים מ-NMS — סדרה A בלבד
+## פיד משלים מ-NMS — סדרה A בלבד — מושבת (מ-23.11.2026)
+
+**הפיד לא רץ יותר לבד** (החלטת הבעלים). `update-notams-nms.yml` נשאר להרצה
+ידנית בלבד (Actions ← Update NOTAMs (NMS, series A) ← Run workflow), ו־
+`docs/notams_nms.json` קפוא במצבו האחרון. התיאור שלמטה הוא איך הפיד עבד כשרץ:
 
 `update-notams-nms.yml` רץ כל 20 דקות ומריץ את `pipeline/fetch_notams_nms.py`:
 בקשה **אחת** ל-NMS-API (שירות הפצת נוטאמים), שמחזירה את הנוטאמים הפעילים

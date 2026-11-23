@@ -14,9 +14,11 @@ name: Update NOTAMs (NMS, series A)
 # Secrets (Settings -> Secrets and variables -> Actions):
 #   NMS_CLIENT_ID, NMS_CLIENT_SECRET
 # Optional repository variable NMS_API_HOST (default: the staging host).
+#
+# STOPPED (owner's call, 23.11.2026): no scheduled pulls. Kept as a manual
+# workflow (Actions -> Update NOTAMs (NMS, series A) -> Run workflow);
+# docs/notams_nms.json stays as last published.
 on:
-  schedule:
-    - cron: "7,27,47 * * * *"
   workflow_dispatch: {}
 
 permissions:
